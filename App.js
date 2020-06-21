@@ -1,114 +1,102 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow strict-local
- */
-
 import React from 'react';
-import {
-  SafeAreaView,
-  StyleSheet,
-  ScrollView,
-  View,
-  Text,
-  StatusBar,
-} from 'react-native';
+import { Container, Header, GoButton, Input, Processing, Prompt } from './components';
+//import { Content, Form, Label, Item } from 'react-native-base';
+//import Dropdown from './components/Dropdown';
+import Selector from './components/Selector';
+import Cheatlist from './components/Cheatlist';
+import { Button, Text, View, Image, ImageBackground, StyleSheet } from "react-native";
+import styled from 'styled-components/native';
 
-import {
-  Header,
-  LearnMoreLinks,
-  Colors,
-  DebugInstructions,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
 
-const App: () => React$Node = () => {
-  return (
-    <>
-      <StatusBar barStyle="dark-content" />
-      <SafeAreaView>
-        <ScrollView
-          contentInsetAdjustmentBehavior="automatic"
-          style={styles.scrollView}>
-          <Header />
-          {global.HermesInternal == null ? null : (
-            <View style={styles.engine}>
-              <Text style={styles.footer}>Engine: Hermes</Text>
-            </View>
-          )}
-          <View style={styles.body}>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Step One</Text>
-              <Text style={styles.sectionDescription}>
-                Edit <Text style={styles.highlight}>App.js</Text> to change this
-                screen and then come back to see your edits.
-              </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>See Your Changes</Text>
-              <Text style={styles.sectionDescription}>
-                <ReloadInstructions />
-              </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Debug</Text>
-              <Text style={styles.sectionDescription}>
-                <DebugInstructions />
-              </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Learn More</Text>
-              <Text style={styles.sectionDescription}>
-                Read the docs to discover what to do next:
-              </Text>
-            </View>
-            <LearnMoreLinks />
-          </View>
-        </ScrollView>
-      </SafeAreaView>
-    </>
-  );
-};
+class App extends React.Component {
+
+   constructor(props) {
+      super(props);
+      this.state = {
+         processing: false,
+         headerTitle: this.props.title,
+         cheatList: "Biology",
+         listOpen: false
+      };
+      //this.press = this.press.bind(this);
+   }
+
+   setSubject(subject) {
+      console.log("setSubject called, subject = " + subject);
+      this.state.cheatList = subject;
+      this.setState({ cheatList: subject });
+   }
+
+   render() {
+      const listOpen = this.state.listOpen;
+      return (
+         <Container>
+            <Image source={require('./images/beaker.jpg')} style={styles.backgroundImage} />
+            {!listOpen && (
+               <View style={{ flex: 1.0 }}>
+                  <Header>Science Cheatsheet</Header>
+                  <Prompt>Please select a subject:</Prompt>
+                  <Selector callback={this.setSubject.bind(this)} />
+                  <GoButton text="Go" callback={() => { this.press() }}>
+                  </GoButton>
+               </View >
+            )}
+            {
+               listOpen && (
+                  <View style={{ flex: 1 }}>
+                     <Button onPress={() => { this.backUp() }} title="Back Up"></Button>
+                     <Prompt>{this.state.cheatList}</Prompt>
+                     <Cheatlist cheatList={this.state.cheatList}></Cheatlist>
+                  </View>
+               )
+            }
+         </Container >
+      );
+   }
+
+   onChangeHandler(value) {
+      console.log(`Selected value: ${value}`);
+      //this.state.cheatList = value;
+      //this.setState({cheatList: this.state.cheatList});
+   }
+
+   backUp() {
+      this.state.listOpen = false;
+      this.state.cheatList = 'Biology';
+      //alert("Hello?");
+      this.setState({ listOpen: false, cheatList: 'Biology' });
+   }
+
+   press() {
+      console.log("press called, this.state.listOpen = " + this.state.listOpen);
+      this.state.listOpen = true;
+      //alert("Hello?");
+      this.setState({ listOpen: true });
+      /*this.setState(
+         {
+            processing: false,
+            listOpen: !this.state.listOpen,
+            headerTitle: this.props.title,
+            cheatList: this.state.cheatList
+   
+         }
+      );    
+      */
+
+   };
+}
 
 const styles = StyleSheet.create({
-  scrollView: {
-    backgroundColor: Colors.lighter,
-  },
-  engine: {
-    position: 'absolute',
-    right: 0,
-  },
-  body: {
-    backgroundColor: Colors.white,
-  },
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
-  },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-    color: Colors.black,
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-    color: Colors.dark,
-  },
-  highlight: {
-    fontWeight: '700',
-  },
-  footer: {
-    color: Colors.dark,
-    fontSize: 12,
-    fontWeight: '600',
-    padding: 4,
-    paddingRight: 12,
-    textAlign: 'right',
-  },
+   backgroundImage: {
+      flex: 1,
+      resizeMode: "cover", // or 'stretch'
+      justifyContent: 'center',
+      alignItems: 'center',
+      position: 'absolute',
+      top: 0,
+      left:-75,
+      opacity: 0.1
+   }
 });
 
 export default App;
