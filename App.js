@@ -3,10 +3,12 @@ import { Container, Header, GoButton, Input, Processing, Prompt } from './compon
 //import { Content, Form, Label, Item } from 'react-native-base';
 //import Dropdown from './components/Dropdown';
 import Selector from './components/Selector';
+import SubSelector from './components/SubSelector';
 import Cheatlist from './components/Cheatlist';
 import { Button, Text, View, Image, ImageBackground, StyleSheet } from "react-native";
 import styled from 'styled-components/native';
 
+const isAllScience = false;
 
 class App extends React.Component {
 
@@ -16,6 +18,7 @@ class App extends React.Component {
          processing: false,
          headerTitle: this.props.title,
          cheatList: "Biology",
+         subtopic: "Cell Biology",
          listOpen: false
       };
       //this.press = this.press.bind(this);
@@ -27,16 +30,31 @@ class App extends React.Component {
       this.setState({ cheatList: subject });
    }
 
+   setSubtopic(subtopic) {
+      console.log("setSubtopic called, subject = " + subtopic);
+      this.state.subtopic = subtopic;
+      this.setState({ subtopic: subtopic });
+   }
+
    render() {
       const listOpen = this.state.listOpen;
+      let header = "Science Cheatsheet";
+      let subheader = this.state.subtopic + " Cheatsheet";
+      if (isAllScience === false) {
+         header = this.state.cheatList + " Cheatsheet";
+         
+      }
       return (
          <Container>
             <Image source={require('./images/beaker.jpg')} style={styles.backgroundImage} />
             {!listOpen && (
                <View style={{ flex: 1.0 }}>
-                  <Header>Science Cheatsheet</Header>
+                  <Header>{header}</Header>
                   <Prompt>Please select a subject:</Prompt>
-                  <Selector callback={this.setSubject.bind(this)} />
+                  {isAllScience && (
+                     <Selector callback={this.setSubject.bind(this)} />
+                  )}
+                  <SubSelector topic={this.state.cheatList} callback={this.setSubtopic.bind(this)} />
                   <GoButton text="Go" callback={() => { this.press() }}>
                   </GoButton>
                </View >
@@ -45,8 +63,8 @@ class App extends React.Component {
                listOpen && (
                   <View style={{ flex: 1 }}>
                      <Button onPress={() => { this.backUp() }} title="Back Up"></Button>
-                     <Prompt>{this.state.cheatList}</Prompt>
-                     <Cheatlist cheatList={this.state.cheatList}></Cheatlist>
+                     <Prompt>{subheader}</Prompt>
+                     <Cheatlist cheatList={this.state.cheatList} subtopic={this.state.subtopic}></Cheatlist>
                   </View>
                )
             }
@@ -94,7 +112,7 @@ const styles = StyleSheet.create({
       alignItems: 'center',
       position: 'absolute',
       top: 0,
-      left:-75,
+      left: -75,
       opacity: 0.1
    }
 });
