@@ -1,104 +1,98 @@
 import React, { Component } from "react";
 import { Picker, View, Text, StyleSheet } from "react-native";
-
-//CHEMISTRY, COMPUTERS(computer science), ECOLOGY, GEOLOGY, METEOROLOGY, OCEANOGRAPHY, PHYSICS
-const BiologySubtopics = [
-
-   { index: 0, itemName: "Cell Biology", type: "Cell & Developement Biology" },
-   { index: 1, itemName: "Developemnet", type: "Cell & Developement Biology" },
-   { index: 2, itemName: "Evolution", type: "Cell & Developement Biology" },
-   { index: 3, itemName: "Regenerative Biology and Stem Cells", type: "Cell & Developement Biology" },
-   { index: 4, itemName: "Host-pathogen Interactions", type: "Cell & Developement Biology" },
-   { index: 5, itemName: "Plant Biology", type: "Cell & Developement Biology" },
-   { index: 6, itemName: "Systems Biology", type: "Cell & Developement Biology" },
-   { index: 7, itemName: "Behavioral Ecology", type: "Ecology, Behavior & Evolution" },
-   { index: 8, itemName: "Ecology", type: "Ecology, Behavior & Evolution" },
-   { index: 9, itemName: "Global Environmental Cahange", type: "Ecology, Behavior & Evolution" },
-   { index: 10, itemName: "Organismal Evolution", type: "Ecology, Behavior & Evolution" },
-   { index: 11, itemName: "Marine Biology", type: "Ecology, Behavior & Evolution" },
-   { index: 12, itemName: "Cancer Biology", type: "Molecular" },
-   { index: 13, itemName: "Gene Regulaion", type: "Molecular" },
-   { index: 14, itemName: "Immunology", type: "Molecular" },
-   { index: 15, itemName: "Microbiology", type: "Molecular" },
-   { index: 16, itemName: "RNA Biology", type: "Molecular" },
-   { index: 17, itemName: "Quantitative Biology", type: "Molecular" },
-   { index: 18, itemName: "Cellular - Molecular Biology", type: "Neurobiology" },
-   { index: 19, itemName: "Neural Genetics", type: "Neurobiology" },
-   { index: 20, itemName: "Developmental Neurobiology", type: "Neurobiology" },
-   { index: 21, itemName: "Neural Circuits", type: "Neurobiology" },
-   { index: 22, itemName: "Computational Neurobiology", type: "Neurobiology" },
-   { index: 23, itemName: "Systems Neurobiology", type: "Neurobiology" },
-   { index: 24, itemName: "Neural Plasticity", type: "Neurobiology" }
-   /*
-   {index:0, name:"Animals with Differing Names"},
-   {index:0, name:"Antimicrobial Chemotherapy"},
-   {index:0, name:"Biochemistry"},
-   {index:0, name:"Biochemical Pathways Template"},
-   {index:0, name:"Cells And Cell Membranes"},
-   {index:0, name:"Cell Communication and Cell Cycle"},
-   {index:0, name:"Cell Energetics"},
-   {index:0, name:"Cell Processes"},   
-   {index:0, name:"Cell Structure and Function"},  
-   {index:0, name:"Cell Theory"},
-   {index:0, name:"Cell Transport"},
-   {index:0, name:"Chemistry of Life"},
-   {index:0, name:"Chromosomal Basis of Hereditary"},
-   {index:0, name:"DNA"},
-   {index:0, name:"DNA Structure and Replication"},   
-   {index:0, name:"Ecology and Animal Behavior"},
-   {index:0, name:"Gene Expression and Regulation"},
-   {index:0, name:"Genetics"},
-   {index:0, name:"Genetics Fundamentals"},
-   {index:0, name:"Hereditary"},
-   {index:0, name:"Homesostasis"},
-   {index:0, name:"HS Cells and Energy"},
-   {index:0, name:"Malaria"},
-   {index:0, name:"Meiosis"},
-   {index:0, name:"Metabolism"},
-   {index:0, name:"Mitosis"},
-   {index:0, name:"Osmosis & Water Potential"},
-   {index:0, name:"Photosynthesis & Cellular Respiration"},
-   {index:0, name:"Plant Physiology"},
-   {index:0, name:"Polymers and Carbs"},
-   {index:0, name:"Protozoa"},
-   {index:0, name:"Science Ecology"},
-   {index:0, name:"Specialized Plate Media"},
-   {index:0, name:"Tetanus"},
-   */
-];
-
-//CHEMISTRY, COMPUTERS(computer science), ECOLOGY, GEOLOGY, METEOROLOGY, OCEANOGRAPHY, PHYSICS
-const ChemistrySubtopics = [
-];
-const ComputersSubtopics = [
-];
-const EcologySubtopics = [
-];
-const GeologySubtopics = [
-];
-const MeteorologySubtopics = [
-];
-const OceanographySubtopics = [
-];
-const PhysicsSubtopics = [
-];
+//BIOLOGY, CHEMISTRY, COMPUTERS(computer science), ECOLOGY, OCEANOGRAPHY, GEOLOGY, METEOROLOGY, PHYSICS
+import biologyCheatlistData from '../helpers/biology_cheatlist_data';
+import chemistryCheatlistData from '../helpers/chemistry_cheatlist_data';
+import computersCheatlistData from '../helpers/computers_cheatlist_data';
+import ecologyCheatlistData from '../helpers/ecology_cheatlist_data';
+import oceanographyCheatlistData from '../helpers/oceanography_cheatlist_data';
+import geologyCheatlistData from '../helpers/geology_cheatlist_data';
+import meteorologyCheatlistData from '../helpers/meteorology_cheatlist_data';
+import physicsCheatlistData from '../helpers/physics_cheatlist_data';
 
 export default class SubSelector extends Component {
 
-   state = {
-      selectedcat: "",
-      category: BiologySubtopics
-   };
+   //BIOLOGY, CHEMISTRY, COMPUTERS(computer science), ECOLOGY, GEOLOGY, METEOROLOGY, OCEANOGRAPHY, PHYSICS
+   BiologySubtopics = [];
+   ChemistrySubtopics = [];
+   ComputersSubtopics = [];
+   EcologySubtopics = [];
+   GeologySubtopics = [];
+   MeteorologySubtopics = [];
+   OceanographySubtopics = [];
+   PhysicsSubtopics = [];
 
    constructor(props) {
       super(props);
       console.log("SubSelector constructor called.");
+      var index = 0;
+      //BIOLOGY, CHEMISTRY, COMPUTERS(computer science), ECOLOGY, GEOLOGY, METEOROLOGY, OCEANOGRAPHY, PHYSICS
+      //console.log("biologyCheatlistData = " + JSON.stringify(biologyCheatlistData));
+      this.BiologySubtopics = biologyCheatlistData.data.map((subtopic) => {
+         return { index: ++index, itemName: subtopic.itemName, type: subtopic.type };
+      });
+      this.ChemistrySubtopics = chemistryCheatlistData.data.map((subtopic) => {
+         return { index: ++index, itemName: subtopic.itemName, type: subtopic.type };
+      });
+      this.ComputerSubtopics = computersCheatlistData.data.map((subtopic) => {
+         return { index: ++index, itemName: subtopic.itemName, type: subtopic.type };
+      });
+      this.EcologySubtopics = ecologyCheatlistData.data.map((subtopic) => {
+         return { index: ++index, itemName: subtopic.itemName, type: subtopic.type };
+      });
+      this.GeologySubtopics = geologyCheatlistData.data.map((subtopic) => {
+         return { index: ++index, itemName: subtopic.itemName, type: subtopic.type };
+      });      
+      this.MeteorologySubtopics = meteorologyCheatlistData.data.map((subtopic) => {
+         return { index: ++index, itemName: subtopic.itemName, type: subtopic.type };
+      });
+      this.OceanographySubtopics = oceanographyCheatlistData.data.map((subtopic) => {
+         return { index: ++index, itemName: subtopic.itemName, type: subtopic.type };
+      });
+      this.PhysicsSubtopics = physicsCheatlistData.data.map((subtopic) => {
+         return { index: ++index, itemName: subtopic.itemName, type: subtopic.type };
+      });
+      /*
+      {index:0, name:"Animals with Differing Names"},
+      {index:0, name:"Antimicrobial Chemotherapy"},
+      {index:0, name:"Biochemistry"},
+      {index:0, name:"Biochemical Pathways Template"},
+      {index:0, name:"Cells And Cell Membranes"},
+      {index:0, name:"Cell Communication and Cell Cycle"},
+      {index:0, name:"Cell Energetics"},
+      {index:0, name:"Cell Processes"},   
+      {index:0, name:"Cell Structure and Function"},  
+      {index:0, name:"Cell Theory"},
+      {index:0, name:"Cell Transport"},
+      {index:0, name:"Chemistry of Life"},
+      {index:0, name:"Chromosomal Basis of Hereditary"},
+      {index:0, name:"DNA"},
+      {index:0, name:"DNA Structure and Replication"},   
+      {index:0, name:"Ecology and Animal Behavior"},
+      {index:0, name:"Gene Expression and Regulation"},
+      {index:0, name:"Genetics"},
+      {index:0, name:"Genetics Fundamentals"},
+      {index:0, name:"Hereditary"},
+      {index:0, name:"Homesostasis"},
+      {index:0, name:"HS Cells and Energy"},
+      {index:0, name:"Malaria"},
+      {index:0, name:"Meiosis"},
+      {index:0, name:"Metabolism"},
+      {index:0, name:"Mitosis"},
+      {index:0, name:"Osmosis & Water Potential"},
+      {index:0, name:"Photosynthesis & Cellular Respiration"},
+      {index:0, name:"Plant Physiology"},
+      {index:0, name:"Polymers and Carbs"},
+      {index:0, name:"Protozoa"},
+      {index:0, name:"Science Ecology"},
+      {index:0, name:"Specialized Plate Media"},
+      {index:0, name:"Tetanus"},
+      */
+
+
       this.state = {
          selectedcat: this.props.topic,
-         category: BiologySubtopics
-      }
-      for(var i=0;i<BiologySubtopics.length;i++){
-         console.log(BiologySubtopics[i].itemName.replace(/ /g,"_").toUpperCase());
+         category: this.BiologySubtopics
       }
    }
 
@@ -110,35 +104,35 @@ export default class SubSelector extends Component {
    }
 
    render() {
-      console.log("props.topic = " + this.props.topic);      
+      console.log("props.topic = " + this.props.topic);
       //BIOLOGY, CHEMISTRY, COMPUTERS(computer science), ECOLOGY, GEOLOGY, METEOROLOGY, OCEANOGRAPHY, PHYSICS
       switch (this.props.topic) {
          case 'Biology':
-            this.state.category = BiologySubtopics;
+            this.state.category = this.BiologySubtopics;
             break;
          case 'Chemistry':
-            this.state.category = ChemistrySubtopics;
+            this.state.category = this.ChemistrySubtopics;
             break;
          case 'Computers':
-            this.state.category = ComputersSubtopics;
+            this.state.category = this.ComputersSubtopics;
             break;
          case 'Ecology':
-            this.state.category = EcologySubtopics;
+            this.state.category = this.EcologySubtopics;
             break;
          case 'Geology':
-            this.state.category = GeologySubtopics;
+            this.state.category = this.GeologySubtopics;
             break;
          case 'Meteorology':
-            this.state.category = MeteorologySubtopics;
+            this.state.category = this.MeteorologySubtopics;
             break;
          case 'Oceanography':
-            this.state.category = OceanographySubtopics;
+            this.state.category = this.OceanographySubtopics;
             break;
          case 'Physics':
-            this.state.category = PhysicsSubtopics;
+            this.state.category = this.PhysicsSubtopics;
             break;
          default:
-            this.state.category = BiologySubtopics;
+            this.state.category = this.BiologySubtopics;
             break;
       }
       return (

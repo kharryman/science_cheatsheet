@@ -13,6 +13,7 @@
       "react": "16.11.0",
       "react-fontawesome": "^1.7.1",
       "react-native": "0.62.2",
+      "react-native-katex": "^0.4.3",
       "react-native-material-dropdown": "^0.11.1",
       "styled-components": "^4.1.1"
    },
