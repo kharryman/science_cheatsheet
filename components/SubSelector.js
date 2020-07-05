@@ -142,13 +142,13 @@ export default class SubSelector extends Component {
                   itemStyle={styles.itemStyle}
                   mode="dropdown"
                   style={styles.pickerStyle}
-                  selectedValue={this.state.selectedcat}
+                  selectedValue={this.props.subtopic}
                   onValueChange={this.onValueChangeCat.bind(this)}
                >
                   {this.state.category.map((item, index) => (
                      <Picker.Item
                         color="#0087F0"
-                        label={item.itemName}
+                        label={item.itemName + " ->" + item.type}
                         value={item.itemName}
                         index={index}
                      />

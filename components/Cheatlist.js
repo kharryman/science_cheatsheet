@@ -78,56 +78,40 @@ export default class Cheatlist extends Component {
                      //}
                      return (
                         <View>
-                           <Text style={styles.namePrompt}>{topic.title}</Text>
+                           {this.getTitle(topic)}
                            {topic.image &&
                               <View style={styles.imageView}>
                                  <Image source={Images[selectedSubtopicFolder][topic.image]} style={styles.image} />
                               </View>
                            }
                            {topic.data.map((item) => {
-                              if (!item.type && (item.name || item.value)) {
-                                 return (
-                                    <Text style={styles.myIndent}>
-                                       {item.name && (
-                                          <Text>
-                                             <Text style={styles.namePromptItem}>{item.name}</Text>
-                                             <Text>: </Text>
-                                          </Text>
-                                       )}
-                                       {item.value && (
-                                          <Text style={styles.textItem}>{item.value}</Text>
-                                       )}
-                                    </Text>
-                                 )
-                              } else if (item.type === 'MATH') {
-                                 return (
-                                    <MathExpression expression={item.value} />
-                                 )
-                              }
+                              { return this.getDataItem(item, 'NORMAL') }
                            })}
                         </View>
                      )
                   } else if (topic.type === 'TABLE') {
                      return (
                         <View>
-                           <Text style={styles.namePrompt}>{topic.title}</Text>
+                           {this.getTitle(topic)}
                            <View style={{ borderStyle: 'solid', borderWidth: 1, borderColor: 'gray', alignItems: 'center', justifyContent: 'center' }}>
-                              <View style={{ backgroundColor: '#FFFF9C', borderStyle: 'solid', borderWidth: 1, borderColor: 'gray', alignSelf: 'stretch', flexDirection: 'row' }}>
-                                 {topic.headers.map((header) => {
-                                    return (
-                                       <View style={{ borderStyle: 'solid', borderWidth: 1, borderColor: 'gray', flex: 1, alignSelf: 'stretch' }}>
-                                          <Text style={styles.tableHeader}>{header}</Text>
-                                       </View>
-                                    )
-                                 })}
-                              </View>
+                              {topic.headers && (
+                                 <View style={{ backgroundColor: '#FFFF9C', borderStyle: 'solid', borderWidth: 1, borderColor: 'gray', alignSelf: 'stretch', flexDirection: 'row' }}>
+                                    {topic.headers.map((header) => {
+                                       return (
+                                          <View style={{ borderStyle: 'solid', borderWidth: 1, borderColor: 'gray', flex: 1, alignSelf: 'stretch' }}>
+                                             <Text style={styles.tableHeader}>{header}</Text>
+                                          </View>
+                                       )
+                                    })}
+                                 </View>
+                              )}
                               {topic.data.map((dataItem) => {
                                  return (
                                     <View style={{ borderStyle: 'solid', borderWidth: 1, borderColor: 'gray', alignSelf: 'stretch', flexDirection: 'row' }}>
                                        {dataItem.columns.map((column) => {
                                           return (
                                              <View style={{ borderStyle: 'solid', borderWidth: 1, borderColor: 'gray', flex: 1, alignSelf: 'stretch' }}>
-                                                <Text style={styles.tableCell}>{column.value}</Text>
+                                                {this.getDataItem(column, 'TABLE')}
                                              </View>
                                           )
                                        })}
@@ -140,7 +124,7 @@ export default class Cheatlist extends Component {
                   } else if (topic.type === 'TABLE_LIST') {
                      return (
                         <View>
-                           <Text style={styles.namePrompt}>{topic.title}</Text>
+                           {this.getTitle(topic)}
                            <View style={{ borderStyle: 'solid', borderWidth: 1, borderColor: 'gray', alignItems: 'center', justifyContent: 'center' }}>
                               {topic.data.map((dataItem) => {
                                  return (
@@ -149,7 +133,7 @@ export default class Cheatlist extends Component {
                                           <Text style={styles.tableCell}>{dataItem.name}</Text>
                                        </View>
                                        <View style={{ borderStyle: 'solid', borderWidth: 1, borderColor: 'gray', flex: 1, alignSelf: 'stretch' }}>
-                                          <Text style={styles.tableCell}>{dataItem.value}</Text>
+                                          {this.getDataItem(dataItem, 'TABLE_LIST')}
                                        </View>
                                     </View>
                                  )
@@ -162,6 +146,118 @@ export default class Cheatlist extends Component {
             </ScrollView>
          </SafeAreaView>
       );
+   }
+
+   getTitle(topic) {
+      if (topic.title) {
+         return (
+            <Text style={styles.namePrompt}>{topic.title}</Text>
+         );
+      } else if (topic.titles) {
+         return (
+            <Text style={styles.myIndent}>
+               {topic.titles.map((title) => {
+                  if (title.type === 'NORMAL') {
+                     return (
+                        <Text style={styles.namePrompt}>{title.value}</Text>
+                     )
+                  } else if (title.type === 'MATH') {
+                     return (
+                        <MathExpression expression={title.value} myWidth={title.width} myHeight={title.height} />
+                     )
+                  }
+               })}
+            </Text>
+         );
+      }
+   }
+
+   getDataItem(item, type) {
+      if (type === "NORMAL") {
+         if (item.name) {
+            return (
+               <Text>
+                  <Text style={styles.namePromptItem}>{item.name}</Text>
+                  <Text>: </Text>
+                  {this.getDataValues(item)}
+               </Text>
+            )
+         } else if (item.names) {
+            return (
+               <Text>
+                  {this.getDataText(item.names, "NAME")}
+                  <Text>: </Text>
+                  {this.getDataValues(item)}
+               </Text>
+            )
+         } else {
+            return this.getDataValues(item);
+         }
+      } else {
+         return this.getDataValues(item);
+      }
+   }
+
+   getDataValues(item) {
+      if (item.value) {
+         console.log("getDataItem RETURNING A VALUE!!, value=" + item.value);
+         return (
+            <Text style={styles.myIndent}>
+               {item.value && (
+                  <Text style={styles.textItem}>{item.value}</Text>
+               )}
+            </Text>
+         )
+      } else if (item.values) {
+         return (
+            <Text style={styles.myIndent}>
+               {this.getDataText(item.values, "VALUE")}
+            </Text>
+         )
+      }
+   }
+
+   getDataText(values, myType) {
+      let myStyle;
+      if (myType === "NAME") {
+         myStyle = styles.namePromptItem;
+      } else if (myType === "VALUE") {
+         myStyle = styles.textItem;
+      }
+      return values.map((text) => {
+         console.log("values!!! text = " + JSON.stringify(text));
+         if (text.type === 'NORMAL') {
+            if (text.styles) {
+               var myStyles = [];
+               for (var i = 0; i < text.styles.length; i++) {
+                  if (text.styles[i] === "ITALIC") {
+                     myStyles.push(styles.italic);
+                  } else if (text.styles[i] === "BOLD") {
+                     myStyles.push(styles.bold);
+                  }
+               }
+               return (
+                  <Text style={myStyles}>{text.value}</Text>
+               )
+            } else {
+               return (
+                  <Text style={myStyle}>{text.value}</Text>
+               )
+            }
+         } else if (text.type === 'MATH') {
+            if (myType === "NAME") {
+               return (
+                  <View style={styles.mathElement} width={text.width} height={text.height}>
+                     <MathExpression expression={text.value} myWidth={text.width} myHeight={text.height} />
+                  </View>
+               )
+            } else {
+               return (
+                  <MathExpression expression={text.value} myWidth={text.width} myHeight={text.height} />
+               )
+            }
+         }
+      });
    }
 }
 
@@ -189,13 +285,24 @@ const styles = StyleSheet.create({
    },
    namePromptItem:
    {
+      marginLeft: 10,
       fontSize: 18,
       fontStyle: 'italic',
       textDecorationLine: 'underline'
    },
+   namePromptItemView: {
+      marginLeft: 10,
+      borderBottomWidth: 1,
+      borderBottomColor: '#000'
+   },
    textItem:
    {
       fontSize: 16
+   },
+   textItemBold:
+   {
+      fontSize: 16,
+      fontWeight: "bold"
    },
    tableHeader:
    {
@@ -218,6 +325,21 @@ const styles = StyleSheet.create({
    },
    katex: {
       flex: 1,
+   },
+   italic: {
+      fontStyle: 'italic'
+   },
+   bold: {
+      fontWeight: 'bold'
+   },
+   mathElement: {
+      margin: 0,
+      padding: 0,
+      flexDirection: 'column',
+      alignSelf: "flex-start",
+      justifyContent: "flex-start",
+      borderBottomWidth: 1,
+      borderBottomColor: '#000'
    }
 });
 

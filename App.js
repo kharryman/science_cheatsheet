@@ -54,7 +54,7 @@ class App extends React.Component {
                   {isAllScience && (
                      <Selector callback={this.setSubject.bind(this)} />
                   )}
-                  <SubSelector topic={this.state.cheatList} callback={this.setSubtopic.bind(this)} />
+                  <SubSelector topic={this.state.cheatList} subtopic={this.state.subtopic} callback={this.setSubtopic.bind(this)} />
                   <GoButton text="Go" callback={() => { this.press() }}>
                   </GoButton>
                </View >
@@ -80,9 +80,7 @@ class App extends React.Component {
 
    backUp() {
       this.state.listOpen = false;
-      this.state.cheatList = 'Biology';
-      //alert("Hello?");
-      this.setState({ listOpen: false, cheatList: 'Biology' });
+      this.setState({listOpen:this.state.listOpen});
    }
 
    press() {
