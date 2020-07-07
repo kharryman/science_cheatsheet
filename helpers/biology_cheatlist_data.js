@@ -2,20 +2,26 @@
 /*CHEATSHEETS DONE:
 //AP BIOLOGIES!!!:
 1) AP Bio Unit 1: Chemistry of Life Cheat Sheet
-2) AP Bio Chemistry of life Cheat Sheet
-3) AP Biology Unit 1: Biochemistry Cheat Sheet
-4) AP Biology Unit 2: The Cell and Cell Membrane Cheat Sheet
-5) AP Biology Unit 3: Energy and Metabolism Cheat Sheet
-6) AP Biology Unit 6: Ecology and Animal Behavior Cheat Sheet
-7) AP Bio Unit 6: Gene Expression and Regulation Cheat Sheet
+2) AP Bio Unit 2: Cell Structure and Function Cheat Sheet
+3) AP Bio Chemistry of life Cheat Sheet
+4) AP Biology Unit 1: Biochemistry Cheat Sheet
+5) AP Biology Unit 2: The Cell and Cell Membrane Cheat Sheet
+6) AP Biology Unit 3: Energy and Metabolism Cheat Sheet
+7) AP Biology Unit 4: Plant Physiology Cheat Sheet
+8) AP Bio Unit 5: Heredity Cheat Sheet
+9) AP Biology Unit 6: Ecology and Animal Behavior Cheat Sheet
+10) AP Bio Unit 6: Gene Expression and Regulation Cheat Sheet
 
 //BIOLOGY UNITS:
 1) Bio Topic 1: Cell Biology Cheat Sheet
 2) Biology Unit 1: Biology, the Study of Life Cheat Sheet
-3) Biology Unit 3.3: Cell Processes Cheat Sheet
-4) Biology Unit 3.4: Cell Processes; Scientists Cheat Sheet
-5) 4.1 Cell Biology Cheat Sheet
-6) Biology Chapter 1-5 midterm test Cheat Sheet
+3) Biology Unit 2: Cells
+4) Biology Unit 3.1: Cell Processes Cheat Sheet
+5) Biology Unit 3.2: Cell Processes Cheat Sheet
+6) Biology Unit 3.3: Cell Processes Cheat Sheet
+7) Biology Unit 3.4: Cell Processes; Scientists Cheat Sheet
+8) 4.1 Cell Biology Cheat Sheet
+9) Biology Chapter 1-5 midterm test Cheat Sheet
 
 //BIOLOGY:
 1) Biology Cheat Sheet
@@ -29,15 +35,19 @@
 
 //OTHER:
 1) Cell Transport AP Bio Cheat Sheet
-2) Chromosomal Basis of Heredity Cheat Sheet
-3) Hallás és látás Cheat Sheet
-4) Homeostasis Cheat Sheet
-5) Infections of the Oral Cavity Cheat Sheet
-6) Polymers and Carbs Cheat Sheet
-7) Principles of Antimicrobial Chemotherapy Cheat Sheet
-8) Science Ecology Review Cheat Sheet
-9) Theories of Oral Infection Cheat Sheet
-10) Zellorganellen Cheat Sheet 
+2) chapter 15 bio Cheat Sheet
+3) Chromosomal Basis of Heredity Cheat Sheet
+4) Hallás és látás Cheat Sheet
+5) Homeostasis Cheat Sheet
+6) Infections of the Oral Cavity Cheat Sheet
+7) Mitosis Cheat Sheet
+8) mitoza in mejoza Cheat Sheet
+9) Polymers and Carbs Cheat Sheet
+10) Principles of Antimicrobial Chemotherapy Cheat Sheet
+11) Science Ecology Review Cheat Sheet
+12) Specialized Plate Media Cheat Sheet
+13) Theories of Oral Infection Cheat Sheet
+14) Zellorganellen Cheat Sheet 
 
 */
 //BIOLOGY, CHEMISTRY, COMPUTERS(computer science), ECOLOGY, OCEANOGRAPHY, GEOLOGY, METEOROLOGY, PHYSICS
@@ -49,6 +59,18 @@ const biology_cheatlist_data = {
          itemName: "Basic",
          type: "General",
          entries: [
+            {
+               "index": 0,
+               title: 'Five Kingdoms of Living Things',
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "1. Plants" },
+                  { "index": 0, "name": null, "value": "2. Animals" },
+                  { "index": 0, "name": null, "value": "3. Fungi" },
+                  { "index": 0, "name": null, "value": "4. Bacteria" },
+                  { "index": 0, "name": null, "value": "5. Protists" }
+               ]
+            },            
             {
                "index": 0,
                title: 'Basics',
@@ -117,7 +139,12 @@ const biology_cheatlist_data = {
                type: "NORMAL",
                data: [
                   { "index": 0, "name": "Francesco Redi(1668)", "value": "Found out that living things do not come from nonliving things by taking two plates of meat and covering one. He saw that there were only flies on the plate that was not covers and he concluded that the flies did not come from the meat." },
-                  { "index": 0, "name": "Louis Pasteur(1859)", "value": "Boiled liquid to kill everything in it and covered it. When he looked at it later, there were no living organisms in it because everything was dead so he concluded that living things had to come from other living things." }
+                  { "index": 0, "name": "Louis Pasteur(1859)", "value": "Boiled liquid to kill everything in it and covered it. When he looked at it later, there were no living organisms in it because everything was dead so he concluded that living things had to come from other living things." },
+                  { "index": 0, "name": "Robert Hooke(1665)", "value": "Looked at a cork an saw little chambers that he named cells because they looked like rooms in a monastery." },
+                  { "index": 0, "name": "Antony Van Leeuwe­nhock(1665)", "value": "Saw living cells and called them anima­lcu­les." },
+                  { "index": 0, "name": "Matthias Schleiden(1839)", "value": "Said plants were made of cells." },
+                  { "index": 0, "name": "Theodor Schwann(1839)", "value": "Said animals were made of cells.\n-Together, Schleiden and Schwann first proposed the Cell Theory." },
+                  { "index": 0, "name": "Rudof Virchow(1855)", "value": "Said that cells always came from preexi­sting cells." }
                ]
             },
             {
@@ -126,16 +153,24 @@ const biology_cheatlist_data = {
                type: "NORMAL",
                data: [
                   { "index": 0, "name": "Asexual Reprod­uct­ion", "value": "Reprod­uction where offspring come from a single parent that is identical to the parent." },
+                  { "index": 0, "name": "Channel Protein", "value": "A protein that moves molecules across the cell membrane" },
                   { "index": 0, "name": "Sexual Reprod­uct­ion", "value": "Reprod­uction where two parents each donate one cell to create offspring (ferti­liz­ation)." },
                   { "index": 0, "name": "Environment", "value": "The conditions around an organism (land, air, water, other organisms, etc.)" },
                   { "index": 0, "name": "Stimulus", "value": "A change in the enviro­nment that causes an organism to respond." },
                   { "index": 0, "name": "Home­ost­asis", "value": "An organism's ability to keep it's internal conditions stable for life (being warm blooded)." },
+                  { "index": 0, "name": "Insulin", "value": "A hormone made in the pancreas that controls blood sugar" },
                   { "index": 0, "name": "Unic­ellular Organi­sms", "value": "Organisms with one cell." },
                   { "index": 0, "name": "Mult­ice­llular Organi­sms", "value": "Organisms with more than one cell." },
                   { "index": 0, "name": "Meta­bol­ism", "value": "The act of obtaining and using energy" },
                   { "index": 0, "name": "Control Group", "value": "The group in an experiment that does not receive any treatment and is used to measure how the other tested subjects did." },
                   { "index": 0, "name": "Quan­tit­ative Data", "value": "Data that contains numbers." },
                   { "index": 0, "name": "Qualitative Data", "value": "Data that does not contain numbers." }
+                  { "index": 0, "name": "Sponta­neous Generation", "value": "The (false) idea that living things can come from nonliving things" },
+                  { "index": 0, "name": "Autotr­ophic Cells", "value": "Cells that use sunlight to make food" },
+                  { "index": 0, "name": "Hetero­trophic Cells", "value": "Cells that cannot make their own food" },
+                  { "index": 0, "name": "Eukaryotic Cells", "value": "Cells that have a nucleus" },
+                  { "index": 0, "name": "Prokar­yotic Cells", "value": "Cells that don't have nuclei" },
+                  
                ]
             },
             {
@@ -1165,22 +1200,44 @@ const biology_cheatlist_data = {
                type: "NORMAL",
                image: null,
                data: [
-                  { "index": 0, "name": "Cell Wall", "value": "Protects, maintains shape, regulates water intake" },
+                  { "index": 0, "name": "Cell Wall", "value": "Protects, maintains shape, regulates water intake\n- In plants, fungi and protists but not animals\n- Porous to let things through\n- Rigid (100x thicker than membrane)\n- Maintains shape and protects cells\n- Attaches to other cell walls to form strong structures (plants need to be strong but don't have skeletons)" },
+                  { "index": 0, "name": "Cell Membrane/Plasma Membrane", "value": "-Surrounds the cell\n-Two identical layers (bilayers) made of lipids\n-Proteins that act like doors are embedded in the membrane\n-Carbo­hydrate patterns that are unique to every person are on the outside of the membrane; these allow their bodies to recognize which cells are their's and fight off the ones that are not" },
                   { "index": 1, "name": "Centrioles Centrosomes MTOCs", "value": "Organizes spindle fibers (cell division)" },
-                  { "index": 2, "name": "Chloroplast", "value": "Absorbs light & synthesizes sugar" },
-                  { "index": 3, "name": "Cytoskeleton", "value": "Maintains cell shape, flow, positioning" },
+                  { "index": 2, "name": "Chloroplast", "value": "Absorbs light & synthesizes sugar\n- Found in plants, bacteria and protists\n- Use light, carbon dioxide and water in photos­ynt­hesis to make glucose\n- Also has cristae\n- The cristae are in stacks called thyl­akoid membra­nes\n* Thylakoid membranes look like stacked coins\n- Holds pigments such as chloro­phyll" },
+                  { "index": 3, "name": "Cytoskeleton", "value": "Maintains cell shape, flow, positioning\n- Skeleton of cell (ie: microf­ila­ments, microt­ubes)\n- Some cells can move using:\nFlag­ella: few, long, whip-like structures outside the cells\nCill­ia: hundreds of short, hairlike structures outside the cells" },
+                  { "index": 3, "name": "Cytoplasm", "value": "- Water with some chemicals and minerals that surrounds organelles\n- Where messages pass through" },
                   { "index": 4, "name": "Endomembrane System", "value": "Regulates protein traffic+metabolic functions" },
-                  { "index": 5, "name": "Endoplasmic Reticulum", "value": "Rough: makes proteins. Smooth: synthesizes lipids, stores Ca++, detxifies drugs/poisons" },
-                  { "index": 6, "name": "Golgi Apparatus", "value": "Processes, packages & secretes substances" },
-                  { "index": 7, "name": "Lysosomes", "value": "Intracellular digestion" },
-                  { "index": 8, "name": "Mitochondria", "value": "Powerhouse of the cel : (respiration)" },
+                  { "index": 5, "name": "Endoplasmic Reticulum", "value": "Rough: makes proteins. Smooth: synthesizes lipids, stores Ca++, detxifies drugs/poisons\n- Highway where chemicals are transp­orted around the cell\n- Endopl­asmic reticulum means interc­ellular network\n- Smooth ER: Detoxifies things (breaks down bad chemicals)\n- Rough ER: Has ribosomes, sends proteins to other places in the cell" },
+                  { "index": 6, "name": "Golgi Apparatus", "value": "Processes, packages & secretes substances\n- Puts molecules in vesi­cles and ships them around or out of cells\n- Receives things from other cells\n- Looks like flattened sacks that look like pita bread\n- Has a receiving side (cis face) and a shipping side (trans face)\n- Golgi apparatus \"­fin­ish­es\" packaging things after the rough ER" },
+                  { "index": 7, "name": "Lysosomes", "value": "Intracellular digestion\nContains enzymes to break down:\n-Food (in food vacuol­es)\n-Old organelles\n-Cellular debris" },
+                  { "index": 8, "name": "Mitochondria", "value": "Powerhouse of the cell : (respiration)\nProduces ATP using glucose.- Two layers for more surface area, the inner layer is the cris­tae\n- Different cells can have more or less mitoch­ondria than different cells\n- Plants also have mitoch­ondria" },
                   { "index": 9, "name": "Nucleolus", "value": "Holds all the cell's genetic information" },
-                  { "index": 10, "name": "Nucleus", "value": "Holds chromatin, surrounded by nuclear envelope" },
+                  { "index": 10, "name": "Nucleus", "value": "Holds chromatin, surrounded by nuclear envelope\n- Brain of cell\n- Holds DNA (23 pairs of chromo­somes)\n- Nuclear Membrane: Also porus\n- Nucleolus: Densest part, makes ribosomes\n*Bacteria have no nuclei so the DNA just floats around in the cytoplasm" },
                   { "index": 11, "name": "Peroxisomes", "value": "Converts H₂O₂ to water+O₂" },
-                  { "index": 12, "name": "Ribosomes", "value": "Protein factories" },
-                  { "index": 13, "name": "Vacuoles", "value": "Storage & pumping out water" }
+                  { "index": 12, "name": "Ribosomes", "value": "Protein factories\n- Small organelle that makes proteins\n- Made of two sub units, one big, one small, the big one is on the top\n- Free Riboso­mes: Ribosomes floating in the cytoplasm, the proteins they make are used inside the cell\n- Bound Riboso­mes Ribosomes attached to the endopl­asmic reticulm, the proteins they make are sent and used outs­ide the cell\n- Some cells have more ribosomes than other cells" },
+                  { "index": 13, "name": "Vacuoles", "value": "Storage & pumping out water\n- Sacs used for storing anything (ie: food, water, salts, pigment, gases)\n- Vacuoles in plant cells are huge (they are used when the plant has no other nutrition) and hold all other pigments except green, which is in the chloro­plasts\n- Vacuoles also provide support and store poison in poisonous plants" }
                ]
             },
+            {
+               "index": 3,
+               title: 'Membranes',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": "Perm­eable Membra­ne:", "value": "A membrane that lets everything through." },
+                  { "index": 0, "name": "Semi­per­meable Membra­ne", "value": "A membrane that lets some things through." },
+                  { "index": 1, "name": "Impe­rmeable Membra­ne:", "value": "A membrane that doesn't let things through." }
+               ]
+            },            
+            {
+               "index": 3,
+               title: 'Facilitated Diffusion',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "Sometimes, the membrane will not let a molecule through so the cell will use facili­tated diffusion which is when a protein helps move the molecule across the membrane. It also doesn't require energy." }
+               ]
+            },            
             {
                "index": 4,
                title: 'Prokaryotic vs. Eukaryotic Cells',
@@ -1403,7 +1460,7 @@ const biology_cheatlist_data = {
                type: "NORMAL",
                image: null,
                data: [
-                  { "index": 0, "name": "Definition", "value": "The movement of substances against a concen­tration gradie­nt." },
+                  { "index": 0, "name": "Definition", "value": "Using energy and a protein to force a molecule through the membrane against the concen­tration gradient." },
                   { "index": 0, "name": null, "value": "-needs energy to be carried out (unlike osmosis and diffu­sion)\n-needed to absorb nutrients from food" }
                ]
             },
@@ -1603,7 +1660,575 @@ const biology_cheatlist_data = {
                data: [
                   { "index": 0, "name": null, "value": null }
                ]
-            }
+            },
+            {
+               "index": 4,
+               title: 'Mitosis Phases',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "1. Interphase\n2. Prophase\n3. Promet­aphase\n4. Metaphase\n5. Anaphase\n6. Telophase\n7. Cytoki­nesis" }
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Mitosis Definition',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "Mitosis is the process, in the cell cycle, by which the chromo­somes in the cell nucleus are separated into two identical sets of chromo­somes, each in its own nucleus." }
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Metaphase',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "Motor proteins are a class of molecular motors that are able to move along the surface of a suitable substrate." }
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Interphase',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": "Chromatin", "value": "Chromatin is a complex of macrom­ole­cules found in cells, consisting of DNA, protein and RNA. The primary functions of chromatin are 1) to package DNA into a smaller volume to fit in the cell, 2) to reinforce the DNA macrom­olecule to allow mitosis, 3) to prevent DNA damage, and 4) to control gene expression and DNA replic­ation." },
+                  { "index": 0, "name": "Centrosomes", "value": "In cell biology, the centrosome is an organelle that serves as the main microt­ubule organizing center (MTOC) of the animal cell as well as a regulator of cell-cycle progre­ssion." }
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Cytokenesis',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "Cytoki­nesis is the process in which the cytoplasm of a single eukaryotic cell is divided to form two daughter cells." }
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Anaphase',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "Anaphase is the stage of mitosis or meiosis when chromo­somes are split and the sister chromatids move to opposite poles of the cell." }
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Telophase',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "Telophase is the final stage in both meiosis and mitosis in a eukaryotic cell." }
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Cleavage Furrow',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "In cell biology, the cleavage furrow is the indent­ation of the cell's surface that begins the progre­ssion of cleavage, by which animal and some algal cells undergo cytoki­nesis, the final splitting of the membrane, in the process of cell division." }
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Prophase',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": "Chromosomes", "value": "A chromosome is packaged and organized chromatin, a complex of macrom­ole­cules found in cells, consisting of DNA, protein and RNA." },
+                  { "index": 0, "name": "Chromatid", "value": "A chromatid is one copy of a duplicated chromo­some, which is generally joined to the other copy by a single centro­mere." },
+                  { "index": 0, "name": "Microtubules", "value": "Microt­ubules are a component of the cytosk­eleton, found throughout the cytoplasm." }
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Lipids',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "Organic compounds that are not soluble in water but are soluble in oil. Some examples are:\n-Phosp­hol­ipids\n-in the cell membrance, the heads are hydr­oph­ilic, the tails are hydr­oph­obic\n-Steroids\n-include choles­terol and hormones  ­ ­(ch­ole­sterol is also in the cell membrane)\n-Fats\nLipids store long-term energy, support cell membrane, cushion organs, insulate, help brain develope, etc." }
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Dehydr­ation Synthesis Applied to Lipids',
+               type: "NORMAL",
+               image: "DEHYDRATION_SYNTHESIS_LIPIDS",
+               data: [
+                  { "index": 0, "name": null, "value": "*This is a saturated trigly­cer­ide\nWhen your body has more calories than it needs, it turns the calories to trigly­cerides and stores them.\nTo make a single trigly­ceride, you need one molecule of glycerol and three fatty acid chains.\nWater is taken out and the four molecules bind together to form trigly­cer­ides." }
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Hydrolysis Applied to Lipids',
+               type: "NORMAL",
+               image: "HYDROLYSIS_LIPIDS",
+               data: [
+                  { "index": 0, "name": null, "value": "Breaking down lipids with water\n1. You ate lipids that need to be broken down to use\n2. Your body ran out of carboh­ydrates and needs to break down fat stores for energy\n3500 calories in one pound of fat" }
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Vocabulary',
+               type: "TABLE_LIST",
+               image: "HYDROLYSIS_LIPIDS",
+               data: [
+                  { "index": 0, "name": "Trigly­cerides", "value": "The type of fat our bodies make and store." },
+                  { "index": 0, "name": "Hydrop­hilic", "value": "Likes water/­faces water." },
+                  { "index": 0, "name": "Hydrop­hobic", "value": "Doesn't like water/­faces away from water." }
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Vocabulary',
+               type: "TABLE_LIST",
+               image: null,
+               data: [
+                  { "index": 0, "name": "Trigly­cerides", "value": "The type of fat our bodies make and store." },
+                  { "index": 0, "name": "Hydrop­hilic", "value": "Likes water/­faces water." },
+                  { "index": 0, "name": "Hydrop­hobic", "value": "Doesn't like water/­faces away from water." }
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Types of Fat',
+               type: "NORMAL",
+               image: "HYDROLYSIS_LIPIDS",
+               data: [
+                  { "index": 0, "name": null, "value": "There is saturated fat and unsatu­rated fat. The satura­ted­/un­sat­urated part refers to the amount of hydrogen atoms on one molecule of fat. There are two kinds of unsatu­rated fat, mono­sat­urated fat and poly­sat­urated fat." }
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Saturated Fats',
+               type: "NORMAL",
+               image: "SATURATED_FATS",
+               data: [
+                  { "index": 0, "name": null, "value": "Satu­rated Fat has all of the possible hydrogen atoms on it.\nIt also does not have a double bond, all the bonds are single.\nSaturated trigly­cerides are generally solid at room temper­ature and tend to be the most unhealthy.\nThey can contribute to arte­rio­scl­ero­sis which is when blood vessels harden due to too much fat on the inner walls.\nSome examples of saturated fat are: shortening (the worst possible fat), butter, cheese, beef and pork." }
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Monosaturated Fat',
+               type: "NORMAL",
+               image: "MONOSATURATED_FATS",
+               data: [
+                  { "index": 0, "name": null, "value": "Mono­uns­atu­rated fat is when the fatty acid chain has one place where it is unsatu­rated. This means that there is a double bond and it is missing hydrogen atoms. It also is bent/has a kink.\nMonoun­sat­urated fat is actually better for you. It does not increase risk of arteri­osc­lerosis and it reduces choles­terol which causes heart disease.\nIt is usually liquid at room temper­ature.\nOne example is olive oil. Monoun­sat­urated fats can usually be found in avocado and nuts." }
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Polysaturated Fat',
+               type: "NORMAL",
+               image: "POLYSATURATED_FATS",
+               data: [
+                  { "index": 0, "name": null, "value": "Where the fatty acid chains have two or more points of unsatu­ration\nLiquid at room temp\nBetter than saturated fat but worse than monoun­sat­urated fat\nEx: Corn oil, soy oil, canola oil, safflower oil" }
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Surface Area',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "outside area of an object\nthe area around the outside of a cell\nunit: m^2" }
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Applic­ation in Living Things',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "increased surface area = increased diffusion\nmicrov­illi: increases absorption in intestines\nroot hairs: increases water/­nut­rient absorption in plants\nendome­mbrane system: increased folds in organelles allow for more surface area to do cellular work\ncristae of the mitoch­ondria: folds in the inner mitoch­ondria increase amounts of ETC (more ATP)" }
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Structure of Phosph­olipid',
+               type: "TABLE",
+               headers:["hydrop­hilic head:", "hydrop­hobic tail:"],
+               image: null,
+               data: [
+                  { "index": 0, "columns": [{"value":"phosphate"}, {"value": "saturated fatty acid"}]},
+                  { "index": 0, "columns": [{"value":"glycerol"}, {"value": "unsatu­rated fatty acid"}]}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Cholesterol',
+               type: "TABLE",
+               headers:["at warm temper­atures:", "at cool temper­ature:"],
+               image: null,
+               data: [
+                  { "index": 0, "columns": [{"value":"restrains the movement of phosph­olipids and reduces fluidity"}, {"value": "maintains fluidity by preventing tight packing"}]}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Passive Transport',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "no energy\nhigh to low concen­tration\ndiffusion\nosmosis\nfacili­tated diffusion\nion channels" }
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Diffusion',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "passive transport\nmolecules spread out to available spaces\nmove down concen­tration gradient (high to low concen­tra­tion)\nwork to reach equili­brium" }
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Active Transport',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "no energy\nlow to high concen­tration\nsodium potassium pump: 3 sodium leave and 2 potassium enter cell against the concen­tration gradient\nproton pump: hydrogen atoms pumped against concen­tration gradient\ncotran­sport: H+ gradient helps to bring other molecules into cell\nendocy­tosis and exocytosis" }
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Osmoregulation',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "organisms without cell walls that live in hypertonic or hypotonic enviro­nment must have adapta­tions for osmore­gul­ation\nthe control of water balance" }
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Plant Cells in Pure Water',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "pure water (hypotonic solution) will initially move into the cells\nafter a period of time the cells will become turgid (swollen)\nas turgor pressure increases, water will diffuse out of the cell... eventually equili­brium will be reached" }
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Prokar­yotic vs. Eukaryotic Cells',
+               type: "TABLE",
+               headers:["","Prokar­yotes:","Eukary­otes:"],
+               image: null,
+               data: [
+                  { "index": 0, "columns": [{"value":"simila­rities: cell membrane, DNA, ribosomes, cytoplasm"}] },
+                  { "index": 0, "columns": [{"value":"organelles", "styles":["BOLD","ITALIC","UNDERLINE"]}, {"value":"no nucleus"}, {"value":"nucleus"}] },
+                  { "index": 0, "columns": [{"value":"membranes", "styles":["BOLD","ITALIC","UNDERLINE"]}, {"value":"no membrane bound organelles"}, {"value":"membrane bound organelles"}] },
+                  { "index": 0, "columns": [{"value":"reprod­uction:", "styles":["BOLD","ITALIC","UNDERLINE"]}, {"value":"binary fission"}, {"value":"mitosis and meiosis"}] },
+                  { "index": 0, "columns": [{"value":"average size:", "styles":["BOLD","ITALIC","UNDERLINE"]}, {"value":"smaller"}, {"value":"larger"}] },
+                  { "index": 0, "columns": [{"value":"DNA:", "styles":["BOLD","ITALIC","UNDERLINE"]}, {"value":"DNA is circular"}, {"value":"DNA is linear"}] },
+                  { "index": 0, "columns": [{"value":"Chromosomes", "styles":["BOLD","ITALIC","UNDERLINE"]}, {"value":"single chromosome"}, {"value":"paired chromo­somes"}] }
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Volume',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "amount of space inside of the object\nthe space inside of the cell\nunit: cm^3" }
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Fluid Mosaic Model',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "phosph­oli­pids: provides fluidity and elasticity\nproteins and other molecules embedded in membrane" }
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Phospholipid Bilayer',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "amphip­athic\nhydrop­hilic heads\nhydrop­hobic tails" }
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Proteins',
+               type: "TABLE",
+               headers:["integral proteins:", "peripheral proteins:"],
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"imbedded through the membrane (inside)"}, {"value":"on hydrop­hilic portion of the cell membrane (outside)"}] }
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Carbohydrates',
+               type: "TABLE",
+               headers:["cell to cell recogn­ition:", "membrane carboh­ydr­ates:"],
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"cell's ability to distin­guish one type of neighb­oring cell from another"}, {"value":"interact with the surface molecules of other cells, facili­tating cell to cell recogn­ition"}] }
+               ]
+            },  
+            {
+               "index": 4,
+               title: 'Passive Transport(diffusion)',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "the tendency for molecules of any substance to spread out into available space\nsubstances will move down a concen­tration gradient\nhigh to low concen­tration" }
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Passive Transport (osmosis)',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "the diffusion of water\nwater moves from hypotonic to hypertonic\nisotonic: equal solute across a membrane\nhypotonic: less solute, more water\nhypert­onic: more solute, less water\nlow to high concen­tration" }
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Active Transport (endocytosis)',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "cell takes in macrom­ole­cules by forming vesicles from plasma membrane\nphagoc­ytosis: \"­cel­lular eating­,\" engulfing solids\npincyt­osis: \"­cel­lular drinki­ng,\" engulfing solutes" }
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Active Transport (exocytosis)',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "transport vesicles migrate to the membrane, fuse with it and release their contents" }
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Osmore­gul­ation (param­ecium)',
+               type: "NORMAL",
+               image: "OSMOREGULATION",
+               data: []
+            },
+            {
+               "index": 4,
+               title: 'The Endosy­mbiotic Theory',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "an evolut­ionary theory of the origin of eukaryotic cells from prokar­yotic organisms\nendosy­mbi­osis: one organism living inside another\nevidence 1) chloro­plasts and mitoch­ondria multiply in the same way as ancient bacteria\nevidence 2) chloro­plasts and mitoch­ondria both control their own DNA and ribosomes\nevidence 3) chloro­plasts and mitoch­ondria both have two membranes (inner membrane contains different proteins than the outer membrane)" }
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Surface Area to Volume Ratio',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "a comparison between the size of the outside of an object and the amount inside\nsmaller cells have an increase SA:V\nas the cell gets bigger, the SA:V decreases\nsmall cells are more efficient at diffusion as they have a high ratio" }
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Structure of Cellular Membrane',
+               type: "TABLE",
+               headers:["two main compon­ents:", "other important molecules:"],
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"phosph­olipids"}, {"value":"choles­terol"}] },
+                  { "index": 0, "columns":[{"value":"proteins"}, {"value":"carbohydrates"}] }
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Functions of Membrane Proteins',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"interc­ellular joinings\nenzymatic activity\ntransport (activ­e/p­assive)\ncell to cell recogn­ition\nanchor­age­/at­tac­hment\nsignal transd­uction"}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Cell Membranes are Semipe­rmeable',
+               type: "TABLE",
+               headers:["properties of molecules that can get through the phosph­olipid bilayer:", "properties of molecules that can not get through the phosph­olipid bilayer:"],
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"small"}, {"value":"large"}] },
+                  { "index": 0, "columns":[{"value":"nonpolar"}, {"value":"polar"}] },
+                  { "index": 0, "columns":[{"value":"nonionic"}, {"value":"ionic"}] },
+                  { "index": 0, "columns":[{"value":"hydrophobic"}, {"value":"hydrophilic"}] },
+                  { "index": 0, "columns":[{"value":"O2 and CO2"}, {"value":""}] }
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Passive Transport (facil­itated diffusion)',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"transport proteins allow molecules to flow from high to low concen­tration\naquapo­rins: tunnel that allows water to go through the membrane\nglut: glucose transp­orter"}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Passive Transport (ion channels)',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"transport proteins allow ion to flow from a high to low concen­tration"}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Passive and Active Transport',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"transport proteins allow ion to flow from a high to low concen­tration"}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Water Potential',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"the force respon­sible for movement of water in a system\nsolute potential: determined by solute concen­tration\npressure potential: results from exertion of pressure on membra­nes­/walls as water moves in or out; can be positive or negative"}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Plant vs. Animal Cell',
+               type: "TABLE",
+               headers:["Plant Cell:", "Animal Cell:"],
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"chloroplast"}, {"value":"cilia and flagella"}] },
+                  { "index": 0, "columns":[{"value":"central vacuole"}, {"value":"centrioles"}] },
+                  { "index": 0, "columns":[{"value":"cell wal"}, {"value":"lysosomes"}] }
+               ]
+            },
+            {
+               "index": 4,
+               title: 'The Endome­mbrane System',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"a system of synthe­sizing proteins for export\n1) Nucleus: ~trans­cri­ption (DNA -> RNA) ~make ribosomes\n2) Rough ER: ~trans­lation (RNA -> proteins) ~proteins for export\n3) Vesicle: transports proteins in cells\n4) Golgi Apparatus: process and package proteins\n5) Vesicle: transports proteins in cells\n6) Cell Membrane: exocytosis"}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Dehydration Synthesis',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"Making a larger molecule by taking out water."}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Monosa­cch­aride (glucose ==> C6H12O6)',
+               type: "NORMAL",
+               image: "MONOSACCHARIDE",
+               data: [
+                  { "index": 0, "name":null, "value":"*There is a carbon atom at each corner that is not shown\nSimple sugar, one molecule of sugar. It can be used right away or stored. To store it, it has to be connected to other molecules using dehydr­ation synthesis."}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Dehydr­ation Synthesis in Carboh­ydrates',
+               type: "NORMAL",
+               image: "DEHYDRATION_SYNTHESIS_CARBOHYDRATES",
+               data: [
+                  { "index": 0, "name":null, "value":"Cells use dehydr­ation synthesis to link two glucose molecules together into malt­ose. Maltose is a disacc­haride which can be stored."}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Polysa­cch­arides',
+               type: "NORMAL",
+               image: "POLYSACCHARIDES",
+               data: [
+                  { "index": 0, "name":null, "value":"Sugars are usually stored as poly­sac­cha­rides (many sugars) which is a sugar with more than two monosa­cch­arides. Also called starch"}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Energy Review',
+               type: "TABLE",
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"Glucose", styles:["ITALIC","BOLD","UNDERLINE"]}, {"value":"Monosa­cch­aride"}, {"value":"Readily avalible"}, {"value":"Can be immedi­ately turned to ATP"}]},
+                  { "index": 0, "columns":[{"value":"Glycogen", styles:["ITALIC","BOLD","UNDERLINE"]}, {"value":"Polysa­cch­ari­de/­starch"}, {"value":"Short-term use/st­orage"}, {"value":"Takes a bit to turn to ATP"}]},
+                  { "index": 0, "columns":[{"value":"Fat", styles:["ITALIC","BOLD","UNDERLINE"]}, {"value":"Lipid"}, {"value":"Long-term use/st­orage"}, {"value":"Takes a long time to turn to ATP"}]}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Hydrolysis',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"Splitting a larger molecule by adding water."}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Carbohydrates',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"Sugars used to make/s­hor­t-term store energy."}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Disaccharide',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"A sugar with 2 monosa­cch­arides"}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Hydrolysis in Carboh­ydrates',
+               type: "NORMAL",
+               image: "HYDROLYSIS_CARBOHYDRATES",
+               data: [
+                  { "index": 0, "name":null, "value":"Hydrolysis of a fructose molecule.\nHydrolysis is used to/when:\n-break down food in the digestive system\n                  -body needs quick/fast energy (simple sugars)\nBody can run out of energy but still have fat because fat takes a long time to break into simple sugars."}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Vocabulary',
+               type: "TABLE_LIST",
+               image: null,
+               data: [
+                  { "index": 0, "name":"Oragnic Macromolecules", "value":"A molecule that has many elements, one of which is carbon. Ex: Proteins, carboh­ydr­ates, lipids"},
+                  { "index": 0, "name":"Simple Molecule", "value":"Ex: Water"},
+                  { "index": 0, "name":"Cellulose", "value":"A carboh­ydrate plants use in cell walls to provide support"},
+                  { "index": 0, "name":"Fiber", "value":"No calories; humans can't digest; helps you defecate"},
+                  { "index": 0, "name":"Fructose", "value":"A monosaccharide"},
+                  { "index": 0, "name":"Maltose", "value":"A disacc­haride consisting of two glucose molecule linked together that can be stored"},
+                  { "index": 0, "name":"Sucrose", "value":"A dissac­haride consisting of a glucose molecule and a fructose molecule"},
+                  { "index": 0, "name":"Starch", "value":"Another name for polysa­cch­arides"},
+                  { "index": 0, "name":"Glycogen", "value":"A polysa­cch­aride consisting of many glucose molecules linked together (sometimes hundreds). Extra sugar is stored as glycogen in the liver of the body as a short-term energy storage"}
+               ]
+            }            
          ]
       },
       {
@@ -2494,7 +3119,7 @@ const biology_cheatlist_data = {
                type: "NORMAL",
                image: null,
                data: [
-                  { "index": 0, "name": null, "value": "An allele, or allel, is one of a number of altern­ative forms of the same gene or same genetic locus." }
+                  { "index": 0, "name": null, "value": "An allele, or allel, is one of a number of altern­ative forms of the same gene or same genetic locus on a chromosome." }
                ]
             },
             {
@@ -2505,6 +3130,307 @@ const biology_cheatlist_data = {
                data: [
                   { "index": 0, "name": null, "value": "Zygosity is the degree of similarity of the alleles for a trait in an organism.\nA cell is said to be homozygous for a particular gene when identical alleles of the gene are present on both homologous chromo­somes.\nA diploid organism is hetero­zygous at a gene locus when its cells contain two different alleles of a gene." }
                ]
+            },
+            {
+               "index": 0,
+               title: 'Law of Segregation(Random Fertilization)',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "two copies of each hereditary factor (allele) segregate\noffspring acquire one factor from each parent" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Crossing Over',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "the reciprocal exchange of genetic material between nonsister chromatids during prophase I of meiosis" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Codomi­nance',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "blood groups\nboth alleles are expressed in the hetero­zygote\nneither is dominant or recessive, but there is no blending" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Pedigree Analysis',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "pedigree: family tree\nmales: squares\nfemales: circles\nshaded: showing exhibited trait\nhalf shaded: carrier" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Nature vs. Nurture',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "nature: geneti­cally determined\nnurture: enviro­nme­ntally determined" }
+               ]
+            },  
+            {
+               "index": 0,
+               title: 'Genes Inherited Located on Sex Chromo­somes',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "in humans:\n~ females: XX\n~ males: XY\nexamples of sex linked disorders:\n~ duchenne muscular dystrophy\n~ hemophilia\n~ colorb­lin­dness" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Calculate Recomb­ination Frequency',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "if RF is >50%, the traits are considered to be indepe­ndently assorted and on DIFFERENT chromo­somes\nif RF is <50%, the traits are on the SAME chromosome (any variants from the parent type are due to crossing over)" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Asexual Reprod­uction',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "two identical cells\n\"­clo­nes­\"" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Examples of Asexual Reprod­uction',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "Fission: bacteria\nFragme­nta­tion: starfish\nBudding: coral" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Vocabulary',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": "haploid", "value": "cells that contain a single set of chromo­somes in an egg or sperm cell (23 gametes)" },
+                  { "index": 0, "name": "diploid", "value": "two complete sets of chromo­somes (46 somatic)" },
+                  { "index": 0, "name": "triploid", "value": "Extra set of chromo­somes (69 chromo­somes)" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Why are triploid plants seedless?',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "3 sets of chromo­somes make it very unlikely for meiosis to succes­sfully produce spores and gameto­phytes. Uneven number of chromo­somes that won’t pair correctly" }
+               ]
+            },                        
+            {
+               "index": 0,
+               title: 'Vertical Gene Transfer',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "Parent to daughter cell" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Dominant',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "a trait is expressed when dominant allele is present\ncapital letter (B)" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Law of Indepe­ndent Assortment',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "hereditary factors (alleles) assort into gametes indepe­ndently from one another (every combin­ation)" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Genetic Variation',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "crossing over\nindepe­ndent assortment\nrandom fertil­ization" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Epistasis',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "different genes can interact to control the phenotypic expression of a single trait\nnonallelic genes affect one another" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Test Cross Image',
+               type: "NORMAL",
+               image: "TEST_CROSS_IMAGE",
+               data: []
+            },
+            {
+               "index": 0,
+               title: 'X-Inactivation in Females',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "barr bodies\nDNA methyl­ation" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Gene Linkage (Linked Genes)',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "Genes that are on the same chromosome\nusually linked genes will be inherited together (unless separated by crossing over)\nexhibit recomb­ination freque­ncies less than 50%" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Recomb­ination Frequency Equation (x100%)',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "values": [{"type":"MATH", "width":150, "height":75, "value":"RF = #\\frac{# of Recombinants}{Total # of Offspring}"}] }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Sexual Reproduction',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "gametes (sperm and egg)\ntwo parents" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Examples of Sexual Reproduction',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "internal fertil­iza­tion: humans, sharks, turtles\nexternal fertil­iza­tion: frogs, many fish\nhermap­hro­dites: most worms, flowering plants\npollin­ation: flowers" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Nondis­jun­ction in Meiosis 1(left) and 2(right)',
+               type: "NORMAL",
+               image: "NONDISJUNCTION_MEIOSIS",
+               data: []
+            },
+            {
+               "index": 0,
+               title: 'Horizontal Gene Transfer',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "donor to recipient cell\ntransf­orm­ation (uptake of external DNA (plasmid))\ntransd­uction (virus -> bacteria)\nconjug­ation (bacteria -> bacteria)" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Recessive',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "a trait is masked in the presence of a dominant allele\nlower case letter (b)" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Phenotype',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "physical charac­ter­istic of a trait\ncolor, size" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Genotype',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "genetic makeup of the chromosome\nletters (B, b, G, g)" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Incomplete Dominance',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "neither allele is completely dominant\nhybrids are in between the homozygous traits\nblending" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Polygenic Inheritance',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "mode of inheri­tance in which additive effects of two or more genes determines a single trait\nquanti­tative characters that vary in degree\nAABBCC: dark\naabbcc: light" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Disorders',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "Dominant disorders:\n~ anchon­dra­plasia (dwarfism)\n~ huntin­gton's (late acting lethals)\nRecessive disorders:\n~ cystic fibrosis\n~ tay-sachs\n~ sickle cell" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Barr Bodies Image',
+               type: "NORMAL",
+               image: "BARR_BODIES",
+               data: []
+            },
+            {
+               "index": 0,
+               title: 'Calculate Chi Square',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "if we accept the null hypothesis (1:1:1:1), then the genes indepe­ndently assort on DIFFERENT chromo­somes\nif we reject the null hypothesis (1:1:1:1), then the genes are on the SAME chromosome" }                  
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Asexual vs. Sexual Reprod­uction',
+               type: "TABLE",
+               headers:["","Advant­ages:","Disadvant­ages:"],
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"Asexual:"}, {"value":"do not have to find a mate or expend energy to find a mate"},{"value":"not much genetic variation"}] },
+                  { "index": 0, "columns":[{"value":"Sexual"}, {"value":"genetic variation"},{"value":"must find a mate and expend energy to find and/or court a mate"}] }              ]
+            },
+            {
+               "index": 0,
+               title: 'Crossing Over Image',
+               type: "NORMAL",
+               image: "CROSSING_OVER",
+               data: [],
             },
             {
                "index": 0,
@@ -3322,6 +4248,149 @@ const biology_cheatlist_data = {
                type: "NORMAL",
                image: "MUTATIONS",
                data: []
+            },
+            {
+               "index": 0,
+               title: 'The Nature of Genes',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"Early ideas to explain how genes work came from studying human diseases.\nArchibald Garrod proposed that patients with the disease alkap­ton­uria lacked a particular enzyme.\nBeadle and Tatum studied Neurospora crassa.\nThey looked for fungal cells lacking specific enzymes.\nBeadle and Tatum results was that each mutated enzyme disrupted one key enzyme in the metabolic pathway." }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Prokaryotic Transcription',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"Prok­aryotic Transc­rip­tion: Single RNA polymerase\n- Initiation of mRNA synthesis does not require a primer\nProk­aryotic Transc­ription requires a Promoter, Start Site, and a termin­ation site.\nTransc­ription occurs in three major stages:\n- Initiation\n- Elongation\n- Termin­ation\nInit­iat­ion: RNA polymerase binds to the prom­oter\nProm­oter: Forms a recogn­ition and binding site for the RNA polyme­rase.\n- Found upstream of the start site.\n- Not transc­ribed.\n- Asyme­tri­cal: indicate site of initiation and direction of termin­ation.\nElon­gat­ion: RNA transcript grows in the 5'-to-3' direction as ribonu­cle­otides are added.\n- Tran­scr­iption bubble: contains RNA polyme­rase, DNA template, and growing RNA transc­ript.\n- After the transc­ription bubble passes, the now-tr­ans­cribed DNA is rewound as it leaves the bubble.\nTerm­ina­tion: Marked by sequence that signals \"­s­top­\" to polyme­rase.\n- Causes the formation of phosph­odi­ester bonds to cease.\n- RNA-DNA hybrid within the transc­ription bubble dissoc­iates.\n- RNA polymerase releases the DNA.\n- DNA rewinds.\nHair­pin in RNA causes RNA polymerase to pause\nU:A base pairs weaken the DNA/RNA bonding.\nProkar­yotic tran­scr­ipt­ion is coupled to tran­sla­tion\n- mRNA begins to be translated before transc­ription is finished." }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Frameshift mutations',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"- Addition or deletion of a single base\n- Much more profound conseq­uences\n- Alter reading frame downstream\n- Triplet repeat expansion mutation\nHunting disease\nRepeat unit is expanded in the disease allele relative to the normal" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Transc­ription and Transl­ation',
+               type: "TABLE_LIST",
+               image: null,
+               data: [
+                  { "index": 0, "name":"The Central Dogma", "value":"Inform­ation only flows from: DNA-->­RNA­-->­protein\nFirst described by Francis Crick." },
+                  { "index": 0, "name":"Tran­scr­ipt­ion", "value":"DNA--> RNA\n- DNA-di­rected synthesis of RNA\n- Only template strand of DNA used\n- T in DNA replaced by U in RNA.\n- mRNA used to direct synthesis of polype­ptides." },
+                  { "index": 0, "name":"Tran­sla­tion", "value":"- Synthesis of polype­ptides.\n- Takes place at ribosome.\n- Requires several kinds of RNA." },
+                  { "index": 0, "name":"RNA", "value":"All synthe­sized from DNA template by transc­ription\n- Messenger RNA (mRNA).\n- Ribosomal RNA (rRNA).\n- Transfer RNA (tRNA).\n- Small nuclear RNA (snRNA)\n- Signal recogn­ition particle RNA (SRP RNA).\n- Micro-RNA (miRNA)." }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Eukaryotic Transc­ription',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"3 different RNA polyme­rase!!\nRNA polymerase I: Transc­ribes rRNA.\nRNA polymerase II: treans­cribes mRNA and some snRNA.\nRNA polymerase III: transc­ribes tRNA and some other small RNAs\nEach RNA polymerase recognizes it own promoter.\nInit­iat­ion of transc­rip­tion: Requires a series of tran­scr­ption factors (helper).\n- Tran­scr­iption factors: Necessary to get the RNA polymerase II enzyme to a prom­oter* and to initiate gene expres­sion.\nElon­gat­ion: RNA transc­ribed from the DNA template.\nTerm­ina­tion not as well defined.\nInit­iat­ion of trancr­iption\n- Transc­ription factors bind to a promoter region and recruit RNA polyme­rase.\n- Forms the initation complex." }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Protein Targeting',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"In eukary­otes, transl­ation may occur in the cytoplasm or the rough endopl­asmic reticulum (RER).\nSignal sequen­ces at the beginning of the polype­ptide sequence bind to the signal recogn­ition (SRP).\n- The signal sequence and SRP are recognized by RER receptor proteins\n- Docking holds ribosome to RER\n- Beginning of the protei­n-t­raf­ficking pathway" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Mutation: Altered Genes',
+               type: "TABLE_LIST",
+               image: null,
+               data: [
+                  { "index": 0, "name":"Point mutations", "value":"alter a single base" },
+                  { "index": 0, "name":"Base substi­tut­ion", "value":"substitute one base for another" },
+                  { "index": 0, "name":"Siletn mutation", "value":"same amino acid inserted" },
+                  { "index": 0, "name":"Missense mutation", "value":"changes amino acid inserted\n- Transi­tions\n- Transv­ersions" },
+                  { "index": 0, "name":"Nonsense mutati­ons", "value":"changed to stop codon\n" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Ther Genetic Code',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"Francis Crick and Sydney Brenner determined how the order of nucleo­tides in DNA encoded amino acid order.\n- They introduced single nucleotide insertions or deletions and looked for mutations (Fra­meshift mutati­ons)\nA Codon is a block of three DNA nucleo­tides corres­ponding to an amino acid,\nSpaced Codons: Codon sequence in a gene punctu­ated.\nUnspaced Codons: codons adjacent to each other.\n- Marshall Nirenberg identified the codons that specify each amino acid.\nStop Codon: 3 codons (UAA, UGA, UAG) used to terminate transl­ation\nStart Codon: Codon (AUG) used to signify the start of transl­ation\nCode is dege­ner­ate: Some amino acids are specified by more that one codon.\nCode practi­cally unicer­sal: Strongest evidence that all living things share common ancest­ry.\n- Advanced in genetic engine­ering.\n- Mitoch­ondria and cloroplast have some differ­ences in \"­sto­p\" signals." }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'mRNA modifi­cations',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"In euka­ryo­tes the primary transcript must be modified to become mature mRNA\nAddition of a 5' cap Protects nucleo­tides from getting lost, from degrad­ation.\n- Involved in transl­ation initia­tion.\nAddition of a 3' poly-A tail Created by poly-A polyme­rase, protection from degrad­ation\n- Puts whole string of A's (AAA) to protect!\nRemoval of noncoding sequences (int­ron­s): Pre-mRNA spli­cing done by splice­osome.\n- Cut it out to get rid of it!!!" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'tRNA charging reaction',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"Each aminoa­cyl­-tRNA synthetase recognizes only 1 amino acid but several tRNAs.\nCharged tRNA has an amino acid added using the energy from ATP.\n-Can undergo peptide bond formation without additional energy.\nRibosomes do not verify amino acid attached to tRNA.\nThe ribo­some has multiple tRNA binding sites:\nP site: binds the tRNA attached to the growing pe­ptide chain\nA site: binds the tRNA carrying the next amino acid.\nE site: binds the tRNA that carried the last amino acid, tRNA exits ribosome.\nThe ribo­some has two primary functi­ons\n- Decode the mRNA.\n- Form peptide bonds.\nPeptidyl transf­era­se:\n- Enzymatic component of the ribosome.\n- Forms peptide bonds between amino acids." }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Chromo­somal mutations',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"Chang the structure of a chromosome\nDelet­ions: part of chromosome is lost\nDupli­cat­ion: part of chromosome is copied\nInver­sion: part of chromosome in reverse order\nTrans­loc­ation: part of chromosome is moved to a new location" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Eukaryotic pre-mRNA splicing',
+               type: "TABLE",
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"Intr­ons"}, {"value":"non-coding sequences" }]},
+                  { "index": 0, "columns":[{"value":"Exons"}, {"value":"sequences that will be translated" }]},
+                  { "index": 0, "columns":[{"value":"Small ribonu­cle­opr­otein particles (snRNPs \"­snu­rps­\")"}, {"value":"Looks for introns and exons and recognizes it." }]},
+                  { "index": 0, "columns":[{"value":"Spli­ceo­somes"}, {"value":"respon­sible for removing introns" }]},
+                  { "index": 0, "columns":[{"value":"snRNPs cluster with other proteins to form spli­ceo­some"}]}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'tRNA and Ribosomes',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"tRNA moleules carry amino acids to the ribosome for incorp­oration into a polype­ptide.\n- Amin­oac­yl-tRNA synthe­tase add amino acids to the acceptor stem of tRNA.\n- Anti­codon loop contains 3 nucleo­tides comple­mentary to mRNA codons." }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Translation',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"Process by which the mRNA transcript is read by the ribosomes and used to make a polype­ptide.\nOccurs in 3 main stages:\n- Initiation\n- Elongation\n- Termin­ation" },
+                  { "index": 0, "name":null, "value":"There are some important differ­ences between transl­ation in prokar­yotes and eukary­otes." },
+                  { "index": 0, "name":null, "value":"- Ribosome binding sequence (RBS) of mRNA positions small subunit correctly.\n- Large subunit now added.\n- Initiator tRNA bound to P site with A site empty." },
+                  { "index": 0, "name":null, "value":"Init­iat­ions in eukar­yotes similar except:\n- Initiating amino acid is meth­ion­ine.\n- Lack of an RBS – small subunit binds to 5′ cap of mRNA." },
+                  { "index": 0, "name":null, "value":"Elon­gat­ion adds amino acids\n- 2nd charged tRNA can bind to empty A site\n- Requires elongation factor called EF-Tu to bind to tRNA and GTP\n- Peptide bond can then form.\n- Addition of successive amino acids occurs as a cycle." },
+                  { "index": 0, "name":null, "value":"- There are fewer tRNAs than codons\n- Wobble pairing allows less stringent pairing between the 3′ base of the codon and the 5′ base of the anticodon\n- This allows fewer tRNAs to accomm­odate all codons" },
+                  { "index": 0, "name":null, "value":"Term­ina­tion\n- Elongation continues until the ribosome encounters a stop codon\n- Stop codons are recognized by release factors which release the polype­ptide from the ribosome" }
+               ]
             }            
          ]
       },
@@ -3712,6 +4781,54 @@ const biology_cheatlist_data = {
                   { "index": 0, "name": null, "value": "deep well circum­scribed unilateral ulcer of one tonsil. The base of the ulcer is gray and bleeds easily when scraped with a swab. There may be subman­dibular lympha­den­opathy" }
                ]
             },
+            {
+               "index": 0,
+               title: "Types of Enteric Media",
+               type: "TABLE",
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"Levines EMB"},{"value":"-Gram negative Bacilli\n\nFerments lactose\n-Capable of fermenting glucose\n-Would not be chosen as a possible enteric pathogen"},{"value":"-Gram negative bacilli\n-Does not ferment lactose (from this info we can’t tell if its capable of fermenting glucose or note\n-Uses peptones for growth\n-Chosen as a possible enteric pathogen"}] },
+                  { "index": 0, "columns":[{"value":"MacConkey Agar"},{"value":"-Gram negative Bacilli\n-Ferments lactose\n-Capable of fermenting glucose\n-Would not be chosen as a possible enteric pathogen"},{"value":"-Gram negative bacilli\n-Does not ferment lactose (from this info we can’t tell if its capable of fermenting glucose or note\n-Uses peptones for growth\n-Chosen as a possible enteric pathogen"}] },
+                  { "index": 0, "columns":[{"value":"SS Agar"},{"value":"-Gram negative Bacilli\n-Ferments lactose\n-Capable of fermenting glucose\n-Would not be chosen as a possible enteric pathogen"},{"value":"-Gram negative bacilli\n-Does not ferment lactose (from this info we can’t tell if its capable of fermenting glucose or note\n-Uses peptones for growth\n-Chosen as a possible enteric pathogen"}] },                  
+                  { "index": 0, "columns":[{"value":"XLD"},{"value":"-Gram negative bacilli\n-Ferments lactose and or sucrose and or xylose\n-Since it ferments at least one of these carbs it is capable of fermenting glucose\n-Would not be chosen as a possible enteric pathogen\n-H2S is negative"},{"value":"-Gram negative bacilli\n-Does not ferment lactose, sucrose or xylose (from this info we can’t tell if its capable of fermenting glucose or note\n-Uses peptones for growth\n-Chosen as a possible enteric pathogen"}] },
+                  { "index": 0, "columns":[{"value":"HE Hagar"},{"value":"-Gram negative bacilli\n-Ferments lactose and/or sucrose and/or salicin\n-Since it ferments at least one of these carbs it is capable of fermenting glucose\n-Would not be chosen as a possible enteric pathogen\n-H2S is negative"},{"value":"-Gram negative bacilli\n-Does not ferment lactose, sucrose or salici­n(from this info we can’t tell if its capable of fermenting glucose or note\n-Uses peptones for growth\n-Chosen as a possible enteric pathogen\n- H2S producing (some colonies are black)"}] }
+               ]
+            },
+            {
+               "index": 0,
+               title: "Types of Enteric Media",
+               type: "TABLE_LIST",
+               image: null,
+               data: [
+                  { "index": 0, "name":"Purpose", "value":"allow differ­ent­iation of bacteria based upon some characteristic\n- usually based upon s bioche­mical reaction"},
+                  { "index": 0, "name":"pH indicators", "value":"register the difference"}
+               ]
+            },  
+            {
+               "index": 0,
+               title: "Enriched Media",
+               type: "TABLE_LIST",
+               image: null,
+               data: [
+                  { "index": 0, "name":"Growth factors (micro­nut­rients)", "value":"blood, carboh­ydr­ates, amino acids, vitamins, NaCl"},
+                  { "index": 0, "name":"Fastidious bacteria", "value":"Need additional nutrients in media or enviro­nment"},
+                  { "index": 0, "name":"Auxotroph", "value":"Bacterium which has mutatued (from the parent protot­roph) and developed a specific growth requir­ement"},
+                  { "index": 0, "name":"Halophile", "value":"Bacterium needing NaCl in media"},
+                  { "index": 0, "name":"Contrast with Enrichment media", "value":"- Suppresses normal flora while enhancing growth of pathogens\n- Usually for stool specimens"}
+               ]
+            },  
+            {
+               "index": 0,
+               title: "Selective Media",
+               type: "TABLE",
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"Purpose"},{"value":"Selects for the growth of some bacteria while inhibiting others"}] },
+                  { "index": 0, "columns":[{"value":"Enteric Media"},{"value":"- Designed to isolate pathogens from the intestine\n- All are selective for gram negative bacilli (inhibit gram positives and gram negative cocci)\n- Different classifications\n-> Differ in their ability to inhibit intestinal normal flora"}] },
+                  { "index": 0, "columns":[{"value":"Low Selectivity"},{"value":"Moderate Select­ivity"},{"value":"Highly Selective"}] },                  
+                  { "index": 0, "columns":[{"value":"Allow ALL gram negative bacilli to grow, whether intestinal pathogen or normal flora"},{"value":"-Allow intestinal pathogenic gram negative bacilli to grow while inhibiting some intestinal normal flora gnb"},{"value":"Allow intestinal pathogenic gram negative bacilli to grow while inhibiting virually all intestinal normal flora gnb"}] }
+               ]
+            },                                  
          ]
       },
       {
@@ -4027,13 +5144,56 @@ const biology_cheatlist_data = {
          entries: [
             {
                "index": 0,
-               title: 'TEMPLATE',
+               title: 'Gymnos­perms vs. Angios­perms',
+               type: "NORMAL",
+               image: "GYMNOSPERMS_VS_ANGIOSPERMS",
+               data: []
+            },
+            {
+               "index": 0,
+               title: 'Gameto­phy­te/­Spo­rophyte Cycle',
+               type: "NORMAL",
+               image: "GAMETOPHYTE_SPRORPHYTE_CYCLE",
+               data: []
+            },
+            {
+               "index": 0,
+               title: 'Angiosperm Reprod­uction',
+               type: "NORMAL",
+               image: "ANGIOSPERM_REPRODUCTION",
+               data: []
+            },
+            {
+               "index": 0,
+               title: 'Seed Development',
+               type: "NORMAL",
+               image: "SEED_DEVELOPEMENT",
+               data: []
+            },
+            {
+               "index": 0,
+               title: 'Plant Transport',
                type: "NORMAL",
                image: null,
                data: [
-                  { "index": 0, "name": null, "value": "TEMPLATE" },
+                  { "index": 0, "name": "Short-­dis­tance", "value": "occurs by osmosis (movement of free water through aquapo­rins)" },
+                  { "index": 0, "name": "Long-­dis­tance", "value": "bulk flow using:\ntranslocation (H+ gradient) through phloem (sugar)\ntranspirational pull (cohesion) through xylem (fluid­/mi­nerals)" }
                ]
-            }
+            },
+            {
+               "index": 0,
+               title: 'Plant Hormones',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": "Auxins", "value": "distri­bution of auxinsphototropism\nenhances apical dominance (vertical)\npromotes fruit growth" },
+                  { "index": 0, "name": "Cytokinins", "value": "stimulates cytoki­nesis & cell division\ndelays senescence (aging)" },
+                  { "index": 0, "name": "Gibber­ellins", "value": "cause stem elonga­tion, fruit growth, & seed germination\nauxin+gibberellins=fruit develo­pment" },
+                  { "index": 0, "name": "Brassi­nos­teroids", "value": "induce cell elongation & division in stem segments, slow leaf abscission" },
+                  { "index": 0, "name": "Abscisic Acid (ABA)", "value": "antago­nizes growth hormones, inhibits germin­ation, used to withstand drought\nmust be washed­/ex­posed to light/cold to deactivate" },
+                  { "index": 0, "name": "Ethylene Gas", "value": "produced in response to stress during fruit ripening, apoptosis, & exposure to auxin" }
+               ]
+            }            
          ]
       },
       {
@@ -4102,6 +5262,67 @@ const biology_cheatlist_data = {
                   { "index": 0, "name": "large intestine", "value": "absorbs water" }
                ]
             },
+            {
+               "index": 0,
+               title: 'Hearing',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "- not developed in all animals, social advantage in humans\n- the stimulus given by a given ear is transferred to the opposite side of the brain" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Tab structure',
+               type: "NORMAL",
+               image: "TAB_STRUCTURE",
+               data: []
+            },
+            {
+               "index": 0,
+               title: 'Perception of balance',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": "three semicircular arches", "value": "- change of speed of movement\n- it travels with liquid, hose liquid" },
+                  { "index": 0, "name": null, "value": "information reaches the midbrain: contact with skeletal muscles, eyes, cerebellum" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'The structure of the eye',
+               type: "NORMAL",
+               image: "EYE_STRUCTURE",
+               data: []
+            },            
+            {
+               "index": 0,
+               title: 'Retinal and eye function',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "more than 100 million receptor cells, rods (1 photon) and pins (5-7 photons, colors: red, green, blue)" },
+                  { "index": 0, "name": null, "value": "the spleen of the outside world is an inverted, scaled-down real image of the retina" },
+                  { "index": 0, "name": "diopter", "value": "the unit of refraction, the reciprocal of the focal length in meters" },
+                  { "index": 0, "name": "field of view", "value": "the section of the outside world that we see motionless" },
+                  { "index": 0, "name": null, "value": "refractions in the eye: air << cornea = canal water <inolens> vitreous" },
+                  { "index": 0, "name": null, "value": "in a yellow spot only pins, a place of insight" }
+               ]
+            },     
+            {
+               "index": 0,
+               title: 'Optic nerves',
+               type: "NORMAL",
+               image: "OPTIC_NERVES",
+               data: []
+            },
+            {
+               "index": 0,
+               title: 'Looking up and far',
+               type: "NORMAL",
+               image: "LOOK_UP_AND_FAR",
+               data: []
+            },               
             {
                "index": 0,
                title: 'Positioning',
