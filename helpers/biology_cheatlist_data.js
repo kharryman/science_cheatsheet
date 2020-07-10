@@ -7,10 +7,13 @@
 4) AP Biology Unit 1: Biochemistry Cheat Sheet
 5) AP Biology Unit 2: The Cell and Cell Membrane Cheat Sheet
 6) AP Biology Unit 3: Energy and Metabolism Cheat Sheet
-7) AP Biology Unit 4: Plant Physiology Cheat Sheet
-8) AP Bio Unit 5: Heredity Cheat Sheet
-9) AP Biology Unit 6: Ecology and Animal Behavior Cheat Sheet
-10) AP Bio Unit 6: Gene Expression and Regulation Cheat Sheet
+7) AP Bio Unit 3: Cell Energetics Cheat Sheet
+8) AP Biology Unit 4: Plant Physiology Cheat Sheet
+9) AP Bio Unit 5: Heredity Cheat Sheet
+10) AP Biology Unit 5: Animal Physiology Cheat Sheet
+11) AP Biology Unit 6: Ecology and Animal Behavior Cheat Sheet
+12) AP Bio Unit 6: Gene Expression and Regulation Cheat Sheet
+13) AP Bio Chpt. 17 Cheat Sheet
 
 //BIOLOGY UNITS:
 1) Bio Topic 1: Cell Biology Cheat Sheet
@@ -26,29 +29,40 @@
 //BIOLOGY:
 1) Biology Cheat Sheet
 2) Biology - DNA Cheat Sheet
-3) Biology Hereditary Cheat Sheet
-4) Biology - The Fundamentals of Genetics Cheat Sheet
-5) Biology: Mitosis and Meiosis Cheat Sheet
-6) Biology B5e-h Cheat Sheet
-7) Biology HS cells and energy Cheat Sheet
-8) Biology Exam - 2 Cheat Sheet
+3) Biology - Endocrine System Cheat Sheet
+4) Biology Hereditary Cheat Sheet
+5) Biology - The Fundamentals of Genetics Cheat Sheet
+6) Biology: Mitosis and Meiosis Cheat Sheet
+7) Biology B5e-h Cheat Sheet
+8) Biology HS cells and energy Cheat Sheet
+9) Biology Exam - 2 Cheat Sheet
+10) Biology Midterm chapters 6-7 Cheat Sheet
+11) Biology Test (2017) Cheat Sheet
 
 //OTHER:
-1) Cell Transport AP Bio Cheat Sheet
-2) chapter 15 bio Cheat Sheet
-3) Chromosomal Basis of Heredity Cheat Sheet
-4) Hallás és látás Cheat Sheet
-5) Homeostasis Cheat Sheet
-6) Infections of the Oral Cavity Cheat Sheet
-7) Mitosis Cheat Sheet
-8) mitoza in mejoza Cheat Sheet
-9) Polymers and Carbs Cheat Sheet
-10) Principles of Antimicrobial Chemotherapy Cheat Sheet
-11) Science Ecology Review Cheat Sheet
-12) Specialized Plate Media Cheat Sheet
-13) Theories of Oral Infection Cheat Sheet
-14) Zellorganellen Cheat Sheet 
+1) Cell theory Cheat Sheet 
+2) Cell Transport AP Bio Cheat Sheet
+3) chapter 15 bio Cheat Sheet
+4) Chromosomal Basis of Heredity Cheat Sheet
+5) Cnidaria - Cubozoa & Hydrozoa Cheat Sheet
+6) Cnidaria - Scyphozoa Cheat Sheet
+7) Hallás és látás Cheat Sheet
+8) Homeostasis Cheat Sheet
+9) Infections of the Oral Cavity Cheat Sheet
+10) Meiosis Cheat Sheet
+11) Mitosis Cheat Sheet
+12) mitoza in mejoza Cheat Sheet
+13) Polymers and Carbs Cheat Sheet
+14) Principles of Antimicrobial Chemotherapy Cheat Sheet
+15) Protozoa Cheat Sheet
+16) Science Ecology Review Cheat Sheet
+17) Specialized Plate Media Cheat Sheet
+18) Taste smell Leather Movement Vegetative nerve. Cheat Sheet 
+19) Theories of Oral Infection Cheat Sheet
+20) Uso del microscopio Cheat Sheet
+21) Zellorganellen Cheat Sheet 
 
+/DOING: Ízés szag | Bőr | Mozgatás | Vegetatív idegr. Cheat Sheet ...
 */
 //BIOLOGY, CHEMISTRY, COMPUTERS(computer science), ECOLOGY, OCEANOGRAPHY, GEOLOGY, METEOROLOGY, PHYSICS
 const biology_cheatlist_data = {
@@ -143,8 +157,12 @@ const biology_cheatlist_data = {
                   { "index": 0, "name": "Robert Hooke(1665)", "value": "Looked at a cork an saw little chambers that he named cells because they looked like rooms in a monastery." },
                   { "index": 0, "name": "Antony Van Leeuwe­nhock(1665)", "value": "Saw living cells and called them anima­lcu­les." },
                   { "index": 0, "name": "Matthias Schleiden(1839)", "value": "Said plants were made of cells." },
-                  { "index": 0, "name": "Theodor Schwann(1839)", "value": "Said animals were made of cells.\n-Together, Schleiden and Schwann first proposed the Cell Theory." },
-                  { "index": 0, "name": "Rudof Virchow(1855)", "value": "Said that cells always came from preexi­sting cells." }
+                  { "index": 0, "name": "Friederich Theodor Schwann(1839)", "value": "Said animals were made of cells.\n-Together, Schleiden and Schwann first proposed the Cell Theory." },
+                  { "index": 0, "name": "Rudof Virchow(1855)", "value": "Said that cells always came from preexi­sting cells." },
+                  { "index": 0, "name": "Zacharias Janssen(1660)", "value": "Dutch lens merchant inventing the telescope." },
+                  { "index": 0, "name": "Marcello Malpighi(1661)", "value": "Italian doctor who described the circulatory system." },
+                  { "index": 0, "name": "Robert Brown(1831)", "value": "Scottish botanist who gave the name to the nucleus of the plant cell (he had an x100 microscope)." },
+                  { "index": 0, "name": "Johannes Purkinje(1838)", "value": "Czech physiologist who discovered a mucilaginous substance, that is, protoplasm, that is, cytoplasm." }
                ]
             },
             {
@@ -155,7 +173,9 @@ const biology_cheatlist_data = {
                   { "index": 0, "name": "Asexual Reprod­uct­ion", "value": "Reprod­uction where offspring come from a single parent that is identical to the parent." },
                   { "index": 0, "name": "Channel Protein", "value": "A protein that moves molecules across the cell membrane" },
                   { "index": 0, "name": "Sexual Reprod­uct­ion", "value": "Reprod­uction where two parents each donate one cell to create offspring (ferti­liz­ation)." },
+                  { "index": 0, "name": "Embryo", "value": "unprot­ected or unhatched off spring" },
                   { "index": 0, "name": "Environment", "value": "The conditions around an organism (land, air, water, other organisms, etc.)" },
+                  { "index": 0, "name": "genetic diversity", "value": "inherited genetic differ­ences in a species" },
                   { "index": 0, "name": "Stimulus", "value": "A change in the enviro­nment that causes an organism to respond." },
                   { "index": 0, "name": "Home­ost­asis", "value": "An organism's ability to keep it's internal conditions stable for life (being warm blooded)." },
                   { "index": 0, "name": "Insulin", "value": "A hormone made in the pancreas that controls blood sugar" },
@@ -164,12 +184,15 @@ const biology_cheatlist_data = {
                   { "index": 0, "name": "Meta­bol­ism", "value": "The act of obtaining and using energy" },
                   { "index": 0, "name": "Control Group", "value": "The group in an experiment that does not receive any treatment and is used to measure how the other tested subjects did." },
                   { "index": 0, "name": "Quan­tit­ative Data", "value": "Data that contains numbers." },
-                  { "index": 0, "name": "Qualitative Data", "value": "Data that does not contain numbers." }
+                  { "index": 0, "name": "Qualitative Data", "value": "Data that does not contain numbers." },
                   { "index": 0, "name": "Sponta­neous Generation", "value": "The (false) idea that living things can come from nonliving things" },
                   { "index": 0, "name": "Autotr­ophic Cells", "value": "Cells that use sunlight to make food" },
                   { "index": 0, "name": "Hetero­trophic Cells", "value": "Cells that cannot make their own food" },
                   { "index": 0, "name": "Eukaryotic Cells", "value": "Cells that have a nucleus" },
                   { "index": 0, "name": "Prokar­yotic Cells", "value": "Cells that don't have nuclei" },
+                  { "index": 0, "name": "Reproduction", "value": "ensures life exists beyond its present gen. and species exist in future" },
+                  { "index": 0, "name": "Sustainability", "value": "ability of enviro­nment to keep supporting its organisms into future" },
+                  { "index": 0, "name": "Zygote", "value": "cell that develops into offspring" },
                   
                ]
             },
@@ -766,7 +789,163 @@ const biology_cheatlist_data = {
                data: [
                   { "index": 0, "name": null, "value": null }
                ]
-            }
+            },
+            {
+               "index": 0,
+               title: 'DNA',
+               type: "TABLE_LIST",
+               image: null,
+               data: [
+                  { "index": 0, "name": "Chromatin", "value": "Condensed form of DNA" },
+                  { "index": 0, "name": "Nitrogen bases", "value": "\"­steps of DNA\"; a with t, c with g" },
+                  { "index": 0, "name": "Chromo­somes", "value": "condensed chromatin for reprod­uction" },
+                  { "index": 0, "name": "Homolog pairs", "value": "chromes that are the same shape, size, have same genetic info in same spot; one from ea. parent" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'DNA Replication',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "During late interp­hase, Dna unwinds with enzyme and bases are paired with new bases." }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Asexual Reproduction',
+               type: "TABLE_LIST",
+               image: null,
+               data: [
+                  { "index": 0, "name": "binary fission", "value": "mitosis in prokar­yotes" },
+                  { "index": 0, "name": "budding", "value": "buds in multic­elluar can detach through repeated mitosis and form separate org." },
+                  { "index": 0, "name": "frag.", "value": "part of multic­elluar breaks off due to injury and becomes separate org." },
+                  { "index": 0, "name": "vegeta­tive.", "value": "stems, leaves, or roots are used to asex. repro." },
+                  { "index": 0, "name": "spore", "value": "spores grow into new org." }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Cancer (from mutations in cell cycle)',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "Cancer cells have large nuclei, no use, they attract blood vessels and become tumours, and can metast­asize" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Mitosis',
+               type: "TABLE_LIST",
+               image: null,
+               data: [
+                  { "index": 0, "name": "prophase", "value": "nuclear membrane disapp­ears, fibres attach to centro­meres" },
+                  { "index": 0, "name": "metaphase", "value": "chromes align on equator" },
+                  { "index": 0, "name": "anaphase", "value": "fibers pull sister chromatids to poles" },
+                  { "index": 0, "name": "telophase", "value": "fibres disappear and membrane reforms around each set" },
+                  { "index": 0, "name": "(cytokinesis)", "value": "cell contents are divided into 2 cells\ncleavage furrow or cell plate" },
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Embryo Develop (first 8 wks)',
+               type: "TABLE",
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"morula", "styles":["BOLD","ITALIC"]}, {"value":"end of week one"}, {"value":"ball of cells"}] },
+                  { "index": 0, "columns":[{"value":"blastula", "styles":["BOLD","ITALIC"]}, {"value":"end of week two"}, {"value":"hollow ball of cells, cell can develop to any kind"}] },
+                  { "index": 0, "columns":[{"value":"gastrula", "styles":["BOLD","ITALIC"]}, {"value":"3 distinct layers of cells (DIF­FER­ENT­IAT­ION)"}, {"value":"ecto: skin/ nerves, mes: muscle­s/b­ones, end: lungs/­liv­er/­dig­estive system lining"}] }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Asexual vs. Sexual',
+               type: "TABLE",
+               headers:["Asexual", "Sexual"],
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"lots of offspring quickly, large colo­nies can form to out-co­mpete, lots=many may survive if conditions change, less energy"}, {"value":"diseas­e/m­ute­=death, compete for food and space, bad condit­ion­=wiped out"}] },
+                  { "index": 0, "columns":[{"value":"genetic diversity, ext: little energy to mate, more offspring can exist after disaster, int: more protect and care"}, {"value":"int: more energy­/risk to mate, fewer produced, ext: gams,e­mbryos, offs are unprotect"}] }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Fertil­iza­tion: Pros and Cons',
+               type: "TABLE",
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"external"}, {"value":"very little energy mate, lots of offspring, spread widely in evrionment (less comp.)"}, {"value":"many gametes die, many eggs aren't fertil­ized, offspring are unprot­ected"}] },
+                  { "index": 0, "columns":[{"value":"internal"}, {"value":"embryo protected, offspr­ing's parents will protect"}, {"value":"more energy, fewer zygotes, more energy to raise"}] }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Fetal Development',
+               type: "TABLE",
+               headers:["Differentiation", "Formation of organs/tissue from gastrula"],
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"1st tri"}, {"value":"0-12 wks"}, {"value":"develo­pment of all organ systems"}] },
+                  { "index": 0, "columns":[{"value":"2nd tri"}, {"value":"12-24 wks"}, {"value":"rapid growth (12-16); fetal movements felt"}] },
+                  { "index": 0, "columns":[{"value":"3rd tri"}, {"value":"24-38 wks"}, {"value":"continued growth (bra­in)"}] }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Meiosis',
+               type: "TABLE",
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"prophase"}, {"value":"spindle fibres form and push centris. to poles, homolo chromo­somes are paired"}, {"value":"crossover"}] },
+                  { "index": 0, "columns":[{"value":"metaphase"}, {"value":"omolo chromo­somes align on 2 sides of equator"}, {"value":""}] },
+                  { "index": 0, "columns":[{"value":"anaphase"}, {"value":"homolo chromosome pairs separate to opposite poles"}, {"value":"assort"}] },
+                  { "index": 0, "columns":[{"value":"telophase"}, {"value":"2 nuclei form, after 2 cells form"}] }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Stages of Sexual Reproduction',
+               type: "TABLE",
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"mating"}, {"value":"egg and sperm come together at same time and place"}] },
+                  { "index": 0, "columns":[{"value":"fertilization"}, {"value":"gametes fuse to make zygote"}] },
+                  { "index": 0, "columns":[{"value":"develo­pment"}, {"value":"embryo develops"}] }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Microscope',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"It is an instrument that allows observing objects that are too small to be seen by humans. Increases the ability to observe and levels of closeness so that particle analysis is possible." }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Microscope Parts',
+               type: "NORMAL",
+               image: "MICROSCOPE_PARTS",
+               data: [
+                  { "index": 0, "name":"Platform", "value":"Place where the slide is placed." },
+                  { "index": 0, "name":"Arm", "value":"Part that connects the base to the eyepiece." },
+                  { "index": 0, "name":"Focus knobs", "value":"The coarse focus moves the objective lens towards the slide, it also allows to find the specimen and to make an approximate focus on it. Fine focus specifically targets the specimen and allows for more detailed viewing." },
+                  { "index": 0, "name":"objective", "value":"Part that enlarges the image. There are several lenses with different types of extensions." },
+                  { "index": 0, "name":"Light source", "value":"Provides light to view the image. It is located at the base and points towards the platform." },
+                  { "index": 0, "name":"Diaphragm", "value":"Modify the amount of light that shines on the image. It is located just below platform n" }
+
+               ]
+            },            
+            {
+               "index": 0,
+               title: 'Using and cleaning the microscope',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"It should be left with the objective of less magnification in the working position, with the stage centered so that it does not protrude and with the cover covering it. Never touch the glasses with your fingers. If they are dirty, they must be cleaned with filter paper or optical paper. The paper is gently passed through the lens in one-way motion without rubbing.\nPrepare the slide: Pour a small drop of the specimen you would like to see, places a cover glass 45 or and drop it onto the slide. Place the slide on the microscope platform and secure it using the platform clips. Turn on and focus the microscope using the focus knobs." }
+               ]
+            }            
          ]
       },
       {
@@ -2228,7 +2407,635 @@ const biology_cheatlist_data = {
                   { "index": 0, "name":"Starch", "value":"Another name for polysa­cch­arides"},
                   { "index": 0, "name":"Glycogen", "value":"A polysa­cch­aride consisting of many glucose molecules linked together (sometimes hundreds). Extra sugar is stored as glycogen in the liver of the body as a short-term energy storage"}
                ]
-            }            
+            },
+            {
+               "index": 4,
+               title: 'Postulates of cell theory',
+               type: "Normal",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"1. All living organisms are made up of at least one cell. For example, protozoa.\n2. The cell is the basic unit of organization of life, it is the minimal anatomical, physiological and genetic unit of living beings.\n3. All cells are metabolic units and are only generated from a pre-existing one.\nAnatomical unit: There is no living being that has at least one cell.\nPhysiological unit: Each cell has all the physiological and biochemical mechanisms to stay alive.\nGenetic unit: It comes from another pre-existing one."}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Cell sIZE',
+               type: "TABLE",
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"1 µm: micrometer"}, {"value":"Bacteria: 1 µm"}]},
+                  { "index": 0, "columns":[{"value":"1000 µ: 1mm"}, {"value":"Yolk: 1 to 5 cm"}]},
+                  { "index": 0, "columns":[{"value":"The largest is the sensory neuron of a blue whale: up to 2 meters"}]}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Cell Components',
+               type: "NORMAL",
+               image: "CELL_COMPONENTS",
+               data: [
+                  { "index": 0, "name":null, "value":"Organelles or organejos: Organs or compartments that the cells have to carry out their functions."}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Cell types',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":"Prokaryotes:", "value":"They are unicellular, appeared before the nucleus."},
+                  { "index": 0, "name":"Eukaryotes:", "value":"Unicellular or multicellular, they have a nucleus, they are very complex, they fulfill many functions. They are classified into animals and vegetables."}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Prokaryotic Cells',
+               type: "NORMAL",
+               image: "PROKARYOTIC_CELL",
+               data: [
+                  { "index": 0, "name":"Prokaryotes:", "value":"They are unicellular, appeared before the nucleus."},
+                  { "index": 0, "name":"Eukaryotes:", "value":"Unicellular or multicellular, they have a nucleus, they are very complex, they fulfill many functions. They are classified into animals and vegetables."}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Parts of the Prokaryotic Cell',
+               type: "TABLE_LIST",
+               image: null,
+               data: [
+                  { "index": 0, "name":"Flagellum:", "value":"They are usually used for movements."},
+                  { "index": 0, "name":"Nucleoid:", "value":"It is the region that contains DNA (deoxyribonucleic acid)"},
+                  { "index": 0, "name":"Cilia:", "value":"Sensitive organelles and mobile organelles"},
+                  { "index": 0, "name":"Capsule:", "value":"Layer formed by organic polymers, protective cover."},
+                  { "index": 0, "name":"Cellular wall:", "value":"Rigid structure that covers the cell membrane of prokaryotic and plant cells, also gives shape and protection. It is made up of: Cellulose, lignin, subarima and cutin."},
+                  { "index": 0, "name":"Plasmids:", "value":"DNA molecule, replicate independently of the bacterial chromosome."},
+                  { "index": 0, "name":"Ribosomes ( within the endoplasmic reticulum):", "value":"It synthesizes non-free proteins, they make intracellular consumption, they are in the rough endoplasmic reticulum."},
+                  { "index": 0, "name":"Cytoplasm:", "value":"Mucilaginous substance composed of water and salts."},
+                  { "index": 0, "name":"Plasma or cell membrane:", "value":"Fluid structure that separates the extracellular medium and the cellular medium and allows the passage of substances."}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Eukaryotic Cells',
+               type: "NORMAL",
+               image: "PROKARYOTIC_CELL",
+               data: [
+                  { "index": 0, "name":"Core:", "value":"It does cellular control, stores genetic information. It has chromosomes (23 pairs), DNA, and ribonucleic acid (RNA). It is considered an open system because it works together for a purpose (to maintain life)"},
+                  { "index": 0, "name":"Nucleolus:", "value":"It contains the necessary machinery for assembling ribosomal RNAs."},
+                  { "index": 0, "name":"Endoplasmic reticulum:", "value":"Structure formed by a set of flattened saccules, located near the nucleus where protein (rough) and lipid (smooth) synthesis is performed. It is always next to the nucleus."},
+                  { "index": 0, "name":"Cytoskeleton:", "value":"It is the part that gives the shape and structure."},
+                  { "index": 0, "name":"Golgi complex or apparatus:", "value":"Plasma membrane invaginations. Its function is to receive transport vesicles from the endoplasmic reticulum."},
+                  { "index": 0, "name":"Mitochondria:", "value":"Cellular respiration, transforms the chemical energy present in the nutrients to the Adenosine triphosphate (ATP) molecule"},
+                  { "index": 0, "name":"Peroxisome or lysosome:", "value":"Destroys any element harmful to the cell (apoptosis)"},
+                  { "index": 0, "name":"Vesicles:", "value":"They are responsible for cell digestion and excretion"},
+                  { "index": 0, "name":"Centrioles:", "value":"Organize the microtubules"},
+                  { "index": 0, "name":null, "value":"These are the parts found in plant and animal cells.\nATP: Source of energy of the cell."}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Plant Eukaryotic Cell Parts',
+               type: "TABLE_LIST",
+               image: null,
+               data: [
+                  { "index": 0, "name":"Plasticidia:", "value":"Organejos that serve as factory and important reserve of chemical compounds. They are classified into leukoplasts, chromoplasts and chloroplasts."},
+                  { "index": 0, "name":"Leukoplastic:", "value":"Starch (white pigment). For example, dad."},
+                  { "index": 0, "name":"Chromoplasts:", "value":"They give color to the fruit or flower. For example, lycopene (tomato), beta-carotene (carrot)"},
+                  { "index": 0, "name":"Great central vacuole:", "value":"Water tank and various chemical substances."},
+                  { "index": 0, "name":"Chloroplasts:", "value":"They carry out photosynthesis."}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Cellular Membrane',
+               type: "NORMAL",
+               image: "CELLULAR_MEMBRANE",
+               data: []
+            },
+            {
+               "index": 4,
+               title: 'Cytoskeleton',
+               type: "NORMAL",
+               image: "CYTOSKELETON",
+               data: []
+            },
+            {
+               "index": 4,
+               title: 'Endoplasmic Reticulum',
+               type: "NORMAL",
+               image: "ENDOPLASMIC_RETICULUM",
+               data: []
+            },
+            {
+               "index": 4,
+               title: 'Mitochondria',
+               type: "NORMAL",
+               image: "MITOCHONDRIA",
+               data: []
+            },
+            {
+               "index": 4,
+               title: 'Plastids',
+               type: "NORMAL",
+               image: "PLASTIDS",
+               data: []
+            },
+            {
+               "index": 4,
+               title: 'Cellular Wall',
+               type: "NORMAL",
+               image: "CELLULAR_WALL",
+               data: []
+            },
+            {
+               "index": 4,
+               title: 'Core',
+               type: "NORMAL",
+               image: "CORE",
+               data: []
+            },
+            {
+               "index": 4,
+               title: 'Golgi apparatus or complex',
+               type: "NORMAL",
+               image: "GOLGI_APPARATUS_COMPLEX",
+               data: []
+            },
+            {
+               "index": 4,
+               title: 'What is Meiosis',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "Meiosis is the formation of gametes; the sex cells used in sexual reprod­uction (egg and sperm cells).\nUsually, during interp­hase, body cells are diploid cells; they contain a full set of chromo­somes (2n). Gametes are haploid (n). Each parent's gametes contain half the genetic material needed, so when a gamete from each parent fuse together, the offspring has a full set of genetic material (2n); half from each parent." },
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Stages of Meiosis',
+               type: "TABLE",
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"1) Interphase"}, {"value":"DNA within the cell is duplic­ated."}, {"value":"2n -> 4n"}] },
+                  { "index": 0, "columns":[{"value":"2) Prophase I"}, {"value":"Chromo­somes form homologous pairs (tetrads), and crossing over occurs, where certain genes from each chromosome physically interact and swap over."}, {"value":"4n"}] },
+                  { "index": 0, "columns":[{"value":"3) Metaphase I"}, {"value":"Tetrads line up at the equator of the cell."}, {"value":"4n"}] },
+                  { "index": 0, "columns":[{"value":"4) Anaphase"}, {"value":"Spindle fibers pull 1 chromosome from each tetrad to opposite poles of the cell."}, {"value":"4n"}] },
+                  { "index": 0, "columns":[{"value":"5) Telophase I"}, {"value":"A cleavage furrow forms, which pinches the cell in the middle."}, {"value":"4n"}] },
+                  { "index": 0, "columns":[{"value":"6) Cytokinesis"}, {"value":"The cell divides into 2 daughter cells."}, {"value":"4n -> 2n"}] },
+                  { "index": 0, "columns":[{"value":"7) Prophase II"}, {"value":"The reformed nuclear envelope breaks down."}, {"value":"2n"}] },
+                  { "index": 0, "columns":[{"value":"8) Metaphase II"}, {"value":"Chromo­somes line up at the cell's equator."}, {"value":"2n"}] },
+                  { "index": 0, "columns":[{"value":"9) Anaphase II"}, {"value":"Each chromo­some's sister chromatids are pulled to opposite poles of the cell by spindle fibers."}, {"value":"2n"}] },
+                  { "index": 0, "columns":[{"value":"10) Telphase II"}, {"value":"A cleavage furrow forms."}, {"value":"2n"}] },
+                  { "index": 0, "columns":[{"value":"11) Cytokinesis"}, {"value":"Each daughter cell divides into 2 cells, forming a total of 4 haploid cells for the whole process."}, {"value":"2n -> n"}] }
+               ]
+            },
+            {
+               "index": 4,
+               title: 'What Causes Genetic Variation?',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": " * Indepe­ndent assort­ment, which occurs when chromo­somes randomly line up at the equator.\n * Crossing over, during prophase I, where genetic material is swapped by chroma­tids.\n * Random fertil­isa­tion. During sexual reprod­uction, only one sperm will fertilise one egg, meaning it is random chance which combin­ation of genetic inform­ation will be present in the parents' gametes." },
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Meiosis Diagram',
+               type: "NORMAL",
+               image: "MEIOSIS_DIAGRAM",
+               data: []
+            },
+            {
+               "index": 4,
+               title: 'Meiosis Diagram',
+               type: "TABLE",
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"Number of cell divisions"}, {"value":"1"}, {"value":"2"}] },
+                  { "index": 0, "columns":[{"value":"Number of daughter cells"}, {"value":"2"}, {"value":"4"}] },
+                  { "index": 0, "columns":[{"value":"Genetic compos­ition of daughter cells"}, {"value":"2n"}, {"value":"n"}] },
+                  { "index": 0, "columns":[{"value":"Role in animals"}, {"value":"Tissue growth, asexual reprod­uction"}, {"value":"Formation of gametes (for sexual reprod­uction)"}] }
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Enzymes',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"proteins (and RNA)\norganic catalysts that lower the required activation energy to get reactants to products\nfacilitate chemical reactions:\n~ increase rate of reaction without being consumed\n~ reduce activation energy\n~ do not change free energy released or required\nsubstrate:\n~ reactant which binds to enzyme\n~ enzyme­-su­bstrate complex: temporary associ­ation\nproduct:\n~ end result of reaction\nactive site:\n~ enzyme's catalytic site: substrate fits into actives site"}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'pH',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"changes in pH:\n~ adds or removes H+\n~ disrupts bond, disrupts 3D shape\n~ disrupts attrac­tions between charged amino acids\n~ affects 2' and 3' structure\n~ denatures protein"}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Activators',
+               type: "TABLE",
+               headers:["cofactors", "coenyzmes"],
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"small, inorganic compounds and ions"}, {"value":"organic compounds"}]},
+                  { "index": 0, "columns":[{"value":"binds with enzyme"}, {"value":"bind to enzymes near active site"}]},
+                  { "index": 0, "columns":[{"value":"Mg, K, Ca, Zn, Fe"}, {"value":"vitamins (NAD, FAD, Coenzyme A)"}]}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Allosteric Regulation',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"confor­mat­ional changes by regulatory molecules\ninhibi­tors: keeps enzyme in inactive form\nactiva­tors: keeps enzyme in active form"}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Metabolic Pathways',
+               type: "TABLE",
+               headers:["catabolic pathways:", "metabolic pathways:"],
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"release energy"}, {"value":"consume energy"}]},
+                  { "index": 0, "columns":[{"value":"cellular respir­ation"}, {"value":"photos­ynt­hesis"}]}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Transf­orm­ation of Energy',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"sunlight -> chemical bonds during photos­ynt­hesis"}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Exergonic vs. Endergonic Reactions',
+               type: "TABLE",
+               headers:["exergonic:", "endergonic:"],
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"negative free energy G"}, {"value":"positive free energy G"}]},
+                  { "index": 0, "columns":[{"value":"released"}, {"value":"absorbed"}]},
+                  { "index": 0, "columns":[{"value":"cellular respir­ation"}, {"value":"photos­ynt­hesis"}]},
+                  { "index": 0, "columns":[{"value":"downhill"}, {"value":"uphill"}]},
+                  { "index": 0, "columns":[{"value":"spontaneous"}, {"value":"not spontaneous"}]}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Endotherms',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"regulate internal body temper­atures through metabolism\nbalancing heat loss and gain\nfive adapta­tions help animals thermo­reg­ulate:\n1) insulation\n2) circul­ating adapta­tions\n3) cooling by evapor­ative heat loss\n4) behavioral responses\n5) adjusting metabolic heat production"}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Photosynthesis Overview',
+               type: "NORMAL",
+               image: "PHOTOSYNTHESIS_OVERVIEW",
+               data: []
+            },
+            {
+               "index": 4,
+               title: 'Glycosis',
+               type: "TABLE_LIST",
+               image: null,
+               data: [
+                  { "index": 0, "name":"location:", "value":"cytoplasm"},
+                  { "index": 0, "name":"reactants:", "value":"~ glucose\n~ 2 ADP +2 Pi\n~ 2 NAD+"},
+                  { "index": 0, "name":"products:", "value":"~ 2 pyruvate\n~ 2 ATP\n~ 2 NADH\n~ 2 H2O"},
+                  { "index": 0, "name":"transfer of energy:", "value":"NADH (electrons and Hydrogen) <- C6H12O6 -> ATP"},
+                  { "index": 0, "name":"purpose:", "value":"~ convert glucose to pyruvate\n~ initial breakdown of sugar\n~ generating ATP\n~ shuttling e- and H+ to ETC"}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'REDOX Reactions',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"molecular exchange of an electron\noxidation: lose electrons\nreduction: gain electrons"}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'REDOX Reactions Image',
+               type: "NORMAL",
+               image: "REDOX_REACTIONS",
+               data: []
+            },
+            {
+               "index": 4,
+               title: 'Photos­ynt­hesis',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"transf­orm­ation of solar light energy trapped by chloro­plasts into chemical bond energy stored in sugar and other organic molecules\n1) synthe­sizes energy rich molecules\n2) uses CO2 as carbon source\n3) directly or indirectly supplies energy\nCO2 + H2O + sunlight -> C6H12O6 + O2"}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Steps of Light Reactions',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"1) H2O splits\n~ H+: pump into thylakoid out of ATP synthase\n~ e-: 2 ETCs\n~ O2: released out of stomata\n2) light excites e- in Photos­ystem II\n3) e- to primary electron acceptor (PEA)\n4) the e- travels down the ETC and replaces the e- from Photos­ystem I\n5) the e- travels down another ETC and combines with NAHP+\nmeanwh­ile...\n~ energy from 1st ETC is used to pump H+ into the thylakoid space\n~ a proton gradient forms and H+ leave through ATP synthase\n~ H+ combines with e- and NADP+ to form NADPH\n~ ATP synthase generates ATP"}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Properties of Enzymes',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"reaction specific:\n~ each enzyme works with a specific substrate chemical fit between active site and substrate\n~ H bonds and ionic bonds\nnot consumed in reaction:\n~ single enzyme molecule can catalyze thousands or more reactions per second\n~ enzymes are unaffected by the reaction\naffected by cellular conditions\n~ ex: temper­ature, pH, salinity, etc."}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Substrate Concen­tration',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"as substrates increase, reaction rate increases and levels off\nmore substrate = more frequently collide with enzyme\nthe reaction levels off because...\n~ all enzymes have active site engaged\n~ enzyme is saturated\n~ maximum rate of reaction"}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Factors that Affect Enzyme Structure',
+               type: "NORMAL",
+               image: "ENZYME_STRUCTURE_FACTORS",
+               data: []
+            },
+            {
+               "index": 4,
+               title: 'Compet­itive Inhibitors',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"inhibitor competes with active site\nsubstrate cannot bond\ncan overcome with substrate saturation\npenicillin (competes with bacterial enzyme that builds cell wall)\ndirectly blocks active site"}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Energy(the ability to do work)',
+               type: "TABLE",
+               headers:["kinetic energy", "potential energy"],
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"energy of motion"}, {"value":"energy of position"}]},
+                  { "index": 0, "columns":[{"value":"heat"}, {"value":"water behind a dam"}]},
+                  { "index": 0, "columns":[{"value":"light energy"}, {"value":"chemical energy stored in cells"}]}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Free Energy and Equili­brium',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"free energy: energy available to do work\nfree energy decreases when reactions proceed toward equili­brium"}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Ectotherms',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"do not regulate internal body temper­ature\nrely on enviro­nmental heat sources\nless respir­ati­on/food"}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Cellular Respiration',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"catabolic\nC6H12O6 + O2 -> CO2 + H2O + energy\nsteps:\n1) gylcolysis\n2) interm­ediate step\n3) citric acid cycle\n4) oxidative phosph­ory­lation"}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Intermediate Step',
+               type: "TABLE_LIST",
+               image: null,
+               data: [
+                  { "index": 0, "name":"location:", "value":"mitoch­ondrial matrix"},
+                  { "index": 0, "name":"reactants:", "value":"2 pyruvate"},
+                  { "index": 0, "name":"products:", "value":"~ acetyl CoA\n~ 2 NADH\n~ 2 CO2"},
+                  { "index": 0, "name":"transfer of energy:", "value":"pyruvate (sugar) -> NADH (e- and H+)"},
+                  { "index": 0, "name":"purpose:", "value":"convert pyruvate into more reactive Acetyl CoA"}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'producers',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"autotr­ophic nutrit­ional: nutrit­ional made of synthe­sizing organic molecules from inorganic raw materials\nphotoa­uto­trophs: uses light energy\nchemoa­uto­trophs: oxidation of inorganics for energy"}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Chloroplast',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"site of photos­ynt­hesis\ndouble membrane system\nthylak­oids: flattened photoc­enters\ngranum: stacks of thylakoids\nstroma: fluid outside thylakoid"}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Calvin Cycle',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"location: stomata\nproduction of sugar\nrecogn­ition of RUBP\nreactants: CO2, NADPH, ATP\nproducts: C6H12O6, NADP+, ADP+Pi, G3P"}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Pathways of Photos­ynt­hesis',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"noncyclic photop­hos­pho­ryl­ation produces ATP and NADPH\ncyclic photop­hos­pho­ryl­ation is ATP production\ncalvin cycle consumes more ATP than NADPH"}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'C3 vs. C4 vs. CAM plants',
+               type: "NORMAL",
+               image: "C3_C4_CAM_PLANTS",
+               data: []
+            },
+            {
+               "index": 4,
+               title: 'Induced Fit',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"\"lock and key\"3-D structure of enzyme fits substrate\nsubstrate binding cause enzyme to change shape leading to a tighter fit\n\"­con­for­mat­ional change­\": slight change in shape\nbring chemical groups in position to catalyze reactions"}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Enzyme Concen­tration',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"as enzymes increase, reaction rate increases\nmore enzymes = more frequently collide with substrates"}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Temperature',
+               type: "TABLE",
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"optimum temperature", "styles":["BOLD, ITALIC ,UNDERLINE"]}]},
+                  { "index": 0, "columns":[{"value":"~ as temp increases, reaction rate increases"}, {"value":"~ greater number of molecular collisions"}]},
+                  { "index": 0, "columns":[{"value":"cold temperature", "styles":["BOLD, ITALIC ,UNDERLINE"]}]},
+                  { "index": 0, "columns":[{"value":"~ molecules move slower"}, {"value":"~ decrease collisions between enzymes and substrates"}]},                  
+                  { "index": 0, "columns":[{"value":"heat (beyond optimum)", "styles":["BOLD, ITALIC ,UNDERLINE"]}]},
+                  { "index": 0, "columns":[{"value":"~ increased energy level disrupts weak bond in 2' and 3' structure"}, {"value":"~ denatu­ration: loses 3D shape"}]}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Noncom­pet­itive Inhibitors',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"inhibitor binds to allosteric site (not active site) which changes the shape of the active site\nex: anti-c­ancer drugs, cyanide, poisoning, DDT"}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Compet­itive vs. Noncom­pet­itive Inhibitors',
+               type: "NORMAL",
+               image: "INHIBITORS_COMPETITIVITY",
+               data: []
+            },
+            {
+               "index": 4,
+               title: 'Thermodynamics',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"study of energy transf­orm­ation\nfirst law: energy of the universe is constant\nsecond law: every process increases the entropy of the universe\nentropy: \"­qua­ntity of energy in universe is constant, but quality is not\""}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'ATP Powers Cellular Work',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"coupling enderg­oni­c/e­xer­gonic reactions\nenergy coupling: phosph­ory­lated interm­edi­ates; regene­ration of ADP to ATP\n3 main types of work\n1) mechanical work (motor protein)\n2) transport work (Na/K pump)\n3) chemical work"}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Size and Metabolic Rate',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"larger mammals have more body mass and require more chemical energy (higher BMR)\nsmaller animals require more kcal/gram, have greater rate of O2 delivery, higher breathing rate\nincrease activity -> increase metabolic rate -> more ATP"}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Overview of Cellular Respir­ation',
+               type: "NORMAL",
+               image: "CELLLAR_RESPIRATION_OVERVIEW",
+               data: []
+            },
+            {
+               "index": 4,
+               title: 'Citric Acid Cycle',
+               type: "TABLE_LIST",
+               image: null,
+               data: [
+                  { "index": 0, "name":"location:", "value":"mitoch­ondrial matrix"},
+                  { "index": 0, "name":"reactants:", "value":"~ acetyl CoA\n~ citric acid\n~ ADP + Pi\n~ NAD+ and FAD"},
+                  { "index": 0, "name":"products:", "value":"~ oxaloa­cetate\n~ ATP\n~ NADH and FADH2\n~ CO2"},
+                  { "index": 0, "name":"transfer of energy:", "value":"NADH and FADH2 (e- and H+) <- citric acid -> ATP"},
+                  { "index": 0, "name":"purpose:", "value":"~ complete the oxidation of glucose\n~ producing NADH/FADH2 (e- and H+)\n~ ATP"}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Phosph­ory­lation',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"substr­ate­-level: ATP is synthe­sized by enzymes\noxidative: ATP is synthe­sized by an ETC and chemio­smosis"}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Fermentation',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"anaerobic process (no O2)\nproduces small amounts of ATP\nregene­rates NAD+/NADH\nalcoholic fermen­tation\n~ yeast/­bac­teria\n~ produces CO2 and alcohol\nlactic acid\n~ human muscles\n~ yogurt\n~ produces lactic acid"}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Consumers',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"hetero­trophs: acquire organics to create energy from other creatures\n~ consumers\n~ decomp­osers"}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Light Reactions',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"occurs in the thylakoid\nsplitting of water\ngeneration of ATP and NADPH\nreactants: H2O, NADP+, ADP+Pi\nproducts: O2, NADPH, ATP"}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Steps of Calvin Cycle',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"1) carbon fixation\n~ ribulose biphos­phate: RuBP\n~ rubisco: RuBP carbox­ylase: most abundant protein"},
+                  { "index": 0, "name":null, "value":"2) reduction\n~ adding H+ and e- from NADPH to CO2 to make sugar"},
+                  { "index": 0, "name":null, "value":"3) regene­ration\n~ G3P -> RuBP"}
+               ]
+            },
+            {
+               "index": 4,
+               title: 'Altern­ative Pathways of Carbon Fixation',
+               type: "TABLE",
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"* Photor­esp­ira­tion: fixing oxygen rather than CO2"}]},
+                  { "index": 0, "columns":[{"value":"C3 plants"},{"value":"~ hot/dry days"}]},
+                  { "index": 0, "columns":[{"value":"C4 plants"},{"value":"~ spatial separation of calvin cycle into bundle sheath cell\n~ PEP carbox­ylase initially captures CO2"}]},
+                  { "index": 0, "columns":[{"value":"CAM pathways"},{"value":"~ temporal separation\n~ takes in CO2 at night"}]}
+               ]
+            },            
          ]
       },
       {
@@ -2251,7 +3058,351 @@ const biology_cheatlist_data = {
                   { "index": 0, "name": "Amino Acids", "value": "Amino acids contain both amino and carboxylic acid functional groups. (In bioche­mistry, the term amino acid is used when referring to those amino acids in which the amino and carbox­ylate functi­ona­lities are attached to the same carbon, plus proline which is not actually an amino acid)." },
                   { "index": 0, "name": "Protein structure", "value": "The particular series of amino acids that form a protein is known as that protein's primary structure. This sequence is determined by the genetic makeup of the indivi­dual. It specifies the order of side-chain groups along the linear polype­ptide \"­bac­kbo­ne\"." }
                ]
-            }
+            },
+            {
+               "index": 0,
+               title: 'Energy, Enzymes & Biological Reactions',
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": "Biogenetics:", "value": "Principles of thermo­dyn­amics applied to reactions and process of cells. Allows insight into how cells handle energy transa­ctions." },
+                  { "index": 0, "name": "System + Surrou­ndings:", "value": "Closed: no energy exchange Open: energy can be added or removed Every change produces either heat or work" },
+                  { "index": 0, "name": "For Thermo­dynamic Measur­ements:", "value": "Standard conditions pH=7, T=25 degrees C, 1 Atm, Pressure State usually constant under biological conditions" },
+                  { "index": 0, "name": "First law of thermo­dyn­amics:", "value": "Energy cannot be created or destroyed, but it can be changed from one form to another." },
+                  { "index": 0, "name": "Second law of thermo­dyn­amics:", "value": "Whenever changes form, entropy increases. Whenever energy changes form, some energy is lost ( unusable by the organism. Energy is conserved as a whole, but not in any system doing work." },
+                  { "index": 0, "name": "Metabolism:", "value": "the sum of all chemical reactions in an organism a bala­nce between reactions which release energy and those that require energy" },
+                  { "index": 0, "name": "Catabolism:", "value": "food molecules broken down to release energy" },
+                  { "index": 0, "name": "Anabolism:", "value": "complex organic molecules synthe­sized from simpler ones- energy input is needed" },
+                  { "index": 0, "name": "Enzymes:", "value": "Guide metabolic pathways" },
+                  { "index": 0, "name": "Gibb's Free Energy:", "value": "Energy released that is available to do useful work" },
+                  { "index": 0, "name": "Spon­tan­eous:", "value": "processes cocue without energy input, and increase entropy." },
+                  { "index": 0, "name": "Non-spon­tan­eous:", "value": "processes require energy input" },
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Biological Order & Disorder',
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "Energy flows into ecosystems as sunlight and exits as heat" },
+                  { "index": 0, "name": "Living organisms", "value": "Convert sunlight to chemical energy. Use this chemical energy to do work. Generate heat and disorder on the process (increases entropy)" },
+                  { "index": 0, "name": "Entropy", "value": "may decrease in living things (living things show order), but the total entropy of the universe increases in the process" },
+                  { "index": 0, "name": "Life", "value": "uses energy to create order but thus energy also creates disorder." }
+               ]
+            },
+            {
+               "index": 0,
+               title: "Free - Energy Change, ∆G",
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": "Gibbs Free energy G", "value": "the energy in a system that can do work. The change in free energy (∆G) during a reaction." },
+                  { "index": 0, "name": "Spontaneous Reaction", "value": "Release energy(exergonic)"},
+                  { "index": 0, "name": "Non-spontaneous Reaction", "value": "Store energy(endergonic)"},
+                  { "index": 0, "name": "∆G=", "value": "∆H-T∆S"},
+                  { "index": 0, "name": "∆H", "value": "is the change in total energy (enthalpy)"},
+                  { "index": 0, "name": "∆S", "value": "is the change in entropy"},
+                  { "index": 0, "name": "T", "value": "is the temper­ature in kelvin (k=C+2­73.15)"},
+                  { "index": 0, "name": "∆G=", "value": "the reaction is sponta­neous, exergonic, and provides energy for work."},
+                  { "index": 0, "name": "Enzymes", "value": "speed up reactions, but don't change ∆G"}
+               ]
+            },
+            {
+               "index": 0,
+               title: "Mitoch­ondria and ATP",
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "Animals, plats, fungi, and most protists depend on mitoch­ondria for energy to grow and survive.\nATP forms in mitoch­ondria as stored chemical energy available to do cellular work\nharvested from energy released in reactions that break down food molecules." }
+               ]
+            },
+            {
+               "index": 0,
+               title: "Cellular Respir­ation",
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "Collection of metabolic reactions that breakdown food molecules and stores energy as ATP" }
+               ]
+            },
+            {
+               "index": 0,
+               title: "Aerobic and Anaerobic respir­ation",
+               type: "TABLE",
+               headers:["Aerobic respir­ati­on:", "Anae­robic respir­ati­on:"],
+               data: [
+                  { "index": 0, "columns":[{"value":"Form of cellular respir­ation in eukaryotes and many prokar­yotes"}, {"value":"Form of cellular respir­ation in some prokar­yotes"}] },
+                  { "index": 0, "columns":[{"value":"Oxygen is needed in the ATP producing process"}, {"value":"A molecule other than oxygen, such as sulfate of nitrate, is used in the ATP producing process"}] }
+               ]
+            },
+            {
+               "index": 0,
+               title: "Oxidation",
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "The removal of electrons from a substance\nThe substance from which the electrons are removed (The electron donor) is oxid­ized\nStored Energy is released" }
+               ]
+            },
+            {
+               "index": 0,
+               title: "Reduction",
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "The addition of electrons to a substrate\nthe substrate the receives the electron ( the electron acceptor) is redu­ced\nEnergy is stored" }
+               ]
+            },
+            {
+               "index": 0,
+               title: "Redox Reactions",
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "Oxidation and reduction reactions always coupled Redox Reacti­ons\nReactions that move electrons from a donor molecule and simult­ane­ously add them to an acceptor molecule" }
+               ]
+            },
+            {
+               "index": 0,
+               title: "Summary: Cellular Respiration",
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "Cellular respir­ation includes reactions that transfer electrons from organic molecules (such as glucose) to oxygen, and reactions that make ATP\nC\n6H" }
+               ]
+            },
+            {
+               "index": 0,
+               title: "Electrons carriers such as NAD+",
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "move electrons from fuel molecule to cellular destin­ations" }
+               ]
+            },
+            {
+               "index": 0,
+               title: "1st stage of Glycolysis",
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "Enzymes break a 6-carbon molecule of glucose into two 3 carbon molecules of pyruvate\nSome ATP is synthe­sized by subs­tra­te-­level phosph­ory­lat­ion an enzyme catalyzed reaction that transfer a phosphate group from a substrate to ADP\nSome electrons are carried away by NADH" }
+               ]
+            },
+            {
+               "index": 0,
+               title: "2nd stage of Pyruvate oxidation",
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "Enzymes convert the 3-carbon pyruvate into a 2-carbon acetyl group, which enters the citric acid cycle and is completely oxidized to carbon dioxide\nSome ATP is synthe­sized during the citric acid cycle\nLots of reduced electrons carriers carry away electrons as NADH and FADH" }
+               ]
+            },
+            {
+               "index": 0,
+               title: "3rd Stage Oxidative Phosph­ory­lation",
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "High energy electrons are delivered to oxygen by a sequence of reduced electron carriers in the elec­tron\nFree energy released by electrons flow generates on H gradient by chem­ios­mosis\nATP synthase uses the H gradient as the energy source to make ATP" }
+               ]
+            },
+            {
+               "index": 0,
+               title: "Substrate level Phosph­ory­lation",
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "Occurs when enough energy is released in a reaction step to pass phosphate onto ADP" }
+               ]
+            },
+            {
+               "index": 0,
+               title: "Glycol­ysis: Splitting Sugar in half",
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "Glycolysis (Embde­n-M­eyerhof pathway) breaks 6-carbon glucose into two molecules of 3 carbon pyruvate in 10 sequential enzyme catalyzed reactions\nGlycolysis takes place in the cystol of all organisms" }
+               ]
+            },
+            {
+               "index": 0,
+               title: "Energy flow in glycolysis",
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "The initial steps of glycolysis require energy 2 ATP are hydrolyzed\n4 ATP are produced by substr­ate­-level phosph­ory­lation for a net gain of 2 ATP\nThe electron carrier NAD+ is reduced to NADH, which carries 2 electrons and a proton (H+) removed from fuel molecules" }
+               ]
+            },
+            {
+               "index": 0,
+               title: "Pyruvate Oxidation and the Citric Acid Cycle",
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "Active transport moves pyruvate into mitoch­ondria matrix where pyruvate oxidation and the citric acid cycle take place\nOxidation pyruvate generates CO acet­yl-­coe­nzyme A(acet­ylc­oA), and NADH\nThe acetyl group of acetyl-COA enters the citric acid cycle" }
+               ]
+            },
+            {
+               "index": 0,
+               title: "Overview of citric acid cycle",
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "Citric acid cycle, carbon products of pyruvate oxidation are oxidized to CO\nAll viable electrons are transf­erred to 3NAD+ (NADH) and 1FAD (FADH\nEach turn of the citric acid cycle produces 1 ATP by substr­ate­-level phosph­ory­lation" }
+               ]
+            },
+            {
+               "index": 0,
+               title: "Summary: The citric acid cycle",
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "The eight reactions of the citric acid cycle (trica­rbo­xylic acid cycle, or krebs cycle) oxidize acetyl groups completely to CO generate 3 NADH and 1 FADH and synthesize 1 ATP by substrate level phosph­ory­lation\n1 acetyl­-CoA+3 NAD + 1 FAD + 1 ADP + 1Pi + 2H\n2CO" }
+               ]
+            },
+            {
+               "index": 0,
+               title: "Oxidative Phosph­ory­lation ETS & Chemio­smosis",
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "High energy electron removed from fuel molecules and picked up by carrier molecu­les-are released into the electron transfer system of mitoch­ondria" }
+               ]
+            },
+            {
+               "index": 0,
+               title: "Mitoch­ondrial electron transfer system (ETS)",
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "Series of electron carriers that altern­ately pick up and release electrons and ultimately transfer them to their final accept­or-­oxygen" }
+               ]
+            },
+            {
+               "index": 0,
+               title: "Electron Flow",
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "Individual electron carriers of the ETS are organized specif­ically from high to low free energy\nNADH and FADH contain the most free energy and are easily oxidized\nThe terminal electron acceptor (O ) is most easily reduced\nElectron movement through the system is sponta­neous, releasing free energy\nElectron Transfer System from high to low free energy" }
+               ]
+            },
+            {
+               "index": 0,
+               title: "Energy Flow in the ETS",
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "In the ETS electrons release free energy used to build the H gradient across the inner5 mitoch­ondrial membrane\nHigh H concen­tration in the inter membrane compar­tment\nLow H concen­tration in the matrix\nThe H gradient supplies energy that drives ATP synthesis by mitoch­ondria ATP synthase" }
+               ]
+            },
+            {
+               "index": 0,
+               title: "Transfers Between Proteins",
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "Two small, mobile electron carriers, cytochrome C and ubiquinone (coenzyme Q) shuttle electrons between the major complexes" }
+               ]
+            },
+            {
+               "index": 0,
+               title: "Cytoch­romes",
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "Proteins with a neme prosthetic group that contains an iron atom that accepts and donates electrons" }
+               ]
+            },
+            {
+               "index": 0,
+               title: "Forming the H Gradient",
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "Ubiquinone and complexes I, III, and IV actively transport protons (H ) from matrix to inter membrane compar­tment\nConcen­tration of H in the inter membrane compar­tment generates an electrical and chemical gradient across the inner mitoch­ondrial membrane" }
+               ]
+            },
+            {
+               "index": 0,
+               title: "Proton­-motive force",
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "Stored energy produced by proton and voltage gradient\nEnergy is used for ATP synthesis and cotran­sport of substances to and from mitoch­ondria" }
+               ]
+            },            
+            {
+               "index": 0,
+               title: "ATP Synthase and Chemio­smosis",
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "In the mitoch­ond­rion, ATP is synthe­sized by ATP synthase, an enzyme embedded in the inner mitoch­ondrial membrane\nThe H gradient powers ATP synthesis by ATP synthase by chem­ios­mosis\nATP synthase uses proton­-motive force to add phosphate to ADP to generate ATP (phosp­hor­yla­tion)" }
+               ]
+            },
+            {
+               "index": 0,
+               title: "ATP synthase structure and function",
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "A basal unit in the inner membrane is connected by a stalk to a headpiece located in the matrix- a peripheral stator bridges the basal unit and headpiece\nProton­-motive force moves protons in the inter membrane space through the enzyme's basal unit into the matrix\nH flow powers ATP synthesis by rotation of the ATP synthase headpiece (chemi­osm­osis)" }
+               ]
+            },
+            {
+               "index": 0,
+               title: "Conser­vation of chemical Energy",
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "Hydrolysis of ATP to ADP yields about 7.0 kcal/m­ol-­total energy conserved in 32 ATP is about 224 kcal/mol\nGlucose burned in the air releases 686 kcal/mol\nEfficiency of cellular glucose oxidation (224/6­86*100) = 33%\nThe rest of the chemical energy is released as body heat" }
+               ]
+            },            
+            {
+               "index": 0,
+               title: "Fermen­tation can re-oxidize NADH",
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "When oxygen is absent or limited, electrons carried by the 2 NADH produced by glycolysis may be used in fermen­tation\nOtherwise, glycolysis will stop due to lack of NAD\nRecall:NAD accepts electrons in reaction 6 of glycolysis" }
+               ]
+            },                        
+            {
+               "index": 0,
+               title: "Fermen­tation",
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "Electrons carried by NADH are transf­erred to an organic acceptor molecule (convert NADH to NAD )\nGlycolysis continues to supply ATP by substrate level phosph­ory­lation" }
+               ]
+            },
+            {
+               "index": 0,
+               title: "Lactate fermen­tation",
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "Converts pyruvate into lactate\nOccurs in some bacteria, plant tissues, skeletal muscle\nUsed to make butter­milk, yogurt, dill pickles" }
+               ]
+            },            
+            {
+               "index": 0,
+               title: "Alcoholic fermen­tation",
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "Converts pyruvate into ethyl alcohol and CO\nOccurs in some plant tissues, invert­ebr­ates, protists, bacteria, and single­-celled fungi such as yeasts\nUsed to make bread and alcoholic beverages" }
+               ]
+            },  
+            {
+               "index": 0,
+               title: "Interr­ela­tio­nships of Catabolic Anabolic Pathways",
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "Many carboh­ydr­ates, lipids, and proteins can be hydrolyzed and their products are directed into various stages of cellular respir­ation to be oxidized as fuel\nCoA directs products of many oxidative pathways into the citric acid cycle" }
+               ]
+            },                                    
+            {
+               "index": 0,
+               title: "Oxidation of Fats",
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "Oxidation of fats produces more than twice the energy of oxidation of proteins or carboh­ydrates\nBefore entering oxidative reactions, trigly­cerides are hydrolyzed into glycerol and individual fatty acids" }
+               ]
+            },                                                
+            {
+               "index": 0,
+               title: "Oxidation of proteins",
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "The amino group is removed\nThe remainder enters oxidative pathways as pyruvate, acetyl­-CoA, or interm­ediates of the citric acid cycle" }
+               ]
+            },
+            {
+               "index": 0,
+               title: "Many Pathways Start Glycolysis or the Citric Acid",
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "Glycolysis and the citric acid also supply molecules from which many other cellular molecules are synthe­sized\nAdditi­onally, when energy is not needed by the body, glucose can be synthe­sized from interm­ediates of these pathways in the process of gluc­one­oge­nsis\nGlucon­eog­enesis: which consumes ATP rather than producing it" }
+               ]
+            },  
+            {
+               "index": 0,
+               title: "Glycolysis and Citric acid Cycle Regulation",
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "ATP and NADH production are balanced against glucose conser­vation by systems that regulate enzymes of glycolysis and the citric acid cycle\nIf excess ATP is present in cytosol, ATP binds to phosph­ofr­uct­okinase (in reaction 3) slowing or stopping enzyme action by feedback inhibition in order to regulate glycolysis\nIf excess ATP or citrate is present in the mitoch­ondria, one of these binds to citrate synthase, slowing or stopping enzyme action by feedback inhibition in order to regulate the citric acid cycle" }
+               ]
+            },                        
          ]
       },
       {
@@ -3897,6 +5048,128 @@ const biology_cheatlist_data = {
                   },
                ]
             },
+            {
+               "index": 0,
+               title: 'DNA transforms Bacteria',
+               type: "TABLE",
+               image: null,
+               data: [
+                     {"index": 0, "columns":[{"value":"Fred­erick Griffith studied two strains of pneumonia"}, {"value":"pathogenic and nonpat­hogenic"}]},
+                     {"index": 0, "columns":[{"value":"heat-k­illed pathogenic + nonpat­hogenic bacteria"}, {"value":"= pathogenic bacteria (live diseas­e-c­ausing)"}]},
+                     {"index": 0, "columns":[{"value":"tra­nsf­orm­ati­on"}, {"value":"change in genotype and phenotype due to assimi­lation of external DNA by a cell"}]},
+                     {"index": 0, "columns":[{"value":"scientists studied to find the genetic material of chromo­somes - protein vs. DNA"}]}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'DNA transforms Bacteria (cont.)',
+               type: "NORMAL",
+               image: null,
+               data: [
+                     {"index": 0, "name":null, "value":"Oswald Avery also proved that DNA was the molecule that transf­ormed bacteria"}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Viruses',
+               type: "TABLE",
+               image: null,
+               data: [
+                  {"index": 0, "columns":[{"value":"DNA or RNA in a protein coat"}, {"value":"infect by taking over a cell's metabolic machinery"}]},
+                  {"index": 0, "columns":[{"value":"Bact­eri­oph­ages"}, {"value":"viruses that infect bacteria"}]},
+                  {"index": 0, "columns":[{"value":"Henry and Chase showed that DNA was the genetic material that infected the bacteria"}]},
+                  {"index": 0, "columns":[{"value":"Used radioa­ctive isotope markers to label DNA and proteins of phages. Phage DNA entered the bacteria cell, but protein did not."}]}
+               ]
+            },
+            {
+               "index": 0,
+               title: "Chargaff's Rule",
+               type: "TABLE",
+               image: null,
+               data: [
+                  {"index": 0, "columns":[{"value":"x-ray crysta­llo­gra­phy"}, {"value":"image of DNA produced by x-rays diffra­cting when passing through DNA fibers"}]},
+                  {"index": 0, "columns":[{"value":"DNA is a double helix, with two anti-p­arallel sugar-­pho­sphate backbones, and nitrog­enous bases in the molecule's interior"}]},
+                  {"index": 0, "columns":[{"value":"anti-­par­allel - subunits run in opposite directions"}]}
+               ]
+            },
+            {
+               "index": 0,
+               title: "DNA is a polymer of nucle­otides",
+               type: "NORMAL",
+               image: "DNA_POLYMER_NUCLEOTIDES",
+               data: [
+                  {"index": 0, "name":null, "value":"compon­ents: nitrog­enous base, deoxyr­ibose sugar, phosphate group\nbases: adenine, guanine, thymine, cytosine"}
+               ]
+            },
+            {
+               "index": 0,
+               title: "Structure of DNA",
+               type: "TABLE",
+               image: null,
+               data: [
+                  {"index": 0, "columns":[{"value":"DNA is a polymer of nucle­otides connected by covalent bonds"}]},
+                  {"index": 0, "columns":[{"value":"4 nitrog­enous bases:"}, {"value":"Purines (double ring) [A] [G]"}, {"value":"Pyrimi­dines (single ring) - [C] [T]"}]},
+                  {"index": 0, "columns":[{"value":"DNA base pairing"}, {"value":"PURINE always pairs with PYRIMIDINE"}, {"value":"2 of the same would be too wide/n­arrow"}]},
+                  {"index": 0, "columns":[{"value":"3 hydrogen bonds between C and G\n2 hydrogen bonds between A and T"}]}
+               ]
+            },
+            {
+               "index": 0,
+               title: "DNA Replication",
+               type: "TABLE",
+               image: null,
+               data: [
+                  {"index": 0, "columns":[{"value":"S phase of Interp­hase"}]},
+                  {"index": 0, "columns":[{"value":"DNA made from existing DNA strand"}]},
+                  {"index": 0, "columns":[{"value":"semi­con­ser­vative model"}, {"value":"one parent strand serves as a template to a comple­mentary strand"}]},
+                  {"index": 0, "columns":[{"value":""}, {"value":"half of parent strand is conserved in each daughter strand"}]},
+                  {"index": 0, "columns":[{"value":"- Meselson and Stahl"}]}
+               ]
+            },
+            {
+               "index": 0,
+               title: "DNA Replic­ation (cont.)",
+               type: "TABLE",
+               image: null,
+               data: [
+                  {"index": 0, "columns":[{"value":"origins of replic­ation"}, {"value":"where replic­ation of DNA molecule begins"}]},
+                  {"index": 0, "columns":[{"value":"bacterial chromosome"}, {"value":"circular, single origin"}]},
+                  {"index": 0, "columns":[{"value":"eukaryotic chromosome"}, {"value":"linear, thous­ands of origins"}]},
+                  {"index": 0, "columns":[{"value":"repl­ication fork"}, {"value":"Y-shaped region formed by unwinding of parent strands"}]},
+                  {"index": 0, "columns":[{"value":"- reference drawings to unders­tanding rest of replic­ation -"}]},
+               ]
+            },
+            {
+               "index": 0,
+               title: "Proofr­eading DNA",
+               type: "TABLE",
+               image: null,
+               data: [
+                  {"index": 0, "columns":[{"value":"DNA polyme­rase"}, {"value":"proofreads each nucleotide as it's covalently bonded"}]},
+                  {"index": 0, "columns":[{"value":"mismatch repair"}, {"value":"other enzymes remove and repair incorrect nucleo­tides"}]},
+                  {"index": 0, "columns":[{"value":"nucl­eotide excision repair"}, {"value":"mutated strand is cut out by enzyme nucl­ease, and the gap is filled with DNA polymerase and ligase"}]},
+                  {"index": 0, "columns":[{"value":"- seen in skin cells when correcting thymine dimmers cause by UV rays"}]}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Evolution Signif­icance of DNA Nucleo­tides',
+               type: "NORMAL",
+               image: null,
+               data: [
+                     {"index": 0, "name":null, "value":"Mutations occur when uncorr­ected mismatched nucleo­tides are replicated and passed onto a daughter cell. Usually harmful and permanent genetic changes that support natural selection."}
+               ]
+            },
+            {
+               "index": 0,
+               title: "Inside a Chromosome",
+               type: "TABLE",
+               image: null,
+               data: [
+                  {"index": 0, "columns":[{"value":"eukaryotic cell"}, {"value":"one long DNA double helix with large amnt. of protein ="}, {"value":"chro­matin", "styles":["BOLD"]}]},
+                  {"index": 0, "columns":[{"value":"the long DNA fits in the nucleus through packing"}]}
+               ]
+            },            
          ]
       },
       {
@@ -4853,12 +6126,209 @@ const biology_cheatlist_data = {
          entries: [
             {
                "index": 0,
-               title: 'TEMPLATE',
+               title: 'Carybdeida',
                type: "NORMAL",
+               image:"CARYBDEIDA",
+               data: []
+            },
+            {
+               "index": 0,
+               title: 'KUBOZOA - cubed jellyfish',
+               type: "NORMAL",
+               image: null,
                data: [
-                  { "index": 0, "name": null, "value": "TEMPLATE" },
+                  { "index": 0, "name": "Kubopolipi", "value": "solitary, small, mouth on proboscis, the crown of tentacles with bulbs on the tips; the body of the polyp is naked and there is no strobilization" },
+                  { "index": 0, "name": "Carybdeida ", "value": "solitary, small, mouth on proboscis, the crown of tentacles with bulbs on the tips; the body of the polyp is naked and there is no strobilization" },
+                  { "index": 0, "name": null, "value": "On the surfaces between the hunters is a hollow where the ropalia is located" }
                ]
-            }
+            },
+            {
+               "index": 0,
+               title: 'Kubozoan integument',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "Epidermis, mesoglea, gastroderma\nepithelial flat. may have myofibrils (epithelial-mouse. stan.), and glandular, sensory, and nervous stan.\nThe glow cells are at the top of the tentacles, and the I-cell is absent\ndesmocytes - in the peidermis of the base plate - secrete secretions for easier adhesion to the substrate\nGlandular flat. which secrete digestive enzymes, whip neurosecretory flat. and flat. which absorb decomposed food" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'The muscular system of jellyfish',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "Subumbrelar muscles, ring muscles of velaria, muscles of pedals, tentacles and manubria" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Digestion of jellyfish',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "Inner cavity of manubria, central stomach with 4 gastric pockets, peripheral annular tubes, radial tubules\nGastral filaments - in interradiae on the peripheral wall of the stomach, contain glow and glandular cells that secrete prob. enzymes\nGastrovask. system - extracel. digestion; decomposed food by diffusion, pinocytosis and act. transmission enters the gastrodermal flat.\nGastroderma cells - intracellular. digestion" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Nervous and sensory system of jellyfish',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "- neural network of diffusely distributed bipolar and multipolar nerve cells - located on the subumbrelar side\n- at the base of the proboscis žs are concentrated and form a double nerve ring\n- subumbrelar nerve ring - formed by concentrating žs at the edge of the bell\n- ropalia = clusters žs + epithelial flat. + two steels - contains statolite\n- well-developed steels - one directed upwards, the other downwards\n- they also have complex eyes - lenses + a layer of retinal cells" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Reproduction of jellyfish',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "Eight fetuses in gastroderma. pockets\nmetagenesis\nPolypoid gene. -> budding\nTripedalia cystophora - copulation of two individuals occurs; the male places the spermatophores on the tentacles of the female, which enters them through the mouth into the gastrovas. cavity\ndevelopment of larvae - flared - larviparne ; swims 2-3 days\nThe furrowing is total and equivalent" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Hydrozoa',
+               type: "NORMAL",
+               image: "HYDROZOA",
+               data: []
+            },
+            {
+               "index": 0,
+               title: 'exterior',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": null, "value": "hidropolip - footplate, hipostom / proboscis - buccal field round mouth surrounded by tentacles; they do not have a pharynx, the GVŠ is complete\n hidromeduza - bell, eksumbrela, subumbrela, tentacles, kraspedon / velum = thin set on the edge of the bell; manubrium on the underside of the subum. containing clusters of bulb ( batteries ), have stomach - undivided and thickened gastroderm. apartment. with whips.\nFrom the stomach, 4 radial tubes are made towards the periphery, which are poured into the annular tube ; three-layer wall" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'material of cooperatives',
+               type: "TABLE",
+               headers:["Hydrant", "hidrokaulus", "hidrokladi"],
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"polyp"}, {"value":"med. tree"}, {"value":"lateral branches"}]},
+                  { "index": 0, "columns":[{"value":"monopodial - the oldest at the top of the\nsympodial - the oldest at the base"}]}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'zooid',
+               type: "TABLE",
+               headers:["hydroids", "meduzoidi"],
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"hydrants pr polyps"}, {"value":"jellyfish"}, {"value":"lateral branches"}]},
+                  { "index": 0, "columns":[{"value":"specialization zooid:\n-Obrana: daktilozoidi, tentakulozoidi\n-Food: gastro / trofozoidi, nematofori\nreproducibility: gonozoidi, gonofori\n-plutanje and movement: pneumatofori, nektofori"}]}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'periderm',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"Periderm or PERISARK - solid runny nose ; hydrants (hydrotheca) and gonangii (gonotheca); in acathetic periderms reaches only the base of the hydrant\nCENOSARK - the soft part of the body of the fringe that envelops the periderm"}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Internal material',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"Integumentary, muscular and supporting function - epidermal-mouse. and incandescent cells; I-house. are an important component of the epidermis and gastroderma\nOn the base plate the epidermis is supplied with a glandular flat. -> fixation of polyps\nProtein-chitinous periderm -> mechanical support of the cooperative\nMyofibrils arranged in one direction -> formation of smooth radial muscles of rubumbrela and exumbrela, pp of annular muscles of subumrela and muscles of subumbrelar vellum\nHydra - stepping, crawling, floating\nŽS - alive. century in the epidermis (mesoglea)\nDigestion - carnivores - trapping, intra / extracel. prob.\nRespiration and excretion - dissolved O2 from water enters the body by diffusion, also CO2 and N-compounds leave the body\nBre. -sexual and asexual (budding, longitudinal division); budding some polyps ( gonangiji ) can arise jellyfish\non Wednesday. axis gonangija is blastostila - bud gonofori\nSiphonophora SPEC. form pupanja- kormidiji Lance unions can be separated and do new cooperative"}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Scyphozoa(True Jelly Fish) Material',
+               type: "NORMAL",
+               image: "SCYPHOZOA",
+               data: []
+            },
+            {
+               "index": 0,
+               title: 'Scyphozoa Exterior',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"Polyp - skifostom or skifopolip - čaškast mostly solitary form\n- chitin periderm -> attached to the substrate (or covers a portion of the whole body)\n- proboscis - lip cone, with gastroderm 16 tentacles. apartment.\nSkifomeduza - bell-shaped body\n-inside structure is visible through the transparent wall - unusual colors\n- eksumbrela - on the edge flaps traps\n- subumbrela - its central manubrij -> the lip bar (4 lobed structures that make up the extended edges manubrija)\n- Funnel recesses - ac. gases in the interradi on the subumbrella"}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Scyphozoa Integument',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"Three-layer body wall:\nepidermis\nMesoglea\ngastroderm"}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Scyphozoa Muscle Function',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"myocytes - exumbrelar, gastrovascular muscles, muscles of manubria and oral\npaws - retractive movement = pushing water from the subumrelar space"}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Scyphozoa Nervous Function',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"-subepidermal and subgastrodermal network of diffusely distributed multipolar and bipolar nerve cells - both networks are subdured and coordinate the movements of peripheral paws, tentacles and manubria towards the food source\nROPALI - tiny sensory centers of skiff jellyfish, club-shaped, located on the edge of the bell (4 or x4); the lateral contains the ropalia lap, and the upper cap\nRopalia are complex sensory bodies - they contain a statocyst, a pair of sensory pits and a steel\nThey receive information. about the balance of the body, the vibrations of the surrounding water, the smell and the direction of the light\nfototaksija - cloudy and twilight -> float to the surface; strong daylight and night -> descend into the depths"}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Scyphozoa Respiration and Osmoregulation',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"diffusion mechanisms - body wall"}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Scyphozoa Rhopalium',
+               type: "NORMAL",
+               image: "SCYPHOZOA_RHOPALIUM",
+               data: []
+            },
+            {
+               "index": 0,
+               title: 'Scyphozoa Propagation',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"- methagenesis - skifostom nespolan, jellyfish sexual\n-poliploidna gene. reduced\n-pupanje from the body wall or heel end\n- strobilation - skifostom- strobe - young jellyfish differentiated from the ear regions; transversal sharing - monodiskna and polidiskna strobilation (depending on temp.)\nEfir - young jellyfish\n- mostly separate sexes, no dimorphism\n-gonade in gastroderm\n-oplodnja or in the sea or gastric pockets\n-ličinka: flared - skifopolip\nPelagia noctilluca - no polyploid generation"}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Scyphozoa bre.',
+               type: "NORMAL",
+               image: "SCYPHOZOA_BRE",
+               data: []
+            },
+            {
+               "index": 0,
+               title: 'Scyphozoa systematics - rows',
+               type: "TABLE",
+               headers:["Semaeostomeae", "crown jellyfish", "Stauromedusae"],
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"Aurelia aurita - to sew a hat"},{"value":"coronary sulcus"},{"value":"sessile, pedal disc"}]},
+                  { "index": 0, "columns":[{"value":"Pelagia noctilluca - sea ​​moonlight"},{"value":"resembling a crown"},{"value":"ropaloids - adhesive organs"}]}
+               ]
+            }                                      
          ]
       },
       {
@@ -5074,7 +6544,148 @@ const biology_cheatlist_data = {
                   { "index": 0, "name": "Enzyme Inhibition", "value": "-compe­tit­ive­=in­hibitor molecule binds to active site to block substrate\n-allosteric=inhibitor molecule binds to allosteric site to cover or change shape of the active site" },
                   { "index": 0, "name": "Optimal Conditions", "value": "-enzymes have optimal temp+pH\n-cofactors+coenzymes bind to enzyme or substrate" }
                ]
-            }
+            },
+            {
+               "index": 0,
+               title: 'Protozoa General Characteristics',
+               type: "TABLE",
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"Simple organisms whose cytoplasm forms the basis of the inside. body structure"}, {"value":"Integument - plasmalema apartment. memb., glycocalyx - glycostyles (absorptive substances from the environment)"}] },
+                  { "index": 0, "columns":[{"value":"Glycocalyx the protective cover of glycolipids and glycoproteins\nglikostile are long nor glycocalyx"}] }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Protozoa Material',
+               type: "NORMAL",
+               image: "PROTOZOA_MATERIAL",
+               data: []
+            },
+            {
+               "index": 0,
+               title: 'Protozoa Support Function',
+               type: "TABLE",
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"Pellicle = plasmalemma + fibril structure ; aleveole - trpet., trus.dinof .; ekstrusomi = waist. for protection / attack"}, {"value":"scales - whips, root-bearers; lorike - amoebae, whips, sufferers; cysts - unfavorable conditions (parasites)"}] },
+                  { "index": 0, "columns":[{"value":"Whips and cilia emerge from the kinetosomes in the cortex (layer comprising the pellic and subpel. Layers); constructed of proteins and microtubes. - form the axonome (9 + 2)\nA and B tubes\nof the organ . kinetos .: triplets - dynein handles osig. sliding force with ATP\nstriking tremor. : effective stroke + kickback"}] }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Protozoa Digestion',
+               type: "TABLE",
+               headers:["endo-exocytosis", "pynocytosis-phagocytosis"],
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"trep . : cytosome + cytoproct (cytopig) - fuses memb. prob. wines. with flat. memb."}, {"value":"digestive bladder = food bladder. + acidosomes + lysosomes (hydrolytic degradation)"}] },
+                  { "index": 0, "columns":[{"value":"Whips and cilia emerge from the kinetosomes in the cortex (layer comprising the pellic and subpel. Layers); constructed of proteins and microtubes. - form the axonome (9 + 2)\nA and B tubes\nof the organ . kinetos .: triplets - dynein handles osig. sliding force with ATP\nstriking tremor. : effective stroke + kickback"}] }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Protozoa Digestion',
+               type: "TABLE",
+               headers:["endo-exocytosis", "pynocytosis-phagocytosis"],
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"trep . : cytosome + cytoproct (cytopig) - fuses memb. prob. wines. with flat. memb."}, {"value":"digestive bladder = food bladder. + acidosomes + lysosomes (hydrolytic degradation)"}] },
+                  { "index": 0, "columns":[{"value":"Whips and cilia emerge from the kinetosomes in the cortex (layer comprising the pellic and subpel. Layers); constructed of proteins and microtubes. - form the axonome (9 + 2)\nA and B tubes\nof the organ . kinetos .: triplets - dynein handles osig. sliding force with ATP\nstriking tremor. : effective stroke + kickback"}] }
+               ]
+            },            
+            {
+               "index": 0,
+               title: 'EXCRETION AND OSMOREGULATION',
+               type: "TABLE",
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"contractile vacuoles (in those living in the hypotonic environment); there is no fixed position, one or more, of diastole and systole; associated with supply channels in the cytoplasm"}, {"value":"puzule = waist. in dinoflagellates that replace constriction. wines .; it is a tubular branched twisting flat. memb. and is closely related to the systems vnutranstan. vacuoles"}] },
+                  { "index": 0, "columns":[{"value":"spongionin, exc. pore, microtubules = waist. elem."}] }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'PROPAGATION',
+               type: "TABLE",
+               headers:["sexually", "asexually"],
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"gametogamy (syngamy) - gamont, conjugation; sporogonial"}, {"value":"double or bin. division, budding, multiple division, plasmotomy, schizogony"}] }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'AMEBOID PROTOZOA',
+               type: "TABLE",
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"Knee amoebozoa : Class Gymnamoebea - naked amoebas; they contain lobopods and have an amphosoic way of life; class Testacea - orkuceni, shells of prg. substances SiO2, sand, diatoms, lobopodiji, through the opening of filopodia pseudostom ; Class Archamobea - stationary whips, no mitokh. nor GA"}, {"value":"Foraminifera - retikulopodiji, cottage - mono / politalamni forms, chambers with openings for podiums, symbiosis, modification of sexual and asexual generations"}, {"value":"Actinopoda - aksopodiji, ekstrusomi, capsular membrane, medulla / endoplazma, cortex / kalima / ectoplasm ; classes: Heliozoa, Radiolaria, Acantharea"}] },
+                  { "index": 0, "columns":[{"value":"traditional name: mucous membranes\ndivision: rhizopods and actinopods"}] }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'FLAGELATE PROTOZOA',
+               type: "TABLE",
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"Class Diplomonadea - specific organelles are 2x, while others not at all, freshwater, commensal, parasites; class Parabasalea - + flagelatni system cytoskeleton, hidrogenosom, source 4 of a whip, parabasal body aksostil"}, {"value":"class Euglenoidea - hetero / autotrim., ampoule 2 + whip, stigma, Pyrenoid (paramilum) along. division; Class Kinetoplastidea - hetert., kinetoplast, undulate. memb., Leishmania, Trypanosoma\nlower leg Choanozoa - whip collars, 1 whip + microville collar, sponge link?"}] },
+                  { "index": 0, "columns":[{"value":"whips, smooth or hairy, pulling whip at the back of the body"}] }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'ALVEOLATIC PROTOZOA',
+               type: "TABLE",
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"lower legs: Dinoflagellata, Apiocomplexa, Ciliophora"}, {"value":"Dinoflagellate - World. whipworms, 90% marine planktonic species, pov. stan .: plasmalemma and flat alveoli"}] },
+                  { "index": 0, "columns":[{"value":"pellicles of the pellicular alveoli"}, {"value":"Atekatne - empty alveoli, Tekatne - alveoli with cellulose plates\nauto and heterotrophic - chlorophyll ai c2 + peridinine, xanthophyll, B-carotene, dinoxanthin\nfree-living and symbionts; there is no restraint. wines. -> puzzles"}] },
+                  { "index": 0, "columns":[{"value":"sexual and nesp. bre.\nBioluminescence - noctiluca scintillans - Luciferase enzyme\nekstrusomi: nematocysts, trihociste, mukociste\neco. importance: food chain, neurotoxin synthesis, sea bloom"}] }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'merozoite transformation - entry into the erythrocyte',
+               type: "NORMAL",
+               image: "MEROZOITE_TRANSFORMATION",
+               data: []
+            },
+            {
+               "index": 0,
+               title: 'APIOCOMPLEXA',
+               type: "TABLE",
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"Sporozoa (trusk .); 7 genera that infect humans: Plasmodium, Babesia, Cryptosporidium, Isospora, Cyclospora, Sarcocystis, Toxoplasma"}, {"value":"Organelles of the apical complex: 1. CONOID - microtube. and prekonoidni rings ; 2. POLAR RING WITH MICROTUBE. ; 3. ROPTRIJA (2-8) - baggy organelles that secrete secretions and facilitate entry into the apartment. of host; 4. MICRONEMS - enzymes for easier entry into the apartment; Funk. apik. comp. = fastening and penetrating the apartment. of host"}] },
+                  { "index": 0, "columns":[{"value":"obligate endoparasites, most pathogenic species"}] },
+                  { "index": 0, "columns":[{"value":"mode of transmission: slow or trout and via vehicle (bare sporozoites)"}, {"value":"Reproduction - Am. gene. with A) two phases (homogonia and sporogonia), B) three phases (sporogonia, schizogony, homogonia)"}] },
+                  { "index": 0, "columns":[{"value":"bending and crawling - no organelles to move; apical complex - agglomeration of organelles"}, {"value":"Sporogonial - making sporozoite after meiotic reduc. division; GAMOGONIJA - making Gamont and gametes; SHIZOGONIJA - stage multiple sharing; TROPHOSOITE - mature veget. nutritional adult stage; SHIZONT - nesp. mnogojezg. stage.; MEROZOIT - intracellular. stage (shizonti or gamonti); GAMONT - gametes; SPOROZOIT - a mobile infection. stage"}] },
+                  { "index": 0, "columns":[{"value":"cortical layer - flat. memb., pellicle with micropores, longitudinal microtube. System"}, {"value":"1st degree of infection - primary or exo-erythrocyte schizogony; 2nd degree of infection - secondary or erythrocyte schizogony"}] },
+                  { "index": 0, "columns":[{"value":"Plasmodium anopheles - malaria mosquito"}, {"value":"The most dangerous species of the genus Plasmodium : vivax, ovale, malaria, falciprum"}] },
+                  { "index": 0, "columns":[{"value":"Classes:\n- Gregarinea - parasites prob. sus. and i.e. shed.\n- Coccidea - trophoz., Intracel, parasites on king. - coccidiosis and toxoplasmosis\n- Haematozoea - reducing. apik. pcs. - no roptrija and con. finger., ookineti , blood parasites, the group: HAEMOSPORIDA and PIROPLASMIDA - babesiosis"}] }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Ciliophora',
+               type: "TABLE",
+               data: [
+                  { "index": 0, "columns":[{"value":"ecto / endocommensal and parasites, most asymmetric.m angle. free swimming; lorika - tintinida, heterotricha, petritricha, suctoria"}, {"value":"Characteristics: cilia, cortex, nuclear dimorphism (micro and macro nucleus), conjugation (modified micronucleus)"}] },
+                  { "index": 0, "columns":[{"value":"Cortex - gives a permanent shape to the body, includes the pellicle and infrared"}, {"value":"pellicle - flat. memb. and the system of alveoli, epiplasma, supraepiplasma, and subepiplasma microtubes., serves with stabilization; infracilijatura - kinetidi"}] },
+                  { "index": 0, "columns":[{"value":"Kinetid = kinetosome + basal waist. (kinetodes. fiber, 2 microtubules. ribbons, (transverse. and postciliate.)"}] },
+                  { "index": 0, "columns":[{"value":"Cortex = SOMATIC AREA - movement, protection, somat. kinetics, ciri , somatic flutter: uniform, limited, reduced (adult mammals)"}, {"value":"ORAL AREA - obtaining and swallowing food, oral kinetics: mono / di / poly, trembling. Somat. polykinetides (plate membranes), oral kinetides interconnected - sm. food particles towards and through the cytosome into the cytopharynx"}] },
+                  { "index": 0, "columns":[{"value":"Extrusomes: trichocysts, haptocysts, cosocysts, mucocysts"}, {"value":"tighten the bellows. mitoh., ER, vesicles, ed. substances: cytosome-cytopig-parasomal sacs-ex. pore trail. wines."}] },
+                  { "index": 0, "columns":[{"value":"most species have a preoral chamber in front of the cytosome for swallowing and sorting food"}] },
+                  { "index": 0, "columns":[{"value":"primitive forms - vestibule - somatic. blinks."}] },
+                  { "index": 0, "columns":[{"value":"odvedeniji forms: oral cavity or perista ; 2 types of complex tremors. organela->"}, {"value":"1) unulatory memb. ... 2) membranes"}] },
+                  { "index": 0, "columns":[{"value":"osmoregulation: contractile bubble + discharge through permanent pores on the pellicle"}] },
+                  { "index": 0, "columns":[{"value":"Nesp. bre. : double division - dividing plane perpendicular to the longitudinal axis of the body - new cytoproctal and cytosomal area, budding - separation of 1 or more smaller dwellings. daughter (sessile blink)"}, {"value":"Sexual exchange - conjugates - plasma bridge - MA decays, MI enters meiosis - 4 pronuclei - 3 decays, stationary and migrating nuclei are formed from the rest - exchange via plasma bridge - separation of individuals - syngamy - nuclear zygote - 3 mitos. division of syncarion"}] },
+                  { "index": 0, "columns":[{"value":"mode of transmission of parasitic animals: oral-fecal, predator - prey, hematophagous arthropods"}] },
+                  { "index": 0, "columns":[{"value":"Core dimorphism\nmikronuk. - diff. shapes and sizes, polyploid, resp. for an apartment. Metab. and phenotyping, degenerates during sp. bre.\nmakronuk. - small and spherical, diploid, storage and mod. gene. mat., passes the myth. or mejot. division (forming a dividing spindle)"}] }
+               ]
+            }            
          ]
       },
       {
@@ -5390,7 +7001,256 @@ const biology_cheatlist_data = {
                data: [
                   { "index": 0, "name": null, "value": "What is the purpose of bile?\n  To lower the pH of food as it moves from the stomach to the small intestine.\nHow does bile (from the gall bladder) improve fat digestion?\n  It emulsifies (breaks down) fats in the small intestine. This provides a larger surface area in which the lipases can work." }
                ]
-            }
+            },
+            {
+               "index": 0,
+               title: 'Endocrine System',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": "Glands - organs that secrete chemicals (hormones)", "value": "Glands with internal secretion. They secrete hormones into the blood\nGlands with internal secretion. They secrete hormones outside the blood" },
+                  { "index": 0, "name": null, "value": "Endocrine system - a system of glands with internal secretion" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Pituitary gland - control gland',
+               type: "TABLE",
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"Anterior lobe (adenohypophysis)", "styles":["BOLD","MIDDLE"]}]},
+                  { "index": 0, "columns":[{"value":"Somatotropin (growth hormone)"}, {"value":"Accelerates anabolic reactions"}]},
+                  { "index": 0, "columns":[{"value":"Gonadotropic hormones", "styles":["BOLD","MIDDLE"]}]},
+                  { "index": 0, "columns":[{"value":"FSH (Follicle Stimulation H.)"}, {"value":"Stimulates meiosis"}]},
+                  { "index": 0, "columns":[{"value":"LH (Luteinizing H.)"}, {"value":"in women with FSH it stimulates gamete formation"}]},
+                  { "index": 0, "columns":[{"value":"ICTH (Croatian ISTH - InterSTicijski H.)"}, {"value":"in men with FSH it stimulates gamete formation"}]},
+                  { "index": 0, "columns":[{"value":"prolactin"}, {"value":"Stimulates milk production in women"}]},
+                  { "index": 0, "columns":[{"value":"ACTH (Croatian AKTH -AdenoKortikoTropni H.)"}, {"value":"stimulates the adrenal cortex (secretes aldosterone and cortisol)"}]},
+                  { "index": 0, "columns":[{"value":"MSH (Melanocyte Stimulation H.)"}, {"value":"Stimulates the formation of skin pigment"}]},
+                  { "index": 0, "columns":[{"value":"Posterior lobe (neurohypophysis)", "styles":["BOLD","MIDDLE"]}]},
+                  { "index": 0, "columns":[{"value":"oxytocin"}, {"value":"Stimulates uterine contractions\nStimulates lactation (milk leakage)"}]},
+                  { "index": 0, "columns":[{"value":"ADH (AntiDiuretic H.)"}, {"value":"Increases water reabsorption in the nephron"}]}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Thyroid',
+               type: "TABLE",
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"thyroxine"}, {"value":"stimulates catabolic reactions"}]}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Thymus',
+               type: "TABLE",
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"thymosin"}, {"value":"stimulates the formation of T-lymphocytes in the thymus"}]}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Pancreas',
+               type: "TABLE",
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"insulin"}, {"value":"It helps transfer glucose from the blood to the cell"}]},
+                  { "index": 0, "columns":[{"value":"glucagon"}, {"value":"Stimulates the breakdown of glycogen (increases blood sugar levels)"}]}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Adrenal gland',
+               type: "TABLE",
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"NZ bark (encouraged by ACTH)", "styles":["BOLD","MIDDLE"]}]},                  
+                  { "index": 0, "columns":[{"value":"aldosterone"}, {"value":"Stimulates ion reabsorption in the nephron"}]},
+                  { "index": 0, "columns":[{"value":"Cortisol (stress stress)"}, {"value":"Excreted when homeostasis is disturbed\nStimulates all metabolic reactions\nReduces the number of leukocytes"}]},
+                  { "index": 0, "columns":[{"value":"The core of NJ", "styles":["BOLD","MIDDLE"]}]},
+                  { "index": 0, "columns":[{"value":"Adrenaline"}, {"value":"The main sympathetic hormone\n\"Lucidity state\" (increased focus, superhuman strength ...)\nIncreases the number of leukocytes\nAfter it, cortisol is always secreted"}]}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Gonads',
+               type: "TABLE",
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"Ovaries", "styles":["BOLD","MIDDLE"]}]},
+                  { "index": 0, "columns":[{"value":"estrogen"}, {"value":"stimulates the development of the Graafian follicle\nStimulates oogenesis"}]},
+                  { "index": 0, "columns":[{"value":"progesterone"}, {"value":"Exclusively in women\nCreates the endometrium of the uterus"}]},
+                  { "index": 0, "columns":[{"value":"testa", "styles":["BOLD","MIDDLE"]}]},
+                  { "index": 0, "columns":[{"value":"testosterone"}, {"value":"stimulates spermatogenesis\nGives sexual characteristics\nIn order to be formed it must be estrogen"}]},
+                  { "index": 0, "columns":[{"value":"Estrogen and testosterone are steroid hormones"}]},
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Types of TIssues',
+               type: "TABLE_LIST",
+               image: null,
+               data: [
+                  { "index": 0, "name":"Epithelial", "value":"covers outside of body, lines inner organs & cavities"},
+                  { "index": 0, "name":"Connective", "value":"binds & supports other tissues (colla­genous, reticular, & elastic fibers)"},
+                  { "index": 0, "name":"Muscle", "value":"body movement; skelet­al=­vol­untary, cardia­c+s­moo­th=­inv­olu­ntary"},
+                  { "index": 0, "name":"Nervous", "value":"senses stimuli & transmits signals as nerve impulses"}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Maintaining Homeostatis',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":"Thermo­reg­ulation", "value":"ectoth­erm­s=w­armed externally\nendotherms=warmed by metabolism\npoikilotherm=temp varies w/environment\nhomeotherm=relatively constant temp\ninsulation, vasodi­lation, vasoco­nst­ric­tion, sweating, thermo­gen­esis, behavior"},
+                  { "index": 0, "name":"Osmore­gul­ation", "value":"manages water/­solute concentration\nregulate urine concen­tra­tio­n/a­mount"}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Hormones',
+               type: "TABLE_LIST",
+               image: null,
+               data: [
+                  { "index": 0, "name":"hormone", "value":"molecule secreted into extrac­ellular fluid that circulates in blood/­hem­olymph, & commun­icates regulatory messages"},
+                  { "index": 0, "name":"endo/e­xo-­crine glands", "value":"ductle­ss/­duc­t-h­aving organs that secrete substances"},
+                  { "index": 0, "name":"local regulators", "value":"secreted molecules that act over short distances & reach target cells by diffusion (cytok­ines, growth factors, NO, prosta­gla­ndins)"},
+                  { "index": 0, "name":"pheromones", "value":"chemicals released into external enviro­nment for a species to commun­icate"}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Endocr­ine­/Ne­rvous System Coordi­nation',
+               type: "TABLE_LIST",
+               image: null,
+               data: [
+                  { "index": 0, "name":"hypoth­alamus", "value":"integrates systems, initiates endocrine signaling from nerve info"},
+                  { "index": 0, "name":"pituitary gland", "value":"stores & secretes hormones from hypoth­alamus (anterior & posterior)"},
+                  { "index": 0, "name":"thyroid gland", "value":"thyroid hormone regulates bioene­rge­tics, maintains BP, HR, muscle, digestion"}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Hormone Pathway: Insulin',
+               type: "NORMAL",
+               image: "HORMONE_PATHWAY_INSULIN",
+               data: [
+                  { "index": 0, "name":null, "value":"negative feedback= loop in which response reduces initial stimulus\ntype 1 diabetes= immune system destroys beta cells of pancreas\ntype 2 diabetes= failure of target cells to respond to insulin"}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Neurons',
+               type: "NORMAL",
+               image: "NEURONS",
+               data: [
+                  { "index": 0, "name":null, "value":"sensory, inter-, and motor neurons"}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Action Potentials',
+               type: "NORMAL",
+               image: "ACTION_POTENTIALS",
+               data: [
+                  { "index": 0, "name":null, "value":"purple= depola­rized; green= refractory period; yellow= polarized"}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Nonspe­cific Immune Defense',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":"Barriers", "value":"skin, mucus, cilia, stomach acid"},
+                  { "index": 0, "name":"Systems", "value":"-infla­mmatory response: histamine↑blood flow→immune cells destroy pathogens\n-interferon: inhibits virus reproduction\n-fever: ↓ bacterial growth, stimulates immune system"}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Specific Immune Defenses',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":"Humoral Immune Response", "value":"B cells attack pathogens w/anti­bodies"},
+                  { "index": 0, "name":"Cell-M­ediated Response", "value":"T cells attack pathogens, cells w/path­ogens, & cancer cells by lysing them"}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Taste, Smell & Leather Movement Vegetative Nerves Common Features',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"- Chemical receptors\n- Operation: dissolution sensed materials\n- are connected with the gastrointestinal system\n- Food identification and Discovery: remote smell, taste close"}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'The perception of taste',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"receptor: taste buds / taste buds\nbase flavors: sweet, salty, sour, bitter, umami, water\ntaste bud hair cells are associated with bifurcated neurons (cerebellum, tamalus, anterior-lateral cortex)"}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'The sense of smell',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"receptor cells in the olfactory epithelium of the nasal cavity , substances bind to membrane proteins / trigger an action potential wave in the cell (I. cerebral nerve)\nmany conditional reflexes are built on chemical stimuli\nlack / decrease in odor / taste perception may occur as a disease"}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'The sense of pain',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"pain sensor free nerve endings can be found in almost every part of the body\nreceptor - spinal cord - thalamus - cerebral cortex"}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Operation sentient',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"The largest receptor in our body (mechanical, heat, pain)\nUpper layer of skin: mechanical, thermal, pain receptor - posterior horn; medulla oblongata\nDeeper layer of skin: mechanical, muscle receptors - posterior horn, same side, thalamus"}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'The actuator',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"skeletal muscle function: brainstem and spinal cord reflexes\nalignment of somatic reflexes: posterior part of cerebral cortex, representation of body parts of different sizes\nextrapyramidal system: coarser + learned automatic movements (movement due to emotions)\npyramid system: precise, subtle movement control, movement learning\nlearned in a pyramid system is taken over by the extrapyramidal system - pyramid launches, extrap. automatically implemented} in conjunction with control"}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Vegetative function of the nervous system',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"repairs, maintains, manages energy\nautonomic nervous system: the part of the nervous system that controls the functioning of the internal organs independently of the will\noperation of an organization in a changing environment\nSympathetic nervous system: activates (getting food, defense / Cannon's response), gerincv. exits the chest and lumbar region\nparasympathetic nervous system: regeneration (sleep, digestion, sexual function), brainstem and spinal cord. exits the sacral section\nvegetative centers in subordinate order, main: hypothalamic-limbic system : coordination of sympathetic and parasympathetic effects\nlocation of tufts: sim .: on both sides of spinal cord + in abdominal cavity, transporter: noradrenaline / peasant: near / wall of organs, transporter: acetylcholine\nbodies double autonomic innervation chiefly considered, both effects prevails\nsympathetic persistent, parasympathetic can cease immediately"}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Regulation of respiration',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name":null, "value":"Oxygen Detection: ZIP inhalation group of neurons in the cerebellum - working with extrapyramidal court\nlung tensioned inhalation: managing exhalation group of neurons detected (medulla) - respiratory muscles relax\nrhythm: bridge nerve group that stimulates and inhibits respiration"}
+               ]
+            },                
          ]
       },
       {
