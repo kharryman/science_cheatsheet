@@ -14,6 +14,8 @@
 11) AP Biology Unit 6: Ecology and Animal Behavior Cheat Sheet
 12) AP Bio Unit 6: Gene Expression and Regulation Cheat Sheet
 13) AP Bio Chpt. 17 Cheat Sheet
+14) AP Bio - Semester 1 Review Cheat Sheet
+15) A&P Chapterr 1 Cheat Sheet
 
 //BIOLOGY UNITS:
 1) Bio Topic 1: Cell Biology Cheat Sheet
@@ -29,7 +31,7 @@
 //BIOLOGY:
 1) Biology Cheat Sheet
 2) Biology - DNA Cheat Sheet
-3) Biology - Endocrine System Cheat Sheet
+3) Biology - Endocrine System Cheat Sheet(Biologija - endokrini sustav Cheat Sheet)
 4) Biology Hereditary Cheat Sheet
 5) Biology - The Fundamentals of Genetics Cheat Sheet
 6) Biology: Mitosis and Meiosis Cheat Sheet
@@ -40,29 +42,33 @@
 11) Biology Test (2017) Cheat Sheet
 
 //OTHER:
-1) Cell theory Cheat Sheet 
-2) Cell Transport AP Bio Cheat Sheet
-3) chapter 15 bio Cheat Sheet
-4) Chromosomal Basis of Heredity Cheat Sheet
-5) Cnidaria - Cubozoa & Hydrozoa Cheat Sheet
-6) Cnidaria - Scyphozoa Cheat Sheet
-7) Hallás és látás Cheat Sheet
-8) Homeostasis Cheat Sheet
-9) Infections of the Oral Cavity Cheat Sheet
-10) Meiosis Cheat Sheet
-11) Mitosis Cheat Sheet
-12) mitoza in mejoza Cheat Sheet
-13) Polymers and Carbs Cheat Sheet
-14) Principles of Antimicrobial Chemotherapy Cheat Sheet
-15) Protozoa Cheat Sheet
-16) Science Ecology Review Cheat Sheet
-17) Specialized Plate Media Cheat Sheet
-18) Taste smell Leather Movement Vegetative nerve. Cheat Sheet 
-19) Theories of Oral Infection Cheat Sheet
-20) Uso del microscopio Cheat Sheet
-21) Zellorganellen Cheat Sheet 
+1) Anaerobes Cheat Sheet
+2) Cell theory Cheat Sheet 
+3) Cell Transport AP Bio Cheat Sheet
+4) chapter 15 bio Cheat Sheet
+5) Chromosomal Basis of Heredity Cheat Sheet
+6) Cnidaria - Cubozoa & Hydrozoa Cheat Sheet
+7) Cnidaria - Scyphozoa Cheat Sheet
+8) DNA Structure and Replication Cheat Sheet
+9) Hallás és látás Cheat Sheet
+10) Homeostasis Cheat Sheet
+11) Infections of the Oral Cavity Cheat Sheet
+12) Meiosis Cheat Sheet
+13) Mitosis Cheat Sheet
+14) mitoza in mejoza Cheat Sheet
+15) Polymers and Carbs Cheat Sheet
+16) Population Interaction Cheat Sheet
+17) Principles of Antimicrobial Chemotherapy Cheat Sheet
+18) Protozoa Cheat Sheet
+19) Science Ecology Review Cheat Sheet
+20) Specialized Plate Media Cheat Sheet
+21) Taste smell Leather Movement Vegetative nerve. Cheat Sheet 
+22) The Atoms Family Cheat Sheet
+22) Theories of Oral Infection Cheat Sheet
+24) Uso del microscopio Cheat Sheet
+25) Zellorganellen Cheat Sheet 
 
-/DOING: Ízés szag | Bőr | Mozgatás | Vegetatív idegr. Cheat Sheet ...
+//DOING: AP Bio - Semester 1 Review Cheat Sheet
 */
 //BIOLOGY, CHEMISTRY, COMPUTERS(computer science), ECOLOGY, OCEANOGRAPHY, GEOLOGY, METEOROLOGY, PHYSICS
 const biology_cheatlist_data = {
@@ -75,6 +81,177 @@ const biology_cheatlist_data = {
          entries: [
             {
                "index": 0,
+               title: 'Characteristics of Life',
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "1) Living things have cells\n2) Living things need energy (ATP)\n3) Living things respond to their enviro­nment (Stimulus & Response)\n4) Living things adapt to their enviro­nment (evolu­tion)\n5) Living things develop & grow\n6) Living things reproduce (sexually and/or asexually)" }
+               ]
+            },         
+            {
+               "index": 0,
+               title: 'Divisions of Life',
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "Kingdom\nPhylum\nClass\nOrder\nFamily\nGenus\nSpecies" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Levels of Biological Organization',
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "Atom\nMolecule\nCell\nTissue\nOrgan\nMultic­ellular Organism" },
+                  { "index": 0, "name": null, "value": "Organized smallest to largest" },
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Phylog­enetics',
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "Show evolution over time of different animals based on physical and/or genetic simila­rities" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Scientific Method',
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "1) Define problem\n2) Collect info on problem\n3) Form a hypoth­esis, null hypothesis = opposite of the hypothesis\n4) Design an experiment that includes a control group, dependent variable, and indepe­ndent variable\n5) Preform experi­ment, observe and record data\n6) Draw conclu­sions, a theory could be developed if hypothesis is proved correct\n7) Report results" },
+                  { "index": 0, "name": null, "value": "- Scientific method can only answer objective questions based on quanti­tative facts from experi­ments\n- Experi­mental design = design an experiment to test a hypothesis and/or answer a question\n- Data gathering = Observe and record quanti­tative and/or qualit­ative data from experiment\n- Data analysis = Make a conclusion as to whether or not the data from the experiment proves the hypothesis incorrect or correct" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Science vs. Psudoscience vs. Non-Science',
+               type: "TABLE_LIST",
+               data: [
+                  { "index": 0, "name": "Science", "value": "Study of natural world" },
+                  { "index": 0, "name": "Pseudoscience", "value": "Theories about the natural world that appear scient­ific, but are not" },
+                  { "index": 0, "name": "Non-science", "value": "An area of study that is not scientific" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Matter & Units of Matter',
+               type: "TABLE_LIST",
+               data: [
+                  { "index": 0, "name": "Matter", "value": "Anything that takes up space" },
+                  { "index": 0, "name": "Element", "value": "Pure substance, cannot be broken down" },
+                  { "index": 0, "name": "Atom", "value": "Smallest unit of matter" },
+                  { "index": 0, "name": "Isotope", "value": "An atom with a different number of neutrons" },
+                  { "index": 0, "name": "Ion", "value": "An atom with more or less electrons than proteins" },
+                  { "index": 0, "name": "Molecule", "value": "Atoms bonded together" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Bonding',
+               type: "TABLE_LIST",
+               data: [
+                  { "index": 0, "name": "Ionic", "value": "Giving or losing electrons" },
+                  { "index": 0, "name": "Covalent", "value": "Sharing electrons" }
+               ]
+            },    
+            {
+               "index": 0,
+               title: 'Properties of Water',
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "Universal solvent\nHigh cohesion\nHigh specific heat (= thermal stability)\nHigh heat of vapori­zation (= cooling mechanism)\nBuffer, 7 on pH scale" }
+               ]
+            },  
+            {
+               "index": 0,
+               title: 'pH',
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "- Concen­tration of hydrogen ions\n- Basic = 8-13, less hydrogen ion concen­tration\n- Neutral = 7\n- Acidic = 0-6, more hydrogen ion concen­tration\n- 7 to 6 = 10x more acidic, 7 to 5 = 100x more acidic and so on" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Chemical Rxt',
+               type: "TABLE_LIST",
+               data: [
+                  { "index": 0, "name": "Dehydr­ation Synthesis", "value": "Form water that is ultimately removed to form bonds" },
+                  { "index": 0, "name": "Hydrolysis", "value": "Split compou­nds­/large molecules by adding water" }
+               ]
+            },            
+            {
+               "index": 0,
+               title: 'Inorganic v. Organic Compounds',
+               type: "TABLE_LIST",
+               data: [
+                  { "index": 0, "name": "Inorganic Compounds", "value": "Any compound that lacks a carbon atom, ex. O2, H2O" },
+                  { "index": 0, "name": "Organic Compounds", "value": "Compounds from living things, ex. Hydroxyl, Carboxyl Acid, Methyl, Amine" }
+               ]
+            },  
+            {
+               "index": 0,
+               title: 'Carbon',
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "Carbon is important to life because it is common in most compounds required for life and can be bonded a variety of ways because it only needs four more electrons to complete an octet." }
+               ]
+            },  
+            {
+               "index": 0,
+               title: 'Biological Molecules',
+               type: "TABLE_LIST",
+               data: [
+                  { "index": 0, "name": "Carboh­ydrates", "value": "Simple sugar used for short term energy, polysa­cch­arides (Starch, glycogen, cellulose) + monosa­cca­rides (glucose)" },
+                  { "index": 0, "name": "Lipids", "value": "Fats, oils, and waxes used for long term energy storage. Two parts: Glycerol & fatty acids. Two kinds: Saturated & unsatu­rated (double bonded carbons). Ex. Phosph­olipid" },
+                  { "index": 0, "name": "Proteins", "value": "Made up of one or more polype­ptides folded and coiled onto each other" },
+                  { "index": 0, "name": "Nucleic Acid", "value": "Used for storing genetic inform­ation, two kinds: RNA & DNA" },
+               ]
+            },  
+            {
+               "index": 0,
+               title: 'Proteins',
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "- Polype­ptide = Polymer of amino acids\n- Amino Acids = Organic molecule with an amino acid group and a carboxyl group\n- Proteins work by their shape so change the shape = Destroy the protein (denature)" }
+               ]
+            },  
+            {
+               "index": 0,
+               title: 'Structures of a Protein',
+               type: "TABLE_LIST",
+               data: [
+                  { "index": 0, "name": "1) Primary Structure", "value": "Chain of amino acids" },
+                  { "index": 0, "name": "2) Secondary Structure", "value": "Coils and folds of a polype­ptide chain, hydrogen bonds determine of pleated or helix, oils, and waxes used for long term energy storage. Two parts: Glycerol & fatty acids. Two kinds: Saturated & unsatu­rated (double bonded carbons). Ex. Phosph­olipid" },
+                  { "index": 0, "name": "3) Tertiary Structure", "value": "Shape caused by intera­ctions between R groups, shape can be determined by ionic bonding, disulfide bonds, hydrogen bonding, and hydrop­hobic attraction" },
+                  { "index": 0, "name": "4) Quaternary Structure", "value": "Overall protein structure, 2+ tertiary structures put together" },
+               ]
+            },  
+            {
+               "index": 0,
+               title: 'Functions of a Protein',
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "1) Enzyme­/Ca­talyst = Speeds up reactions by lowering the amount of energy needed, allosteric site = working sites of enzymes\n2) Structure = Protein fibers (filam­ents), cytosk­eleton in cells\n3) Hormones = Slow commun­ication system, quorum sensing = bacterial cells commun­icate with each other by releasing hormones" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Enzymes',
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name": null, "value": "Used to do work in cells such as:\n1) Mechanical Work\n2) Transport Work\n3) Chemical Work (catalysts = lower the amount of energy required)\nHow does an enzyme work?\n1) Induced Fit = Putting two reactants together to lower energy\n2) pH = Modifies pH of the system­/re­action for a favorable sponta­neous reaction\nWhat affects enzyme function?\n1) Temper­ature\n2) pH\n3) Cofactor = A mineral is needed for an enzyme to work, changes the shape of the allosteric site\n4) Inhibitors = Substance that blocks the allosteric site of an enzyme, ex. negative feedback loops, positive feedback loops, penicillin" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Other Proteins',
+               type: "TABLE_LIST",
+               data: [
+                  { "index": 0, "name": "Defensive Proteins", "value": "Protection against diseases, ex. antigens & antibodies" },
+                  { "index": 0, "name": "Receptor Proteins", "value": "Located on the phosph­olipid bilayer of a cell or organe­lle's membrane, function: response to compounds" }
+               ]
+            },                          
+            {
+               "index": 0,
                title: 'Five Kingdoms of Living Things',
                type: "NORMAL",
                data: [
@@ -84,7 +261,7 @@ const biology_cheatlist_data = {
                   { "index": 0, "name": null, "value": "4. Bacteria" },
                   { "index": 0, "name": null, "value": "5. Protists" }
                ]
-            },            
+            },
             {
                "index": 0,
                title: 'Basics',
@@ -1055,7 +1232,64 @@ const biology_cheatlist_data = {
                data: [
                   { "index": 0, "name": null, "values": [{ "type": "NORMAL", "value": "bottom-up model: influence from low" }, { "type": "MATH", "width": 15, "height": 15, "value": "\\rightarrow" }, { "type": "NORMAL", "value": "high\ntop-down (trophic cascade) model: influence from high" }, { "type": "MATH", "width": 15, "height": 15, "value": "\\rightarrow" }, { "type": "NORMAL", "value": "low\nbiological magnification:" }, { "type": "MATH", "width": 15, "height": 15, "value": "\\uparrow" }, { "type": "NORMAL", "value": "trophic level=" }, { "type": "MATH", "width": 15, "height": 15, "value": "\\uparrow" }, { "type": "NORMAL", "value": "accumulated toxin concen­tration" }] }
                ]
-            }
+            },
+            {
+               "index": 0,
+               title: 'Types of Interactions',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": "Predation", "value": "Predator eats prey\nPopulation cycles: sinusoidal growth" },
+                  { "index": 0, "name": "Herbivory", "value": "Organism feeds on photos­ynt­hetic organisms" },
+                  { "index": 0, "name": "Symbiosis", "value": "Close physical association, typically to the advantage of both." },
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Types of Symbiotic Relati­onships',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": "Mutualism", "value": "both benefi­tting (lichen- algae and fungi)" },
+                  { "index": 0, "name": "Comm­ens­alism", "value": "one benefits, other is neither benefitted nor harmed" },
+                  { "index": 0, "name": "Para­sit­ism", "value": "parasite benefits host is harmed" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Competition',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": "Infr­asp­ecific Compet­ition", "value": "same species" },
+                  { "index": 0, "name": "Inte­rsp­ecific Compet­ition", "value": "Mecha­nism: Interf­erence - compet­ition between members of different species, to obtain resources\nMecha­nism: Exploi­tative - better ability to get resources, not enough left for others" },
+                  { "index": 0, "name": "Resource Partitioning", "value": "Using different resources in a habitat.\nniche: organisms role, abiotic and biotic" }
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Population Growth',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": "Dens­ity­-In­dep­endent Factors", "value": "natural distur­bances, climate change, pollution" },
+                  { "index": 0, "name": "Dens­ity­-De­pendant Factors", "value": "disease, predation, compet­ition (food, space, mate)" },
+                  { "index": 0, "name": "Allee Effect", "value": "Allee Effect" }
+               ]
+            },     
+            {
+               "index": 0,
+               title: 'Defence Mechanisms',
+               type: "NORMAL",
+               image: null,
+               data: [
+                  { "index": 0, "name": "Camo­ufl­age", "value": "mimics enviro­nment. coloration" },
+                  { "index": 0, "name": "Mimicry", "value": "mimics another organism. colora­tion." },
+                  { "index": 0, "name": "Chemical Defense", "value": "releases noxious odours or concen­trates poisons" },
+                  { "index": 0, "name": "Behavioral Defense", "value": "passive: hiding, playing dead & active fleeing, herding" },
+                  { "index": 0, "name": "Structural Defense", "value": "external armour" }
+               ]
+            }     
          ]
       },
       {
@@ -6685,7 +6919,268 @@ const biology_cheatlist_data = {
                   { "index": 0, "columns":[{"value":"mode of transmission of parasitic animals: oral-fecal, predator - prey, hematophagous arthropods"}] },
                   { "index": 0, "columns":[{"value":"Core dimorphism\nmikronuk. - diff. shapes and sizes, polyploid, resp. for an apartment. Metab. and phenotyping, degenerates during sp. bre.\nmakronuk. - small and spherical, diploid, storage and mod. gene. mat., passes the myth. or mejot. division (forming a dividing spindle)"}] }
                ]
-            }            
+            },
+            {
+               "index": 0,
+               title: 'Anaerobe Oxygen Usage Definitions',
+               type: "TABLE_LIST",
+               data: [
+                  { "index": 0, "name":"Obligate Aerobe", "value":"Needs O2\n-Pseudomonas, Microc­occus, Bacillus"},
+                  { "index": 0, "name":"Facultative", "value":"Grows with or without O2\n-Staph, Strep, Entero­bac­ter­iaceae"},
+                  { "index": 0, "name":"Microaerophilic", "value":"Only requires a small amount of O2\n-Borrelia"},
+                  { "index": 0, "name":"Obligate Anaerobe", "value":"Can't survive in O2\n-C. diff"}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Anaerobic Basics',
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name":"Basic Reserv­oirs", "value":"-Abscesses\n-Body Fluid\n-Mouth\n-Deep Wound\n-Intestine\n-UTI"},
+                  { "index": 0, "name":"Examples of Infect­ion­s/D­iseases caused by Anaero­bes", "value":"-Dental Infection\n-C.diff\n-Deep wound\n-Gangrene\n-Necrotic Tissue\n-Botulism"}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Anaerobe Aeroto­lerance Testing',
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name":null, "value":"1. CDC BA colony plate with growth"},
+                  { "index": 0, "name":null, "value":"2. Sub to regular BA and another CDC BA plate"},
+                  { "index": 0, "name":null, "value":"3. See if they are anaerobes: If they grow on the regular BA and the CDC BA then they are not anaerobes"}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Anaerobe Specimens',
+               type: "TABLE",
+               data: [
+                  { "index": 0, "columns":[{"value":"Approp­riate Specimens"}, {"value":"Aspirates, body fluid, tissues, suprapubic asspir­ation, drainage, brain abscesses, sinus aspirates"}]},
+                  { "index": 0, "columns":[{"value":"Anae­robic Media - All have no oxygen:", "styles":["BOLD", "ITALIC", "UNDERLINE"]}]},
+                  { "index": 0, "columns":[{"value":"CDC Blood Agar"}, {"value":"Blood Agar without O2"}]},
+                  { "index": 0, "columns":[{"value":"CCFA"}, {"value":"Used for C. Diff. Both selective and differ­ential"}]},
+                  { "index": 0, "columns":[{"value":"lkv agar"}, {"value":"Laked blood and antibi­otic. Has Vanco and Kanamycin, ONLY selective"}]},
+                  { "index": 0, "columns":[{"value":"Bacte­roides Bile Esculin Agar"}, {"value":"Special for Bacte­roides fragilis. Selective and differ­ential (20% bile tolerance)"}]},
+                  { "index": 0, "columns":[{"value":"Thiogl­yco­llate Broth"}, {"value":"Broth media to grow bacteria. Can only grow medically signif­icant organisms. Oxygen suppressed"}]},
+                  { "index": 0, "columns":[{"value":"Cooked Meat Glucose Broth"}, {"value":"looks like has chunks of beef in it. Has glucose. Does same thing as thiogl­yco­llate broth"}]},
+                  { "index": 0, "columns":[{"value":"Incu­bation Enviro­nment:", "styles":["BOLD", "ITALIC", "UNDERLINE"]}]},
+                  { "index": 0, "columns":[{"value":"Gas Pack Jar"}, {"value":"85% N; 10% H; 5% CO2"}]},
+                  { "index": 0, "columns":[{"value":"Anaerobic Chamber"}]}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Anaerobe Gram Negative Bacilli',
+               type: "TABLE",
+               headers:["", "Bacte­roides fragilis", "Porph­yro­monas gingiv­alis", "Prevo­tella melani­nog­enica"],
+               data: [
+                  { "index": 0, "columns":[{"value":"Bile Tolerance (20% Bile)", "styles":["UNDERLINE", "ITALIC"]}, {"value":"+"}, {"value":"-"}, {"value":"-"}]},
+                  { "index": 0, "columns":[{"value":"Brick Red Fluore­scence (UV light)", "styles":["UNDERLINE", "ITALIC"]}, {"value":"-"}, {"value":"+"}, {"value":"+"}]},
+                  { "index": 0, "columns":[{"value":"Brown/­Black Colonies on CDC", "styles":["UNDERLINE", "ITALIC"]}, {"value":"-"}, {"value":"+"}, {"value":"+"}]},
+                  { "index": 0, "columns":[{"value":"Vancomycin", "styles":["UNDERLINE", "ITALIC"]}, {"value":"R"}, {"value":"S"}, {"value":"R"}]},
+                  { "index": 0, "columns":[{"value":"Penicillin", "styles":["UNDERLINE", "ITALIC"]}, {"value":"R"}, {"value":"S"}, {"value":"R"}]},
+                  { "index": 0, "columns":[{"value":"Kanamycin", "styles":["UNDERLINE", "ITALIC"]}, {"value":"R"}, {"value":"R"}, {"value":"R"}]},
+                  { "index": 0, "columns":[{"value":"Lipase", "styles":["UNDERLINE", "ITALIC"]}, {"value":"-"}, {"value":"-"}, {"value":"-"}]},
+                  { "index": 0, "columns":[{"value":"Esculin", "styles":["UNDERLINE", "ITALIC"]}, {"value":"+"}, {"value":"-"}, {"value":"-"}]}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Anaerobe Gram Positive Bacilli',
+               type: "TABLE",
+               data: [
+                  { "index": 0, "columns":[{"value":"Catalase Positive", "styles":["UNDERLINE", "BOLD"]}]},
+                  { "index": 0, "columns":[{"value":"Cutib­act­erium (former Propi­oni­bac­ter­ium)", "styles":["ITALIC"]}, {"value":"- Moderate Growth Rate\n- Diphth­eroid Gram Stain"}]},
+                  { "index": 0, "columns":[{"value":"Catalase Negative", "styles":["UNDERLINE", "BOLD"]}]},
+                  { "index": 0, "columns":[{"value":"Actin­omyces spp.", "styles":["ITALIC"]}, {"value":"- Slow growth rate\n- Filame­ntous, branching GPB"}]},
+                  { "index": 0, "columns":[{"value":"Lacto­bac­illus", "styles":["ITALIC"]}, {"value":"- Rapid Growth Rate{{nl}- Looping, chaining GPB\n- Resistant to Vancomycin"}]},
+                  { "index": 0, "columns":[{"value":"Clost­ridium spp.", "styles":["ITALIC"]}, {"value":""}]},
+                  { "index": 0, "columns":[{"value":"- Clost­ridium perfri­ngens", "styles":["ITALIC"]}, {"value":"- Lecith­inase Positive\n- cloudy around colony\n- Double zone beta hemolysis\n- Lipase negative\n- Boxcar shape\n- Gangrene"}]},
+                  { "index": 0, "columns":[{"value":"- Clost­ridium sporog­enes", "styles":["ITALIC"]}, {"value":"- Common in soil\n- Comes from stool samples\n- Lipase Positive\n- Smells like bad dirt"}]},
+                  { "index": 0, "columns":[{"value":"- Clost­ridium difficile", "styles":["ITALIC"]}, {"value":"- Should not be grown\n- Do toxin testing and PCR\n- Test of cure\n- PCR can pick up dead DNA so it can be false positive\n- If pt has firm stool, no longer transm­issable"}]},
+                  { "index": 0, "columns":[{"value":"- Clost­ridium septicum", "styles":["ITALIC"]}, {"value":"- Gangrene\n- Spreading colony formation\n- Subter­minal Spores"}]},
+                  { "index": 0, "columns":[{"value":"- Clost­ridium tetani", "styles":["ITALIC"]}, {"value":"- Cause of tetanus\n- Club like\n- Tennis racket like"}]},
+                  { "index": 0, "columns":[{"value":"- Clost­ridium tertium", "styles":["ITALIC"]}, {"value":"- Aerotolerant\n- Can grow in O2"}]}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Anaerobe Gram Positive Cocci',
+               type: "TABLE",
+               data: [
+                  { "index": 0, "columns":[{"value":"Pepto­str­ept­oco­ccus", "styles":["ITALIC"]}, {"value":"Catalase Negative"}]},
+                  { "index": 0, "columns":[{"value":"Staph­ylo­coccus saccha­rol­yticus", "styles":["ITALIC"]}, {"value":"Catalase Variable"}]}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Anaerobe Gram Negative Cocci',
+               type: "TABLE",
+               data: [
+                  { "index": 0, "columns":[{"value":"Veill­onella spp.", "styles":["ITALIC"]}, {"value":"Sometimes in blood cultures from endoca­rditis"}]}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Elements, mixtures and compounds',
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name":null, "value":"An element is a pure substance that is made from a single type of atom.\nSubstances which are not chemically bonded are known as mixtures.\nSubstances which are made of more than one type of atom bonded together are known as compounds."}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Electron arrang­ement',
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name":null, "value":"1st shell: holds 2 e-\n2nd shell: holds up to 8 e-\n3rd shell: holds up to 8 e-\nOctet Rule: atoms are stable when their outer electron shell holds 8 electrons.\nThere are 2 exceptions to the octet rule.\n1. The cases in which there are fewer than 8 electrons in the outer shell.\n2. The cases in which there are more than 8 electrons in the outer shell.\nException: H and He.\nLewis Struct­ures: Starting at the right, draw 4 electrons, or dots, counte­r-c­loc­kwise around the element symbol.\nThe valence electrons are the number of electrons a an outer shell of an atom that can partic­ipate in forming chemical bonds with other atoms.\nAtoms with a relatively empty outer shell will want to give up electrons. For example, if an atom has 1 electron out of a possible 8 in its outer shell, it will want to give up that electron so its outer shell is now full.\nAtoms with a relatively full outer shell will want to gain electrons to fill up the outer shell. For example, an atom with 6 of 8 electrons in its outer shell will try to gain 2 electrons so its outer shell is full."}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Groups',
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name":null, "value":"Halogens:\nElements in group 17\nAll non-me­tals. Very reactive. Poor conductors of heat and electr­icity. Tend to form salts with metals. Ex. NaCl: sodium chloride also known as “table salt”. The melting and boiling points increase down the group because of the van der Waals force.\nChalco­gens:\nElements in group 16. Contains three nonmetals, one metalloid, and one metal. Reactive group.\nTransition Metals:\nElements in groups 3-12\nThese metals have a moderate range of reactivity and a wide range of proper­ties. In general, they are shiny and good conductors of heat and electr­icity. They also have higher densities and melting points than groups 1 & 2.\nAlkaline Earth Metals:\nSecond column on the periodic table. (Group 2)\nSlightly less reactive than alkali metals. They are silver colored and more dense than alkali metals.\nAlkali Metals:\nThese metals are extremely reactive and are never found in nature in their pure form. They are silver coloured and shiny. Their density is extremely low so that they are soft enough to be cut with a knife.\nHydrogen:\nThis element does not match the properties of any other group so it stands alone. It is placed above group 1 but it is not part of that group. It is a very reactive, colour­less, odourless gas at room temper­ature.\nBoron Family:\nElements in group 13. Contains one metalloid and 4 metals. Reactive. Aluminium is in this group. It is also the most abundant metal in the earth’s crust.\nCarbon Family:\nElements in group 14. Contains on non-metal, two metall­oids, and two metals. Varied reacti­vity.\nNitrogen Family:\nElements in group 15. Contains two non-me­tals, two metall­oids, and one metal. Varied reacti­vity.\nLantha­nides and Actinides:\nThese are also transition metals that were taken out and placed at the bottom of the table so the table wouldn’t be so wide. The elements in each of these two periods share many proper­ties. The lantha­nides are shiny and reactive. The actinides are all radioa­ctive and are therefore unstable. Elements 95 through 103 do not exist in nature but have been manufa­ctured in the lab.\nNoble Family:\nUnreactive non-me­tals. All are colour­less, odourless gases at room temper­ature. All found in earth’s atmosphere in small amounts."}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Periodic Table',
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name":null, "value":"The columns in the Periodic Table are called Groups (there are 8 groups). The rows in the Periodic Table are called Periods (there are 7 periods).\nElements in the same group have the same number of valence electrons and will form the same kinds of ions.\nThe metals are found on the left of the Periodic Table. The non-metals are found on the right of the Periodic Table. There are more metals than non-me­tals.\nEach element has an atomic number. This number is the amount of proton­s/e­lec­trons the atom has (if the atom is not charged).\nIt can be found under the symbol for the element.\nThe mass number is the combined number of protons and neutrons. The mass number subtracted by the atomic number is the amount of neutrons it has.\nIt can be found above the symbol for the element.\nMost gases are colourless with the exception of chlorine which is a greeny­-yellow colour. Most elements are silver­y-c­oloured metals. There are a few except­ions:\nCarbon is black, sulphur is yellow.\nCopper and gold are orange and yellow coloured metals respec­tively.\nMercury is a liquid."}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Periodic Table',
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name":null, "value":"The columns in the Periodic Table are called Groups (there are 8 groups). The rows in the Periodic Table are called Periods (there are 7 periods).\nElements in the same group have the same number of valence electrons and will form the same kinds of ions.\nThe metals are found on the left of the Periodic Table. The non-metals are found on the right of the Periodic Table. There are more metals than non-me­tals.\nEach element has an atomic number. This number is the amount of proton­s/e­lec­trons the atom has (if the atom is not charged).\nIt can be found under the symbol for the element.\nThe mass number is the combined number of protons and neutrons. The mass number subtracted by the atomic number is the amount of neutrons it has.\nIt can be found above the symbol for the element.\nMost gases are colourless with the exception of chlorine which is a greeny­-yellow colour. Most elements are silver­y-c­oloured metals. There are a few except­ions:\nCarbon is black, sulphur is yellow.\nCopper and gold are orange and yellow coloured metals respec­tively.\nMercury is a liquid."}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Metals, non-metals and metalloids',
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name":null, "value":"Most elements are metals. They are usually shiny, very dense, and only melt at high temper­atures. Their shape can be easily changed into thin wires or sheets without breaking. Metals will corrode, gradually wearing away, like rusting iron. Heat and electr­icity travel easily through metals, which is why it is not wise to stand next to a flagpole during a thunde­rstorm!\nNon-me­tals, on the right side of the periodic table, are very different from metals. Their surface is dull and they don’t conduct heat and electr­icity. As compared to metals, they have low density and will melt at low temper­atures. The shape of nonmetals cannot be changed easily because they are brittle and will break.\nElements that have properties of both metals and non-metals are called metall­oids. They can be shiny or dull and their shape is easily changed. Electr­icity and heat can travel through metalloids but not as easily as they travel through metals."}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Nanotechnology',
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name":null, "value":"Nanote­chn­ology is science, engine­ering, and technology conducted at the nanoscale, which is about 1 to 100 nanome­ters.\nNanosc­ience and nanote­chn­ology are the study and applic­ation of extremely small things and can be used across all the other science fields, such as chemistry, biology, physics, materials science, and engine­ering.\nNanosc­ience and nanote­chn­ology involve the ability to see and to control individual atoms and molecules. Everything on Earth is made up of atoms—the food we eat, the clothes we wear, the buildings and houses we live in, and our own bodies.\nToday's scientists and engineers are finding a wide variety of ways to delibe­rately make materials at the nanoscale to take advantage of their enhanced properties such as higher strength, lighter weight, increased control of light spectrum, and greater chemical reactivity than their larger­-scale counte­rparts."}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Halogens',
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name":null, "value":"The elements in group 7 of the periodic table, on the right, are called the halogens.\nThe reactivity of halogens decreases going down the group.\nThe atoms of each element get larger going down the group. This means that the outer shell gets further away from the nucleus and is shielded by more electron shells. The further the outer shell is from the positive attraction of the nucleus, the harder it is to attract another electron to complete the outer shell. This is why the reactivity of the halogens decreases going down group 7.\nAll halogen atoms require one more electron to obtain a full outer shell and become stable.\nEach atom can achieve this by sharing one electron with another atom to form a single covalent bond.\nThis means that all halogens exist as diatomic molecules (consi­sting of two atoms)."}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Seperating mixtures',
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name":null, "value":"Separation processes: filtra­tion, distil­lation, centri­fuge, sublim­ation, absorp­tion, crysta­lli­sation and chromo­tog­raphy.\nTo separate liquid solutions where the substances have similar boiling points, a more complex version of distil­lation is used called fractional distil­lation."}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Atom structure',
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name":null, "value":"Electrons are particles that orbit the nucleus. They are negatively charged.\nElectrons orbit (move around) the nucleus in a circle called an electron shell.\nThe centre of an atom is called the nucleus.\nProtons are particles that are in the nucleus. They are positively charged.\nNeutrons are particles that are in the nucleus. They do not have a charge and are neutral."}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Noble gases',
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name":null, "value":"The elements in group 0, on the right of the periodic table, are called the noble gases.\nThe noble gases all form colourless gases at room temper­ature.\nThey are all very unreac­tive.\nAll noble gases have full outer electron shells and do not need to gain, lose or share electrons."}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Ions',
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name":null, "value":"Ions are atoms with extra electrons or missing electrons. When you are missing an electron or two, you have a positive charge. When you have an extra electron or two, you have a negative charge."}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Carbon',
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name":null, "value":"The same carbon atoms are used repeatedly on earth. They cycle between the earth and the atmosp­here.\nPlants pull carbon dioxide from the atmosphere and use it to make food –— photos­ynt­hesis.\nThe carbon becomes part of the plant (stored food).\nWhen organisms eat plants, they take in the carbon and some of it becomes part of their own bodies.\nWhen plants and animals die, most of their bodies are decomposed and carbon atoms are returned to the atmosp­here.\nSome are not decomposed fully and end up in deposits underg­round (oil, coal, etc.).\nCarbon in rocks and underg­round deposits is released very slowly into the atmosp­here.\nThis process takes many years.\nAdditional carbon is stored in the ocean.\nMany animals pull carbon from water to use in shells, etc.\nAnimals die and carbon substances are deposited at the bottom of the ocean.\nFossil fuels release carbon stores very slowly.\nBurning anything releases more carbon into atmosphere — especially fossil fuels.\nFewer plants mean less CO2 removed from atmosp­here.\nCarbon is very versatile and can be found in different forms called allotropes (which means different forms of the same element)\nThese allotropes include:\nCharcoal: Crumbles easily, is powdery Can be used for sketching, odor eaters in shoes because it absorbs gases, used in tablets for people with digestive problems, poisonous gas filters in gas masks\nGraphite: The carbon atoms form sheets that are stacked on top of each other. The sheets do not break easily but can slide across each other\nDiamond: Another form of carbon, has a rigid crystal lattice and is one of the strongest and hardest materials on Earth. Does not conduct electr­icity.\nCarbon fibre: Strong and lightw­eight.\nBuckyballs and nanotubes: Buckyballs are another allotrope of carbon discovered in 1985. They are balls made up of 60 carbon atoms and have the same geometric shape as a soccer ball. Nanotubes are sheets of carbon rolled into hollow tubes and they are very strong and conduct electr­icity and are used in miniature electrical circuits."}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Isotopes',
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name":null, "value":"Isotopes are atoms that have the same number of protons and electrons, but a different number of neutrons.\nChanging the number of neutrons in an atom does not change the element. Atoms of elements with different numbers of neutrons are called "­iso­top­es" of that element.\nThere are two ways that isotopes are generally written. They both use the mass of the atom where mass = (number of protons) + (number of neutrons).\nThe first way is to put the mass as a supers­cript before the symbol of the element.\nThe other way is to write out the element and write the mass after a dash next to the element's name."}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Nucleic Acids',
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name":null, "value":"Nucleic acids are polymeric macrom­ole­cules, or large biological molecules, essential for all known forms of life. Nucleic acids, which include DNA (deoxy­rib­onu­cleic acid) and RNA (ribon­ucleic acid), are made from monomers known as nucleo­tides."}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'DNA Replication',
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name":"Helicase and Unzipping", "value":"Their main function is to unpackage an organism's genes."},
+                  { "index": 0, "name":"Leading Strand", "value":"Strand of DNA being replicated contin­uously."},
+                  { "index": 0, "name":"DNA Polymerase", "value":"The DNA polyme­rases are enzymes that create DNA molecules by assembling nucleo­tides, the building blocks of DNA."},
+                  { "index": 0, "name":"RNA Primase", "value":"DNA primase is an enzyme involved in the replic­ation of DNA."},
+                  { "index": 0, "name":"Lagging Strand", "value":"The lagging strand is the strand of nascent DNA whose direction of synthesis is opposite to the direction of the growing replic­ation fork. Because of its orient­ation, replic­ation of the lagging strand is more compli­cated than that of the leading strand."},
+                  { "index": 0, "name":"Okazaki Fragments", "value":"Okazaki fragments are short, newly synthe­sized DNA fragments that are formed on the lagging template strand during DNA replic­ation."},
+                  { "index": 0, "name":"DNA Ligase", "value":"In molecular biology, DNA ligase is a specific type of enzyme, a ligase, (EC 6.5.1.1) that facili­tates the joining of DNA strands together by catalyzing the formation of a phosph­odi­ester bond."}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'DNA',
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name":"Polymers", "value":"Each one of is made up of small replic­ating units."},
+                  { "index": 0, "name":"Three Ingred­ients", "value":"5- Carbon Sugar Molecules, A Phosphate Group, One of Four Nitrogen Bases"},
+                  { "index": 0, "name":"Base Pairs", "value":"Base pairs, which form between specific nucleo­bases (also termed nitrog­enous bases), are the building blocks of the DNA double helix and contribute to the folded structure of both DNA and RNA."},
+                  { "index": 0, "name":"Base Sequences", "value":"A nucleic acid sequence is a succession of letters that indicate the order of nucleo­tides within a DNA (using GACT) or RNA (GACU) molecule. By conven­tion, sequences are usually presented from the 5' end to the 3' end."},
+               ]
+            },
+            {
+               "index": 0,
+               title: 'RNA',
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name":null, "value":"Ribonu­cleic acid (RNA) is a polymeric molecule. It's implicated in a varied sort of biological roles in coding, decoding, regula­tion, and expression of genes."}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Differ­ences between RNA and DNA',
+               type: "NORMAL",
+               data: [
+                  { "index": 0, "name":null, "value":"1. RNA is a single stranded molecule, no double helix.\n2. The Sugar in RNA is Ribose, with an extra Hydrogen Molecule.\n3. Does not contain Thymine, it contains Uracil instead."}
+               ]
+            }                     
          ]
       },
       {
@@ -6745,7 +7240,8 @@ const biology_cheatlist_data = {
                data: [
                   { "index": 0, "name": null, "value": "TEMPLATE" },
                ]
-            }
+            },
+            
          ]
       },
       {
@@ -7250,7 +7746,104 @@ const biology_cheatlist_data = {
                data: [
                   { "index": 0, "name":null, "value":"Oxygen Detection: ZIP inhalation group of neurons in the cerebellum - working with extrapyramidal court\nlung tensioned inhalation: managing exhalation group of neurons detected (medulla) - respiratory muscles relax\nrhythm: bridge nerve group that stimulates and inhibits respiration"}
                ]
-            },                
+            },
+            {
+               "index": 0,
+               title: 'Anatomy',
+               type: "TABLE_LIST",
+               image: null,
+               data: [
+                  { "index": 0, "name":"Micros­copic Anatomy=", "value":"Unseen"},
+                  { "index": 0, "name":"Cytology study of =", "value":"body cells"},
+                  { "index": 0, "name":"Histology study of =", "value":"tissue"},
+                  { "index": 0, "name":"Types of Gross Anatomy =", "value":"Systemic, Regional, Surface, Compar­ative, Embryology"},
+                  { "index": 0, "name":"Pathol­ogical Anatomy=", "value":"Anatomic disease caused by disease"},
+                  { "index": 0, "name":"Radiog­raphic Anatomy =", "value":"Observes internal structure"},
+                  { "index": 0, "name":"Types of Radiog­raphic Anatomy=", "value":"MRI & X-Ray"},
+                  { "index": 0, "name":"physio­logy=", "value":"Function"},
+                  { "index": 0, "name":"Physiology Types=", "value":"Carbio­vas­cular, Neurop­hys­iology, respir­atory, reprod­uctive, and pathop­hys­iology"},
+                  { "index": 0, "name":"Form and Structure=", "value":"interrelated, Neurop­hys­iology, respir­atory, reprod­uctive, and pathop­hys­iology"},
+                  { "index": 0, "name":"Physio­logists focus on=", "value":"mechanisms and Structure"},
+                  { "index": 0, "name":"Anatomists focus on=", "value":"form and Structure"}
+               ]
+            },            
+            {
+               "index": 0,
+               title: 'Anatomy Body Organization',
+               type: "TABLE",
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"L­IVING CHARAC­TER­IZATION", "styles":["ITALIC", "UNDERLINE"]}]},
+                  { "index": 0, "columns":[{"value":"Metabo­lism="}, {"value":"All chemical reaction in the body"}]},
+                  { "index": 0, "columns":[{"value":"Metabolism has="}, {"value":"Anabolism & Catabolism"}]},
+                  { "index": 0, "columns":[{"value":"7 traits makes Alive="}, {"value":"Reprod­uce­s,G­row­s,D­eve­lop­s,Uses Energy­,Re­spo­nsi­ven­ess­,Ad­apts, and moves"}]},
+                  { "index": 0, "columns":[{"value":"ORGANI­ZATION OF ORGANISMS", "styles":["ITALIC", "UNDERLINE"]}]},
+                  { "index": 0, "columns":[{"value":"Organi­zation="}, {"value":"Atom, Molecule, Chemical, Organelle, Cells, Tissue , Organ, Organ System , Organism"}]},
+                  { "index": 0, "columns":[{"value":"ORGAN SYSTEMS", "styles":["ITALIC", "UNDERLINE"]}]},
+                  { "index": 0, "columns":[{"value":"Integu­mentary System ="}, {"value":"skin"}]},
+                  { "index": 0, "columns":[{"value":"Muscle System ="}, {"value":"muscle"}]},
+                  { "index": 0, "columns":[{"value":"Skeletal System ="}, {"value":"Skeleton"}]},
+                  { "index": 0, "columns":[{"value":"Nervous System ="}, {"value":"Nerves"}]},
+                  { "index": 0, "columns":[{"value":"Endocrine System="}, {"value":"Hormones"}]},
+                  { "index": 0, "columns":[{"value":"Lymphatic System="}, {"value":"Lymph"}]},
+                  { "index": 0, "columns":[{"value":"Cardiovascular System="}, {"value":"Blood Vessels"}]},
+                  { "index": 0, "columns":[{"value":"Respir­atory System="}, {"value":"Lungs"}]},
+                  { "index": 0, "columns":[{"value":"Urinary System="}, {"value":"Liquid Waste"}]},
+                  { "index": 0, "columns":[{"value":"Male Reprod­uctive System="}, {"value":"Male Sex"}]},
+                  { "index": 0, "columns":[{"value":"Digestive System="}, {"value":"Solid Waste"}]},
+                  { "index": 0, "columns":[{"value":"Female Reprod­uctive System="}, {"value":"Female Sex"}]}
+               ]
+            },
+            {
+               "index": 0,
+               title: 'Anatomy Cycle',
+               type: "NORMAL",
+               image: "ANOTOMY_CYCLE",
+               data: []
+            },
+            {
+               "index": 0,
+               title: 'Anatomy Terminology',
+               type: "TABLE",
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"ANATOMIC POSITIONS", "styles":["ITALIC", "UNDERLINE"]}]},
+                  { "index": 0, "columns":[{"value":"Planes="}, {"value":"Frontal, Transv­erse, Midsag­ittal"}]},
+                  { "index": 0, "columns":[{"value":"ANATOMIC DIRECTIONS", "styles":["ITALIC", "UNDERLINE"]}]},
+                  { "index": 0, "columns":[{"value":"Relative to front & back="}, {"value":"Anterior, Posterior, Dorsal, and Ventral"}]},
+                  { "index": 0, "columns":[{"value":"Relative to Head="}, {"value":"Superior, Inferior, Cranial, Caudal, and Rostral"}]},
+                  { "index": 0, "columns":[{"value":"Relative to Middle="}, {"value":"Medial, Lateral, Deep, and superf­icial"}]},
+                  { "index": 0, "columns":[{"value":"Relative to attach­ment="}, {"value":"Proximal and Distal"}]},
+                  { "index": 0, "columns":[{"value":"REGIONAL", "styles":["ITALIC", "UNDERLINE"]}]},
+                  { "index": 0, "columns":[{"value":"Axial="}, {"value":"head, neck, and trunk"}]},
+                  { "index": 0, "columns":[{"value":"Append­icular region="}, {"value":"upper/­lower limbs"}]},
+                  { "index": 0, "columns":[{"value":"CAVITIES", "styles":["ITALIC", "UNDERLINE"]}]},
+                  { "index": 0, "columns":[{"value":"Ventral Cavity="}, {"value":"Superior (Thoracic) & Inferior (abdom­ino­pelvic)"}]},
+                  { "index": 0, "columns":[{"value":"Ventral Cavity lined with="}, {"value":"Serous membrane"}]},
+                  { "index": 0, "columns":[{"value":"Serous Membrane="}, {"value":"Parietal layer & Visceral Layer"}]},
+                  { "index": 0, "columns":[{"value":"Serous Membrane contains="}, {"value":"Serous Fluid"}]},
+                  { "index": 0, "columns":[{"value":"Heart (Inner to outer layers)"}, {"value":"Heart, Visceral perica­rdium, perica­rdial cavity with serous fluid, and parietal perica­rdium"}]},
+                  { "index": 0, "columns":[{"value":"Lungs (Inner to outer layers)"}, {"value":"Lungs, Visceral Pleura, Pleural cavity with serous fluid, parietal pleura, diaphragm"}]},
+                  { "index": 0, "columns":[{"value":"Abdomi­nop­elvic cavities="}, {"value":"up=abd­ominal cavity. down=p­elvic cavity"}]},
+                  { "index": 0, "columns":[{"value":"Abdomi­nop­elvic cavity (inner to outer)="}, {"value":"Visceral perito­neum, peritoneal cavity, parietal peritoneum"}]},
+                  { "index": 0, "columns":[{"value":"ABDOMI­NOP­ELVIC REGIONS & QUADRANTS", "styles":["ITALIC", "UNDERLINE"]}]},
+                  { "index": 0, "columns":[{"value":"abdomi­nop­elvic regions="}, {"value":"Umbilical, epigas­tric, hypoga­stric, right/left hypoch­ond­riac, left/right lumbar, right and left/ iliac"}]}
+               ]
+            },     
+            {
+               "index": 0,
+               title: 'Anatomy Homeostasis Components',
+               type: "TABLE",
+               image: null,
+               data: [
+                  { "index": 0, "columns":[{"value":"HOMEOS­TASIS COMPONENTS", "styles":["ITALIC", "UNDERLINE"]}]},
+                  { "index": 0, "columns":[{"value":"Order ="}, {"value":"Stimulus, Receptor, control center, effector, homeos­tasis restored"}]},
+                  { "index": 0, "columns":[{"value":"NEGATIVE fEEDBACK", "styles":["ITALIC", "UNDERLINE"]}]},
+                  { "index": 0, "columns":[{"value":"Negative feedback="}, {"value":"decrease"}]},
+                  { "index": 0, "columns":[{"value":"POSITIVE fEEDBACK", "styles":["ITALIC", "UNDERLINE"]}]},
+                  { "index": 0, "columns":[{"value":"Positive feedback="}, {"value":"increase"}]}
+               ]
+            },                                    
          ]
       },
       {
