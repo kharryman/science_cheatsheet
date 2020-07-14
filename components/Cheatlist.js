@@ -28,6 +28,7 @@ export default class Cheatlist extends Component {
       let selectedTopic = this.props.cheatList;
       let selectedSubtopic = this.props.subtopic;
       let selectedSubtopicFolder = selectedSubtopic.replace(/ /g, '_').toUpperCase();
+      selectedSubtopicFolder = selectedSubtopicFolder.replace(/-/g, '_').toUpperCase();
       //let imageFilename = "";
       let filteredTopic = {};
       //BIOLOGY, CHEMISTRY, COMPUTERS(computer science), ECOLOGY, OCEANOGRAPHY, GEOLOGY, METEOROLOGY, PHYSICS
@@ -203,9 +204,7 @@ export default class Cheatlist extends Component {
          console.log("getDataItem RETURNING A VALUE!!, value=" + item.value);
          return (
             <Text style={styles.myIndent}>
-               {item.value && (
-                  <Text style={styles.textItem}>{item.value}</Text>
-               )}
+                {this.getDataText([{"value":item.value, "styles":item.styles, "type":item.type, "width":item.width, "height":item.height}], "VALUE")}
             </Text>
          )
       } else if (item.values) {
@@ -226,7 +225,7 @@ export default class Cheatlist extends Component {
       }
       return values.map((text) => {
          console.log("values!!! text = " + JSON.stringify(text));
-         if (text.type === 'NORMAL') {
+         if (!text.type || text.type === 'NORMAL') {
             if (text.styles) {
                var myStyles = [];
                for (var i = 0; i < text.styles.length; i++) {
