@@ -40,19 +40,9 @@ export default class SubSelector extends Component {
                return 0;
             }
          });
-         if (subtopic.itemName === 'Basic') {
-            var countOrderedList = 0;
-            var orderedList = ["Major Themes of Biology", "Matter Basics", "Matter & Units of Matter", "Matter Definitions", "Vocabulary", "Biological Factors", "5 Charac­ter­istics of Living Things", "Basic Properties of Life", "Characteristics of Life", "Properties of Life", "Biology and Life", "Properties of Water", "Carbon", "Theory, Hypoth­esis, Law", "Emergent Properties", "Science vs. Psudoscience vs. Non-Science", "Scientific Method", "Scientific Method", "Reasoning", "CORMMSS(Scientific method)", "Important Scientists", "Using and cleaning the microscope", "Microscope", "Microscope Parts", "Hierarchies of Life", "Plants, Animals and Bacteria", "Domains and Kingdoms", "Five Kingdoms of Living Things", "Divisions of Life", "Ecosystems", "Asexual Reproduction", "Asexual vs. Sexual", "Stages of Sexual Reproduction", "Population Profiles", "Fertil­iza­tion: Pros and Cons", "Fetal Development", "Embryo Develop (first 8 wks)", "Stages of Hormone Signaling", "Air Pollution", "Global Warming", "Cancer (from mutations in cell cycle)", "Biological Molecules", "", "Levels of Biological Organization", "Inorganic v. Organic Compounds", "Organic Chemistry", "Organic Molecules", "Bonding", "Bonding Properties", "Bonds", "Table of bonds", "Covalent Bonds", "Polar vs. Non Polar Covalent Bonds", "Mineral Ions", "pH", "Lipids", "Lipids", "Protein Structure", "Protein Synthesis", "Proteins", "Proteins", "Proteins", "Structures of a Protein", "Other Proteins", "Functions of a Protein", "Polymers and Monomers", "Osmosis", "Test for Glucose and Starch", "", "Agriculture", "Adaptations of leaves", "Aerobic Respir­ation in plants", "Chloroplasts", "Internal Structure of a Leaf", "Photos­ynt­hesis", "Specialized structures of plant cells", "photos­ynt­hesis vs. cell respir­ation", "Experiment to measure the rate of p/s", "Anatomy of a Cell", "Cell Diagram", "Cell Composition(Carbs, Proteins, Lipids)", "Cell Division", "Cell Respiration", "Cell Theory", "Cellular Membrane", "Phosph­olipid", "Cellular Processes", "Cellular Respiration", "Cytoskeleton", "Lipid Layer", "Nucleic Acids", "Mitochondria Diagram", "Nucleus", "Smooth & Rough ER", "Golgi", "Function of the Cell Membrane", "Function of the Cell Membrane", "Endomembrane system", "Endome­mbrane System", "Ribosomes", "Lysosomes", "Eukaryotic and Prokar­yotic", "Eukaryotic Cell Structure", "Prokar­yotic Cell Structure", "Exclusive Eukaryotic Features", "Functions of Cell Structures", "Adenosine tripho­sphate(ATP)", "Chemical Energy and ATP", "Aquaporins(Water transport)", "Chemical Rxt(water reactions)", "Exocytosis & Endocy­tosis", "Types of Endocy­tosis", "Motor Neurone", "The Respiration System and Ventillation", "Digestive System", "DNA", "DNA Replication", "Meiosis", "Mitosis", "Water/­Lip­id-­Soluble Hormone Signaling", "Pathogens", "Fermentation", "Enyzme", "Enzymes", "Phylog­enetics"];
-            for (var i = 0; i < subtopic.entries.length; i++) {
-               for (var j = 0; j < subtopic.entries.length; j++) {
-                  if(subtopic.entries[j].title === orderedList[countOrderedList]){
-                     console.log(JSON.stringify(subtopic.entries[i]));
-                     countOrderedList++;
-                     break;
-                  }
-               }
-            }
-         }
+         subtopic.entries.forEach((entry)=>{
+            console.log(subtopic.itemName + ":" + entry.title);
+         });
          return { index: ++index, itemName: subtopic.itemName, type: subtopic.type };
       });
       this.ChemistrySubtopics = chemistryCheatlistData.data.map((subtopic) => {
