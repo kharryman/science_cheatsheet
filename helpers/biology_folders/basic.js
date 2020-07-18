@@ -761,7 +761,252 @@ const basicBio = {
          data: [
             { "index": 0, "columns": [{ "value": "The variable you CHANGE" }, { "value": "The variable you MEASURE" }] }
          ]
-      }
+      },
+      {
+         "index": 4,
+         "title": "Positive and Negative Feedback(Homeostasis)",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": null,
+               "value": "homeos­tasis: mainta­ining stable internal conditions\nnegative feedback:\n● shuts off original stimulus\n● ex: thermostat\npositive feedback:\n● speeds up the original stimulus\n● ex: gossip"
+            }
+         ]
+      },
+      {
+         "index": 4,
+         "title": "Preparing A Slide(Onion edition)",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": null,
+               "value": "1) Add a drop of water to the middle of a clean slide.\n2) Cut up an onion and separate it out into layers. Use tweezers to peel off some epidermal tissue from the bottom of one of the layers.\n3) Using the tweezers, place the epidermal tissue into the water on the slide.\n4) Add a drop of iodine solution. Iodine solution is a stain. Stains are used to highlight objects in a cell by adding colour to them.\n5) Place a cover slip (a square of thin, transp­arent plastic or glass) on top. To do this, stand the cover slip upright in the slide, next to the water droplet. Then carefully tilt and lower it so it covers the specimen. Try not to get any air bubbles under there - they'll obstruct your view of the specimen."
+            }
+         ]
+      },
+      {
+         "index": 4,
+         "title": "Microscopes",
+         "type": "TABLE_LIST",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": "Light Micros­copes",
+               "value": "uses light and lenses to form an image of a specimen and magnify it; lets us see individual cells and large subcel­lular structures"
+            },
+            {
+               "index": 0,
+               "name": "Electron Micros­copes",
+               "value": "uses electrons to form an image and magnify it; lets us see smaller things in more detail (smaller than cell)"
+            },
+            {
+               "index": 0,
+               "name": "The Formula For Magnif­ication",
+               "value": "image size = magnif­ication x real size"
+            }
+         ]
+      },
+      {
+         "index": 4,
+         "title": "Free Energy and Equili­brium",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": null,
+               "value": "free energy: energy available to do work\nfree energy decreases when reactions proceed toward equili­brium"
+            }
+         ]
+      },
+      {
+         "index": 4,
+         "title": "Hierarchy of Organi­zation",
+         "type": "TABLE",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "columns": [
+                  {
+                     "value": "atom"
+                  },
+                  {
+                     "value": "organ system"
+                  }
+               ]
+            },
+            {
+               "index": 0,
+               "columns": [
+                  {
+                     "value": "molecule"
+                  },
+                  {
+                     "value": "organism"
+                  }
+               ]
+            },
+            {
+               "index": 0,
+               "columns": [
+                  {
+                     "value": "organelle"
+                  },
+                  {
+                     "value": "population"
+                  }
+               ]
+            },
+            {
+               "index": 0,
+               "columns": [
+                  {
+                     "value": "cell"
+                  },
+                  {
+                     "value": "commmunity"
+                  }
+               ]
+            },
+            {
+               "index": 0,
+               "columns": [
+                  {
+                     "value": "tissue"
+                  },
+                  {
+                     "value": "ecosystem"
+                  }
+               ]
+            },
+            {
+               "index": 0,
+               "columns": [
+                  {
+                     "value": "organ"
+                  },
+                  {
+                     "value": "biosphere"
+                  }
+               ]
+            },
+            {
+               "index": 0,
+               "columns": [
+                  {
+                     "value": "Community is a bunch of popula­tions, ecosystem is those popula­tions and abiotic factors."
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "index": 4,
+         "title": "Diffusion",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": "Definition",
+               "value": "The spreading out of particles from an area of higher concen­tration to an area of lower concen­tra­tion."
+            },
+            {
+               "index": 0,
+               "name": null,
+               "value": "-happens in both solutions and gases\n-the bigger the concen­tration gradient (the difference in concen­tra­tion), the faster the diffu­sion rate\n-a higher temper­ature will also have a faster diffu­sion rate because the particles have more energy and thus move faster"
+            }
+         ]
+      },
+      {
+         "index": 4,
+         "title": "Diffusion",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": null,
+               "value": "passive transport\nmolecules spread out to available spaces\nmove down concen­tration gradient (high to low concen­tra­tion)\nwork to reach equili­brium"
+            }
+         ]
+      },
+      {
+         "index": 4,
+         "title": "How To Use A Light Microscope To View A Slide",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": null,
+               "value": "1) Clip the slide you've prepared onto the stage.\n2) Select the lowest­-po­wered objective lens (i.e. the one that produces the lowest magnif­ica­tion).\n3) Use the course adjustment knob to move the stage up to just below the objective lens.\n4) Look down the eyepiece. Use the coarse adjustment knob to move the stage downwards until the image is roughly in focus.\n5) Adjust the focus with the fine adjustment knob until you get a clear image of what's on the slide.\n6) If you need to see the slide with greater magnif­ica­tion, swap to a higher­-po­wered objective lens and refocus."
+            }
+         ]
+      },
+      {
+         "index": 4,
+         "title": "Jan Ingenhousz (1779)",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": null,
+               "value": "He started out similarly to Priestly's experi­ment; with a lit candle and a plant in a jar\nHe then put a black cloth over the jar so light could not get into the jar\n                  When he tried to light it later, the candle would not light\nHe proved that plants need light to change the compos­ition of the air\nHe also did another experiment where he had an aquatic plant\nWhen there was light, the plant released little bubbles into the water\nWhen there was no light, the plant did not produce bubbles\nThis further proved that plants need light to change the air"
+            }
+         ]
+      },
+      {
+         "index": 4,
+         "title": "Jan van Helmont(1600s)",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": null,
+               "value": "He weighed a pot of soil before and after he planted a willow tree in it\nHe only gave it water for five years\nThe pot weighed the same afterwards but the tree was sevent­y-five kilograms so he concluded the plants mass came from the water and not the soil\nHe was right for the most part"
+            }
+         ]
+      },
+      {
+         "index": 4,
+         "title": "John Woodward(late 1600s)",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": null,
+               "value": "He measured the amount of water he gave to his plant\nHe gave his plant 76,000 grams of water\nHowever, the plant only grew one gram\nSo he concluded most of the water that was given to the plant was exhaled through its leaves"
+            }
+         ]
+      },
+      {
+         "index": 4,
+         "title": "Joseph Priestly(1771)",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": null,
+               "value": "He put a lit candle in a jar with a piece of a mint plant\nThe candle soon went out (oxygen had not been discovered yet*) but he knew it \"­dec­omposed the air\" somehow\nThere was then no oxygen in the jar\nHe left the plant in the jar for a while and came back later\nHe took a magnifying glass and was able to light the candle through the jar, meaning somehow that there was now oxygen in the jar\nHe concluded then that plants changed the compos­ition of the air"
+            },
+            {
+               "index": 0,
+               "name": "",
+               "value": "*Oxygen was discovered in 1772"
+            }
+         ]
+      }      
    ]
 };
 

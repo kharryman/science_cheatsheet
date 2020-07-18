@@ -783,7 +783,59 @@ const microBio = {
          data: [
             { "index": 0, "name": null, "value": "Used to do work in cells such as:\n1) Mechanical Work\n2) Transport Work\n3) Chemical Work (catalysts = lower the amount of energy required)\nHow does an enzyme work?\n1) Induced Fit = Putting two reactants together to lower energy\n2) pH = Modifies pH of the system­/re­action for a favorable sponta­neous reaction\nWhat affects enzyme function?\n1) Temper­ature\n2) pH\n3) Cofactor = A mineral is needed for an enzyme to work, changes the shape of the allosteric site\n4) Inhibitors = Substance that blocks the allosteric site of an enzyme, ex. negative feedback loops, positive feedback loops, penicillin" }
          ]
-      },        
+      },
+      {
+         "index": 4,
+         "title": "Formation of Macrom­ole­cules",
+         "type": "TABLE",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "columns": [
+                  {
+                     "value": "monomer"
+                  },
+                  {
+                     "value": "beads"
+                  }
+               ]
+            },
+            {
+               "index": 0,
+               "columns": [
+                  {
+                     "value": "polymers"
+                  },
+                  {
+                     "value": "necklace"
+                  }
+               ]
+            },
+            {
+               "index": 0,
+               "columns": [
+                  {
+                     "value": "dehydration"
+                  },
+                  {
+                     "value": "create necklace, water produced"
+                  }
+               ]
+            },
+            {
+               "index": 0,
+               "columns": [
+                  {
+                     "value": "hydrolysis"
+                  },
+                  {
+                     "value": "take necklace apart, water consumed"
+                  }
+               ]
+            }
+         ]
+      }      
    ]
 };
 

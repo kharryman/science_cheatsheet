@@ -72,7 +72,7 @@ const plantBio = {
             { "index": 0, "name": "Pest Control", "value": "Pest control includes the management of weeds, insects, mites, and diseases. Chemical (pesti­cides), biological (bioco­ntrol), mechanical (tillage), and cultural practices are used. Cultural practices include crop rotation, culling, cover crops, interc­rop­ping, compos­ting, avoidance, and resist­ance. Integrated pest management attempts to use all of these methods to keep pest popula­tions below the number which would cause economic loss, and recommends pesticides as a last resort." },
             { "index": 0, "name": "Water Management", "value": "Water management is needed where rainfall is insuff­icient or variable, which occurs to some degree in most regions of the world.[92] Some farmers use irrigation to supplement rainfall. In other areas such as the Great Plains in the U.S. and Canada, farmers use a fallow year to conserve soil moisture to use for growing a crop in the following year.[105] Agricu­lture represents 70% of freshwater use worldwide." }
          ]
-      },   
+      },
       {
          "index": 0,
          title: 'Adaptations of leaves',
@@ -85,7 +85,7 @@ const plantBio = {
             { "index": 0, "name": null, "value": "4. Leaves have a network of vascular bundles which deliver water and it helps support the leaf structure" },
             { "index": 0, "name": null, "value": "5. The waxy cuticle helps to reduce water loss by evapor­ation" }
          ]
-      },         
+      },
       {
          "index": 0,
          title: 'Aerobic Respir­ation in plants',
@@ -93,7 +93,7 @@ const plantBio = {
          data: [
             { "index": 0, "name": null, "value": "6CO2 + 6H2O → C6H12O6 + 6O2" }
          ]
-      },      
+      },
       {
          "index": 4,
          title: 'Chloroplasts',
@@ -104,7 +104,7 @@ const plantBio = {
             { "index": 0, "columns": [{ "value": "thylakoid" }, { "value": "chips" }] },
             { "index": 0, "columns": [{ "value": "granum" }, { "value": "stack" }] }
          ]
-      }, 
+      },
       {
          "index": 0,
          title: 'Internal Structure of a Leaf',
@@ -113,7 +113,7 @@ const plantBio = {
          data: [
             { "index": 0, "name": null, "value": null }
          ]
-      }, 
+      },
       {
          "index": 0,
          title: 'Rate of Photos­ynt­hesis',
@@ -123,7 +123,7 @@ const plantBio = {
          data: [
             { "index": 0, "columns": [{ "value": "Chloro­phyll uses light energy to perform photos­ynt­hesis" }, { "value": "CO2 is one of the raw materials needed for photos­ynt­hesis" }, { "value": "Temper­ature affects the rate of photos­ynt­hesis because it affects the enzymes involved" }] }
          ]
-      },  
+      },
       {
          "index": 0,
          title: 'Specialized structures of plant cells',
@@ -148,7 +148,7 @@ const plantBio = {
             { "index": 0, "columns": [{ "value": "products- sugar, oxygen" }, { "value": "CO2, water, ATP" }] },
             { "index": 0, "columns": [{ "value": "ETC- electron transport chain" }] }
          ]
-      },           
+      },
       {
          "index": 0,
          title: 'Photos­ynt­hesis',
@@ -164,7 +164,7 @@ const plantBio = {
             { "index": 0, "columns": [{ "value": "1. e- enter ETC\n2. e- and H+ are released and O is released as a waste\n3. e- move from protein to protein releasing NRG to pump H+ ions in thylakoid\nphotos­ystem 1- captures NRG & produces NRG carrying molecules\n4. e- are energized and leave the thylakoid membrane\n5. NADPH is transf­erred to light indep rxn\n6. concen­tration of H+ ions is higher inside thylakoid membrane\n6 cont. difference is called chemio­smotic gradient & stores NRG-ions flow through protein channel by diffusion\n7. adds phosphate group to ADP as H+ ions flow through" }] },
             { "index": 0, "columns": [{ "value": "photos­ynt­hesis formula- 6CO2+6­H20­→→→­→C6­H12­O6+6O2\nNRG=energy" }] }
          ]
-      },         
+      },
       {
          "index": 0,
          title: 'Experiment to measure the rate of p/s',
@@ -173,7 +173,7 @@ const plantBio = {
          data: [
             { "index": 0, "name": null, "value": null }
          ]
-      },  
+      },
       {
          "index": 0,
          title: 'Fermentation',
@@ -188,7 +188,250 @@ const plantBio = {
             { "index": 0, "columns": [{ "value": "NADH changed back to NAD+" }, { "value": "used in food production and by bacteria" }] },
             { "index": 0, "columns": [{ "value": "-Does not produce ATP\n-Anaerobic" }] }
          ]
-      },                      
+      },
+      {
+         "index": 4,
+         "title": "C3 vs. C4 vs. CAM plants",
+         "type": "NORMAL",
+         "image": "C3_C4_CAM_PLANTS",
+         "data": []
+      },
+      {
+         "index": 4,
+         "title": "Cloning Plants",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": null,
+               "value": "In the right condit­ions, a plant cell will become unspec­ialised and will undergo mitosis many times. Each of these undiff­ere­nti­ated, recently made ells will produce more cells by mitosis.\nIn different condit­ions, these will then differ­entiate to form tissues such as xylem, phloem, and root hair cells that are needed to form a small new plant. This new plant will be identical to the original parent.\nIt’s difficult to clone animals because most animal cells differ­entiate perman­ently early in embryo develo­pment and the cells cannot change back."
+            }
+         ]
+      },
+      {
+         "index": 4,
+         "title": "Fermentation",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": null,
+               "value": "anaerobic process (no O2)\nproduces small amounts of ATP\nregene­rates NAD+/NADH\nalcoholic fermen­tation\n● yeast/­bac­teria\n● produces CO2 and alcohol\nlactic acid\n● human muscles\n● yogurt\n● produces lactic acid"
+            }
+         ]
+      },
+      {
+         "index": 4,
+         "title": "Photosynthesis Overview",
+         "type": "NORMAL",
+         "image": "PHOTOSYNTHESIS_OVERVIEW",
+         "data": []
+      },
+      {
+         "index": 4,
+         "title": "Photos­ynt­hesis",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": null,
+               "value": "transf­orm­ation of solar light energy trapped by chloro­plasts into chemical bond energy stored in sugar and other organic molecules\n1) synthe­sizes energy rich molecules\n2) uses CO2 as carbon source\n3) directly or indirectly supplies energy\nCO2 + H2O + sunlight → C6H12O6 + O2"
+            }
+         ]
+      },
+      {
+         "index": 4,
+         "title": "Plant Cells",
+         "type": "TABLE_LIST",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": "Cell Wall",
+               "value": "a rigid wall made of cellulose; it supports the cell and streng­thens it"
+            },
+            {
+               "index": 0,
+               "name": "Permanent Vacuole",
+               "values": [
+                  {
+                     "type": "NORMAL",
+                     "value": "contains "
+                  },
+                  {
+                     "type": "NORMAL",
+                     "value": "cell sap",
+                     "styles": [
+                        "ITALIC"
+                     ]
+                  },
+                  {
+                     "type": "NORMAL",
+                     "value": ", a weak solution of sugar and salts"
+                  }
+               ]
+            },
+            {
+               "index": 0,
+               "name": "Chloroplasts",
+               "values": [
+                  {
+                     "type": "NORMAL",
+                     "value": "these are where "
+                  },
+                  {
+                     "type": "NORMAL",
+                     "value": "photosynthesis",
+                     "styles": [
+                        "ITALIC"
+                     ]
+                  },
+                  {
+                     "type": "NORMAL",
+                     "value": "occures, which makes food for the plant; they contain a green substance called "
+                  },
+                  {
+                     "type": "NORMAL",
+                     "value": "chlorophyll",
+                     "styles": [
+                        "ITALIC"
+                     ]
+                  },
+                  {
+                     "type": "NORMAL",
+                     "value": ", which absorbas the light needed for photosynthesis"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "index": 4,
+         "title": "Plant Cells in Pure Water",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": null,
+               "value": "pure water (hypotonic solution) will initially move into the cells\nafter a period of time the cells will become turgid (swollen)\nas turgor pressure increases, water will diffuse out of the cell... eventually equili­brium will be reached"
+            }
+         ]
+      },
+      {
+         "index": 4,
+         "title": "Plant Eukaryotic Cell Parts",
+         "type": "TABLE_LIST",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": "Plasticidia:",
+               "value": "Organejos that serve as factory and important reserve of chemical compounds. They are classified into leukoplasts, chromoplasts and chloroplasts."
+            },
+            {
+               "index": 0,
+               "name": "Leukoplastic:",
+               "value": "Starch (white pigment). For example, dad."
+            },
+            {
+               "index": 0,
+               "name": "Chromoplasts:",
+               "value": "They give color to the fruit or flower. For example, lycopene (tomato), beta-carotene (carrot)"
+            },
+            {
+               "index": 0,
+               "name": "Great central vacuole:",
+               "value": "Water tank and various chemical substances."
+            },
+            {
+               "index": 0,
+               "name": "Chloroplasts:",
+               "value": "They carry out photosynthesis."
+            }
+         ]
+      },
+      {
+         "index": 4,
+         "title": "Plant vs. Animal Cell",
+         "type": "TABLE",
+         "headers": [
+            "Plant Cell:",
+            "Animal Cell:"
+         ],
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "columns": [
+                  {
+                     "value": "chloroplast"
+                  },
+                  {
+                     "value": "cilia and flagella"
+                  }
+               ]
+            },
+            {
+               "index": 0,
+               "columns": [
+                  {
+                     "value": "central vacuole"
+                  },
+                  {
+                     "value": "centrioles"
+                  }
+               ]
+            },
+            {
+               "index": 0,
+               "columns": [
+                  {
+                     "value": "cell wal"
+                  },
+                  {
+                     "value": "lysosomes"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "index": 4,
+         "title": "Pathways of Photos­ynt­hesis",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": null,
+               "value": "noncyclic photop­hos­pho­ryl­ation produces ATP and NADPH\ncyclic photop­hos­pho­ryl­ation is ATP production\ncalvin cycle consumes more ATP than NADPH"
+            }
+         ]
+      },
+      {
+         "index": 4,
+         "title": "Plastids",
+         "type": "NORMAL",
+         "image": "PLASTIDS",
+         "data": []
+      },
+      {
+         "index": 4,
+         "title": "Transf­orm­ation of Energy(plants)",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": null,
+               "value": "sunlight → chemical bonds during photos­ynt­hesis"
+            }
+         ]
+      }
    ]
 };
 

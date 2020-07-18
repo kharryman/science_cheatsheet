@@ -256,6 +256,45 @@ const ecologyBio = {
             { "index": 0, "name": null, "value": "Show evolution over time of different animals based on physical and/or genetic simila­rities" }
          ]
       },      
+      {
+         "index": 4,
+         "title": "Ectotherms",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": null,
+               "value": "do not regulate internal body temper­ature\nrely on enviro­nmental heat sources\nless respir­ati­on/food"
+            }
+         ]
+      },
+      {
+         "index": 4,
+         "title": "Endotherms",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": null,
+               "value": "regulate internal body temper­atures through metabolism\nbalancing heat loss and gain\nfive adapta­tions help animals thermo­reg­ulate:\n1) insulation\n2) circul­ating adapta­tions\n3) cooling by evapor­ative heat loss\n4) behavioral responses\n5) adjusting metabolic heat production"
+            }
+         ]
+      },
+      {
+         "index": 4,
+         "title": "Size and Metabolic Rate",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": null,
+               "value": "larger mammals have more body mass and require more chemical energy (higher BMR)\nsmaller animals require more kcal/gram, have greater rate of O2 delivery, higher breathing rate\nincrease activity → increase metabolic rate → more ATP"
+            }
+         ]
+      }     
    ]
 };
 

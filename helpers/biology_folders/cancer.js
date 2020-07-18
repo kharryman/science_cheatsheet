@@ -284,6 +284,97 @@ const cancerBio = {
             { "index": 0, "name": null, "value": "Most frequent nosocomial (hospi­tal­-ac­quired) pathogen\nUsually resistant to several other antibi­otics" }
          ]
       },
+      {
+         "index": 4,
+         "title": "Cancer",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": null,
+               "name": null,
+               "value": "defini­tions of cancer:\n● neoplasm of prolif­erating cells (new tissue growing out of control)\n● cell division out of control\n● cells produced are useless\n● compete with healthy cells for nutrients and oxygen\nbenigns (not moving) versus malignant (moving)\n● benign is a sedentary mass of cancerous cells\n● malignant is a moving mass of cancerous cells - metastasis"
+            }
+         ]
+      },      
+      {
+         "index": 4,
+         "title": "Causes of Cancer",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": null,
+               "value": "mutations\ncarcin­ogenic chemicals\nUV light\nviruses\noncogenes\np53 genes"
+            }
+         ]
+      },      
+      {
+         "index": 4,
+         "title": "Basic Types of Cancer",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": null,
+               "value": "carcinoma: arises from body's outer coverings and inner linings\nsarcoma: arises from body's supporting structures\nlymphoma: arises from lymph system\nleukemia: arises from red marrow in bone, spleen"
+            }
+         ]
+      },      
+      {
+         "index": 4,
+         "title": "Disrupt Cell Cycle and Trigger Cancer",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": null,
+               "value": "genes that stop or slow the cell cycle\n● ex: tumor suppressor genes\ngenes that trigger cell growth and division by initiating different stages of the cell cycle\n● ex: proto-­onc­ogenes"
+            }
+         ]
+      },      
+      {
+         "index": 4,
+         "title": "What Causes Uncont­rolled Cell Growth?",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": null,
+               "value": "defects in proteins that control the cell cycle\nmutations that knock out key genes"
+            }
+         ]
+      },      
+      {
+         "index": 4,
+         "title": "Proto onc­ogenes",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": null,
+               "value": "initiate each phase of the cell cycle\nactive when conditions are approp­riate for growth\nmutations cause growth to occur at all times\noncogenes promote cancer develo­pment"
+            }
+         ]
+      },
+      {
+         "index": 4,
+         "title": "Tumor ­Sup­pressor Genes",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": null,
+               "name": null,
+               "value": "p53 (guardian of the genome)\n● p53 protein increases in cells exposed to UV radiation\np53 mode of action­\n1) DNA damage\n2) p53 increases\n3) p53 bind to DNA (not at damage site)\n4) transc­ription of genes that stop cell cycle or lead to cell death"
+            }
+         ]
+      },      
    ]
 };
 

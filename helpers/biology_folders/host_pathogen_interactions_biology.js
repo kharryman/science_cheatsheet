@@ -426,6 +426,55 @@ const hostPathogenInteractionsBio =       {
             { "index": 0, "name": null, "values": [{ "type": "NORMAL", "value": "Pathogens are microo­rga­nisms that cause disease " }, { "type": "NORMAL", "styles": ["ITALIC"], "value": "e.g certain types of bacteria and viruses" }] }
          ]
       },      
+      {
+         "index": 4,
+         "title": "Diabetes",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": "Type 1",
+               "value": "insulin isn't produced, beta pancreatic cells damaged"
+            },
+            {
+               "index": 0,
+               "name": "Type 2",
+               "value": "insuli­n/g­lucose receptors not working"
+            },
+            {
+               "index": 0,
+               "name": null,
+               "value": "Hyperg­lycemia (high blood sugar), hypogl­ycemia (low blood sugar). Antagonist to insulin is glucagon."
+            }
+         ]
+      },
+      {
+         "index": 4,
+         "title": "Fever",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": null,
+               "value": "when the phagocytes are overwh­elmed:\n● release a signal to the hypoth­alamus\n● body temper­ature increases\n● increase in metabolism"
+            }
+         ]
+      },
+      {
+         "index": 4,
+         "title": "Innate (nonsp­ecific) Immune System",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": null,
+               "value": "physical and chemical barriers that protect the body\n1st line of defense:\n● skin (physical barrier)\n● mucous membranes (chemical and physical barrier; enzymes and defensins)\n2nd line of defense:\n● fever\n● chemical signals\n● inflam­mation"
+            }
+         ]
+      },      
    ]
 };
 

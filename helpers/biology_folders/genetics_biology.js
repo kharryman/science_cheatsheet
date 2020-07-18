@@ -1266,7 +1266,493 @@ const geneticsBio =       {
             { "index": 0, "name": "telophase", "value": "fibres disappear and membrane reforms around each set" },
             { "index": 0, "name": "(cytokinesis)", "value": "cell contents are divided into 2 cells\ncleavage furrow or cell plate" },
          ]
-      }           
+      },
+      {
+         "index": 4,
+         "title": "What Causes Genetic Variation?",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": null,
+               "value": " * Indepe­ndent assort­ment, which occurs when chromo­somes randomly line up at the equator.\n * Crossing over, during prophase I, where genetic material is swapped by chroma­tids.\n * Random fertil­isa­tion. During sexual reprod­uction, only one sperm will fertilise one egg, meaning it is random chance which combin­ation of genetic inform­ation will be present in the parents' gametes."
+            }
+         ]
+      },      
+      {
+         "index": 4,
+         "title": "Spindle Fibers",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": null,
+               "value": "centrosome\nkineti­chore fibers:\n● attach to chromo­somes\n● movements\nnonkin­eti­chore fibers:\n● attach pole to pole\n● support"
+            }
+         ]
+      },      
+      {
+         "index": 4,
+         "title": "Anaphase",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": null,
+               "value": "Anaphase is the stage of mitosis or meiosis when chromo­somes are split and the sister chromatids move to opposite poles of the cell."
+            }
+         ]
+      },      
+      {
+         "index": 4,
+         "title": "Internal Controls",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": null,
+               "value": "CDKs: cyclin dependent kinases (proteins)\ncyclins: regulatory proteins (must be present)\n● increases as the cell goes through interphase\nMPF: mitosis promoting factors in G2\n● cyclin + CDK\nAPC-An­aphase promoting complex\n● kineto­chore fiber connection"
+            }
+         ]
+      },
+      {
+         "index": 4,
+         "title": "What is Meiosis",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": null,
+               "value": "Meiosis is the formation of gametes; the sex cells used in sexual reprod­uction (egg and sperm cells).\nUsually, during interp­hase, body cells are diploid cells; they contain a full set of chromo­somes (2n). Gametes are haploid (n). Each parent's gametes contain half the genetic material needed, so when a gamete from each parent fuse together, the offspring has a full set of genetic material (2n); half from each parent."
+            }
+         ]
+      },            
+      {
+         "index": 4,
+         "title": "Meiosis Diagram",
+         "type": "NORMAL",
+         "image": "MEIOSIS_DIAGRAM",
+         "data": []
+      },
+      {
+         "index": 4,
+         "title": "Meiosis Diagram",
+         "type": "TABLE",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "columns": [
+                  {
+                     "value": "Number of cell divisions"
+                  },
+                  {
+                     "value": "1"
+                  },
+                  {
+                     "value": "2"
+                  }
+               ]
+            },
+            {
+               "index": 0,
+               "columns": [
+                  {
+                     "value": "Number of daughter cells"
+                  },
+                  {
+                     "value": "2"
+                  },
+                  {
+                     "value": "4"
+                  }
+               ]
+            },
+            {
+               "index": 0,
+               "columns": [
+                  {
+                     "value": "Genetic compos­ition of daughter cells"
+                  },
+                  {
+                     "value": "2n"
+                  },
+                  {
+                     "value": "n"
+                  }
+               ]
+            },
+            {
+               "index": 0,
+               "columns": [
+                  {
+                     "value": "Role in animals"
+                  },
+                  {
+                     "value": "Tissue growth, asexual reprod­uction"
+                  },
+                  {
+                     "value": "Formation of gametes (for sexual reprod­uction)"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "index": 4,
+         "title": "Meiosis Image",
+         "type": "NORMAL",
+         "image": "MEIOSIS_3",
+         "data": []
+      },
+      {
+         "index": 4,
+         "title": "Stages of Meiosis",
+         "type": "TABLE",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "columns": [
+                  {
+                     "value": "1) Interphase"
+                  },
+                  {
+                     "value": "DNA within the cell is duplic­ated."
+                  },
+                  {
+                     "value": "2n → 4n"
+                  }
+               ]
+            },
+            {
+               "index": 0,
+               "columns": [
+                  {
+                     "value": "2) Prophase I"
+                  },
+                  {
+                     "value": "Chromo­somes form homologous pairs (tetrads), and crossing over occurs, where certain genes from each chromosome physically interact and swap over."
+                  },
+                  {
+                     "value": "4n"
+                  }
+               ]
+            },
+            {
+               "index": 0,
+               "columns": [
+                  {
+                     "value": "3) Metaphase I"
+                  },
+                  {
+                     "value": "Tetrads line up at the equator of the cell."
+                  },
+                  {
+                     "value": "4n"
+                  }
+               ]
+            },
+            {
+               "index": 0,
+               "columns": [
+                  {
+                     "value": "4) Anaphase"
+                  },
+                  {
+                     "value": "Spindle fibers pull 1 chromosome from each tetrad to opposite poles of the cell."
+                  },
+                  {
+                     "value": "4n"
+                  }
+               ]
+            },
+            {
+               "index": 0,
+               "columns": [
+                  {
+                     "value": "5) Telophase I"
+                  },
+                  {
+                     "value": "A cleavage furrow forms, which pinches the cell in the middle."
+                  },
+                  {
+                     "value": "4n"
+                  }
+               ]
+            },
+            {
+               "index": 0,
+               "columns": [
+                  {
+                     "value": "6) Cytokinesis"
+                  },
+                  {
+                     "value": "The cell divides into 2 daughter cells."
+                  },
+                  {
+                     "value": "4n → 2n"
+                  }
+               ]
+            },
+            {
+               "index": 0,
+               "columns": [
+                  {
+                     "value": "7) Prophase II"
+                  },
+                  {
+                     "value": "The reformed nuclear envelope breaks down."
+                  },
+                  {
+                     "value": "2n"
+                  }
+               ]
+            },
+            {
+               "index": 0,
+               "columns": [
+                  {
+                     "value": "8) Metaphase II"
+                  },
+                  {
+                     "value": "Chromo­somes line up at the cell's equator."
+                  },
+                  {
+                     "value": "2n"
+                  }
+               ]
+            },
+            {
+               "index": 0,
+               "columns": [
+                  {
+                     "value": "9) Anaphase II"
+                  },
+                  {
+                     "value": "Each chromo­some's sister chromatids are pulled to opposite poles of the cell by spindle fibers."
+                  },
+                  {
+                     "value": "2n"
+                  }
+               ]
+            },
+            {
+               "index": 0,
+               "columns": [
+                  {
+                     "value": "10) Telphase II"
+                  },
+                  {
+                     "value": "A cleavage furrow forms."
+                  },
+                  {
+                     "value": "2n"
+                  }
+               ]
+            },
+            {
+               "index": 0,
+               "columns": [
+                  {
+                     "value": "11) Cytokinesis"
+                  },
+                  {
+                     "value": "Each daughter cell divides into 2 cells, forming a total of 4 haploid cells for the whole process."
+                  },
+                  {
+                     "value": "2n → n"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "index": 4,
+         "title": "Metaphase",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": null,
+               "value": "Motor proteins are a class of molecular motors that are able to move along the surface of a suitable substrate."
+            }
+         ]
+      },
+      {
+         "index": 4,
+         "title": "Mitosis",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": null,
+               "value": "Interp­hase: 46 chromo­somes\nProphase: 92 chromo­somes\nPromet­aphase: nucleus dissolves and microt­ubules attach to centro­meres\nMetaphase: chromo­somes align in the middle of the cell\nAnaphase: separated chromo­somes pulled apart by spindle fibers\nTelophase: microt­ubules disappear and cell division begins\nCytoki­nesis: two daughter cells formed"
+            }
+         ]
+      },
+      {
+         "index": 4,
+         "title": "Mitosis Definition",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": null,
+               "value": "Mitosis is the process, in the cell cycle, by which the chromo­somes in the cell nucleus are separated into two identical sets of chromo­somes, each in its own nucleus."
+            }
+         ]
+      },
+      {
+         "index": 4,
+         "title": "Mitosis Image",
+         "type": "NORMAL",
+         "image": "MITOSIS_2",
+         "data": [
+            {
+               "index": 0,
+               "name": null,
+               "value": "animal cells: cleavage furrow\n● contra­ctile ring of actin involved\nplant cells: cell plate"
+            }
+         ]
+      },
+      {
+         "index": 4,
+         "title": "Mitosis Phases",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": null,
+               "value": "1. Interphase\n2. Prophase\n3. Promet­aphase\n4. Metaphase\n5. Anaphase\n6. Telophase\n7. Cytoki­nesis"
+            }
+         ]
+      },
+      {
+         "index": 4,
+         "title": "Prophase",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": "Chromosomes",
+               "value": "A chromosome is packaged and organized chromatin, a complex of macrom­ole­cules found in cells, consisting of DNA, protein and RNA."
+            },
+            {
+               "index": 0,
+               "name": "Chromatid",
+               "value": "A chromatid is one copy of a duplicated chromo­some, which is generally joined to the other copy by a single centro­mere."
+            },
+            {
+               "index": 0,
+               "name": "Microtubules",
+               "value": "Microt­ubules are a component of the cytosk­eleton, found throughout the cytoplasm."
+            }
+         ]
+      },
+      {
+         "index": 4,
+         "title": "M (mitosis) Checkpoint",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": null,
+               "value": "the spindle checkpoint\nchecks for:\n● chromosome attachment to spindle at metaphase plate\n● 92 spindle fibers\n● 46 chromo­somes"
+            }
+         ]
+      },
+      {
+         "index": 4,
+         "title": "Notes On Chromosomes",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": null,
+               "value": "Most cells in your body have a nucleus. The nucleus contains your genetic material in the form of chromo­somes.\nChromo­somes are coiled up lengths of DNA molecules.\nEach chromosome carries a large number of genes. Different genes control the develo­pment of different charac­ter­istics.\nBody cells normally have two copies of each chromo­some.\nThere are 23 pairs of chromo­somes."
+            }
+         ]
+      },
+      {
+         "index": 4,
+         "title": "Binary Fission",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": null,
+               "value": "1) The circular DNA and plasm­id(s) replicate.\n2) The cell gets bigger and the circular DNA strands move to opposite 'poles' (ends) of the cell.\n3) The cytop­lasm begins to divide and new cell walls begin to form.\n4) The cytop­lasm divides and two daughter cells are produced (each daughter cell has one copy of the circular DNA, but can have a variable number of plasm­ids).\nBacteria can divide very quickly if given the right conditions (a warm, moist enviro­nment with a lot of nutrie­nts)."
+            }
+         ]
+      },
+      {
+         "index": 2,
+         "title": "Gene Theory",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": null,
+               "value": "All genetic information stored in DNA or genes"
+            },
+            {
+               "index": 1,
+               "name": null,
+               "value": "Genes control most or all aspects of an organism"
+            },
+            {
+               "index": 2,
+               "name": null,
+               "value": "DNA language can be translated into RNA, then to protein language for basic functionality"
+            }
+         ]
+      },
+      {
+         "index": 4,
+         "title": "Interphase",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": "Chromatin",
+               "value": "Chromatin is a complex of macrom­ole­cules found in cells, consisting of DNA, protein and RNA. The primary functions of chromatin are 1) to package DNA into a smaller volume to fit in the cell, 2) to reinforce the DNA macrom­olecule to allow mitosis, 3) to prevent DNA damage, and 4) to control gene expression and DNA replic­ation."
+            },
+            {
+               "index": 0,
+               "name": "Centrosomes",
+               "value": "In cell biology, the centrosome is an organelle that serves as the main microt­ubule organizing center (MTOC) of the animal cell as well as a regulator of cell-cycle progre­ssion."
+            }
+         ]
+      },
+      {
+         "index": 4,
+         "title": "Telophase",
+         "type": "NORMAL",
+         "image": null,
+         "data": [
+            {
+               "index": 0,
+               "name": null,
+               "value": "Telophase is the final stage in both meiosis and mitosis in a eukaryotic cell."
+            }
+         ]
+      },            
    ]
 };
 

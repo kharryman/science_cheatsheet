@@ -29,7 +29,7 @@ const systemsBio = {
       },
       {
          "index": 0,
-         title: 'Tab structure',
+         title: 'Tab structure(ears)',
          type: "NORMAL",
          image: "TAB_STRUCTURE",
          data: []
@@ -74,14 +74,14 @@ const systemsBio = {
       },
       {
          "index": 0,
-         title: 'Looking up and far',
+         title: 'Looking up and far(eyes)',
          type: "NORMAL",
          image: "LOOK_UP_AND_FAR",
          data: []
       },
       {
          "index": 0,
-         title: 'Positioning',
+         title: 'Positioning(digestion)',
          type: "NORMAL",
          image: "POSITIONING",
          data: [
@@ -188,7 +188,7 @@ const systemsBio = {
       },
       {
          "index": 0,
-         title: 'Thymus',
+         title: 'Thymus(lymphatic)',
          type: "TABLE",
          image: null,
          data: [
@@ -297,7 +297,7 @@ const systemsBio = {
       },
       {
          "index": 0,
-         title: 'Action Potentials',
+         title: 'Action Potentials(nervous system)',
          type: "NORMAL",
          image: "ACTION_POTENTIALS",
          data: [
@@ -371,7 +371,7 @@ const systemsBio = {
       },
       {
          "index": 0,
-         title: 'The actuator',
+         title: 'The actuator(nervous system)',
          type: "NORMAL",
          image: null,
          data: [
