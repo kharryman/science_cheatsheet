@@ -1080,7 +1080,7 @@ const geneticsBio =       {
          type: "NORMAL",
          image: null,
          data: [
-            { "index": 0, "name": "inborn errors of metabo­lism", "value": "inherited diseases when a person can't make a specific enzyme (no gene for enzyme bc of mutation).\nExample:\nalkapt­onura:\npee is black because no enzyme exists to break down alkapton" }
+            { "index": 0, "name": "He waws first to connect a human disorder with Mendel's laws of inheritance. inborn errors of metabo­lism", "value": "inherited diseases when a person can't make a specific enzyme (no gene for enzyme bc of mutation).\nExample:\nalkapt­onura:\npee is black because no enzyme exists to break down alkapton" }
          ]
       },
       {
@@ -1142,7 +1142,7 @@ const geneticsBio =       {
       },
       {
          "index": 0,
-         title: "3 Staged of Transc­ription",
+         title: "3 Stages of Transc­ription",
          type: "TABLE_LIST",
          image: null,
          data: [

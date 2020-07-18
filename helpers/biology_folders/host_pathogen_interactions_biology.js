@@ -150,7 +150,7 @@ const hostPathogenInteractionsBio =       {
          type: "NORMAL",
          image: null,
          data: [
-            { "index": 0, "name": null, "value": "Caused by Pseudo­monas aeruginosa" }
+            { "index": 0, "name": null, "value": "Caused by Pseudo­monas aeruginosa. Pseudomonas aeruginosa is a common encapsulated, Gram-negative, rod-shaped bacterium that affect blood, lungs (pneumonia)" }
          ]
       },
       {
@@ -185,7 +185,7 @@ const hostPathogenInteractionsBio =       {
       },
       {
          "index": 0,
-         title: "Erysipela",
+         title: "Erysipela((diabetes))",
          type: "NORMAL",
          image: "ERYSIPELA",
          data: [

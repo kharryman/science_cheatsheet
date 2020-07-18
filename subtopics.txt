@@ -68,51 +68,51 @@ Basic:Using and cleaning the microscope
 Basic:Variables
 Basic:Vocabulary
 
-Behavioral Ecology:Animal Behavior
 Behavioral Ecology:Chemical Cycles
-Behavioral Ecology:Community Disturbance
-Behavioral Ecology:Competition
-Behavioral Ecology:Defence Mechanisms
 Behavioral Ecology:Ecosystem Energy Flow
-Behavioral Ecology:Interspecific Interactions
-Behavioral Ecology:Learning
-Behavioral Ecology:Population Ecology
-Behavioral Ecology:Population Growth
-Behavioral Ecology:Social Behavior
 Behavioral Ecology:Species Richness and Diversity
 Behavioral Ecology:Types of Interactions
 Behavioral Ecology:Types of Symbiotic Relati­onships
+Behavioral Ecology:Animal Behavior
+Behavioral Ecology:Competition
+Behavioral Ecology:Community Disturbance
+Behavioral Ecology:Defence Mechanisms
+Behavioral Ecology:Interspecific Interactions
+Behavioral Ecology:Social Behavior
+Behavioral Ecology:Learning
+Behavioral Ecology:Population Ecology
+Behavioral Ecology:Population Growth
 
+Cancer Biology:Types of Pathways
+Cancer Biology:Selective Toxicity
+Cancer Biology:Types of Bacterial Infections
 Cancer Biology:Acid-Fast Bacteria
-Cancer Biology:Antibiotics
-Cancer Biology:Antibi­otics in Foods
-Cancer Biology:Antimicrobial Drugs
-Cancer Biology:Antimi­crobial Resistance
-Cancer Biology:Bacteria Morphology
-Cancer Biology:Bacterialstatic Drugs
-Cancer Biology:Chemotherapy
-Cancer Biology:Chemot­her­apeutic Spectra of Antiba­cterial Agents
-Cancer Biology:Combinations of Antimicrobrial Drugs
-Cancer Biology:Compli­cations of Antibiotic Therapy
-Cancer Biology:Factors that Promote Antimi­crobial Resistance
+Cancer Biology:Site of Action of Antiba­cterial Drug Classes
+Cancer Biology:Site of Action of Antiba­cterial Drug Classes
+Cancer Biology:Site of Action of Antiba­cterial Drug Classes
 Cancer Biology:Gram NEGATIVE Bacteria
 Cancer Biology:Gram POSTIVE Bacteria
-Cancer Biology:Inappr­opriate Antimi­crobial Use
-Cancer Biology:Mechanism of Selective Targeting
-Cancer Biology:Mechanisms of Antimi­crobial Resistance
-Cancer Biology:Medically Important Microo­rga­nisms
-Cancer Biology:MRSA "­mer­-sa­h"(Meth­ici­lli­n-R­esi­stant Staphy­loc­occus Aureus)
-Cancer Biology:Prophylactic Antibiotics
-Cancer Biology:Reasons of Using Single Drug to Treat a Patient and Not Combinations of Antimicrobrial Drugs
-Cancer Biology:Result of Acquired Antibiotic Resistance
-Cancer Biology:Selection of Antimi­crobial Agents
-Cancer Biology:Selective Toxicity
-Cancer Biology:Site of Action of Antiba­cterial Drug Classes
-Cancer Biology:Site of Action of Antiba­cterial Drug Classes
-Cancer Biology:Site of Action of Antiba­cterial Drug Classes
+Cancer Biology:Bacteria Morphology
+Cancer Biology:Bacterialstatic Drugs
 Cancer Biology:Types of Antibiotic Agents
-Cancer Biology:Types of Bacterial Infections
-Cancer Biology:Types of Pathways
+Cancer Biology:Antibiotics
+Cancer Biology:Antibi­otics in Foods
+Cancer Biology:Prophylactic Antibiotics
+Cancer Biology:Compli­cations of Antibiotic Therapy
+Cancer Biology:Result of Acquired Antibiotic Resistance
+Cancer Biology:Antimicrobial Drugs
+Cancer Biology:Combinations of Antimicrobrial Drugs
+Cancer Biology:Selection of Antimi­crobial Agents
+Cancer Biology:Inappr­opriate Antimi­crobial Use
+Cancer Biology:Antimi­crobial Resistance
+Cancer Biology:Mechanisms of Antimi­crobial Resistance
+Cancer Biology:Factors that Promote Antimi­crobial Resistance
+Cancer Biology:Reasons of Using Single Drug to Treat a Patient and Not Combinations of Antimicrobrial Drugs
+Cancer Biology:Medically Important Microo­rga­nisms
+Cancer Biology:Chemotherapy
+Cancer Biology:Chemot­her­apeutic Spectra of Antiba­cterial Agents
+Cancer Biology:Mechanism of Selective Targeting
+Cancer Biology:MRSA "­mer­-sa­h"(Meth­ici­lli­n-R­esi­stant Staphy­loc­occus Aureus)
 
 //CELL THEORY:
 Cell Biology:Vocabulary
@@ -393,138 +393,110 @@ Cell Biology:Size and Metabolic Rate
 //MICROBIOLOGY
 Cell Biology:Formation of Macrom­ole­cules
 
-Cellular - Molecular Biology:1st stage of Glycolysis
-Cellular - Molecular Biology:2nd stage of Pyruvate oxidation
-Cellular - Molecular Biology:3rd Stage Oxidative Phosph­ory­lation
-Cellular - Molecular Biology:Aerobic and Anaerobic respir­ation
-Cellular - Molecular Biology:Alcoholic fermen­tation
-Cellular - Molecular Biology:ATP Synthase and Chemio­smosis
-Cellular - Molecular Biology:ATP synthase structure and function
-Cellular - Molecular Biology:Biological Order & Disorder
 Cellular - Molecular Biology:Biomolecules
-Cellular - Molecular Biology:Cellular Respir­ation
+Cellular - Molecular Biology:Biological Order & Disorder
 Cellular - Molecular Biology:Conser­vation of chemical Energy
-Cellular - Molecular Biology:Cytoch­romes
 Cellular - Molecular Biology:Electron Flow
 Cellular - Molecular Biology:Electrons carriers such as NAD+
-Cellular - Molecular Biology:Energy flow in glycolysis
 Cellular - Molecular Biology:Energy Flow in the ETS
 Cellular - Molecular Biology:Energy, Enzymes & Biological Reactions
-Cellular - Molecular Biology:Fermen­tation
-Cellular - Molecular Biology:Fermen­tation can re-oxidize NADH
 Cellular - Molecular Biology:Forming the H Gradient
 Cellular - Molecular Biology:Free - Energy Change, ∆G
-Cellular - Molecular Biology:Glycolysis and Citric acid Cycle Regulation
-Cellular - Molecular Biology:Glycol­ysis: Splitting Sugar in half
-Cellular - Molecular Biology:Interr­ela­tio­nships of Catabolic Anabolic Pathways
-Cellular - Molecular Biology:Lactate fermen­tation
-Cellular - Molecular Biology:Many Pathways Start Glycolysis or the Citric Acid
 Cellular - Molecular Biology:Mitoch­ondria and ATP
 Cellular - Molecular Biology:Mitoch­ondrial electron transfer system (ETS)
-Cellular - Molecular Biology:Overview of citric acid cycle
+Cellular - Molecular Biology:Cytoch­romes
+Cellular - Molecular Biology:Proton­-motive force
+Cellular - Molecular Biology:Transfers Between Proteins
+Cellular - Molecular Biology:Aerobic and Anaerobic respir­ation
+Cellular - Molecular Biology:Cellular Respir­ation
+Cellular - Molecular Biology:Summary: Cellular Respiration
+Cellular - Molecular Biology:Alcoholic fermen­tation
+Cellular - Molecular Biology:Fermen­tation
+Cellular - Molecular Biology:Fermen­tation can re-oxidize NADH
+Cellular - Molecular Biology:Lactate fermen­tation
+Cellular - Molecular Biology:ATP Synthase and Chemio­smosis
+Cellular - Molecular Biology:ATP synthase structure and function
+Cellular - Molecular Biology:1st stage of Glycolysis
+Cellular - Molecular Biology:Energy flow in glycolysis
+Cellular - Molecular Biology:Glycolysis and Citric acid Cycle Regulation
+Cellular - Molecular Biology:Glycol­ysis: Splitting Sugar in half
+Cellular - Molecular Biology:Many Pathways Start Glycolysis or the Citric Acid
+Cellular - Molecular Biology:Interr­ela­tio­nships of Catabolic Anabolic Pathways
 Cellular - Molecular Biology:Oxidation
 Cellular - Molecular Biology:Oxidation of Fats
 Cellular - Molecular Biology:Oxidation of proteins
 Cellular - Molecular Biology:Oxidative Phosph­ory­lation ETS & Chemio­smosis
-Cellular - Molecular Biology:Proton­-motive force
+Cellular - Molecular Biology:Overview of citric acid cycle
+Cellular - Molecular Biology:Summary: The citric acid cycle
 Cellular - Molecular Biology:Pyruvate Oxidation and the Citric Acid Cycle
+Cellular - Molecular Biology:2nd stage of Pyruvate oxidation
+Cellular - Molecular Biology:3rd Stage Oxidative Phosph­ory­lation
+Cellular - Molecular Biology:Substrate level Phosph­ory­lation
 Cellular - Molecular Biology:Redox Reactions
 Cellular - Molecular Biology:Reduction
-Cellular - Molecular Biology:Substrate level Phosph­ory­lation
-Cellular - Molecular Biology:Summary: Cellular Respiration
-Cellular - Molecular Biology:Summary: The citric acid cycle
-Cellular - Molecular Biology:Transfers Between Proteins
-Development:Acids and Bases
-Development:Amino Acid Structure
-Development:Chi-Square
-Development:Cohesion
-Development:Density
-Development:Feedback Mechanisms
-Development:Homeostasis
-Development:Homeostasis Nervous System
-Development:Hydrogen Bonding
-Development:Hydrop­hobic vs. Hydrop­hilic
-Development:Lipids Structure
-Development:Nitrogenous Waste
-Development:Nucleic Acids Structure
-Development:Osmoregulation
-Development:Peptide Bonds
-Development:Primary Structure
-Development:Properties of Water
-Development:Protein Structure
-Development:Quaternary Structure
-Development:Saturated fat vsn Unsaturated fat
-Development:Secondary Structure
-Development:Surface Tension
-Development:Tertiary Structure
-Development:Thermalregulation
+
+
 Development:Water is the Solvent of Life
-Development:Acids and Bases
-Development:Amino Acid Structure
-Development:Chi-Square
+Development:Properties of Water
+Development:Surface Tension
+Development:Hydrop­hobic vs. Hydrop­hilic
+Development:Hydrogen Bonding
 Development:Cohesion
 Development:Density
 Development:Feedback Mechanisms
 Development:Homeostasis
 Development:Homeostasis Nervous System
-Development:Hydrogen Bonding
-Development:Hydrop­hobic vs. Hydrop­hilic
+Development:Thermalregulation
+Development:Acids and Bases
+Development:Amino Acid Structure
+Development:Chi-Square
 Development:Lipids Structure
 Development:Nitrogenous Waste
 Development:Nucleic Acids Structure
 Development:Osmoregulation
 Development:Peptide Bonds
+Development:Protein Structure
+Development:Saturated fat vsn Unsaturated fat
+Development:Primary Structure
+Development:Secondary Structure
+Development:Tertiary Structure
+Development:Quaternary Structure
+Development:Nitrogenous Waste
 Development:Phylog­enetics
-Development:Primary Structure
-Development:Properties of Water
-Development:Protein Structure
-Development:Quaternary Structure
-Development:Saturated fat vsn Unsaturated fat
-Development:Secondary Structure
-Development:Surface Tension
-Development:Tertiary Structure
-Development:Thermalregulation
-Development:Water is the Solvent of Life
+
+
 Evolution:TEMPLATE
-Genetics:3 Staged of Transc­ription
-Genetics:3 Types of RNA
+Genetics:History
+Genetics:Nature vs. Nurture
+Genetics:Gregory Medel(1860s Father of Genetics)
+Genetics:Mendelian Laws
 Genetics:Achibald Garrod
+Genetics:Vocabulary
+Genetics:What Causes Genetic Diversity?
+Genetics:Probability
+Genetics:Vertical Gene Transfer
 Genetics:Allele
 Genetics:Asexual Reprod­uction
 Genetics:Asexual vs. Sexual Reprod­uction
+Genetics:Examples of Asexual Reprod­uction
+Genetics:Examples of Sexual Reproduction
 Genetics:Barr Bodies Image
+Genetics:X-Inactivation in Females
 Genetics:Beadle and Tatum
-Genetics:Calculate Chi Square
-Genetics:Calculate Recomb­ination Frequency
-Genetics:Chargaff's Rule
 Genetics:Chromosome Mutations
 Genetics:Chromosomes and Genes
+Genetics:Dominant
 Genetics:Codominance
 Genetics:Codomi­nance
+Genetics:Calculate Chi Square
+Genetics:Calculate Recomb­ination Frequency
+Genetics:Recomb­ination Frequency Equation (x100%)
+Genetics:Chargaff's Rule
 Genetics:Codons
 Genetics:Crossing Over
 Genetics:Crossing Over Image
-Genetics:Deoxyr­ibo­nucleic acid
 Genetics:Dihybrid Cross
-Genetics:Disorders
-Genetics:DNA
-Genetics:DNA is a polymer of nucle­otides
-Genetics:DNA Replication
-Genetics:DNA Replication
-Genetics:DNA Replication
-Genetics:DNA Replic­ation (cont.)
-Genetics:DNA Structure
-Genetics:DNA transforms Bacteria
-Genetics:DNA transforms Bacteria (cont.)
-Genetics:DNA vs. RNA
-Genetics:Dominant
-Genetics:Epistasis
-Genetics:Evolution Signif­icance of DNA Nucleo­tides
-Genetics:Examples of Asexual Reprod­uction
-Genetics:Examples of Sexual Reproduction
-Genetics:From Gene to Protein (cont.)
 Genetics:Gene Linkage (Linked Genes)
-Genetics:Gene to Protein
 Genetics:Genes
 Genetics:Genes Inherited Located on Sex Chromo­somes
 Genetics:Genes(Allele)
@@ -533,16 +505,65 @@ Genetics:Genetic Variation
 Genetics:Genetics
 Genetics:Genotype
 Genetics:Genotype
-Genetics:Gregory Medel(1860s Father of Genetics)
-Genetics:History
+Genetics:Gene to Protein
+Genetics:From Gene to Protein (cont.)
 Genetics:Homozygous & Hetero­zygous
 Genetics:Horizontal Gene Transfer
 Genetics:Incomplete Dominance
 Genetics:Incomplete Dominance
 Genetics:Inheritance Patterns
-Genetics:Inside a Chromosome
 Genetics:Law of Indepe­ndent Assortment
 Genetics:Law of Segregation(Random Fertilization)
+Genetics:Punnet Squares - Codominance
+Genetics:Punnet Squares - Dihybrid Cross
+Genetics:Punnet Squares - Incomplete Dominance
+Genetics:Punnet Squares - Monohybrid Cross
+Genetics:Recessive
+Genetics:Sexual Reproduction
+Genetics:Zygote
+Genetics:Types of Crosses
+Genetics:Test Cross Image
+Genetics:Test Crosses
+Genetics:Trisomies and Traits
+Genetics:Types of Inheritance
+Genetics:Patterns of Inherittance
+Genetics:Patterns of Inherittance Examples
+Genetics:Pedigree Analysis
+Genetics:Phenotype
+Genetics:Phenotype
+Genetics:Polygenic Inheritance
+Genetics:Polygenic Traits
+Genetics:Principle of Dominance
+Genetics:Inside a Chromosome
+Genetics:Ploidy
+Genetics:Ploidy
+Genetics:Why are triploid plants seedless?
+Genetics:Polysome
+Genetics:Ribosomes
+Genetics:Poly­rib­oso­mes
+Genetics:The 4 Nitrogen Bases
+Genetics:Ribonu­cleic acid
+Genetics:Transfer RNA (tRNA)
+Genetics:3 Types of RNA
+Genetics:Deoxyr­ibo­nucleic acid
+Genetics:DNA
+Genetics:Structure of DNA
+Genetics:DNA is a polymer of nucle­otides
+Genetics:DNA Replication
+Genetics:DNA Replication
+Genetics:DNA Replication
+Genetics:DNA Replic­ation (cont.)
+Genetics:DNA Structure
+Genetics:DNA transforms Bacteria
+Genetics:DNA transforms Bacteria (cont.)
+Genetics:Evolution Signif­icance of DNA Nucleo­tides
+Genetics:Proofr­eading DNA
+Genetics:DNA vs. RNA
+Genetics:3 Stages of Transc­ription
+Genetics:Transc­ription (cont.)
+Genetics:TRANSC­RIPTION is DNA-di­rected synthesis of RNA
+Genetics:Modifying mRNA after Transc­ription
+Genetics:Translation
 Genetics:Meiosis
 Genetics:Meiosis
 Genetics:Meiosis
@@ -551,68 +572,30 @@ Genetics:Meiosis I
 Genetics:Meiosis II
 Genetics:Meiosis II
 Genetics:Meiosis Results
-Genetics:Mendelian Laws
 Genetics:Meosis
 Genetics:Mitosis
 Genetics:Mitosis
 Genetics:Mitosis vs Meiosis
 Genetics:Mitosis Vs. Meiosis
-Genetics:Modifying mRNA after Transc­ription
+Genetics:Purpose of Mitosis and Meiosis
+Genetics:Disorders
+Genetics:Epistasis
 Genetics:Mutations
 Genetics:Mutations
 Genetics:Mutations
 Genetics:Mutations (continued)
 Genetics:Mutations(4 Types)
-Genetics:Nature vs. Nurture
 Genetics:Non-Disjunction
 Genetics:Nondis­jun­ction in Meiosis 1(left) and 2(right)
-Genetics:Patterns of Inherittance
-Genetics:Patterns of Inherittance Examples
-Genetics:Pedigree Analysis
-Genetics:Phenotype
-Genetics:Phenotype
-Genetics:Ploidy
-Genetics:Ploidy
-Genetics:Polygenic Inheritance
-Genetics:Polygenic Traits
-Genetics:Polysome
-Genetics:Poly­rib­oso­mes
-Genetics:Principle of Dominance
-Genetics:Probability
-Genetics:Proofr­eading DNA
-Genetics:Punnet Squares - Codominance
-Genetics:Punnet Squares - Dihybrid Cross
-Genetics:Punnet Squares - Incomplete Dominance
-Genetics:Punnet Squares - Monohybrid Cross
-Genetics:Purpose of Mitosis and Meiosis
-Genetics:Recessive
-Genetics:Recomb­ination Frequency Equation (x100%)
-Genetics:Ribonu­cleic acid
-Genetics:Ribosomes
-Genetics:Sexual Reproduction
-Genetics:Structure of DNA
-Genetics:Test Cross Image
-Genetics:Test Crosses
-Genetics:The 4 Nitrogen Bases
-Genetics:Transc­ription (cont.)
-Genetics:TRANSC­RIPTION is DNA-di­rected synthesis of RNA
-Genetics:Transfer RNA (tRNA)
-Genetics:Translation
-Genetics:Trisomies and Traits
-Genetics:Types of Crosses
-Genetics:Types of Inheritance
-Genetics:Vertical Gene Transfer
 Genetics:Viruses
-Genetics:Vocabulary
-Genetics:What Causes Genetic Diversity?
-Genetics:Why are triploid plants seedless?
-Genetics:X-Inactivation in Females
-Genetics:Zygote
-Gene Regulation:3 Types of RNA
-Gene Regulation:Chromosome Mutations
-Gene Regulation:Chromo­somal mutations
+
+Gene Regulation:Gene Regulation
+Gene Regulation:Gene Regulation
 Gene Regulation:Codons
 Gene Regulation:Differ­ent­iation
+Gene Regulation:3 Types of RNA
+Gene Regulation:Main Types of RNA
+Gene Regulation:Main Types of RNA
 Gene Regulation:DNA
 Gene Regulation:DNA Comparison
 Gene Regulation:DNA methyl­ation
@@ -629,34 +612,29 @@ Gene Regulation:Eukaryotic pre-mRNA splicing
 Gene Regulation:Eukaryotic Transc­ription
 Gene Regulation:Evolution of the Codes
 Gene Regulation:Frameshift mutations
-Gene Regulation:Gene Regulation
-Gene Regulation:Gene Regulation
 Gene Regulation:Histone Acetylation
 Gene Regulation:Lagging Strand
 Gene Regulation:Leading Strand
-Gene Regulation:Main Types of RNA
-Gene Regulation:Main Types of RNA
-Gene Regulation:mRNA modifi­cations
-Gene Regulation:Mutation: Altered Genes
-Gene Regulation:Mutations
-Gene Regulation:Mutations Image
-Gene Regulation:Operon
-Gene Regulation:Parts of a Nucleotide
+
+Gene Regulation:The Nature of Genes
+Gene Regulation:Terms
+Gene Regulation:Redundancy and Ambiguity of the Code
+Gene Regulation:Regulation of Gene Expression
 Gene Regulation:Prokaryotic Transcription
 Gene Regulation:Prokaryotic vs. Eukaryotic Transciption
 Gene Regulation:Prokar­yotic vs. Eukaryotic Transl­ation
+Gene Regulation:Parts of a Nucleotide
 Gene Regulation:Protein Targeting
-Gene Regulation:Redundancy and Ambiguity of the Code
-Gene Regulation:Regulation of Gene Expression
 Gene Regulation:Replication
 Gene Regulation:Riboomes
+Gene Regulation:tRNA and Ribosomes
+Gene Regulation:tRNA charging reaction
 Gene Regulation:RNA Processing
+Gene Regulation:mRNA modifi­cations
+Gene Regulation:Operon
+Gene Regulation:The Lac Operon
 Gene Regulation:Role of Introns
 Gene Regulation:Structure of DNA
-Gene Regulation:Terms
-Gene Regulation:The Central Dogma of Molecular Biology
-Gene Regulation:The Lac Operon
-Gene Regulation:The Nature of Genes
 Gene Regulation:Ther Genetic Code
 Gene Regulation:Transcript Modifications
 Gene Regulation:Transcription
@@ -669,54 +647,63 @@ Gene Regulation:Translation
 Gene Regulation:Translation
 Gene Regulation:Translation
 Gene Regulation:Translation Image
-Gene Regulation:tRNA and Ribosomes
-Gene Regulation:tRNA charging reaction
-Gene Regulation:Types of Mutations
 Gene Regulation:Water/­Lip­id-­Soluble Hormone Signaling
+Gene Regulation:Mutation: Altered Genes
+Gene Regulation:Mutations
+Gene Regulation:Mutations Image
+Gene Regulation:Types of Mutations
+Gene Regulation:Chromosome Mutations
+Gene Regulation:Chromo­somal mutations
+// Molecular Biology -->
+Gene Regulation:The Central Dogma of Molecular Biology
+
 Global Environmental Change:TEMPLATE
+
+Host-pathogen Interactions:Pathogens
+Host-pathogen Interactions:Exogenous Theory
+Host-pathogen Interactions:Robert Koch's Germ Theory
+Host-pathogen Interactions:Proteo­lytic Theory (Gotliebb 1946)
+Host-pathogen Interactions:Millers (1882) Chemo-­par­asitic Theory:
 Host-pathogen Interactions:Angular Cheillitis (Perleche)
-Host-pathogen Interactions:Arcano­bac­terium Haemol­yticum
-Host-pathogen Interactions:Candida
 Host-pathogen Interactions:Current Concepts in Caries Etiology
 Host-pathogen Interactions:Dental Caries Theory
+Host-pathogen Interactions:Keyes Triad & Newbeun's Tetrad
+Host-pathogen Interactions:Non-sp­ecific Plaque Hypothesis
+Host-pathogen Interactions:Specific Plaque Hypothesis
+Host-pathogen Interactions:Ecological Plaque Hypoth­esis:
 Host-pathogen Interactions:Diffic­ult­ies­:Koch's Postulate in Oral Infect­ions:
+Host-pathogen Interactions:Role of Biofilms in Infection
+Host-pathogen Interactions:Pharyn­got­ons­illitis
+Host-pathogen Interactions:Phar­yng­oto­nsi­lli­tis
+Host-pathogen Interactions:Arcano­bac­terium Haemol­yticum
+Host-pathogen Interactions:Streptococci
+Host-pathogen Interactions:Strept­ococcal Shock Syndrome
+Host-pathogen Interactions:Post Strept­ococcal Glomer­ulo­nep­hritis
+Host-pathogen Interactions:Post Strept­ococcal Glomer­ulo­nep­hritis
+Host-pathogen Interactions:Manife­sta­tions of Group A Strep
+Host-pathogen Interactions:Post Infection Diseases due to Group A strep
+Host-pathogen Interactions:Gram positive bacteria lab algorithm
+Host-pathogen Interactions:Post Infection sequelae
 Host-pathogen Interactions:Diphtheria
 Host-pathogen Interactions:Diphtheria
 Host-pathogen Interactions:Diphtheria Pseudomembranous Lesion
-Host-pathogen Interactions:Ecological Plaque Hypoth­esis:
 Host-pathogen Interactions:Enriched Media
-Host-pathogen Interactions:Erysipela
-Host-pathogen Interactions:Exogenous Theory
-Host-pathogen Interactions:Gram positive bacteria lab algorithm
-Host-pathogen Interactions:Keyes Triad & Newbeun's Tetrad
-Host-pathogen Interactions:Manife­sta­tions of Group A Strep
-Host-pathogen Interactions:Millers (1882) Chemo-­par­asitic Theory:
-Host-pathogen Interactions:Non-sp­ecific Plaque Hypothesis
+Host-pathogen Interactions:Erysipela(diabetes)
+Host-pathogen Interactions:Candida
 Host-pathogen Interactions:Otitis Media
 Host-pathogen Interactions:Parovirus B19
-Host-pathogen Interactions:Pathogens
-Host-pathogen Interactions:Pharyn­got­ons­illitis
-Host-pathogen Interactions:Phar­yng­oto­nsi­lli­tis
-Host-pathogen Interactions:Post Infection Diseases due to Group A strep
-Host-pathogen Interactions:Post Infection sequelae
-Host-pathogen Interactions:Post Strept­ococcal Glomer­ulo­nep­hritis
-Host-pathogen Interactions:Post Strept­ococcal Glomer­ulo­nep­hritis
-Host-pathogen Interactions:Proteo­lytic Theory (Gotliebb 1946)
 Host-pathogen Interactions:Rheumatic Fever
 Host-pathogen Interactions:Rheumatic Fever (Mol­ecular Mimicry)
-Host-pathogen Interactions:Robert Koch's Germ Theory
-Host-pathogen Interactions:Role of Biofilms in Infection
 Host-pathogen Interactions:Scarlet Fever
 Host-pathogen Interactions:Selective Media
-Host-pathogen Interactions:Specific Plaque Hypothesis
-Host-pathogen Interactions:Streptococci
-Host-pathogen Interactions:Strept­ococcal Shock Syndrome
 Host-pathogen Interactions:The proteo­lyt­ic-­che­lation Theory
 Host-pathogen Interactions:Types of Enteric Media
 Host-pathogen Interactions:Types of Enteric Media
 Host-pathogen Interactions:Vincent's Angina
 Host-pathogen Interactions:Vincent's Angina
+
 Immunology:TEMPLATE
+
 Marine Biology:Anthozoa muscular system
 Marine Biology:Anthozoa support
 Marine Biology:Anthozoa(Marine Invertebrates) General Characteristics
@@ -726,11 +713,11 @@ Marine Biology:Class: ANTHOZOA (corals)
 Marine Biology:Corals
 Marine Biology:Digestion of Anthozoa
 Marine Biology:Digestion of jellyfish
-Marine Biology:exterior
+Marine Biology:Hidropolip exterior
 Marine Biology:Hydrozoa
 Marine Biology:Integument Anthozoa
 Marine Biology:Internal material
-Marine Biology:INTERNAL MATERIAL OF ANTHOZO
+Marine Biology:INTERNAL MATERIAL OF ANTHOZOA
 Marine Biology:KUBOZOA - cubed jellyfish
 Marine Biology:Kubozoan integument
 Marine Biology:material of cooperatives
@@ -763,7 +750,41 @@ Marine Biology:Scyphozoa(True Jelly Fish) Material
 Marine Biology:Systematics of Anthozoa
 Marine Biology:The muscular system of jellyfish
 Marine Biology:zooid
+
+Microbiology:Atom structure
+Microbiology:Electron arrang­ement
+Microbiology:Elements, mixtures and compounds
+Microbiology:Periodic Table
+Microbiology:Periodic Table
+Microbiology:Noble gases
+Microbiology:Functional Groups
+Microbiology:Groups
+Microbiology:Halogens
+Microbiology:Metals, non-metals and metalloids
+Microbiology:Free Energy
+Microbiology:Properties of Carbon
+Microbiology:Properties of Water
+Microbiology:Chemistry of Water
+Microbiology:Good Solvent #1
+Microbiology:Good Solvent #2
+Microbiology:Cohesion and Adhesion #1
+Microbiology:Cohesion and Adhesion #2
+Microbiology:Carbon
+Microbiology:Buffers in pH
+Microbiology:pH Scale
 Microbiology:Acids and Bases
+Microbiology:Water Dissoc­iation (pH)
+Microbiology:High Heat Vapori­zation
+Microbiology:High Specific Heat
+Microbiology:Hydrogen Bonds Result in...
+Microbiology:Ions
+Microbiology:Isomers
+Microbiology:Isotopes
+Microbiology:Large Biomolecules
+Microbiology:Laws of Thermo­dyn­amics
+Microbiology:Lower Density #2 Why is this important?
+Microbiology:Lower Density as a solid #1
+Microbiology:Nanotechnology
 Microbiology:ALVEOLATIC PROTOZOA
 Microbiology:AMEBOID PROTOZOA
 Microbiology:Anaerobe Aeroto­lerance Testing
@@ -775,22 +796,15 @@ Microbiology:Anaerobe Oxygen Usage Definitions
 Microbiology:Anaerobe Specimens
 Microbiology:Anaerobic Basics
 Microbiology:APIOCOMPLEXA
-Microbiology:Atom structure
-Microbiology:Buffers in pH
 Microbiology:Calvin Cycle
-Microbiology:Carbon
-Microbiology:Chemistry of Water
 Microbiology:Chloroplasts
 Microbiology:Ciliophora
 Microbiology:Citric Acid/Krebs Cycle
-Microbiology:Cohesion and Adhesion #1
-Microbiology:Cohesion and Adhesion #2
 Microbiology:Cyclic Photophosphorylation
-Microbiology:Differ­ences between RNA and DNA
+Microbiology:RNA
 Microbiology:DNA
 Microbiology:DNA Replication
-Microbiology:Electron arrang­ement
-Microbiology:Elements, mixtures and compounds
+Microbiology:Differ­ences between RNA and DNA
 Microbiology:Enyzme
 Microbiology:Enyzmes
 Microbiology:Enzymes
@@ -798,75 +812,55 @@ Microbiology:ETC/Oxidative Phosphorylation/Chemiosmosis
 Microbiology:EXCRETION AND OSMOREGULATION
 Microbiology:Fermentation
 Microbiology:FLAGELATE PROTOZOA
-Microbiology:Free Energy
-Microbiology:Functional Groups
 Microbiology:Glycolysis
-Microbiology:Good Solvent #1
-Microbiology:Good Solvent #2
-Microbiology:Groups
-Microbiology:Halogens
-Microbiology:High Heat Vapori­zation
-Microbiology:High Specific Heat
-Microbiology:Hydrogen Bonds Result in...
-Microbiology:Ions
-Microbiology:Isomers
-Microbiology:Isotopes
-Microbiology:Large Biomolecules
-Microbiology:Laws of Thermo­dyn­amics
-Microbiology:Lower Density #2 Why is this important?
-Microbiology:Lower Density as a solid #1
 Microbiology:merozoite transformation - entry into the erythrocyte
 Microbiology:Metabolism
-Microbiology:Metals, non-metals and metalloids
 Microbiology:Mitochondria
-Microbiology:Nanotechnology
-Microbiology:Noble gases
 Microbiology:Noncyclic Photophoshorylation
 Microbiology:Nucleic Acids
-Microbiology:Periodic Table
-Microbiology:Periodic Table
-Microbiology:pH Scale
 Microbiology:Photorespiration, C-4, & CAM
 Microbiology:PROPAGATION
-Microbiology:Properties of Carbon
-Microbiology:Properties of Water
 Microbiology:Protozoa Digestion
 Microbiology:Protozoa Digestion
 Microbiology:Protozoa General Characteristics
 Microbiology:Protozoa Material
 Microbiology:Protozoa Support Function
-Microbiology:RNA
 Microbiology:Seperating mixtures
 Microbiology:Template for Biochemical Pathways How To:
 Microbiology:Template for Biochemical Pathways Interp­ret­ation of the format provided:
 Microbiology:Template for Biochemical Pathways Krebs Cycle Example:
-Microbiology:Water Dissoc­iation (pH)
-Plant Biology:Adaptations of leaves
-Plant Biology:Aerobic Respir­ation in plants
-Plant Biology:Agriculture
-Plant Biology:Angiosperm Reprod­uction
+
+Plant Biology:Specialized structures of plant cells
 Plant Biology:Chloroplasts
+Plant Biology:Photos­ynt­hesis
+Plant Biology:Rate of Photos­ynt­hesis
+Plant Biology:Internal Structure of a Leaf
+Plant Biology:Adaptations of leaves
+Plant Biology:Agriculture
+Plant Biology:Seed Development
+Plant Biology:Aerobic Respir­ation in plants
+Plant Biology:photos­ynt­hesis vs. cell respir­ation
+Plant Biology:Angiosperm Reprod­uction
 Plant Biology:Experiment to measure the rate of p/s
 Plant Biology:Fermentation
 Plant Biology:Gameto­phy­te/­Spo­rophyte Cycle
 Plant Biology:Gymnos­perms vs. Angios­perms
-Plant Biology:Internal Structure of a Leaf
-Plant Biology:Photos­ynt­hesis
-Plant Biology:photos­ynt­hesis vs. cell respir­ation
 Plant Biology:Plant Hormones
 Plant Biology:Plant Transport
-Plant Biology:Rate of Photos­ynt­hesis
-Plant Biology:Seed Development
-Plant Biology:Specialized structures of plant cells
+
+
 Regenerative Biology and Stem Cells:TEMPLATE
+
 RNA Biology:TEMPLATE
-Systems Biology(Organs & Organisms):Action Potentials
-Systems Biology(Organs & Organisms):Adrenal gland
+
 Systems Biology(Organs & Organisms):Anatomy
 Systems Biology(Organs & Organisms):Anatomy Body Organization
 Systems Biology(Organs & Organisms):Anatomy Cycle
 Systems Biology(Organs & Organisms):Anatomy Homeostasis Components
 Systems Biology(Organs & Organisms):Anatomy Terminology
+Systems Biology(Organs & Organisms):Functions of Organs
+Systems Biology(Organs & Organisms):Action Potentials
+Systems Biology(Organs & Organisms):Adrenal gland
 Systems Biology(Organs & Organisms):Bile Purpose
 Systems Biology(Organs & Organisms):Breakdown of starch
 Systems Biology(Organs & Organisms):Digestive system
@@ -886,7 +880,6 @@ Systems Biology(Organs & Organisms):Digestve system:Metabolic system
 Systems Biology(Organs & Organisms):Endocrine System
 Systems Biology(Organs & Organisms):Endocr­ine­/Ne­rvous System Coordi­nation
 Systems Biology(Organs & Organisms):Enzymes
-Systems Biology(Organs & Organisms):Functions of Organs
 Systems Biology(Organs & Organisms):Gonads
 Systems Biology(Organs & Organisms):Hearing
 Systems Biology(Organs & Organisms):Hormone Pathway: Insulin
@@ -919,4 +912,5 @@ Systems Biology(Organs & Organisms):Thymus
 Systems Biology(Organs & Organisms):Thyroid
 Systems Biology(Organs & Organisms):Types of TIssues
 Systems Biology(Organs & Organisms):Vegetative function of the nervous system
+
 Systems Neurobiology:TEMPLATE

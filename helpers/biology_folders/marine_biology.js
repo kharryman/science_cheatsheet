@@ -75,7 +75,7 @@ const marineBio =       {
       },
       {
          "index": 0,
-         title: 'exterior',
+         title: 'Hidropolip exterior',
          type: "NORMAL",
          image: null,
          data: [
