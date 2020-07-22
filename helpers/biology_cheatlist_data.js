@@ -5,19 +5,15 @@ import cellBio from '../helpers/biology_folders/cell_biology.js';
 import molecularBio from '../helpers/biology_folders/molecular_biology.js';
 import cellDevelopmentBio from '../helpers/biology_folders/cell_development_biology.js';
 import ecologyBio from '../helpers/biology_folders/ecology_biology.js';
-import evolutionBio from '../helpers/biology_folders/evolution_biology.js';
 import geneticsBio from '../helpers/biology_folders/genetics_biology.js';
 import geneticsRegulationBio from '../helpers/biology_folders/genetics_regulation_biology.js';
 import globalEnvironmentChangeBio from '../helpers/biology_folders/global_environment_change_biology.js';
 import hostPathogenInteractionsBio from '../helpers/biology_folders/host_pathogen_interactions_biology.js';
-import immunologyBio from '../helpers/biology_folders/immunology_biology.js';
 import marineBio from '../helpers/biology_folders/marine_biology.js';
 import microBio from '../helpers/biology_folders/micro_biology.js';
 import plantBio from '../helpers/biology_folders/plant_biology.js';
 import regenerativeStemCellsBio from '../helpers/biology_folders/regenerative_stem_cells_biology.js';
-import rnaBio from '../helpers/biology_folders/rna_biology.js';
 import systemsBio from '../helpers/biology_folders/systems_biology.js';
-import systemsNeuroBio from '../helpers/biology_folders/systems_neurology_biology.js';
 
 //
 /*CHEATSHEETS DONE:
@@ -117,19 +113,15 @@ const biology_cheatlist_data = {
       molecularBio,      
       cellDevelopmentBio,
       ecologyBio,
-      evolutionBio,
       geneticsBio,
       geneticsRegulationBio,
       globalEnvironmentChangeBio,
       hostPathogenInteractionsBio,
-      immunologyBio,
       marineBio,
       microBio,      
       plantBio,      
       regenerativeStemCellsBio,
-      rnaBio,
-      systemsBio,
-      systemsNeuroBio
+      systemsBio
    ]
 };
 

@@ -16,21 +16,33 @@ import MathExpression from '../components/Math';
 
 export default class Cheatlist extends Component {
    //PHYSICS, CHEMISTRY, ECOLOGY, OCEANOGRAPHY, GEOLOGY, METEOROLOGY, COMPUTERS(computer science)!
+   //static staticCheatListView;
    constructor(props) {
       super(props);
+      console.log("props.cheatList = " + this.props.cheatList);
       this.state = {
-         topics: biologyCheatlistData
+         topics: biologyCheatlistData,
+         cheatListView: this.props.staticCheatListView,
+         isRendered:false
       };
    }
-   render() {
-      console.log("props.cheatList = " + this.props.cheatList);
-      let cheatData = this.state.topics.data[0];
-      let selectedTopic = this.props.cheatList;
-      let selectedSubtopic = this.props.subtopic;
-      let selectedSubtopicFolder = selectedSubtopic.replace(/ /g, '_').toUpperCase();
+
+   //async componentDidMount(){
+   //}
+
+   static async setCheatListData(cheatList, subtopic, callback){
+      
+      let cheatData = biologyCheatlistData.data[0];
+      let selectedTopic = cheatList;
+      let selectedSubtopic = subtopic;
+      //let subtopicFolder = this.props.subtopicFolder;
+      let selectedSubtopicFolder = selectedSubtopic.match(/^[a-zA-Z0-9\s]*/)[0];
+      selectedSubtopicFolder = selectedSubtopicFolder.replace(/ /g, '_').toUpperCase();
       selectedSubtopicFolder = selectedSubtopicFolder.replace(/-/g, '_').toUpperCase();
+      console.log("selectedSubtopicFolder = " + selectedSubtopicFolder);
       //let imageFilename = "";
       let filteredTopic = {};
+      
       //BIOLOGY, CHEMISTRY, COMPUTERS(computer science), ECOLOGY, OCEANOGRAPHY, GEOLOGY, METEOROLOGY, PHYSICS
       switch (selectedTopic) {
          case 'Biology':
@@ -66,90 +78,103 @@ export default class Cheatlist extends Component {
       if (filteredSubtopic) {
          cheatData = filteredSubtopic[0].entries;
       }
-      //console.log("cheatData = " + JSON.stringify(cheatData));
+      
+      let staticCheatListView = await Cheatlist.getCheatListView(cheatData, selectedSubtopicFolder);      
+      //this.props.renderedCallback();
+      callback(staticCheatListView);
+      
+   }
+
+   render() {
+      //this.setState({cheatListView:this.state.cheatListView});
       return (
          <SafeAreaView style={styles.container} >
             <ScrollView style={styles.scrollView}>
-               {cheatData.map((topic) => {
-                  if (topic.type === 'NORMAL') {
-                     //console.log("topic.data.length = " + topic.data.length);
-                     //if(topic.image){
-                     //imageFilename = './images/' + selectedSubtopicFolder + '/' + topic.image;
-                     //console.log("imageFilename = " + imageFilename);
-                     //}
-                     return (
-                        <View>
-                           {this.getTitle(topic)}
-                           {topic.image &&
-                              <View style={styles.imageView}>
-                                 <Image source={Images[selectedSubtopicFolder][topic.image]} style={styles.image} />
-                              </View>
-                           }
-                           {topic.data.map((item) => {
-                              { return this.getDataItem(item, 'NORMAL') }
-                           })}
-                        </View>
-                     )
-                  } else if (topic.type === 'TABLE') {
-                     return (
-                        <View>
-                           {this.getTitle(topic)}
-                           <View style={{ borderStyle: 'solid', borderWidth: 1, borderColor: 'gray', alignItems: 'center', justifyContent: 'center' }}>
-                              {topic.headers && (
-                                 <View style={{ backgroundColor: '#FFFF9C', borderStyle: 'solid', borderWidth: 1, borderColor: 'gray', alignSelf: 'stretch', flexDirection: 'row' }}>
-                                    {topic.headers.map((header) => {
-                                       return (
-                                          <View style={{ borderStyle: 'solid', borderWidth: 1, borderColor: 'gray', flex: 1, alignSelf: 'stretch' }}>
-                                             <Text style={styles.tableHeader}>{header}</Text>
-                                          </View>
-                                       )
-                                    })}
-                                 </View>
-                              )}
-                              {topic.data.map((dataItem) => {
-                                 return (
-                                    <View style={{ borderStyle: 'solid', borderWidth: 1, borderColor: 'gray', alignSelf: 'stretch', flexDirection: 'row' }}>
-                                       {dataItem.columns.map((column) => {
-                                          return (
-                                             <View style={{ borderStyle: 'solid', borderWidth: 1, borderColor: 'gray', flex: 1, alignSelf: 'stretch' }}>
-                                                {this.getDataItem(column, 'TABLE')}
-                                             </View>
-                                          )
-                                       })}
-                                    </View>
-                                 )
-                              })}
-                           </View>
-                        </View>
-                     )
-                  } else if (topic.type === 'TABLE_LIST') {
-                     return (
-                        <View>
-                           {this.getTitle(topic)}
-                           <View style={{ borderStyle: 'solid', borderWidth: 1, borderColor: 'gray', alignItems: 'center', justifyContent: 'center' }}>
-                              {topic.data.map((dataItem) => {
-                                 return (
-                                    <View style={{ borderStyle: 'solid', borderWidth: 1, borderColor: 'gray', alignSelf: 'stretch', flexDirection: 'row' }}>
-                                       <View style={{ borderStyle: 'solid', borderWidth: 1, borderColor: 'gray', flex: 1, alignSelf: 'stretch' }}>
-                                          <Text style={styles.tableCell}>{dataItem.name}</Text>
-                                       </View>
-                                       <View style={{ borderStyle: 'solid', borderWidth: 1, borderColor: 'gray', flex: 1, alignSelf: 'stretch' }}>
-                                          {this.getDataItem(dataItem, 'TABLE_LIST')}
-                                       </View>
-                                    </View>
-                                 )
-                              })}
-                           </View>
-                        </View>
-                     )
-                  }
-               })}
+               {this.state.cheatListView}
             </ScrollView>
          </SafeAreaView>
       );
    }
 
-   getTitle(topic) {
+   static getCheatListView(cheatData, selectedSubtopicFolder) {
+      //return <Text>HEY?</Text>;
+      return cheatData.map((topic) => {
+         if (topic.type === 'NORMAL') {
+            //console.log("topic.data.length = " + topic.data.length);
+            //if(topic.image){
+            //imageFilename = './images/' + selectedSubtopicFolder + '/' + topic.image;
+            //console.log("imageFilename = " + imageFilename);
+            //}
+            return (
+               <View>
+                  {Cheatlist.getTitle(topic)}
+                  {topic.image &&
+                     <View style={styles.imageView}>
+                        <Image source={Images[selectedSubtopicFolder][topic.image]} style={styles.image} />
+                     </View>
+                  }
+                  {topic.data.map((item) => {
+                     { return this.getDataItem(item, 'NORMAL') }
+                  })}
+               </View>
+            )
+         } else if (topic.type === 'TABLE') {
+            return (
+               <View>
+                  {this.getTitle(topic)}
+                  <View style={{ borderStyle: 'solid', borderWidth: 1, borderColor: 'gray', alignItems: 'center', justifyContent: 'center' }}>
+                     {topic.headers && (
+                        <View style={{ backgroundColor: '#FFFF9C', borderStyle: 'solid', borderWidth: 1, borderColor: 'gray', alignSelf: 'stretch', flexDirection: 'row' }}>
+                           {topic.headers.map((header) => {
+                              return (
+                                 <View style={{ borderStyle: 'solid', borderWidth: 1, borderColor: 'gray', flex: 1, alignSelf: 'stretch' }}>
+                                    <Text style={styles.tableHeader}>{header}</Text>
+                                 </View>
+                              )
+                           })}
+                        </View>
+                     )}
+                     {topic.data.map((dataItem) => {
+                        return (
+                           <View style={{ borderStyle: 'solid', borderWidth: 1, borderColor: 'gray', alignSelf: 'stretch', flexDirection: 'row' }}>
+                              {dataItem.columns.map((column) => {
+                                 return (
+                                    <View style={{ borderStyle: 'solid', borderWidth: 1, borderColor: 'gray', flex: 1, alignSelf: 'stretch' }}>
+                                       {Cheatlist.getDataItem(column, 'TABLE')}
+                                    </View>
+                                 )
+                              })}
+                           </View>
+                        )
+                     })}
+                  </View>
+               </View>
+            )
+         } else if (topic.type === 'TABLE_LIST') {
+            return (
+               <View>
+                  {Cheatlist.getTitle(topic)}
+                  <View style={{ borderStyle: 'solid', borderWidth: 1, borderColor: 'gray', alignItems: 'center', justifyContent: 'center' }}>
+                     {topic.data.map((dataItem) => {
+                        return (
+                           <View style={{ borderStyle: 'solid', borderWidth: 1, borderColor: 'gray', alignSelf: 'stretch', flexDirection: 'row' }}>
+                              <View style={{ borderStyle: 'solid', borderWidth: 1, borderColor: 'gray', flex: 1, alignSelf: 'stretch' }}>
+                                 <Text style={styles.tableCell}>{dataItem.name}</Text>
+                              </View>
+                              <View style={{ borderStyle: 'solid', borderWidth: 1, borderColor: 'gray', flex: 1, alignSelf: 'stretch' }}>
+                                 {Cheatlist.getDataItem(dataItem, 'TABLE_LIST')}
+                              </View>
+                           </View>
+                        )
+                     })}
+                  </View>
+               </View>
+            )
+         }
+      });
+   }
+
+   static getTitle(topic) {      
       if (topic.title) {
          return (
             <Text style={styles.namePrompt}>{topic.title}</Text>
@@ -173,7 +198,7 @@ export default class Cheatlist extends Component {
       }
    }
 
-   getDataItem(item, type) {
+   static getDataItem(item, type) {
       if (type === "NORMAL") {
          if (item.name) {
             return (
@@ -199,24 +224,24 @@ export default class Cheatlist extends Component {
       }
    }
 
-   getDataValues(item) {
+   static getDataValues(item) {
       if (item.value) {
          console.log("getDataItem RETURNING A VALUE!!, value=" + item.value);
          return (
             <Text style={styles.myIndent}>
-                {this.getDataText([{"value":item.value, "styles":item.styles, "type":item.type, "width":item.width, "height":item.height}], "VALUE")}
+               {Cheatlist.getDataText([{ "value": item.value, "styles": item.styles, "type": item.type, "width": item.width, "height": item.height }], "VALUE")}
             </Text>
          )
       } else if (item.values) {
          return (
             <Text style={styles.myIndent}>
-               {this.getDataText(item.values, "VALUE")}
+               {Cheatlist.getDataText(item.values, "VALUE")}
             </Text>
          )
       }
    }
 
-   getDataText(values, myType) {
+   static getDataText(values, myType) {
       let myStyle;
       if (myType === "NAME") {
          myStyle = styles.namePromptItem;
@@ -233,6 +258,8 @@ export default class Cheatlist extends Component {
                      myStyles.push(styles.italic);
                   } else if (text.styles[i] === "BOLD") {
                      myStyles.push(styles.bold);
+                  }else if (text.styles[i] === "UNDERLINE") {
+                     myStyles.push(styles.underline);
                   }
                }
                return (
@@ -331,6 +358,9 @@ const styles = StyleSheet.create({
    bold: {
       fontWeight: 'bold'
    },
+   underline: {
+      textDecorationLine: 'underline'
+   },   
    mathElement: {
       margin: 0,
       padding: 0,

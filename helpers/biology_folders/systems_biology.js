@@ -1,6 +1,7 @@
 const systemsBio = {
    index: 6,
    itemName: "Systems Biology(Organs & Organisms)",
+   folderName: "Systems Biology",
    type: "Cell & Developement Biology",
    entries: [
       {
@@ -90,7 +91,7 @@ const systemsBio = {
       },
       {
          "index": 0,
-         title: 'Physical vs Chemical Digestion',
+         title: "Physical vs Chemical Digestion",
          type: "NORMAL",
          image: null,
          data: [

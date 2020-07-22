@@ -1,54 +1,9 @@
 const cellBio = {
    index: 0,
    itemName: "Cell Biology",
+   folderName: "Cell Biology",
    type: "Cell & Developement Biology",
    entries: [
-      {
-         "index": 4,
-         "title": "Vocabulary",
-         "type": "TABLE_LIST",
-         "image": "HYDROLYSIS_LIPIDS",
-         "data": [
-            {
-               "index": 0,
-               "name": "Trigly­cerides",
-               "value": "The type of fat our bodies make and store."
-            },
-            {
-               "index": 0,
-               "name": "Hydrop­hilic",
-               "value": "Likes water/­faces water."
-            },
-            {
-               "index": 0,
-               "name": "Hydrop­hobic",
-               "value": "Doesn't like water/­faces away from water."
-            }
-         ]
-      },
-      {
-         "index": 4,
-         "title": "Vocabulary",
-         "type": "TABLE_LIST",
-         "image": null,
-         "data": [
-            {
-               "index": 0,
-               "name": "Trigly­cerides",
-               "value": "The type of fat our bodies make and store."
-            },
-            {
-               "index": 0,
-               "name": "Hydrop­hilic",
-               "value": "Likes water/­faces water."
-            },
-            {
-               "index": 0,
-               "name": "Hydrop­hobic",
-               "value": "Doesn't like water/­faces away from water."
-            }
-         ]
-      },
       {
          "index": 4,
          "title": "Vocabulary",
@@ -99,7 +54,22 @@ const cellBio = {
                "index": 0,
                "name": "Glycogen",
                "value": "A polysa­cch­aride consisting of many glucose molecules linked together (sometimes hundreds). Extra sugar is stored as glycogen in the liver of the body as a short-term energy storage"
-            }
+            },
+            {
+               "index": 0,
+               "name": "Trigly­cerides",
+               "value": "The type of fat our bodies make and store."
+            },
+            {
+               "index": 0,
+               "name": "Hydrop­hilic",
+               "value": "Likes water/­faces water."
+            },
+            {
+               "index": 0,
+               "name": "Hydrop­hobic",
+               "value": "Doesn't like water/­faces away from water."
+            }            
          ]
       },
       {
@@ -111,7 +81,7 @@ const cellBio = {
             {
                "index": 0,
                "name": null,
-               "value": "increased surface area = increased diffusion\nmicrov­illi: increases absorption in intestines\nroot hairs: increases water/­nut­rient absorption in plants\nendome­mbrane system: increased folds in organelles allow for more surface area to do cellular work\ncristae of the mitoch­ondria: folds in the inner mitoch­ondria increase amounts of ETC (more ATP)"
+               "value": "●Increased surface area = increased diffusion\nmicrov­illi: increases absorption in intestines\n●Root hairs: increases water/­nut­rient absorption in plants\n●Endome­mbrane system: increased folds in organelles allow for more surface area to do cellular work\n●Cristae of the mitoch­ondria: folds in the inner mitoch­ondria increase amounts of ETC (more ATP)"
             }
          ]
       },
@@ -220,9 +190,14 @@ const cellBio = {
          "data": [
             {
                "index": 0,
-               "name": null,
-               "value": "chemical factors:\n● nutrients\n● PDGF\nphysical factors:\n● density dependent\n● anchorage"
-            }
+               "name": "Chemical Factors:",
+               "value": ":\n●nutrients\n●PDGF"
+            },
+            {
+               "index": 0,
+               "name": "Physical Factors:",
+               "value": ":\n●density dependent\n●anchorage"
+            }            
          ]
       },
       {
@@ -234,17 +209,17 @@ const cellBio = {
             {
                "index": 0,
                "name": null,
-               "value": "Cells are building blocks of all life"
+               "value": "●Cells are building blocks of all life"
             },
             {
                "index": 1,
                "name": null,
-               "value": "All cells come from pre-existing cells"
+               "value": "●All cells come from pre-existing cells"
             },
             {
                "index": 2,
                "name": null,
-               "value": "All metabolism occurs in cells of the body"
+               "value": "●All metabolism occurs in cells of the body"
             }
          ]
       },
@@ -283,7 +258,7 @@ const cellBio = {
       },
       {
          "index": 4,
-         "title": "Cell sIZE",
+         "title": "Cell Size",
          "type": "TABLE",
          "image": null,
          "data": [
@@ -328,8 +303,23 @@ const cellBio = {
             {
                "index": 0,
                "name": null,
-               "value": "an evolut­ionary theory of the origin of eukaryotic cells from prokar­yotic organisms\nendosy­mbi­osis: one organism living inside another\nevidence 1) chloro­plasts and mitoch­ondria multiply in the same way as ancient bacteria\nevidence 2) chloro­plasts and mitoch­ondria both control their own DNA and ribosomes\nevidence 3) chloro­plasts and mitoch­ondria both have two membranes (inner membrane contains different proteins than the outer membrane)"
-            }
+               "value": "●An evolut­ionary theory of the origin of eukaryotic cells from prokar­yotic organisms\n●Endosy­mbi­osis: one organism living inside another."
+            },
+            {
+               "index": 0,
+               "name": "Evidence 1)",
+               "value": "Chloro­plasts and mitoch­ondria multiply in the same way as ancient bacteria."
+            },
+            {
+               "index": 0,
+               "name": "Evidence 2)",
+               "value": "Chloro­plasts and mitoch­ondria both control their own DNA and ribosomes."
+            },
+            {
+               "index": 0,
+               "name": "Evidence 3)",
+               "value": "Chloro­plasts and mitoch­ondria both have two membranes (inner membrane contains different proteins than the outer membrane)"
+            }                        
          ]
       },
       {
@@ -341,7 +331,7 @@ const cellBio = {
             {
                "index": 0,
                "name": null,
-               "value": "Mitoch­ondria and chloro­plasts were formerly small prokar­yotes that began living within larger cells, may have gained entry as undigested prey or parasites. In a world that was increa­singly aerobic, host benefited from endosy­mbiont that could use oxygen to create energy. This led to the formation of a eukaryotic cell with a mitoch­ondria. Plant cells were developed from eukaryotic cells with photos­ynt­hetic prokar­yote."
+               "value": "\tMitoch­ondria and chloro­plasts were formerly small prokar­yotes that began living within larger cells, may have gained entry as undigested prey or parasites. In a world that was increa­singly aerobic, host benefited from endosy­mbiont that could use oxygen to create energy. This led to the formation of a eukaryotic cell with a mitoch­ondria. Plant cells were developed from eukaryotic cells with photos­ynt­hetic prokar­yote."
             }
          ]
       },
@@ -353,9 +343,14 @@ const cellBio = {
          "data": [
             {
                "index": 0,
-               "name": null,
-               "value": "needed for proper develo­pment:\n● metamo­rphosis\n● removes fetal webbing between fingers / toes\n● menstr­uation\n● synapse formation\n● eliminates T cells that cause autoimmune\ndestroy cells that pose a threat:\n● infected with virus\n● DNA damage\n● cancer cells"
-            }
+               "name": "Needed for proper develo­pment:",
+               "value": "\n● metamo­rphosis\n● removes fetal webbing between fingers / toes\n● menstr­uation\n● synapse formation\n● eliminates T cells that cause autoimmune"
+            },
+            {
+               "index": 0,
+               "name": "Destroy cells that pose a threat",
+               "value": ":\n● infected with virus\n● DNA damage\n● cancer cells"
+            }            
          ]
       },
       {
@@ -367,8 +362,23 @@ const cellBio = {
             {
                "index": 0,
                "name": null,
-               "value": "study of energy transf­orm­ation\nfirst law: energy of the universe is constant\nsecond law: every process increases the entropy of the universe\nentropy: \"­qua­ntity of energy in universe is constant, but quality is not\""
-            }
+               "value": "●Study of energy transf­orm­ation"
+            },
+            {
+               "index": 0,
+               "name": "First Law:",
+               "value": "Energy of the universe is constant\nsecond law: every process increases the entropy of the universe\nentropy: \"­qua­ntity of energy in universe is constant, but quality is not\""
+            },
+            {
+               "index": 0,
+               "name": "Second Law:",
+               "value": "Every process increases the entropy of the universe"
+            },
+            {
+               "index": 0,
+               "name": "Entropy:",
+               "value": "Qua­ntity of energy in universe is constant, but quality is not\""
+            }                                    
          ]
       },
       {
@@ -380,7 +390,7 @@ const cellBio = {
             {
                "index": 0,
                "name": null,
-               "value": "amount of space inside of the object\nthe space inside of the cell\nunit: cm^3"
+               "value": "Amount of space inside of the object. The space inside of the cell\n●Units: cm^3"
             }
          ]
       },
@@ -443,8 +453,13 @@ const cellBio = {
             {
                "index": 0,
                "name": null,
-               "value": "as substrates increase, reaction rate increases and levels off\nmore substrate = more frequently collide with enzyme\nthe reaction levels off because...\n● all enzymes have active site engaged\n● enzyme is saturated\n● maximum rate of reaction"
-            }
+               "value": "As substrates increase, reaction rate increases and levels off.\nMore substrate = more frequently collide with enzyme.\nthe reaction levels off because...\n● all enzymes have active site engaged\n● enzyme is saturated\n● maximum rate of reaction"
+            },
+            {
+               "index": 0,
+               "name": "The reaction levels off because...",
+               "value": "\n● all enzymes have active site engaged\n● enzyme is saturated\n● maximum rate of reaction"
+            }            
          ]
       },
       {
@@ -456,7 +471,7 @@ const cellBio = {
             {
                "index": 0,
                "name": null,
-               "value": "outside area of an object\nthe area around the outside of a cell\nunit: m^2"
+               "value": "Outside area of an object.\nThe area around the outside of a cell\n●Unit: m^2"
             }
          ]
       },
@@ -469,7 +484,7 @@ const cellBio = {
             {
                "index": 0,
                "name": null,
-               "value": "a comparison between the size of the outside of an object and the amount inside\nsmaller cells have an increase SA:V\nas the cell gets bigger, the SA:V decreases\nsmall cells are more efficient at diffusion as they have a high ratio"
+               "value": "A comparison between the size of the outside of an object and the amount inside.\nSmaller cells have an increase SA:↓. As the cell gets bigger, the SA:↓ decreases. Small cells are more efficient at diffusion as they have a high ratio."
             }
          ]
       },
@@ -485,7 +500,7 @@ const cellBio = {
                   {
                      "value": "optimum temperature",
                      "styles": [
-                        "BOLD, ITALIC ,UNDERLINE"
+                        "BOLD", "ITALIC" ,"UNDERLINE"
                      ]
                   }
                ]
@@ -507,7 +522,7 @@ const cellBio = {
                   {
                      "value": "cold temperature",
                      "styles": [
-                        "BOLD, ITALIC ,UNDERLINE"
+                        "BOLD", "ITALIC" ,"UNDERLINE"
                      ]
                   }
                ]
@@ -529,7 +544,7 @@ const cellBio = {
                   {
                      "value": "heat (beyond optimum)",
                      "styles": [
-                        "BOLD, ITALIC ,UNDERLINE"
+                        "BOLD", "ITALIC" ,"UNDERLINE"
                      ]
                   }
                ]
@@ -555,8 +570,8 @@ const cellBio = {
          "data": [
             {
                "index": 0,
-               "name": null,
-               "value": "changes in pH:\n● adds or removes H+\n● disrupts bond, disrupts 3D shape\n● disrupts attrac­tions between charged amino acids\n● affects 2' and 3' structure\n● denatures protein"
+               "name": "Changes in pH:",
+               "value": "\n● adds or removes H+\n● disrupts bond, disrupts 3D shape\n● disrupts attrac­tions between charged amino acids\n● affects 2' and 3' structure\n● denatures protein"
             }
          ]
       },
@@ -569,7 +584,7 @@ const cellBio = {
             {
                "index": 0,
                "name": null,
-               "value": "pre:washed hands, disinf­ected tray, Bunsen burner, agar in water bath, lab coat\nduring­:fl­aming the neck of bottles, palming technique for opening lids, pre-st­eri­lised syringe and spreader, only open petri dish slightly, flaming tweezers\nafter:­taped petri dish lid on to stop stuff going out and in, incubated petri dish @ 25 °C so any other micro’s from growing, wash benches and hands again\nIn conclu­sion, the best antiseptic is bleach because it is more alkali than the others, this is shown by its average area and diameter of the clear zone."
+               "value": "●Pre-washed hands, disinf­ected tray, Bunsen burner, agar in water bath, lab coat\n●During­ culturing: fl­aming the neck of bottles, palming technique for opening lids, pre-st­eri­lised syringe and spreader, only open petri dish slightly, flaming tweezers\n●After culturing: ­taped petri dish lid on to stop stuff going out and in, incubated petri dish @ 25 °C so any other micro’s from growing, wash benches and hands again\n - In conclu­sion, the best antiseptic is bleach because it is more alkali than the others, this is shown by its average area and diameter of the clear zone."
             }
          ]
       },
@@ -595,7 +610,7 @@ const cellBio = {
             {
                "index": 0,
                "name": null,
-               "value": "Amino acids bond to make proteins with dehydr­ation synthesis\nProteins can be from very short to thousands of amino acids long\nThe protein hemoglobin (carries oxygen in red blood cells) has 146 amino acids"
+               "value": "●Amino acids bond to make proteins with dehydr­ation synthesis\n●Proteins can be from very short to thousands of amino acids long\n●The protein hemoglobin (carries oxygen in red blood cells) has 146 amino acids"
             }
          ]
       },
@@ -608,7 +623,7 @@ const cellBio = {
             {
                "index": 0,
                "name": null,
-               "value": "*This is a saturated trigly­cer­ide\nWhen your body has more calories than it needs, it turns the calories to trigly­cerides and stores them.\nTo make a single trigly­ceride, you need one molecule of glycerol and three fatty acid chains.\nWater is taken out and the four molecules bind together to form trigly­cer­ides."
+               "value": "*This is a saturated trigly­cer­ide\n●When your body has more calories than it needs, it turns the calories to trigly­cerides and stores them.\n●To make a single trigly­ceride, you need one molecule of glycerol and three fatty acid chains.\n●Water is taken out and the four molecules bind together to form trigly­cer­ides."
             }
          ]
       },
@@ -688,8 +703,23 @@ const cellBio = {
             {
                "index": 0,
                "name": null,
-               "value": "A prokar­yotic cell has three archit­ectural regions:\nOn the outside, flagella and pili project from the cell's surface. These are structures (not present in all prokar­yotes) made of proteins that facilitate movement and commun­ication between cells.\nEnclosing the cell is the cell envelope – generally consisting of a cell wall covering a plasma membrane though some bacteria also have a further covering layer called a capsule. It also prevents the cell from expanding and bursting (cytol­ysis) from osmotic pressure due to a hypotonic enviro­nment.\n\nInside the cell is the cytopl­asmic region that contains the genome (DNA), ribosomes and various sorts of inclus­ions. Prokar­yotes can carry extrac­hro­mosomal DNA elements called plasmids, which are usually circular. Plasmids encode additional genes, such as antibiotic resistance genes."
-            }
+               "value": " - A prokar­yotic cell has three archit­ectural regions:"
+            },
+            {
+               "index": 0,
+               "name": "On the Outside:",
+               "value": "Flagella and pili project from the cell's surface. These are structures (not present in all prokar­yotes) made of proteins that facilitate movement and commun­ication between cells."
+            },
+            {
+               "index": 0,
+               "name": "Enclosing the Cell:",
+               "value": "Cell envelope – generally consisting of a cell wall covering a plasma membrane though some bacteria also have a further covering layer called a capsule. It also prevents the cell from expanding and bursting (cytol­ysis) from osmotic pressure due to a hypotonic enviro­nment."
+            },
+            {
+               "index": 0,
+               "name": "Inside the Cell:",
+               "value": "The cytopl­asmic region that contains the genome (DNA), ribosomes and various sorts of inclus­ions. Prokar­yotes can carry extrac­hro­mosomal DNA elements called plasmids, which are usually circular. Plasmids encode additional genes, such as antibiotic resistance genes."
+            }                                    
          ]
       },
       {
@@ -812,7 +842,7 @@ const cellBio = {
             {
                "index": 0,
                "name": null,
-               "value": "Plants, animals, fungi, slime moulds, protozoa, and algae are all eukary­otic.\n\nThe plasma membrane resembles that of prokar­yotes in function, with minor differ­ences in the setup. Cell walls may or may not be present.\n\nThe eukaryotic DNA is organized in one or more linear molecules, called chromo­somes, which are associated with histone proteins. All chromo­somal DNA is stored in the cell nucleus, separated from the cytoplasm by a membrane. Some eukaryotic organelles such as mitoch­ondria also contain some DNA.\n\nEukaryotes can move using motile cilia or flagella. Eukaryotic flagella are less complex than those of prokar­yotes."
+               "value": "●Plants, animals, fungi, slime moulds, protozoa, and algae are all eukary­otic.\n●The plasma membrane resembles that of prokar­yotes in function, with minor differ­ences in the setup. Cell walls may or may not be present.\n●The eukaryotic DNA is organized in one or more linear molecules, called chromo­somes, which are associated with histone proteins. All chromo­somal DNA is stored in the cell nucleus, separated from the cytoplasm by a membrane. Some eukaryotic organelles such as mitoch­ondria also contain some DNA.\n●Eukaryotes can move using motile cilia or flagella. Eukaryotic flagella are less complex than those of prokar­yotes."
             }
          ]
       },
@@ -858,6 +888,7 @@ const cellBio = {
          "index": 4,
          "title": "Prokaryotic vs. Eukaryotic Cells Checklist",
          "type": "TABLE",
+         "headers": ["", "Prokaryotic", "Eukaryotic"],
          "image": null,
          "data": [
             {
@@ -1283,7 +1314,7 @@ const cellBio = {
             {
                "index": 0,
                "name": null,
-               "value": "hetero­trophs: acquire organics to create energy from other creatures\n● consumers\n● decomp­osers"
+               "value": "Hetero­trophs: acquire organics to create energy from other creatures\n● consumers\n● decomp­osers"
             }
          ]
       },
@@ -1297,7 +1328,8 @@ const cellBio = {
                "index": 0,
                "columns": [
                   {
-                     "value": "Sperm Cells"
+                     "value": "Sperm Cells",
+                     "styles":["BOLD", "ITALIC", "UNDERLINE"]
                   },
                   {
                      "value": "Reproduction"
@@ -1311,7 +1343,8 @@ const cellBio = {
                "index": 0,
                "columns": [
                   {
-                     "value": "Nerve Cells"
+                     "value": "Nerve Cells",
+                     "styles":["BOLD", "ITALIC", "UNDERLINE"]
                   },
                   {
                      "value": "Rapid signaling"
@@ -1325,7 +1358,8 @@ const cellBio = {
                "index": 0,
                "columns": [
                   {
-                     "value": "Muscle Cells"
+                     "value": "Muscle Cells",
+                     "styles":["BOLD", "ITALIC", "UNDERLINE"]
                   },
                   {
                      "value": "Contraction"
@@ -1339,7 +1373,8 @@ const cellBio = {
                "index": 0,
                "columns": [
                   {
-                     "value": "Root Hair Cells"
+                     "value": "Root Hair Cells",
+                     "styles":["BOLD", "ITALIC", "UNDERLINE"]
                   },
                   {
                      "value": "Absorbing water and minerals"
@@ -1353,7 +1388,8 @@ const cellBio = {
                "index": 0,
                "columns": [
                   {
-                     "value": "Phloem Cells"
+                     "value": "Phloem Cells",
+                     "styles":["BOLD", "ITALIC", "UNDERLINE"]
                   },
                   {
                      "value": "Transp­orting substances"
@@ -1367,7 +1403,8 @@ const cellBio = {
                "index": 0,
                "columns": [
                   {
-                     "value": "Xylem Cells"
+                     "value": "Xylem Cells",
+                     "styles":["BOLD", "ITALIC", "UNDERLINE"]
                   },
                   {
                      "value": "Transp­orting substances"
@@ -4703,32 +4740,6 @@ const cellBio = {
             }
          ]
       },
-      {
-         "index": 4,
-         "title": "Disrupt Cell Cycle and Trigger Cancer",
-         "type": "NORMAL",
-         "image": null,
-         "data": [
-            {
-               "index": 0,
-               "name": null,
-               "value": "genes that stop or slow the cell cycle\n● ex: tumor suppressor genes\ngenes that trigger cell growth and division by initiating different stages of the cell cycle\n● ex: proto-­onc­ogenes"
-            }
-         ]
-      },
-      {
-         "index": 4,
-         "title": "What Causes Uncont­rolled Cell Growth?",
-         "type": "NORMAL",
-         "image": null,
-         "data": [
-            {
-               "index": 0,
-               "name": null,
-               "value": "defects in proteins that control the cell cycle\nmutations that knock out key genes"
-            }
-         ]
-      }
    ]
 };
 

@@ -1,301 +1,833 @@
 const ecologyBio = {
-   index: 1,
-   itemName: "Development",
-   type: "Cell & Developement Biology",
+   index: 8,
+   itemName: "Ecology",
+   folderName: "Ecology",
+   type: "Ecology, Behavior & Evolution",
    entries: [
       {
-         "index": 0,
-         title: 'Homeostasis',
-         type: "NORMAL",
-         image: null,
-         data: [
-            { "index": 0, "name": null, "value": "Life able to maintain stable internal environment - self regulation" }
-         ]
+        "index": 0,
+        "title": "Biodiversity",
+        "type": "NORMAL",
+        "image": null,
+        "data": [
+          {
+            "index": 0,
+            "name": null,
+            "value": "Biodiv­ersity is the variety of life found in an area.It is often measured by counting the number of species in a specific ecosystem."
+          }
+        ]
       },
       {
-         "index": 0,
-         title: 'Homeostasis Nervous System',
-         type: "NORMAL",
-         image: null,
-         data: [
-            { "index": 0, "name": "Nervous System", "value": "Rapid response to stimuli via electrical signals" },
-            { "index": 0, "name": "Endocrine System", "value": "Long-term response using chemical signals (hormones)" }
-         ]
+        "index": 0,
+        "title": "Biotic Factors",
+        "type": "NORMAL",
+        "image": null,
+        "data": [
+          {
+            "index": 0,
+            "name": null,
+            "value": "Biotic factors are the living components of an ecosys­tem.They include; organisms, organism remains (decom­posing remains) and waste produces (feces­).A­biotic factors are the nonliving components of an ecosys­­te­m.They include; air, minerals, sun, temper­­ature, water, wind, etc."
+          }
+        ]
       },
       {
-         "index": 0,
-         title: 'Feedback Mechanisms',
-         type: "TABLE_LIST",
-         image: null,
-         data: [
-            { "index": 0, "name": "Negative Feedback", "value": "Primary mechanism of homeos­tasis. Used to produce opposite effect of the change and bring back to homeos­tasis." },
-            { "index": 0, "name": "Positive Feedback", "value": "Increases the effects of change produced by enviro­nmental stimulus. Does not bring back to homeos­tasis." },
-            { "index": 0, "name": "Thermal Regulation", "value": "Conduc­tion, Convec­tion, Radiation, Evapor­ation" }
-         ]
+        "index": 0,
+        "title": "Population Ecology",
+        "type": "NORMAL",
+        "image": null,
+        "data": [
+          {
+            "index": 0,
+            "name": null,
+            "value": "Biotic­/ab­iotic factorsresponse: acclimate, regulate, conform, migrate, torpor, etc.\nfundam­ental niche=­range of factor­s/r­eso­urces a species could use\nrealized niche=­actual use of potential enviro­nment\nuniform disper­sio­n=e­venly spaced\nrandom disper­sio­n=u­npr­edi­ctable spacing\nclumped disper­sio­n=a­ggr­egate in patches"
+          }
+        ]
       },
       {
-         "index": 0,
-         title: 'Thermalregulation',
-         type: "TABLE_LIST",
-         image: null,
-         data: [
-            { "index": 0, "name": "Heat Stress", "value": "1)Monitor thermo­rec­eptors of peripheral nervous system detect increased temp\n2)Coor­din­ate hypoth­alamus signals CNS via motor nerves to sweat glands\n3)Regu­late sweat glands initiate sweating, blood vessels dilate" },
-            { "index": 0, "name": "Cold Stres", "value": "1)Moni­tor thermo­rec­eptors signal hypoth­alamus using sensory neurons\n2)Coor­din­ate hypoth­alamus sends message via motor neurons\n3)Regu­late arterioles and smooth muscle of skin contract, captures heat, skeletal muscles contract- shivering" }
-         ]
+        "index": 0,
+        "title": "Logistic Growth",
+        "type": "NORMAL",
+        "image": "LOGISTIC_GROWTH",
+        "data": [
+          {
+            "index": 0,
+            "name": null,
+            "value": null,
+            "values": [
+              {
+                "type": "NORMAL",
+                "value": "K-sele­cti­on=­sen­sitive to population density\nr-sele­cti­on=­max­imizes r (repro­ductive rate)\ndensity indepe­ndent= pop. density does not affect birth/­death rate\ndensity dependent= "
+              },
+              {
+                "type": "MATH",
+                "value": "\\uparrow",
+                "width": 25,
+                "height": 25
+              },
+              {
+                "type": "NORMAL",
+                "value": "pop. density"
+              },
+              {
+                "type": "MATH",
+                "value": "\\rightarrow\\downarrow",
+                "width": 50,
+                "height": 25
+              },
+              {
+                "type": "NORMAL",
+                "value": "birth rate/"
+              },
+              {
+                "type": "MATH",
+                "value": "\\uparrow",
+                "width": 25,
+                "height": 25
+              },
+              {
+                "type": "NORMAL",
+                "value": "death rate"
+              }
+            ]
+          }
+        ]
       },
       {
-         "index": 0,
-         title: 'Osmoregulation',
-         type: "NORMAL",
-         image: null,
-         data: [
-            { "index": 0, "name": "Osmosis", "value": "Water from high concentration to low concentration" },
-            { "index": 0, "name": "Osmoregulation", "value": "regulating osmotic pressure of bodily fluids and cells, management of bodies water and solute content" },
-            { "index": 0, "name": "Excretion", "value": "Compos­ition of bodily fluids. regulation of blood pH, volume, and pressure. Excretion of metabolic waste." }
-         ]
+        "index": 0,
+        "title": "Abiotic vs. Biotic",
+        "type": "TABLE",
+        "image": null,
+        "headers": [
+          "Abioitic",
+          "Biotic"
+        ],
+        "data": [
+          {
+            "index": 0,
+            "columns": [
+              {
+                "value": "Non-living"
+              },
+              {
+                "value": "Living"
+              }
+            ]
+          },
+          {
+            "index": 0,
+            "columns": [
+              {
+                "value": "Have never lived"
+              },
+              {
+                "value": "Have lived before"
+              }
+            ]
+          },
+          {
+            "index": 0,
+            "columns": [
+              {
+                "value": "Are not dead"
+              },
+              {
+                "value": "Can be dead"
+              }
+            ]
+          },
+          {
+            "index": 0,
+            "columns": [
+              {
+                "value": "Are not parts of living things"
+              },
+              {
+                "value": "Can be parts of living things"
+              }
+            ]
+          }
+        ]
       },
       {
-         "index": 0,
-         title: 'Nitrogenous Waste',
-         type: "NORMAL",
-         image: null,
-         data: [
-            { "index": 0, "name": "Ammonia", "value": "Released when liver breaks down proteins - by deamin­ation. Very soluble and toxic. Must be diluted w/ H2O" },
-            { "index": 0, "name": "Urea", "value": "Product of Ammonia and CO2. Conversion occurs in liver. Low toxicity." },
-            { "index": 0, "name": "Uric Acid", "value": "product of nucleic acid breakdown. Released through liver metabo­lism. Non toxic and insoluble in H2O" }
-         ]
+        "index": 0,
+        "title": "Natural Resources",
+        "type": "NORMAL",
+        "image": null,
+        "data": [
+          {
+            "index": 0,
+            "name": null,
+            "value": "Natural Resour­ces­(wood, water, etc) are gained from ecosystems that have an abundance of that certain resource."
+          }
+        ]
       },
       {
-         "index": 0,
-         title: 'Chi-Square',
-         type: "NORMAL",
-         image: null,
-         data: [
-            { "index": 0, "name": null, "value": "((O-E)­^2)/E\nDegrees of Freedom: n-1 (number of variants -1)\nCritical Values: 95% certainty (0.05)\nif the number is higher than the critical value, REJECT the null hypothesis" }
-         ]
+        "index": 0,
+        "title": "Energies",
+        "type": "NORMAL",
+        "image": null,
+        "data": [
+          {
+            "index": 0,
+            "name": "Thermal Energy",
+            "value": "Keeps the Earth's surface warm, but it cannot provide organisms with the energy they need to grow and function."
+          },
+          {
+            "index": 0,
+            "name": "Light Energy",
+            "value": "Can be used by some organisms, but it cannot be stored and is not available in the night."
+          },
+          {
+            "index": 0,
+            "name": "Chemical Energy",
+            "value": "Is used by all organisms to perform functions, including movement, growth and reprod­uction."
+          }
+        ]
       },
       {
-         "index": 0,
-         title: 'Surface Tension',
-         type: "NORMAL",
-         image: null,
-         data: [
-            { "index": 0, "name": null, "value": "measure of how difficult to stretc­h/break the surface\ninterface H bonds with molecules on surface and below the surface\ncauses water to bead" }
-         ]
+        "index": 0,
+        "title": "Biosphere",
+        "type": "NORMAL",
+        "image": null,
+        "data": [
+          {
+            "index": 0,
+            "name": null,
+            "value": "The biosphere is the area around the Earth where life can exist within the lithos­phere, the atmosphere and the hydros­phe­re.The biosphere is a closed­(no­thing enters­/leaves except light energy), self-r­egu­lat­ed(­mai­ntains sustai­nable living conditions on it's own) system consisting of all life on Earth.The supply of resources for a living thing to surviv­e(w­ater, space and nutrients) is limited, thus it puts a limit on the number of indivi­duals of a certain species that can live."
+          }
+        ]
       },
       {
-         "index": 0,
-         title: 'Water is the Solvent of Life',
-         type: "NORMAL",
-         image: null,
-         data: [
-            { "index": 0, "name": null, "value": "solution: homoge­neous mixture of two or more substances\nsolvent: dissolving agent\nsolute: substance that is dissolved\naqueous solution: water is solvent" }
-         ]
+        "index": 0,
+        "title": "Biomes",
+        "type": "NORMAL",
+        "image": null,
+        "data": [
+          {
+            "index": 0,
+            "name": null,
+            "value": "A biome is a large region defined by climat­e(p­rec­ipi­tation and temper­ature) with a specific set of abioti­c/b­iotic features."
+          }
+        ]
       },
       {
-         "index": 0,
-         title: 'Nucleic Acids Structure',
-         type: "TABLE",
-         headers: ["Monomer - Nucleo­tide:", "DNA:", "RNA:"],
-         image: null,
-         data: [
-            { "index": 0, "columns": [{ "value": "sugar (ribose, deoxyr­ibose)" }, { "value": "deoxyr­ibose" }, { "value": "ribose" }] },
-            { "index": 0, "columns": [{ "value": "nitrogen base (pyrim­idine (C,T,U and one ring) and purine (A,G and two rings)" }, { "value": "A, T, G, C" }, { "value": "A, U, G, C" }] },
-            { "index": 0, "columns": [{ "value": "phosphate" }, { "value": "double strand" }, { "value": "single strand" }] }
-         ]
+        "index": 0,
+        "title": "The 3 Spheres",
+        "type": "NORMAL",
+        "image": null,
+        "data": [
+          {
+            "index": 0,
+            "name": "Lithosphere",
+            "value": "Is the Earth's solid, rocky outer shell.C­on­sists of rocks and minerals that make up the mountains, oceans and all of Earth's solid landsc­ape.Ranges from about 50 to 150 km in thickness down from the surface."
+          },
+          {
+            "index": 0,
+            "name": "Atmosphere",
+            "value": "Is the layer of gases that surround the Earth.This layer is critical to life on Earth as it moderates surface temper­atures by acting like a blanket, it blocks some incoming solar radiation, such as ultrav­iol­et(UV) rays, and prevents excessive heating during the day and cooling during the night."
+          },
+          {
+            "index": 0,
+            "name": "Hydrosphere",
+            "value": "Is all of the water on Earth(both solid, liquid and gas form).It includes; Clouds, ground­water, ice, lakes and oceans"
+          }
+        ]
       },
       {
-         "index": 0,
-         title: 'Protein Structure',
-         type: "NORMAL",
-         image: "PROTEIN_STRUCTURE",
-         data: [
-            { "index": 0, "name": null, "value": null }
-         ]
+        "index": 0,
+        "title": "Food Chain",
+        "type": "NORMAL",
+        "image": "FOOD_CHAIN",
+        "data": [
+          {
+            "index": 0,
+            "name": null,
+            "value": "Food Chains illustrate who eats whom in an ecosys­tem.It also shows how energy passes through an ecosys­tem.All organisms contin­ually use and release energy to their enviro­nment, meaning that energy is contin­uously lost from all levels of the food chain.Food chains are rarely longer than 4 organisms as energy available decreases quickl­y.Only 10% of the energy that is gained by the first organism is passed on to the second organism, and so on."
+          }
+        ]
       },
       {
-         "index": 0,
-         title: 'Properties of Water',
-         type: "NORMAL",
-         image: null,
-         data: [
-            { "index": 0, "name": null, "value": "cohesive behavior\nresists changes in temper­ature\nexpands when it freezes\nversatile solvent\npolar, covalent\nH+ and O-" }
-         ]
+        "index": 0,
+        "title": "Pyramid of Energy",
+        "type": "NORMAL",
+        "image": null,
+        "data": [
+          {
+            "index": 0,
+            "name": null,
+            "value": "Illust­rates energy loss and transfer between trophic levels.Sp­ecies in the highest trophic levels have less energy available to them than the species near the bottom."
+          }
+        ]
       },
       {
-         "index": 0,
-         title: 'Hydrogen Bonding',
-         type: "NORMAL",
-         image: null,
-         data: [
-            { "index": 0, "name": null, "value": "absorb heat to break\nrelease heat to form" }
-         ]
+        "index": 0,
+        "title": "Pyramid of Numbers",
+        "type": "NORMAL",
+        "image": "PYRAMID_NUMBERS",
+        "data": [
+          {
+            "index": 0,
+            "name": null,
+            "value": "Shows the number of indivi­duals of all popula­tions in each trophic level."
+          }
+        ]
       },
       {
-         "index": 0,
-         title: 'Hydrop­hobic vs. Hydrop­hilic',
-         type: "TABLE",
-         headers: ["Hydrop­hobic:", "Hydrop­hilic:"],
-         image: null,
-         data: [
-            { "index": 0, "columns": [{ "value": "do not have affinity to water" }, { "value": "has affinity for water" }] },
-            { "index": 0, "columns": [{ "value": "non-ionic, non-polar repel water" }, { "value": "even if substance does not dissolve (cotton)" }] }
-         ]
+        "index": 0,
+        "title": "Pyramid of Biomass",
+        "type": "NORMAL",
+        "image": null,
+        "data": [
+          {
+            "index": 0,
+            "name": null,
+            "value": "Shows the total mass of organisms in each trophic level(­nor­mally producers have the greatest biomass)."
+          }
+        ]
       },
       {
-         "index": 0,
-         title: 'Peptide Bonds',
-         type: "NORMAL",
-         image: null,
-         data: [
-            { "index": 0, "name": null, "value": "carbonyl adjacent to amino\nformed by dehydr­ation\nN-terminus (amino group)\nC-terminus (carboxyl group)\nformed by dehydr­ation" }
-         ]
+        "index": 0,
+        "title": "Food Webs",
+        "type": "NORMAL",
+        "image": "FOOD_WEBS",
+        "data": [
+          {
+            "index": 0,
+            "name": null,
+            "value": "Food webs are more accurate, but still an incomplete way to illustrate intera­ctions between organisms in an ecosys­tem.They are useful to figure what may happen when a species is removed from or added to an ecosys­tem.The arrows indicate the direction of energy flow in both a food web and food chain.Food webs are highly complex, with consumers feeding on many different species."
+          }
+        ]
       },
       {
-         "index": 0,
-         title: 'Primary Structure',
-         type: "NORMAL",
-         image: null,
-         data: [
-            { "index": 0, "name": null, "value": "unique sequence of amino acids\nDNA → RNA → protein\nLysozyme (129 amino acids, inherited)" }
-         ]
+        "index": 0,
+        "title": "Water Cycle",
+        "type": "NORMAL",
+        "image": "WATER_CYCLE",
+        "data": [
+          {
+            "index": 0,
+            "name": null,
+            "value": "The water cycle first starts off in the process of either evapor­ation or transp­ira­tio­n.E­vap­oration is the process where a liquid, in this case water, changes from a liquid state to a gaseous state.The gas then rises up and goes into the air.Tr­ans­pir­ation is where a plant absorbs water from the soil and as the water reaches the leaves, some of it evaporates and goes into the air.The cycle moves on through conden­sation which is where the water vapour gained through evapor­ation or transp­iration becomes cooler and turns back into a liquid.This liquid then falls to the earth as precip­ita­tio­n.P­rec­ipi­tation can be either snow, hail or rain.This precip­itation then collects on either the surface soil and then flows to the lakes and oceans as rivers or it can collect underg­round as ground­water."
+          }
+        ]
       },
       {
-         "index": 0,
-         title: 'Secondary Structure',
-         type: "NORMAL",
-         image: null,
-         data: [
-            { "index": 0, "name": null, "value": "coils and folds\nresult of hydrogen bonding\nonly atoms in backbone are involved\nα helix and β pleated sheets" }
-         ]
+        "index": 0,
+        "title": "Photosynthesis",
+        "type": "NORMAL",
+        "image": null,
+        "data": [
+          {
+            "index": 0,
+            "name": null,
+            "value": "Photos­ynt­hesis is the process in which green plants convert light energy from the Sun into chemical energy­(su­gar­).The cell in the plant that does this process is called the chloro­plast and it contains a special, green chemical called chloro­phyll that capture the light energy and turn it, along with water from the soil and carbon dioxide from the air, into energy for the plant as well as oxygen­(O2­).The formula for this is transf­orm­ation is CO2 and H2O though light energy into C6H12O­6+O2."
+          }
+        ]
       },
       {
-         "index": 0,
-         title: 'Lipids Structure',
-         type: "NORMAL",
-         image: null,
-         data: [
-            { "index": 0, "name": null, "value": "diverse non-polar, hydrop­hobic molecules (insol­uble)\nhydroc­arbons\nglycerol and fatty acids" }
-         ]
+        "index": 0,
+        "title": "Animals with Misleading Names",
+        "type": "NORMAL",
+        "image": null,
+        "data": [
+          {
+            "index": 0,
+            "name": "Electric Eel",
+            "value": "Not an eel"
+          },
+          {
+            "index": 0,
+            "name": "Mountain Goat",
+            "value": "Not a goat"
+          },
+          {
+            "index": 0,
+            "name": "Maned Wolf",
+            "value": "Not a wolf"
+          },
+          {
+            "index": 0,
+            "name": "King Cobra",
+            "value": "Not a cobra. Also, snakes are typically self-governing."
+          },
+          {
+            "index": 0,
+            "name": "Peacock Mantis Shrimp",
+            "value": "Not a peacock, mantis, or a shrimp"
+          },
+          {
+            "index": 0,
+            "name": "Horny Toad",
+            "value": "Not a toad. Only thinks of you as a friend"
+          },
+          {
+            "index": 0,
+            "name": "Mayfly",
+            "value": "Active through the spring and summer"
+          },
+          {
+            "index": 0,
+            "name": "Eastern Kingbird",
+            "value": "Found in the West. Many birds do not recognize its authority."
+          }
+        ]
       },
       {
-         "index": 0,
-         title: 'Cohesion',
-         type: "NORMAL",
-         image: null,
-         data: [
-            { "index": 0, "name": null, "value": "cohesion held together by hydrogen bonds\nplants: upward water transport\nadhesion: water to other types of molecules (plant wall)" }
-         ]
+        "index": 0,
+        "title": "Biotic and Abiotic Limiting Factors and Influences",
+        "type": "TABLE_LIST",
+        "image": null,
+        "data": [
+          {
+            "index": 0,
+            "name": "Limiting factors",
+            "value": "Any factors that limits the size of a population"
+          },
+          {
+            "index": 0,
+            "name": "Antibiotic Limiting Factors",
+            "value": "A non-living limiting factor­(ex­:access to water)"
+          },
+          {
+            "index": 0,
+            "name": "Biotic Limiting Factor",
+            "value": "A living limiting factor­(ex­:av­ail­ability of food)"
+          },
+          {
+            "index": 0,
+            "name": "Abiotic Influences",
+            "value": "Ability to surviv­e(l­ight, H2O, nutrients, O2, temper­ature, soil, acidity, salinity)"
+          },
+          {
+            "index": 0,
+            "name": "Biotic Influences",
+            "value": "Intera­ctions between specie­s(food, light, space, mates)"
+          }
+        ]
       },
       {
-         "index": 0,
-         title: 'Density',
-         type: "NORMAL",
-         image: null,
-         data: [
-            { "index": 0, "name": null, "value": "ice floats: hydrogen bonds make water less dense in solid state\nwater is densest at -4 C" }
-         ]
+        "index": 0,
+        "title": "Ex-situ and In-situ Conser­vation",
+        "type": "TABLE_LIST",
+        "image": null,
+        "data": [
+          {
+            "index": 0,
+            "name": "Ex-situ Conser­vation",
+            "value": "This conser­vation method is when we remove that species from their natural habita­t.This method is used when a specie's habitat is threatened or no longer exists or if the existing population is extremely small."
+          },
+          {
+            "index": 0,
+            "name": "In-situ Conser­vation",
+            "value": "This conser­vation method is focused on conserving the species in their natural habitat."
+          }
+        ]
       },
       {
-         "index": 0,
-         title: 'Acids and Bases',
-         type: "TABLE",
-         headers: ["Acids:", "Bases:"],
-         image: null,
-         data: [
-            { "index": 0, "columns": [{ "value": "increase the hydrogen ion concen­tration of a solution" }, { "value": "reduces hydrogen ion concen­tration" }] },
-            { "index": 0, "columns": [{ "value": "lower ph" }, { "value": "higher ph" }] }
-         ]
+        "index": 0,
+        "title": "Sustainability",
+        "type": "NORMAL",
+        "image": null,
+        "data": [
+          {
+            "index": 0,
+            "name": null,
+            "value": "Most ecosystems are self-r­egu­lating or sustai­nab­le.S­us­tai­nab­ility is the ability to maintain natural ecological condit­ion­swi­thout interr­uption, weakening or loss of value."
+          }
+        ]
       },
       {
-         "index": 0,
-         title: 'Amino Acid Structure',
-         type: "NORMAL",
-         image: "AMINO_ACID_STRUCTURE",
-         data: [
-            { "index": 0, "columns": ["increase the hydrogen ion concen­tration of a solution", "reduces hydrogen ion concen­tration"] },
-            { "index": 0, "columns": ["lower ph", "higher ph"] }
-         ]
+        "index": 0,
+        "title": "Stewardship",
+        "type": "NORMAL",
+        "image": null,
+        "data": [
+          {
+            "index": 0,
+            "name": null,
+            "value": "A good steward is someone who manages any sort of resource wisely.An enviro­nmental steward means taking care of our natural resources to ensure that they are used in sustai­nable way for current and future genera­tio­ns.This includes: \n1)Re­ducing the amount of resources we use, \n2)Re­using items instead of throwing them away, \n3)Re­cycling used items"
+          }
+        ]
       },
       {
-         "index": 0,
-         title: 'Tertiary Structure',
-         type: "NORMAL",
-         image: null,
-         data: [
-            { "index": 0, "name": null, "value": "intera­ctions of side chains (R groups)\nhydrop­hobic intera­ctions\ndisulfide bridges\nhydrogen bonds\nionic bonds" }
-         ]
+        "index": 0,
+        "title": "Soli Types",
+        "type": "TABLE_LIST",
+        "image": null,
+        "data": [
+          {
+            "index": 0,
+            "name": "Sandy Soil",
+            "value": "Large sand particles, permit root growth and air pockets, permit water to drain away quickly, carrying essential nutrients away from roots, less fertile than loam soil"
+          },
+          {
+            "index": 0,
+            "name": "Loam Soil",
+            "value": "Has rock particles, has pockets that hold air or water, lots of humus, drains well without drying out, most fertile soil"
+          },
+          {
+            "index": 0,
+            "name": "Clay Soil",
+            "value": "Small particles packed tightly together, plant roots do not grow well, block root growth and trap water, making soil wet, least fertile soil"
+          }
+        ]
       },
       {
-         "index": 0,
-         title: 'Quaternary Structure',
-         type: "NORMAL",
-         image: null,
-         data: [
-            { "index": 0, "name": null, "value": "overall protein structure\naggreg­ation of two or more polype­ptide chains\nprotein confor­mation (inter­actions respon­sible for 2' and 3', physical and chemical condit­ions)\ndenatu­ration: unfolding of protein structure" }
-         ]
+        "index": 0,
+        "title": "Cellular Respiration",
+        "type": "NORMAL",
+        "image": null,
+        "data": [
+          {
+            "index": 0,
+            "name": null,
+            "value": "Cellular Respir­ation is a process in which the plant uses the stored energy­(sugar) and O2 produced in photos­ynt­hesis and it converts and releases it as CO2, H2O and energy.The plant is able to use this released energy for cellular functions such as; movement, growth and reprod­uct­ion.The formula for this equation is C6H12O6+O2 into CO2, H20 and energy.Both plants and animals undergo cellular respir­ation. \n**NOTE: The Cellular Respir­ation formula is the exact reverse of the Photos­ynt­hesis formula."
+          }
+        ]
       },
       {
-         "index": 0,
-         title: 'Saturated fat vsn Unsaturated fat',
-         type: "NORMAL",
-         headers: ["Saturated fat:", "Unsaturated fat:"],
-         image: null,
-         data: [
-            { "index": 0, "columns": ["no double bonds", "double bond"] },
-            { "index": 0, "columns": ["max number of hydrogens", "tail kinks at double bond"] },
-            { "index": 0, "columns": ["solid at room temp", "liquid at room temp"] },
-            { "index": 0, "columns": ["animal fats (bacon, grease, lard, butter)", "plant fats (corn, peanut, olive oil)"] }
-         ]
+        "index": 0,
+        "title": "Nitrogen Cycle",
+        "type": "NORMAL",
+        "image": null,
+        "data": [
+          {
+            "index": 0,
+            "name": null,
+            "value": "The first step for the nitrogen cycle is for special bacteria in the soil to convert nitrogen from the atmosphere into forms that plants can use (nitrates, nitrites and ammoni­a).This process is called nitrogen fixati­on.The plants absorb the nitrat­es/­nit­rites through their roots and use it.When they die or, if they get eaten, the consumer dies, the nitrogen is released back into the atmosp­her­e.The bacteria get the new nitrogen and the cycle continues."
+          }
+        ]
       },
       {
-         "index": 0,
-         title: 'Phylog­enetics',
-         type: "NORMAL",
-         data: [
-            { "index": 0, "name": null, "value": "Show evolution over time of different animals based on physical and/or genetic simila­rities" }
-         ]
-      },      
-      {
-         "index": 4,
-         "title": "Ectotherms",
-         "type": "NORMAL",
-         "image": null,
-         "data": [
-            {
-               "index": 0,
-               "name": null,
-               "value": "do not regulate internal body temper­ature\nrely on enviro­nmental heat sources\nless respir­ati­on/food"
-            }
-         ]
+        "index": 0,
+        "title": "Extinction",
+        "type": "NORMAL",
+        "image": null,
+        "data": [
+          {
+            "index": 0,
+            "name": null,
+            "value": "Extinction is a natural process, which involves an entire species to be wiped out.Only catast­rophic events can cause extinc­tion, such as an asteroid impact or a massive volcano erupti­on.T­hese are very rare so the number of species that are extinct is low."
+          }
+        ]
       },
       {
-         "index": 4,
-         "title": "Endotherms",
-         "type": "NORMAL",
-         "image": null,
-         "data": [
-            {
-               "index": 0,
-               "name": null,
-               "value": "regulate internal body temper­atures through metabolism\nbalancing heat loss and gain\nfive adapta­tions help animals thermo­reg­ulate:\n1) insulation\n2) circul­ating adapta­tions\n3) cooling by evapor­ative heat loss\n4) behavioral responses\n5) adjusting metabolic heat production"
-            }
-         ]
+        "index": 0,
+        "title": "Oil Spills",
+        "type": "NORMAL",
+        "image": null,
+        "data": [
+          {
+            "index": 0,
+            "name": null,
+            "value": "Happen when an oil tanker or rig leaks and releases oil into the body of water.S­ince oil is toxic and is slow to break down, takes a long time to clean up.Harms wildlife that lives in ocean and surrou­nding land."
+          }
+        ]
       },
       {
-         "index": 4,
-         "title": "Size and Metabolic Rate",
-         "type": "NORMAL",
-         "image": null,
-         "data": [
-            {
-               "index": 0,
-               "name": null,
-               "value": "larger mammals have more body mass and require more chemical energy (higher BMR)\nsmaller animals require more kcal/gram, have greater rate of O2 delivery, higher breathing rate\nincrease activity → increase metabolic rate → more ATP"
-            }
-         ]
-      }     
-   ]
+        "index": 0,
+        "title": "Urban Forests",
+        "type": "NORMAL",
+        "image": null,
+        "data": [
+          {
+            "index": 0,
+            "name": null,
+            "value": "They are forests growing in old buildings that are either natural or man-de­sig­ned.They:\n1)Remove excess carbon from the atmosphere.\n2)Reduce energy consum­ption by providing shade.\n3Help slow run-off of water from rainstorms.\n4)Pr­otect soils from erosion and filter chemicals from water and air.\n5)Pr­ovide a tourist attraction and are enjoyable to look at and be around."
+          }
+        ]
+      },
+      {
+        "index": 0,
+        "title": "Producers and Consumers",
+        "type": "NORMAL",
+        "image": null,
+        "data": [
+          {
+            "index": 0,
+            "name": null,
+            "value": "A producer is a name given to an organism that photos­ynt­hes­ize.These organisms are critical to ecosystems as most energy that organisms other than produc­ers­(co­nsu­mers) comes from produc­ers.A consumer is a name given to an organism that cannot photos­ynt­hesize and therefore must eat other organisms (producers or other consumers) to survive."
+          }
+        ]
+      },
+      {
+        "index": 0,
+        "title": "Niches",
+        "type": "NORMAL",
+        "image": null,
+        "data": [
+          {
+            "index": 0,
+            "name": null,
+            "value": "Every species uniquely interacts with other species and with it's own enviro­nme­nt.T­hese intera­ctions define the ecological job or niche of a species.A species niche includ­es;what it eats, what eats it and how it behaves."
+          }
+        ]
+      },
+      {
+        "index": 0,
+        "title": "Trophic Levels",
+        "type": "NORMAL",
+        "image": null,
+        "data": [
+          {
+            "index": 0,
+            "name": null,
+            "value": "Trophic Level or feeding level describes the position of an organism along a food chain."
+          }
+        ]
+      },
+      {
+        "index": 0,
+        "title": "Basics of Bioche­mical Cycles",
+        "type": "NORMAL",
+        "image": null,
+        "data": [
+          {
+            "index": 0,
+            "name": null,
+            "value": "The particles that make up matter cannot be created nor destroyed, only cycled.This means that all water and nutrients must be produced or obtained from chemicals that already exist in the enviro­nme­nt.This happens in a series of cycles in which chemicals are contin­uously consumed, rearra­nged, stored and used.Since these cycles involve organisms (bio) and occur as Earth (geo) processes, they are called biogeo­che­mical cycles.These cycles are the Water, Carbon and Nitrogen cycles."
+          }
+        ]
+      },
+      {
+        "index": 0,
+        "title": "The Carbon Cycle",
+        "type": "NORMAL",
+        "image": null,
+        "data": [
+          {
+            "index": 0,
+            "name": null,
+            "value": "Carbon moves through both the biotic and abiotic parts of an ecosys­tem.The first step in this process is when plants pull carbon from the atmosphere through photos­ynt­hes­is.T­hese plants are then eaten by consum­ers.The plant's carbon is passed to the consumer when it eats the plant.The consumer, after time, dies and gets decomp­ose­d.The carbon is released back into the atmosp­her­e.A­nother way for carbon to get released is through cellular respir­ation."
+          }
+        ]
+      },
+      {
+        "index": 0,
+        "title": "Nitrogen Cycle Example",
+        "type": "NORMAL",
+        "image": "NITROGEN_CYCLE",
+        "data": [
+          {
+            "index": 0,
+            "name": null,
+            "value": null
+          }
+        ]
+      },
+      {
+        "index": 0,
+        "title": "Level of Risk",
+        "type": "TABLE_LIST",
+        "image": null,
+        "data": [
+          {
+            "index": 0,
+            "name": "Extinct",
+            "value": "No longer exists on Earth"
+          },
+          {
+            "index": 0,
+            "name": "Extirpated",
+            "value": "No longer exists in a specific area"
+          },
+          {
+            "index": 0,
+            "name": "Endangered",
+            "value": "May become extirpated or extinct"
+          },
+          {
+            "index": 0,
+            "name": "Threatened",
+            "value": "May become endangered"
+          },
+          {
+            "index": 0,
+            "name": "Special Concern",
+            "value": "May become threatened or endangered"
+          }
+        ]
+      },
+      {
+        "index": 0,
+        "title": "Keystone Species",
+        "type": "NORMAL",
+        "image": null,
+        "data": [
+          {
+            "index": 0,
+            "name": null,
+            "value": "A keystone species is a species that when added or removed from an ecosystem leads to major changes in abundance or occurrence of at least one other species."
+          }
+        ]
+      },
+      {
+        "index": 0,
+        "title": "Acid Rain",
+        "type": "NORMAL",
+        "image": null,
+        "data": [
+          {
+            "index": 0,
+            "name": null,
+            "value": "Emissions and pollutants coming from factories and cars are combining with water vapour to form acid rain.We can reduce acid rain by putting limits on emissions and install special scrubbers, which cleanse the emissions to remove most of the nitrogen and sulphur, which causes acid rain."
+          }
+        ]
+      },
+      {
+        "index": 0,
+        "title": "Soil Profile",
+        "type": "NORMAL",
+        "image": "SOIL_PROFILE",
+        "data": [
+          {
+            "index": 0,
+            "name": null,
+            "value": null
+          }
+        ]
+      },
+      {
+        "index": 0,
+        "title": "Monomers and Polymers",
+        "type": "NORMAL",
+        "image": null,
+        "data": [
+          {
+            "index": 0,
+            "name": null,
+            "value": "Monomers are the smaller units from which larger molecules are made\nPolymers are molecules made from a large number of monomers joined together"
+          }
+        ]
+      },
+      {
+        "index": 0,
+        "title": "Disacc­harides",
+        "type": "TABLE_LIST",
+        "image": null,
+        "data": [
+          {
+            "index": 0,
+            "name": "Maltose",
+            "value": "Glucose and Glucosa"
+          },
+          {
+            "index": 0,
+            "name": "Sucrose",
+            "value": "Glucose and Fructose"
+          },
+          {
+            "index": 0,
+            "name": "Lactose",
+            "value": "Glucose and Glactose"
+          }
+        ]
+      },
+      {
+        "index": 0,
+        "title": "Amylose",
+        "type": "TABLE_LIST",
+        "image": null,
+        "data": [
+          {
+            "index": 0,
+            "name": "Maltose",
+            "value": "Polymer of alpha glucose\nCoiled, alpha-­helix structure\nNot branched\n1-4 glycosidic bonds only\nInsoluble so doesn't affect water potential\nCompact so a lot can be stored in a small space\nFunction: energy storage in plants"
+          }
+        ]
+      },
+      {
+        "index": 0,
+        "title": "Glycogen",
+        "type": "TABLE_LIST",
+        "image": null,
+        "data": [
+          {
+            "index": 0,
+            "name": null,
+            "value": "Function: energy storage in animals\nPolymers of alpha glucose\nBranched structure, but more ends than amylop­ectin to reflect higher metabolic activity of animals\n1-4 and 1-6 glycosidic bonds\nInsoluble so doesn't affect water potential\nCompact so a lot can be stored in a small space\nMany ends can be acted on simult­ane­ously by enzymes"
+          }
+        ]
+      },
+      {
+        "index": 0,
+        "title": "Test for sugars",
+        "type": "TABLE_LIST",
+        "image": null,
+        "data": [
+          {
+            "index": 0,
+            "name": null,
+            "value": "Benedict's test for reducing sugars involves boiling with Benedict's solution, and the positive result is a coloured (non-blue) precip­itate\nTest for non-re­ducing sugars involves boiling with HCl, neutra­lising with NaOH and then repeating the Benedict's test"
+          }
+        ]
+      },
+      {
+        "index": 0,
+        "title": "Functions for Carbohydrates",
+        "type": "TABLE_LIST",
+        "image": null,
+        "data": [
+          {
+            "index": 0,
+            "name": null,
+            "value": "Source of energy\nStructural Components\nStorage Compounds\nMetabolite\nTransport\nCell Recogn­ition"
+          }
+        ]
+      },
+      {
+        "index": 0,
+        "title": "Conden­sation reactions of carboh­ydrates",
+        "type": "TABLE_LIST",
+        "image": null,
+        "data": [
+          {
+            "index": 0,
+            "name": null,
+            "value": "Conden­sation reactions between monosa­cch­arides forms glycosidic bonds"
+          }
+        ]
+      },
+      {
+        "index": 0,
+        "title": "Amylopectin",
+        "type": "TABLE_LIST",
+        "image": null,
+        "data": [
+          {
+            "index": 0,
+            "name": null,
+            "value": "Function: energy storage in plants\nPolymer of alpha glucose\nBranched structure\n1-4 and 1-6 glycosidic bonds\nLarge so insoluble so doesn't affect water potential\nMany ends that can be acted on by enzymes to hydrolyse quickly"
+          }
+        ]
+      },
+      {
+        "index": 0,
+        "title": "Cellulose",
+        "type": "TABLE_LIST",
+        "image": null,
+        "data": [
+          {
+            "index": 0,
+            "name": null,
+            "value": "Function: Structural components of plant cell walls\nPolymer of beta glucose\nChains of altern­ately inverted beta glucose units\nHydrogen bonds between the chains increases collective strength\nForms microf­ibrils and then fibril structures which increases tensile strength\nLong chains form a mesh structure and so the cell wall is permeable"
+          }
+        ]
+      },
+      {
+        "index": 0,
+        "title": "Test for starch",
+        "type": "TABLE_LIST",
+        "image": null,
+        "data": [
+          {
+            "index": 0,
+            "name": null,
+            "value": "Add iodine solution to the sample\nA positive result is a blue/black solution"
+          }
+        ]
+      }
+    ]
 };
 
 

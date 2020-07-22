@@ -6,6 +6,7 @@ import Selector from './components/Selector';
 import SubSelector from './components/SubSelector';
 import Cheatlist from './components/Cheatlist';
 import { Button, Text, View, Image, ImageBackground, StyleSheet } from "react-native";
+import Loader from './components/Loader';
 import styled from 'styled-components/native';
 
 const isAllScience = false;
@@ -18,7 +19,9 @@ class App extends React.Component {
          processing: false,
          headerTitle: this.props.title,
          cheatList: "Biology",
-         subtopic: "Cell Biology",
+         cheatListRendered: false,
+         staticCheatListView: null,
+         subtopic: "Basic",
          listOpen: false
       };
       //this.press = this.press.bind(this);
@@ -42,7 +45,7 @@ class App extends React.Component {
       let subheader = this.state.subtopic + " Cheatsheet";
       if (isAllScience === false) {
          header = this.state.cheatList + " Cheatsheet";
-         
+
       }
       return (
          <Container>
@@ -62,14 +65,24 @@ class App extends React.Component {
             {
                listOpen && (
                   <View style={{ flex: 1 }}>
-                     <Button onPress={() => { this.backUp() }} title="Back Up"></Button>
+                     {this.state.cheatListRendered === true && (
+                        <Button onPress={() => { this.backUp() }} title="Back Up"></Button>
+                     )}
                      <Prompt>{subheader}</Prompt>
-                     <Cheatlist cheatList={this.state.cheatList} subtopic={this.state.subtopic}></Cheatlist>
+                     <Loader isLoading={!this.state.cheatListRendered} />
+                     {this.state.cheatListRendered && (
+                        <Cheatlist staticCheatListView={this.state.staticCheatListView} cheatList={this.state.cheatList} subtopic={this.state.subtopic}></Cheatlist>
+                     )}
                   </View>
                )
             }
          </Container >
       );
+   }
+
+   setCheatListRendered(staticCheatListView) {
+      console.log("setCheatListRendered called");
+      this.state.staticCheatListView = staticCheatListView;
    }
 
    onChangeHandler(value) {
@@ -80,14 +93,20 @@ class App extends React.Component {
 
    backUp() {
       this.state.listOpen = false;
-      this.setState({listOpen:this.state.listOpen});
+      this.setState({ listOpen: this.state.listOpen });
    }
 
    press() {
       console.log("press called, this.state.listOpen = " + this.state.listOpen);
       this.state.listOpen = true;
+      this.state.cheatListRendered = false;
       //alert("Hello?");
-      this.setState({ listOpen: true });
+      this.setState({ listOpen: true, cheatListRendered: false });
+      Cheatlist.setCheatListData(this.state.cheatList, this.state.subtopic, this.setCheatListRendered.bind(this));
+      setTimeout(() => {
+         this.state.cheatListRendered = true;
+         this.setState({ cheatListRendered: true });
+      });
       /*this.setState(
          {
             processing: false,

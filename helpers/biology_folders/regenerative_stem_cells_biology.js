@@ -1,6 +1,7 @@
 const regenerativeStemCellsBio = {
    index: 3,
    itemName: "Regenerative Biology and Stem Cells",
+   folderName: "Regenerative Biology and Stem Cells",
    type: "Cell & Developement Biology",
    entries: [
       {
