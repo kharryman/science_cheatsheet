@@ -41,17 +41,17 @@ const geneticsBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "All genetic information stored in DNA or genes"
+            "value": "●All genetic information stored in DNA or genes"
           },
           {
             "index": 1,
             "name": null,
-            "value": "Genes control most or all aspects of an organism"
+            "value": "●Genes control most or all aspects of an organism"
           },
           {
             "index": 2,
             "name": null,
-            "value": "DNA language can be translated into RNA, then to protein language for basic functionality"
+            "value": "●DNA language can be translated into RNA, then to protein language for basic functionality"
           }
         ]
       },
@@ -64,7 +64,7 @@ const geneticsBio =       {
           {
             "index": 0,
             "name": null,
-            "value": " * Indepe­ndent assort­ment, which occurs when chromo­somes randomly line up at the equator.\n * Crossing over, during prophase I, where genetic material is swapped by chroma­tids.\n * Random fertil­isa­tion. During sexual reprod­uction, only one sperm will fertilise one egg, meaning it is random chance which combin­ation of genetic inform­ation will be present in the parents' gametes."
+            "value": " ●Indepe­ndent assort­ment, which occurs when chromo­somes randomly line up at the equator.\n●Crossing over, during prophase I, where genetic material is swapped by chroma­tids.\n●Random fertil­isa­tion. During sexual reprod­uction, only one sperm will fertilise one egg, meaning it is random chance which combin­ation of genetic inform­ation will be present in the parents' gametes."
           }
         ]
       },
@@ -77,7 +77,7 @@ const geneticsBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "nature: geneti­cally determined\nnurture: enviro­nme­ntally determined"
+            "value": "●Nature: geneti­cally determined\n●Nurture: enviro­nme­ntally determined"
           }
         ]
       },
@@ -135,8 +135,8 @@ const geneticsBio =       {
         "data": [
           {
             "index": 0,
-            "name": "He waws first to connect a human disorder with Mendel's laws of inheritance. inborn errors of metabo­lism",
-            "value": "inherited diseases when a person can't make a specific enzyme (no gene for enzyme bc of mutation).\nExample:\nalkapt­onura:\npee is black because no enzyme exists to break down alkapton"
+            "name": "He was first to connect a human disorder with Mendel's laws of inheritance. inborn errors of metabo­lism",
+            "value": "Inherited diseases when a person can't make a specific enzyme (no gene for enzyme bc of mutation).\nExample: alkapt­onura:\nPee is black because no enzyme exists to break down alkapton"
           }
         ]
       },
@@ -303,7 +303,7 @@ const geneticsBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "Fission: bacteria\nFragme­nta­tion: starfish\nBudding: coral"
+            "value": "●Fission: bacteria\n●Fragme­nta­tion: starfish\n●Budding: coral"
           }
         ]
       },
@@ -316,7 +316,7 @@ const geneticsBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "internal fertil­iza­tion: humans, sharks, turtles\nexternal fertil­iza­tion: frogs, many fish\nhermap­hro­dites: most worms, flowering plants\npollin­ation: flowers"
+            "value": "●Internal fertil­iza­tion: humans, sharks, turtles\n●External fertil­iza­tion: frogs, many fish\n●Hermap­hro­dites: most worms, flowering plants\n●Pollin­ation: flowers"
           }
         ]
       },
@@ -336,7 +336,7 @@ const geneticsBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "barr bodies\nDNA methyl­ation"
+            "value": "●Barr bodies\n●DNA methyl­ation"
           }
         ]
       },
@@ -348,8 +348,8 @@ const geneticsBio =       {
         "data": [
           {
             "index": 0,
-            "name": "one gene-one polype­ptide hypoth­esis",
-            "value": "gene dictates the specific production of an enzyme (gene codes for a polype­ptide aka protein aka enzyme)"
+            "name": "One gene-one polype­ptide hypoth­esis",
+            "value": "Gene dictates the specific production of an enzyme (gene codes for a polype­ptide aka protein aka enzyme)"
           }
         ]
       },
@@ -369,7 +369,7 @@ const geneticsBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "Homologous chromo­somes contain genes for the same traits\nTraits are controlled by alleles\nThe genotype is the alleles received at fertil­ization\nPhenotype is the physical appearance"
+            "value": "●Homologous chromo­somes contain genes for the same traits\n●Traits are controlled by alleles\n●The genotype is the alleles received at fertil­ization\n●Phenotype is the physical appearance"
           }
         ]
       },
@@ -382,7 +382,7 @@ const geneticsBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "a trait is expressed when dominant allele is present\ncapital letter (B)"
+            "value": "A trait is expressed when dominant allele is present: Capital letter (B)"
           }
         ]
       },
@@ -395,7 +395,7 @@ const geneticsBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "neither allele is dominant or recessive\nEx.) white + red = red & white\n3 phenotypes"
+            "value": "Neither allele is dominant or recessive\nEx.) white + red = red & white\n3 phenotypes"
           },
           {
             "index": 0,
@@ -413,7 +413,7 @@ const geneticsBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "blood groups\nboth alleles are expressed in the hetero­zygote\nneither is dominant or recessive, but there is no blending"
+            "value": "●Blood groups\n●Both alleles are expressed in the hetero­zygote\n●Neither is dominant or recessive, but there is no blending"
           }
         ]
       },
@@ -426,7 +426,7 @@ const geneticsBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "if we accept the null hypothesis (1:1:1:1), then the genes indepe­ndently assort on DIFFERENT chromo­somes\nif we reject the null hypothesis (1:1:1:1), then the genes are on the SAME chromosome"
+            "value": "●If we accept the null hypothesis (1:1:1:1), then the genes indepe­ndently assort on DIFFERENT chromo­somes\n●Iif we reject the null hypothesis (1:1:1:1), then the genes are on the SAME chromosome"
           }
         ]
       },
@@ -439,7 +439,7 @@ const geneticsBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "if RF is >50%, the traits are considered to be indepe­ndently assorted and on DIFFERENT chromo­somes\nif RF is <50%, the traits are on the SAME chromosome (any variants from the parent type are due to crossing over)"
+            "value": "\tIf RF is >50%, the traits are considered to be indepe­ndently assorted and on DIFFERENT chromo­somes\n\tIf RF is <50%, the traits are on the SAME chromosome (any variants from the parent type are due to crossing over)"
           }
         ]
       },
@@ -455,9 +455,9 @@ const geneticsBio =       {
             "values": [
               {
                 "type": "MATH",
-                "width": 150,
-                "height": 75,
-                "value": "RF = #\\frac{# of Recombinants}{Total # of Offspring}"
+                "width": 300,
+                "height": 100,
+                "value": "RF = \\frac{\\text{# of Recombinants}}{\\text{Total # of Offspring}}"
               }
             ]
           }
@@ -1237,7 +1237,7 @@ const geneticsBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "pedigree: family tree\nmales: squares\nfemales: circles\nshaded: showing exhibited trait\nhalf shaded: carrier"
+            "value": "●Pedigree: family tree\n●Males: squares\n●Females: circles\n●Shaded: showing exhibited trait\n●Half shaded: carrier"
           }
         ]
       },
@@ -1276,7 +1276,7 @@ const geneticsBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "mode of inheri­tance in which additive effects of two or more genes determines a single trait\nquanti­tative characters that vary in degree\nAABBCC: dark\naabbcc: light"
+            "value": "●Mode of inheri­tance in which additive effects of two or more genes determines a single trait\n●Quanti­tative characters that vary in degree\nAABBCC: dark\naabbcc: light"
           }
         ]
       },
@@ -1373,7 +1373,7 @@ const geneticsBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "Most cells in your body have a nucleus. The nucleus contains your genetic material in the form of chromo­somes.\nChromo­somes are coiled up lengths of DNA molecules.\nEach chromosome carries a large number of genes. Different genes control the develo­pment of different charac­ter­istics.\nBody cells normally have two copies of each chromo­some.\nThere are 23 pairs of chromo­somes."
+            "value": "\tMost cells in your body have a nucleus. The nucleus contains your genetic material in the form of chromo­somes.\n\tChromo­somes are coiled up lengths of DNA molecules.\n\tEach chromosome carries a large number of genes. Different genes control the develo­pment of different charac­ter­istics.\n\tBody cells normally have two copies of each chromo­some.\n\tThere are 23 pairs of chromo­somes."
           }
         ]
       },
@@ -1422,7 +1422,7 @@ const geneticsBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "3 sets of chromo­somes make it very unlikely for meiosis to succes­sfully produce spores and gameto­phytes. Uneven number of chromo­somes that won’t pair correctly"
+            "value": "\t3 sets of chromo­somes make it very unlikely for meiosis to succes­sfully produce spores and gameto­phytes. Uneven number of chromo­somes that won’t pair correctly"
           }
         ]
       },
@@ -1435,7 +1435,7 @@ const geneticsBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "Single strand of mRNA can be used to make multiple copies of a polype­ptide simult­ane­ously."
+            "value": "\tSingle strand of mRNA can be used to make multiple copies of a polype­ptide simult­ane­ously."
           }
         ]
       },
@@ -1448,7 +1448,7 @@ const geneticsBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "Catalyzes the peptide bonds between amino acids."
+            "value": "\tCatalyzes the peptide bonds between amino acids."
           }
         ]
       },
@@ -1461,12 +1461,12 @@ const geneticsBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "mRNA can be translated simult­ane­ously by several ribosomes"
+            "value": "\tmRNA can be translated simult­ane­ously by several ribosomes"
           },
           {
             "index": 0,
             "name": null,
-            "value": "transc­ription / transl­ation of BACTERIA cells occurs at same time because they're both in the CYTOPLASM"
+            "value": "\ttransc­ription / transl­ation of BACTERIA cells occurs at same time because they're both in the CYTOPLASM"
           }
         ]
       },
@@ -1502,7 +1502,7 @@ const geneticsBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "Ribonu­cleic acid (RNA) is a polymeric molecule. It's implicated in a varied sort of biological roles in coding, decoding, regula­tion, and expression of genes.\nDNA and RNA are nucleic acids, and, along with proteins, constitute the three major macrom­ole­cules essential for all known forms of life.\nLike DNA, RNA is assembled as a chain of nucleo­tides, but unlike DNA it is more often found in nature as a single­-strand folded unto itself, rather than a paired double­-st­rand."
+            "value": "\tRibonu­cleic acid (RNA) is a polymeric molecule. It's implicated in a varied sort of biological roles in coding, decoding, regula­tion, and expression of genes.\n\tDNA and RNA are nucleic acids, and, along with proteins, constitute the three major macrom­ole­cules essential for all known forms of life.\n\tLike DNA, RNA is assembled as a chain of nucleo­tides, but unlike DNA it is more often found in nature as a single­-strand folded unto itself, rather than a paired double­-st­rand."
           }
         ]
       },
@@ -1515,7 +1515,7 @@ const geneticsBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "Single stranded RNA of 80 nucleo­tides. Bonds to amino acids and mRNA codon."
+            "value": "\tSingle stranded RNA of 80 nucleo­tides. Bonds to amino acids and mRNA codon."
           },
           {
             "index": 0,

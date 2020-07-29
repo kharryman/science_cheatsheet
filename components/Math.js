@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
 
 
 export default function MathExpression(props) {
-   console.log("MathExpression props = " + JSON.stringify(props));
+   //console.log("MathExpression props = " + JSON.stringify(props));
    //const [loaded, setLoaded] = useState(false);
    //const [expression, setExpression] = useState(props.expression);//"c=\\pm\\sqrt{a^2 + b^2}"
    //setTimeout(() => setExpression(), 2000);//"d=\\pm\\sqrt{a^2 + b^2}"

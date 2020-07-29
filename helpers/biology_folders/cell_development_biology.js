@@ -225,21 +225,21 @@ const cellDevelopmentBio = {
       {
          "index": 0,
          "title": "Amino Acid Structure",
-         "type": "NORMAL",
-         "image": "AMINO_ACID_STRUCTURE",
+         "type": "TABLE",
+         "image": null,
          "data": [
             {
                "index": 0,
                "columns": [
-                  "increase the hydrogen ion concen­tration of a solution",
-                  "reduces hydrogen ion concen­tration"
+                  {"value": "increase the hydrogen ion concen­tration of a solution"},
+                  {"value": "reduces hydrogen ion concen­tration"}
                ]
             },
             {
                "index": 0,
                "columns": [
-                  "lower ph",
-                  "higher ph"
+                  {"value": "lower ph"},
+                  {"value": "higher ph"}
                ]
             }
          ]
@@ -389,6 +389,7 @@ const cellDevelopmentBio = {
          "title": "Protein Structure",
          "type": "NORMAL",
          "image": "PROTEIN_STRUCTURE",
+         "imageHeight":400,
          "data": [
             {
                "index": 0,

@@ -2065,13 +2065,6 @@ const basicBio = {
                ]
             }
          ]
-      },
-      {
-         "index": 0,
-         "title": "Phosph­olipid",
-         "type": "NORMAL",
-         "image": "PHOSPHOLIPID",
-         "data": []
       }
    ]
 };

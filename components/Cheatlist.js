@@ -11,6 +11,9 @@ import geologyCheatlistData from '../helpers/geology_cheatlist_data';
 import meteorologyCheatlistData from '../helpers/meteorology_cheatlist_data';
 import physicsCheatlistData from '../helpers/physics_cheatlist_data';
 import MathExpression from '../components/Math';
+import {Dimensions } from "react-native";
+var RNFS = require('react-native-fs');
+//import resolveAssetSource from 'resolveAssetSource';
 //import Constants from 'expo-constants';
 
 
@@ -19,19 +22,19 @@ export default class Cheatlist extends Component {
    //static staticCheatListView;
    constructor(props) {
       super(props);
-      console.log("props.cheatList = " + this.props.cheatList);
+      //console.log("props.cheatList = " + this.props.cheatList);
       this.state = {
          topics: biologyCheatlistData,
          cheatListView: this.props.staticCheatListView,
-         isRendered:false
+         isRendered: false
       };
    }
 
    //async componentDidMount(){
    //}
 
-   static async setCheatListData(cheatList, subtopic, callback){
-      
+   static async setCheatListData(cheatList, subtopic, callback) {
+
       let cheatData = biologyCheatlistData.data[0];
       let selectedTopic = cheatList;
       let selectedSubtopic = subtopic;
@@ -39,10 +42,10 @@ export default class Cheatlist extends Component {
       let selectedSubtopicFolder = selectedSubtopic.match(/^[a-zA-Z0-9\s]*/)[0];
       selectedSubtopicFolder = selectedSubtopicFolder.replace(/ /g, '_').toUpperCase();
       selectedSubtopicFolder = selectedSubtopicFolder.replace(/-/g, '_').toUpperCase();
-      console.log("selectedSubtopicFolder = " + selectedSubtopicFolder);
+      //console.log("selectedSubtopicFolder = " + selectedSubtopicFolder);
       //let imageFilename = "";
       let filteredTopic = {};
-      
+
       //BIOLOGY, CHEMISTRY, COMPUTERS(computer science), ECOLOGY, OCEANOGRAPHY, GEOLOGY, METEOROLOGY, PHYSICS
       switch (selectedTopic) {
          case 'Biology':
@@ -78,11 +81,11 @@ export default class Cheatlist extends Component {
       if (filteredSubtopic) {
          cheatData = filteredSubtopic[0].entries;
       }
-      
-      let staticCheatListView = await Cheatlist.getCheatListView(cheatData, selectedSubtopicFolder);      
+
+      let staticCheatListView = await Cheatlist.getCheatListView(cheatData, selectedSubtopicFolder);
       //this.props.renderedCallback();
       callback(staticCheatListView);
-      
+
    }
 
    render() {
@@ -98,6 +101,9 @@ export default class Cheatlist extends Component {
 
    static getCheatListView(cheatData, selectedSubtopicFolder) {
       //return <Text>HEY?</Text>;
+      const screenWidth = Math.round(Dimensions.get('window').width);
+      //const { width } = Dimensions.get('window');
+      console.log("screenWidth = " + screenWidth);
       return cheatData.map((topic) => {
          if (topic.type === 'NORMAL') {
             //console.log("topic.data.length = " + topic.data.length);
@@ -105,14 +111,49 @@ export default class Cheatlist extends Component {
             //imageFilename = './images/' + selectedSubtopicFolder + '/' + topic.image;
             //console.log("imageFilename = " + imageFilename);
             //}
+            let imageWidth = 0;
+            let imageHeight = 0;
+            let imageUri = null;
+            //let imageFilename = null;
+            if (topic.image) {
+               imageUri = Images[selectedSubtopicFolder][topic.image];
+               //imageFilename = 'file://' + RNFS.DocumentDirectoryPath + '/images/' + topic.imageFilename;
+               //imageHeight = 100;
+               try{
+               let height= Image.resolveAssetSource(imageUri).height;
+               let width = Image.resolveAssetSource(imageUri).width;
+               //if (topic.imageHeight) {
+               //   console.log("Image BEFORE ADJUSTED width = " + width + ", height = " + height);
+               //   imageHeight = parseInt(topic.imageHeight);
+               //   imageWidth = parseInt(Math.floor(width * (parseFloat(imageHeight) / parseFloat(height)))); 
+               //   console.log("Image AFTER ADJUSTED width = " + imageWidth + ", height = " + imageHeight);
+               //   console.log("imageHeight = " + imageHeight);
+               //}else{             
+                  imageHeight = height;
+                  imageWidth = width;
+                  console.log("Image original width = " + imageWidth + ", height = " + imageHeight);
+               }catch(error){
+                  imageHeight = 200;
+                  imageWidth = screenWidth;
+               }
+               //}
+               //console.log("imageFilename = " + imageFilename);
+               //imageWidth = 
+               //if(imageWidth !== 0){
+               //  console.log("imageWidth = " + imageWidth + ", imageHeight = " + imageHeight);
+               //}
+            }
             return (
                <View>
                   {Cheatlist.getTitle(topic)}
-                  {topic.image &&
-                     <View style={styles.imageView}>
-                        <Image source={Images[selectedSubtopicFolder][topic.image]} style={styles.image} />
-                     </View>
+                  {topic.image && (imageWidth > screenWidth) && 
+                     <ScrollView decelerationRate={0} horizontal={true} snapToInterval={screenWidth - 60} snapToAlignment={"center"} style={styles.imageScrollView} height={imageHeight}>
+                        <Image source={imageUri} style={{flex:1}} width={imageWidth} height={imageHeight} />
+                     </ScrollView>
                   }
+                  {topic.image && (imageWidth <= screenWidth) && 
+                        <Image source={imageUri} style={{resizeMode: "stretch"}} width={imageWidth} height={imageHeight}/>
+                  }                  
                   {topic.data.map((item) => {
                      { return this.getDataItem(item, 'NORMAL') }
                   })}
@@ -138,8 +179,12 @@ export default class Cheatlist extends Component {
                         return (
                            <View style={{ borderStyle: 'solid', borderWidth: 1, borderColor: 'gray', alignSelf: 'stretch', flexDirection: 'row' }}>
                               {dataItem.columns.map((column) => {
+                                 let flex = 1;
+                                 if (column.flex) {
+                                    flex = column.flex;
+                                 }
                                  return (
-                                    <View style={{ borderStyle: 'solid', borderWidth: 1, borderColor: 'gray', flex: 1, alignSelf: 'stretch' }}>
+                                    <View style={{ borderStyle: 'solid', borderWidth: 1, borderColor: 'gray', flex: flex, alignSelf: 'stretch' }}>
                                        {Cheatlist.getDataItem(column, 'TABLE')}
                                     </View>
                                  )
@@ -159,9 +204,9 @@ export default class Cheatlist extends Component {
                         return (
                            <View style={{ borderStyle: 'solid', borderWidth: 1, borderColor: 'gray', alignSelf: 'stretch', flexDirection: 'row' }}>
                               <View style={{ borderStyle: 'solid', borderWidth: 1, borderColor: 'gray', flex: 1, alignSelf: 'stretch' }}>
-                                 <Text style={styles.tableCell}>{dataItem.name}</Text>
+                                 <Text style={styles.tableListHeader}>{dataItem.name}</Text>
                               </View>
-                              <View style={{ borderStyle: 'solid', borderWidth: 1, borderColor: 'gray', flex: 1, alignSelf: 'stretch' }}>
+                              <View style={{ borderStyle: 'solid', borderWidth: 1, borderColor: 'gray', flex: 2, alignSelf: 'stretch' }}>
                                  {Cheatlist.getDataItem(dataItem, 'TABLE_LIST')}
                               </View>
                            </View>
@@ -174,7 +219,7 @@ export default class Cheatlist extends Component {
       });
    }
 
-   static getTitle(topic) {      
+   static getTitle(topic) {
       if (topic.title) {
          return (
             <Text style={styles.namePrompt}>{topic.title}</Text>
@@ -226,7 +271,7 @@ export default class Cheatlist extends Component {
 
    static getDataValues(item) {
       if (item.value) {
-         console.log("getDataItem RETURNING A VALUE!!, value=" + item.value);
+         //console.log("getDataItem RETURNING A VALUE!!, value=" + item.value);
          return (
             <Text style={styles.myIndent}>
                {Cheatlist.getDataText([{ "value": item.value, "styles": item.styles, "type": item.type, "width": item.width, "height": item.height }], "VALUE")}
@@ -249,7 +294,7 @@ export default class Cheatlist extends Component {
          myStyle = styles.textItem;
       }
       return values.map((text) => {
-         console.log("values!!! text = " + JSON.stringify(text));
+         //console.log("values!!! text = " + JSON.stringify(text));
          if (!text.type || text.type === 'NORMAL') {
             if (text.styles) {
                var myStyles = [];
@@ -258,7 +303,7 @@ export default class Cheatlist extends Component {
                      myStyles.push(styles.italic);
                   } else if (text.styles[i] === "BOLD") {
                      myStyles.push(styles.bold);
-                  }else if (text.styles[i] === "UNDERLINE") {
+                  } else if (text.styles[i] === "UNDERLINE") {
                      myStyles.push(styles.underline);
                   }
                }
@@ -297,6 +342,10 @@ const styles = StyleSheet.create({
    scrollView: {
       backgroundColor: 'rgb(250,250,250)',
       paddingHorizontal: 15,
+   },
+   imageScrollView: {
+      backgroundColor: 'rgb(250,250,250)',
+      flexDirection: 'row',
    },
    myIndent:
    {
@@ -343,11 +392,15 @@ const styles = StyleSheet.create({
       flex: 1.0,
       padding: 0
    },
-   image:
+   fixedImage:
    {
       resizeMode: "contain",
-      width: "100%",
-      height: 250
+      width: "100%"
+   },   
+   scrolledImage:
+   {
+      resizeMode: "contain",
+      height: "100%"
    },
    katex: {
       flex: 1,
@@ -360,7 +413,13 @@ const styles = StyleSheet.create({
    },
    underline: {
       textDecorationLine: 'underline'
-   },   
+   },
+   tableListHeader: {
+      fontWeight: 'bold',
+      textDecorationLine: 'underline',
+      fontStyle: 'italic',
+      fontSize: 16
+   },
    mathElement: {
       margin: 0,
       padding: 0,
