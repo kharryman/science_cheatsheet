@@ -117,7 +117,7 @@ const globalEnvironmentChangeBio = {
             {
                "index": 0,
                "name": null,
-               "value": "The plans to protect endangered species involves;\n1)Go­ver­nments, industries and commun­ities working together\n2)Id­ent­ifying the specific causes of the problem.\n3)De­vel­oping specific plans to fix the problems.\n)4Mo­nit­oring conditions to check that the actions taken are working."
+               "value": "The plans to protect endangered species involves;\n1)Go­ver­nments, industries and commun­ities working together\n2)Id­ent­ifying the specific causes of the problem.\n3)De­vel­oping specific plans to fix the problems.\n4)Mo­nit­oring conditions to check that the actions taken are working."
             }
          ]
       }

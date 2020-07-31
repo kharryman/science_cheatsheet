@@ -10,7 +10,7 @@ const molecularBio =       {
          type: "NORMAL",
          image: null,
          data: [
-            { "index": 0, "name": "The Central Dogma (TCD)", "value": "* During expression of a protei­n-c­oding gene, inform­ation flows from DNA → RNA → protein. (This process is known as CD)" }
+            { "index": 0, "name": "The Central Dogma (TCD)", "value": "\n* During expression of a protei­n-c­oding gene, inform­ation flows from DNA → RNA → protein. (This process is known as CD)" }
          ]
       },      
       {
@@ -36,12 +36,12 @@ const molecularBio =       {
           {
             "index": 0,
             "name": "Disaccharides",
-            "value": "are formed when two monosa­cch­arides, or two single simple sugars, form a bond with removal of water. They can be hydrolyzed to yield their saccharin building blocks by boiling with dilute acid or reacting them with approp­riate enzyme­s.[1] Examples of disacc­harides include sucrose, maltose, and lactose."
+            "value": "Are formed when two monosa­cch­arides, or two single simple sugars, form a bond with removal of water. They can be hydrolyzed to yield their saccharin building blocks by boiling with dilute acid or reacting them with approp­riate enzyme­s.[1] Examples of disacc­harides include sucrose, maltose, and lactose."
           },
           {
             "index": 0,
             "name": "Polysaccharides",
-            "value": "are polyme­rized monosa­cch­arides, or complex carboh­ydr­ates. They have multiple simple sugars. Examples are starch, cellulose, and glycogen."
+            "value": "Are polyme­rized monosa­cch­arides, or complex carboh­ydr­ates. They have multiple simple sugars. Examples are starch, cellulose, and glycogen."
           },
           {
             "index": 0,
@@ -73,7 +73,7 @@ const molecularBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "Energy flows into ecosystems as sunlight and exits as heat"
+            "value": "\tEnergy flows into ecosystems as sunlight and exits as heat"
           },
           {
             "index": 0,
@@ -100,7 +100,7 @@ const molecularBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "Hydrolysis of ATP to ADP yields about 7.0 kcal/m­ol-­total energy conserved in 32 ATP is about 224 kcal/mol\nGlucose burned in the air releases 686 kcal/mol\nEfficiency of cellular glucose oxidation (224/6­86*100) = 33%\nThe rest of the chemical energy is released as body heat"
+            "value": "\tHydrolysis of ATP to ADP yields about 7.0 kcal/m­ol-­total energy conserved in 32 ATP is about 224 kcal/mol\n\tGlucose burned in the air releases 686 kcal/mol\n\tEfficiency of cellular glucose oxidation (224/6­86*100) = 33%\n\tThe rest of the chemical energy is released as body heat"
           }
         ]
       },
@@ -112,7 +112,7 @@ const molecularBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "Individual electron carriers of the ETS are organized specif­ically from high to low free energy\nNADH and FADH contain the most free energy and are easily oxidized\nThe terminal electron acceptor (O ) is most easily reduced\nElectron movement through the system is sponta­neous, releasing free energy\nElectron Transfer System from high to low free energy"
+            "value": "\tIndividual electron carriers of the ETS are organized specif­ically from high to low free energy\n\tNADH and FADH contain the most free energy and are easily oxidized\n\tThe terminal electron acceptor (O ) is most easily reduced\n\tElectron movement through the system is sponta­neous, releasing free energy\n\tElectron Transfer System from high to low free energy"
           }
         ]
       },
@@ -124,7 +124,7 @@ const molecularBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "move electrons from fuel molecule to cellular destin­ations"
+            "value": "\tMove electrons from fuel molecule to cellular destin­ations."
           }
         ]
       },
@@ -136,7 +136,7 @@ const molecularBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "In the ETS electrons release free energy used to build the H gradient across the inner5 mitoch­ondrial membrane\nHigh H concen­tration in the inter membrane compar­tment\nLow H concen­tration in the matrix\nThe H gradient supplies energy that drives ATP synthesis by mitoch­ondria ATP synthase"
+            "value": "\tIn the ETS electrons release free energy used to build the H gradient across the inner5 mitoch­ondrial membrane\n\tHigh H concen­tration in the inter membrane compar­tment\n\tLow H concen­tration in the matrix\n\tThe H gradient supplies energy that drives ATP synthesis by mitoch­ondria ATP synthase"
           }
         ]
       },
@@ -178,12 +178,12 @@ const molecularBio =       {
           {
             "index": 0,
             "name": "Catabolism:",
-            "value": "food molecules broken down to release energy"
+            "value": "Food molecules broken down to release energy"
           },
           {
             "index": 0,
             "name": "Anabolism:",
-            "value": "complex organic molecules synthe­sized from simpler ones- energy input is needed"
+            "value": "Complex organic molecules synthe­sized from simpler ones- energy input is needed"
           },
           {
             "index": 0,
@@ -198,12 +198,12 @@ const molecularBio =       {
           {
             "index": 0,
             "name": "Spon­tan­eous:",
-            "value": "processes cocue without energy input, and increase entropy."
+            "value": "Processes cocue without energy input, and increase entropy."
           },
           {
             "index": 0,
             "name": "Non-spon­tan­eous:",
-            "value": "processes require energy input"
+            "value": "Processes require energy input"
           }
         ]
       },
@@ -215,7 +215,7 @@ const molecularBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "Ubiquinone and complexes I, III, and IV actively transport protons (H ) from matrix to inter membrane compar­tment\nConcen­tration of H in the inter membrane compar­tment generates an electrical and chemical gradient across the inner mitoch­ondrial membrane"
+            "value": "\tUbiquinone and complexes I, III, and IV actively transport protons (H ) from matrix to inter membrane compar­tment\n\tConcen­tration of H in the inter membrane compar­tment generates an electrical and chemical gradient across the inner mitoch­ondrial membrane"
           }
         ]
       },
@@ -227,7 +227,7 @@ const molecularBio =       {
           {
             "index": 0,
             "name": "Gibbs Free energy G",
-            "value": "the energy in a system that can do work. The change in free energy (∆G) during a reaction."
+            "value": "The energy in a system that can do work. The change in free energy (∆G) during a reaction."
           },
           {
             "index": 0,
@@ -247,27 +247,27 @@ const molecularBio =       {
           {
             "index": 0,
             "name": "∆H",
-            "value": "is the change in total energy (enthalpy)"
+            "value": "Is the change in total energy (enthalpy)"
           },
           {
             "index": 0,
             "name": "∆S",
-            "value": "is the change in entropy"
+            "value": "Is the change in entropy"
           },
           {
             "index": 0,
             "name": "T",
-            "value": "is the temper­ature in kelvin (k=C+2­73.15)"
+            "value": "Is the temper­ature in kelvin (k=C+2­73.15)"
           },
           {
             "index": 0,
             "name": "∆G=",
-            "value": "the reaction is sponta­neous, exergonic, and provides energy for work."
+            "value": "The reaction is sponta­neous, exergonic, and provides energy for work."
           },
           {
             "index": 0,
             "name": "Enzymes",
-            "value": "speed up reactions, but don't change ∆G"
+            "value": "Speed up reactions, but don't change ∆G"
           }
         ]
       },
@@ -279,7 +279,7 @@ const molecularBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "Animals, plats, fungi, and most protists depend on mitoch­ondria for energy to grow and survive.\nATP forms in mitoch­ondria as stored chemical energy available to do cellular work\nharvested from energy released in reactions that break down food molecules."
+            "value": "\tAnimals, plats, fungi, and most protists depend on mitoch­ondria for energy to grow and survive.\n\tATP forms in mitoch­ondria as stored chemical energy available to do cellular work\n\tharvested from energy released in reactions that break down food molecules."
           }
         ]
       },
@@ -291,7 +291,7 @@ const molecularBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "Series of electron carriers that altern­ately pick up and release electrons and ultimately transfer them to their final accept­or-­oxygen"
+            "value": "\tSeries of electron carriers that altern­ately pick up and release electrons and ultimately transfer them to their final accept­or-­oxygen"
           }
         ]
       },
@@ -303,7 +303,7 @@ const molecularBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "Proteins with a neme prosthetic group that contains an iron atom that accepts and donates electrons"
+            "value": "\tProteins with a neme prosthetic group that contains an iron atom that accepts and donates electrons."
           }
         ]
       },
@@ -315,7 +315,7 @@ const molecularBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "Stored energy produced by proton and voltage gradient\nEnergy is used for ATP synthesis and cotran­sport of substances to and from mitoch­ondria"
+            "value": "\tStored energy produced by proton and voltage gradient.\n\tEnergy is used for ATP synthesis and cotran­sport of substances to and from mitoch­ondria."
           }
         ]
       },
@@ -327,7 +327,7 @@ const molecularBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "Two small, mobile electron carriers, cytochrome C and ubiquinone (coenzyme Q) shuttle electrons between the major complexes"
+            "value": "\tTwo small, mobile electron carriers, cytochrome C and ubiquinone (coenzyme Q) shuttle electrons between the major complexes."
           }
         ]
       },
@@ -372,7 +372,7 @@ const molecularBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "Collection of metabolic reactions that breakdown food molecules and stores energy as ATP"
+            "value": "\tCollection of metabolic reactions that breakdown food molecules and stores energy as ATP."
           }
         ]
       },
@@ -384,7 +384,7 @@ const molecularBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "Cellular respir­ation includes reactions that transfer electrons from organic molecules (such as glucose) to oxygen, and reactions that make ATP\nC\n6H"
+            "value": "\tCellular respir­ation includes reactions that transfer electrons from organic molecules (such as glucose) to oxygen, and reactions that make ATP(C6H)."
           }
         ]
       },
@@ -396,7 +396,7 @@ const molecularBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "Converts pyruvate into ethyl alcohol and CO\nOccurs in some plant tissues, invert­ebr­ates, protists, bacteria, and single­-celled fungi such as yeasts\nUsed to make bread and alcoholic beverages"
+            "value": "\tConverts pyruvate into ethyl alcohol and CO\nOccurs in some plant tissues, invert­ebr­ates, protists, bacteria, and single­-celled fungi such as yeasts.\n\tUsed to make bread and alcoholic beverages."
           }
         ]
       },
@@ -408,7 +408,7 @@ const molecularBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "Electrons carried by NADH are transf­erred to an organic acceptor molecule (convert NADH to NAD )\nGlycolysis continues to supply ATP by substrate level phosph­ory­lation"
+            "value": "\tElectrons carried by NADH are transf­erred to an organic acceptor molecule (convert NADH to NAD )\n\tGlycolysis continues to supply ATP by substrate level phosph­ory­lation."
           }
         ]
       },
@@ -420,7 +420,7 @@ const molecularBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "When oxygen is absent or limited, electrons carried by the 2 NADH produced by glycolysis may be used in fermen­tation\nOtherwise, glycolysis will stop due to lack of NAD\nRecall:NAD accepts electrons in reaction 6 of glycolysis"
+            "value": "\tWhen oxygen is absent or limited, electrons carried by the 2 NADH produced by glycolysis may be used in fermen­tation\n\tOtherwise, glycolysis will stop due to lack of NAD.\n\tRecall:NAD accepts electrons in reaction 6 of glycolysis."
           }
         ]
       },
@@ -432,7 +432,7 @@ const molecularBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "Converts pyruvate into lactate\nOccurs in some bacteria, plant tissues, skeletal muscle\nUsed to make butter­milk, yogurt, dill pickles"
+            "value": "\tConverts pyruvate into lactate\nOccurs in some bacteria, plant tissues, skeletal muscle.\n\tUsed to make butter­milk, yogurt, dill pickles."
           }
         ]
       },
@@ -444,7 +444,7 @@ const molecularBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "In the mitoch­ond­rion, ATP is synthe­sized by ATP synthase, an enzyme embedded in the inner mitoch­ondrial membrane\nThe H gradient powers ATP synthesis by ATP synthase by chem­ios­mosis\nATP synthase uses proton­-motive force to add phosphate to ADP to generate ATP (phosp­hor­yla­tion)"
+            "value": "\tIn the mitoch­ond­rion, ATP is synthe­sized by ATP synthase, an enzyme embedded in the inner mitoch­ondrial membrane.\n\tThe H gradient powers ATP synthesis by ATP synthase by chem­ios­mosis\n\tATP synthase uses proton­-motive force to add phosphate to ADP to generate ATP (phosp­hor­yla­tion)."
           }
         ]
       },
@@ -456,7 +456,7 @@ const molecularBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "A basal unit in the inner membrane is connected by a stalk to a headpiece located in the matrix- a peripheral stator bridges the basal unit and headpiece\nProton­-motive force moves protons in the inter membrane space through the enzyme's basal unit into the matrix\nH flow powers ATP synthesis by rotation of the ATP synthase headpiece (chemi­osm­osis)"
+            "value": "\tA basal unit in the inner membrane is connected by a stalk to a headpiece located in the matrix- a peripheral stator bridges the basal unit and headpiece.\n\tProton­-motive force moves protons in the inter membrane space through the enzyme's basal unit into the matrix.\n\tH flow powers ATP synthesis by rotation of the ATP synthase headpiece (chemi­osm­osis)."
           }
         ]
       },
@@ -468,7 +468,7 @@ const molecularBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "Enzymes break a 6-carbon molecule of glucose into two 3 carbon molecules of pyruvate\nSome ATP is synthe­sized by subs­tra­te-­level phosph­ory­lat­ion an enzyme catalyzed reaction that transfer a phosphate group from a substrate to ADP\nSome electrons are carried away by NADH"
+            "value": "\tEnzymes break a 6-carbon molecule of glucose into two 3 carbon molecules of pyruvate\n\tSome ATP is synthe­sized by subs­tra­te-­level phosph­ory­lat­ion an enzyme catalyzed reaction that transfer a phosphate group from a substrate to ADP.\n\tSome electrons are carried away by NADH."
           }
         ]
       },
@@ -480,7 +480,7 @@ const molecularBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "The initial steps of glycolysis require energy 2 ATP are hydrolyzed\n4 ATP are produced by substr­ate­-level phosph­ory­lation for a net gain of 2 ATP\nThe electron carrier NAD+ is reduced to NADH, which carries 2 electrons and a proton (H+) removed from fuel molecules"
+            "value": "\tThe initial steps of glycolysis require energy 2 ATP are hydrolyzed.\n\t4 ATP are produced by substr­ate­-level phosph­ory­lation for a net gain of 2 ATP\n\tThe electron carrier NAD+ is reduced to NADH, which carries 2 electrons and a proton (H+) removed from fuel molecules."
           }
         ]
       },
@@ -492,7 +492,7 @@ const molecularBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "ATP and NADH production are balanced against glucose conser­vation by systems that regulate enzymes of glycolysis and the citric acid cycle\nIf excess ATP is present in cytosol, ATP binds to phosph­ofr­uct­okinase (in reaction 3) slowing or stopping enzyme action by feedback inhibition in order to regulate glycolysis\nIf excess ATP or citrate is present in the mitoch­ondria, one of these binds to citrate synthase, slowing or stopping enzyme action by feedback inhibition in order to regulate the citric acid cycle"
+            "value": "\tATP and NADH production are balanced against glucose conser­vation by systems that regulate enzymes of glycolysis and the citric acid cycle.\n\tIf excess ATP is present in cytosol, ATP binds to phosph­ofr­uct­okinase (in reaction 3) slowing or stopping enzyme action by feedback inhibition in order to regulate glycolysis.\n\tIf excess ATP or citrate is present in the mitoch­ondria, one of these binds to citrate synthase, slowing or stopping enzyme action by feedback inhibition in order to regulate the citric acid cycle."
           }
         ]
       },
@@ -504,7 +504,7 @@ const molecularBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "Glycolysis (Embde­n-M­eyerhof pathway) breaks 6-carbon glucose into two molecules of 3 carbon pyruvate in 10 sequential enzyme catalyzed reactions\nGlycolysis takes place in the cystol of all organisms"
+            "value": "\tGlycolysis (Embde­n-M­eyerhof pathway) breaks 6-carbon glucose into two molecules of 3 carbon pyruvate in 10 sequential enzyme catalyzed reactions.\n\tGlycolysis takes place in the cystol of all organisms."
           }
         ]
       },
@@ -516,7 +516,7 @@ const molecularBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "Glycolysis and the citric acid also supply molecules from which many other cellular molecules are synthe­sized\nAdditi­onally, when energy is not needed by the body, glucose can be synthe­sized from interm­ediates of these pathways in the process of gluc­one­oge­nsis\nGlucon­eog­enesis: which consumes ATP rather than producing it"
+            "value": "\tGlycolysis and the citric acid also supply molecules from which many other cellular molecules are synthe­sized.\n\tAdditi­onally, when energy is not needed by the body, glucose can be synthe­sized from interm­ediates of these pathways in the process of gluc­one­oge­nsis.\n\tGlucon­eog­enesis: which consumes ATP rather than producing it."
           }
         ]
       },
@@ -528,7 +528,7 @@ const molecularBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "Many carboh­ydr­ates, lipids, and proteins can be hydrolyzed and their products are directed into various stages of cellular respir­ation to be oxidized as fuel\nCoA directs products of many oxidative pathways into the citric acid cycle"
+            "value": "\tMany carboh­ydr­ates, lipids, and proteins can be hydrolyzed and their products are directed into various stages of cellular respir­ation to be oxidized as fuel.\n\tCoA directs products of many oxidative pathways into the citric acid cycle."
           }
         ]
       },
@@ -540,7 +540,7 @@ const molecularBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "The removal of electrons from a substance\nThe substance from which the electrons are removed (The electron donor) is oxid­ized\nStored Energy is released"
+            "value": "\tThe removal of electrons from a substance.\n\tThe substance from which the electrons are removed (The electron donor) is oxid­ized.\n\tStored Energy is released."
           }
         ]
       },
@@ -552,7 +552,7 @@ const molecularBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "Oxidation of fats produces more than twice the energy of oxidation of proteins or carboh­ydrates\nBefore entering oxidative reactions, trigly­cerides are hydrolyzed into glycerol and individual fatty acids"
+            "value": "\tOxidation of fats produces more than twice the energy of oxidation of proteins or carboh­ydrates.\n\tBefore entering oxidative reactions, trigly­cerides are hydrolyzed into glycerol and individual fatty acids."
           }
         ]
       },
@@ -564,7 +564,7 @@ const molecularBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "The amino group is removed\nThe remainder enters oxidative pathways as pyruvate, acetyl­-CoA, or interm­ediates of the citric acid cycle"
+            "value": "\tThe amino group is removed.\n\tThe remainder enters oxidative pathways as pyruvate, acetyl­-CoA, or interm­ediates of the citric acid cycle."
           }
         ]
       },
@@ -576,7 +576,7 @@ const molecularBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "High energy electron removed from fuel molecules and picked up by carrier molecu­les-are released into the electron transfer system of mitoch­ondria"
+            "value": "\tHigh energy electron removed from fuel molecules and picked up by carrier molecu­les-are released into the electron transfer system of mitoch­ondria."
           }
         ]
       },
@@ -588,7 +588,7 @@ const molecularBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "Citric acid cycle, carbon products of pyruvate oxidation are oxidized to CO\nAll viable electrons are transf­erred to 3NAD+ (NADH) and 1FAD (FADH\nEach turn of the citric acid cycle produces 1 ATP by substr­ate­-level phosph­ory­lation"
+            "value": "\tCitric acid cycle, carbon products of pyruvate oxidation are oxidized to CO.\n\tAll viable electrons are transf­erred to 3NAD+ (NADH) and 1FAD (FADH).\n\tEach turn of the citric acid cycle produces 1 ATP by substr­ate­-level phosph­ory­lation."
           }
         ]
       },
@@ -600,7 +600,7 @@ const molecularBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "The eight reactions of the citric acid cycle (trica­rbo­xylic acid cycle, or krebs cycle) oxidize acetyl groups completely to CO generate 3 NADH and 1 FADH and synthesize 1 ATP by substrate level phosph­ory­lation\n1 acetyl­-CoA+3 NAD + 1 FAD + 1 ADP + 1Pi + 2H\n2CO"
+            "value": "\tThe eight reactions of the citric acid cycle (trica­rbo­xylic acid cycle, or krebs cycle) oxidize acetyl groups completely to CO generate 3 NADH and 1 FADH and synthesize 1 ATP by substrate level phosph­ory­lation.\n\t1 acetyl­-CoA+3 NAD + 1 FAD + 1 ADP + 1Pi + 2H + 2CO"
           }
         ]
       },
@@ -612,7 +612,7 @@ const molecularBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "Active transport moves pyruvate into mitoch­ondria matrix where pyruvate oxidation and the citric acid cycle take place\nOxidation pyruvate generates CO acet­yl-­coe­nzyme A(acet­ylc­oA), and NADH\nThe acetyl group of acetyl-COA enters the citric acid cycle"
+            "value": "\tActive transport moves pyruvate into mitoch­ondria matrix where pyruvate oxidation and the citric acid cycle take place.\n\tOxidation pyruvate generates CO acet­yl-­coe­nzyme A(acet­ylc­oA), and NADH.\n\tThe acetyl group of acetyl-COA enters the citric acid cycle."
           }
         ]
       },
@@ -624,7 +624,7 @@ const molecularBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "Enzymes convert the 3-carbon pyruvate into a 2-carbon acetyl group, which enters the citric acid cycle and is completely oxidized to carbon dioxide\nSome ATP is synthe­sized during the citric acid cycle\nLots of reduced electrons carriers carry away electrons as NADH and FADH"
+            "value": "\tEnzymes convert the 3-carbon pyruvate into a 2-carbon acetyl group, which enters the citric acid cycle and is completely oxidized to carbon dioxide.\n\tSome ATP is synthe­sized during the citric acid cycle.\n\tLots of reduced electrons carriers carry away electrons as NADH and FADH."
           }
         ]
       },
@@ -636,7 +636,7 @@ const molecularBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "High energy electrons are delivered to oxygen by a sequence of reduced electron carriers in the elec­tron\nFree energy released by electrons flow generates on H gradient by chem­ios­mosis\nATP synthase uses the H gradient as the energy source to make ATP"
+            "value": "\tHigh energy electrons are delivered to oxygen by a sequence of reduced electron carriers in the elec­tron.\n\tFree energy released by electrons flow generates on H gradient by chem­ios­mosis.\n\tATP synthase uses the H gradient as the energy source to make ATP."
           }
         ]
       },
@@ -648,7 +648,7 @@ const molecularBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "Occurs when enough energy is released in a reaction step to pass phosphate onto ADP"
+            "value": "\tOccurs when enough energy is released in a reaction step to pass phosphate onto ADP."
           }
         ]
       },
@@ -660,7 +660,7 @@ const molecularBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "Oxidation and reduction reactions always coupled Redox Reacti­ons\nReactions that move electrons from a donor molecule and simult­ane­ously add them to an acceptor molecule"
+            "value": "\tOxidation and reduction reactions always coupled Redox Reacti­ons.\n\tReactions that move electrons from a donor molecule and simult­ane­ously add them to an acceptor molecule."
           }
         ]
       },
@@ -672,7 +672,7 @@ const molecularBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "The addition of electrons to a substrate\nthe substrate the receives the electron ( the electron acceptor) is redu­ced\nEnergy is stored"
+            "value": "\tThe addition of electrons to a substrate.\n\tThe substrate the receives the electron ( the electron acceptor) is redu­ced.\n\tEnergy is stored."
           }
         ]
       }

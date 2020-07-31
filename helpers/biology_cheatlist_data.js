@@ -119,6 +119,7 @@ const biology_cheatlist_data = {
       hostPathogenInteractionsBio,
       marineBio,
       microBio,      
+      molecularBio,
       plantBio,      
       regenerativeStemCellsBio,
       systemsBio

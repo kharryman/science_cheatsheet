@@ -8,24 +8,17 @@ const geneticsRegulationBio =       {
         "index": 0,
         "title": "Gene Regulation",
         "type": "NORMAL",
-        "data": [
-          {
-            "index": 0,
-            "name": null,
-            "value": "transfer of genetic info from DNA to RNA to protein."
-          }
-        ]
-      },
-      {
-        "index": 0,
-        "title": "Gene Regulation",
-        "type": "NORMAL",
         "image": null,
         "data": [
+         {
+            "index": 0,
+            "name": null,
+            "value": "●Transfer of genetic info from DNA to RNA to protein."
+          },           
           {
             "index": 0,
             "name": null,
-            "value": "DNA is made up of DNA\nDNA is used to give instru­ctions for the production of proteins in the process of protein synthesis\ngene regulation determines which genes are turned on/off\nproteins can increase or decrease transc­ription"
+            "value": "●DNA is made up of DNA\n●DNA is used to give instru­ctions for the production of proteins in the process of protein synthesis\n●Gene regulation determines which genes are turned on/off\n●Proteins can increase or decrease transc­ription"
           }
         ]
       },
@@ -38,7 +31,7 @@ const geneticsRegulationBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "codons:\n● mRNA triplet that codes for an amino acid\n● start codon: AUG\n● stop codon: UAA, UAG, UGA\nreading frame:\n● start to stop sequence of nitrogen bases\nantico­dons:\n● complement of the codon found on tRNA"
+            "value": "● mRNA triplet that codes for an amino acid\n● start codon: AUG\n● stop codon: UAA, UAG, UGA\nreading frame:\n● start to stop sequence of nitrogen bases\nantico­dons:\n● complement of the codon found on tRNA"
           }
         ]
       },
@@ -51,7 +44,7 @@ const geneticsRegulationBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "when a cell changes from one type to another\nall specia­lized cells come from stem cells (unspe­cia­lized)\nDNA contains genes and genes contain proteins that change the way cells look and act\nevery somatic cell in your body contain the same DNA\nusing genes → expressing → turned \"­on\"\nthe specia­lized cells can not specialize again and can not go backwards to the stem cells\ncells decide what they will be based on internal or external enviro­nmental cues\ninternal: transc­ription factors will activate certain genes and turn them on (factors are bunched up because of when the zygote will divide)\nexternal: (induc­tion) (like peer pressure) a group of cells can induce another group to differ­entiate by using signals (like diffusion, direct contace, gap junctions)\ngoal: to change gene expression (turn on/off genes"
+            "value": "●When a cell changes from one type to another\n●All specia­lized cells come from stem cells (unspe­cia­lized)\n●DNA contains genes and genes contain proteins that change the way cells look and act\n●Every somatic cell in your body contain the same DNA\n●Using genes → expressing → turned \"­on\"\n●The specia­lized cells can not specialize again and can not go backwards to the stem cells\n●Cells decide what they will be based on internal or external enviro­nmental cues\n●internal: transc­ription factors will activate certain genes and turn them on (factors are bunched up because of when the zygote will divide)\n●external: (induc­tion) (like peer pressure) a group of cells can induce another group to differ­entiate by using signals (like diffusion, direct contace, gap junctions)\n●goal: to change gene expression (turn on/off genes"
           }
         ]
       },
@@ -87,20 +80,7 @@ const geneticsRegulationBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "mRNA:\n● \"­mes­sen­ger­\"\n● carries genetic code to the ribosome\n● codon\ntRNA:\n● \"­tra­nsf­er\"● transfers amino acids to the ribosome\n● anticodon\nrRNA:\n● \"­rib­oso­mal­\"● makes up ribosomes\n● ribosomes build proteins"
-          }
-        ]
-      },
-      {
-        "index": 0,
-        "title": "Main Types of RNA",
-        "type": "NORMAL",
-        "image": null,
-        "data": [
-          {
-            "index": 0,
-            "name": null,
-            "value": "mRNA:\n● \"­mes­sen­ger­\"\n● carries genetic code to the ribosome\n● codon\ntRNA:\n● \"­tra­nsf­er\"● transfers amino acids to the ribosome\n● anticodon\nrRNA:\n● \"­rib­oso­mal­\"● makes up ribosomes\n● ribosomes build proteins"
+            "value": "mRNA:\n● \"­mes­sen­ger­\"\n● carries genetic code to the ribosome\n● codon\ntRNA:\n● \"­tra­nsf­er\": transfers amino acids to the ribosome\n● anticodon\nrRNA:\n● \"­rib­oso­mal­\": makes up ribosomes\n● ribosomes build proteins"
           }
         ]
       },
@@ -198,7 +178,7 @@ const geneticsRegulationBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "\"off switch­\" tightly wrapped around histones\ngenes can not be transc­ribed\nmethyl groups are added to the DNA\ngene expression is reduced\nless transc­ription\nbarr bodies: one X chromosome condenses because of DNA methyl­ation"
+            "value": "●\"off switch­\" tightly wrapped around histones\n●genes can not be transc­ribed\n●methyl groups are added to the DNA\n●gene expression is reduced\n●less transc­ription\n●barr bodies: one X chromosome condenses because of DNA methyl­ation"
           }
         ]
       },
@@ -211,7 +191,7 @@ const geneticsRegulationBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "chromatin: a complex of DNA and protein\nhistones: proteins associated with DNA packing"
+            "value": "●chromatin: a complex of DNA and protein\n●histones: proteins associated with DNA packing"
           }
         ]
       },
@@ -224,7 +204,7 @@ const geneticsRegulationBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "in S phase of Mitosis making DNA from DNA nucleo­tides can only be added to the 3' end of a nucleotide 5' to 3' direction enzymes mediate the process of DNA replic­ation\n1) helicase unwinds DNA at origin of replic­ation and creates replic­ation forks\n2) topois­omerase prevents overwi­nding and single­-strand binding proteins support the replic­ation bubble\n3) primase adds RNA primer\n4) DNA polymerase III adds nucleo­tides in 5' to 3' direction on leading strand\n5) lagging strand grows in 3' to 5' direction away from the replic­ation fork by the addition of okazaki fragments\n6) DNA ligase seals together okazaki fragments (short segments of DNA that grow 5' to 3' that are added onto the lagging strand)\n7) DNA polymerase replaces RNA primers with DNA"
+            "value": "\tIn S phase of Mitosis making DNA from DNA nucleo­tides can only be added to the 3' end of a nucleotide 5' to 3' direction enzymes mediate the process of DNA replic­ation\n1) helicase unwinds DNA at origin of replic­ation and creates replic­ation forks\n2) topois­omerase prevents overwi­nding and single­-strand binding proteins support the replic­ation bubble\n3) primase adds RNA primer\n4) DNA polymerase III adds nucleo­tides in 5' to 3' direction on leading strand\n5) lagging strand grows in 3' to 5' direction away from the replic­ation fork by the addition of okazaki fragments\n6) DNA ligase seals together okazaki fragments (short segments of DNA that grow 5' to 3' that are added onto the lagging strand)\n7) DNA polymerase replaces RNA primers with DNA"
           }
         ]
       },
@@ -244,7 +224,7 @@ const geneticsRegulationBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "Eukary­otic: replic­ation before mitosis or meiosis (inter­phase)\nhelicase: unzipping enzyme\n● breaks the hydrogen bonds holding bases together\nDNA polyme­rase: builder\n● replicates DNA molecules to build new strand of DNA\nprimase: initia­lizer\n● makes the primer so that DNA polymerase can figure out where to go to start to work\nligase: gluer (binder)\n● helps glue/bind DNA fragments together"
+            "value": "●Eukary­otic: replic­ation before mitosis or meiosis (inter­phase)\n●helicase: unzipping enzyme\n● breaks the hydrogen bonds holding bases together\nDNA polyme­rase: builder\n● replicates DNA molecules to build new strand of DNA\nprimase: initia­lizer\n● makes the primer so that DNA polymerase can figure out where to go to start to work\nligase: gluer (binder)\n● helps glue/bind DNA fragments together"
           }
         ]
       },
@@ -257,7 +237,7 @@ const geneticsRegulationBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "starts at the origin (ident­ified by DNA sequence)\n1) helicase unwinds DNA\n● single stranded binding protein bind to DNA strands to prevent the strands from going back together\n● topois­omerase keeps DNA from superc­oiling\n2) primase makes RNA primers on both strands\n3) DNA polymerase builds new strand in 5' to 3' direction\n● this means it moves along old template strand in 3' to 5' direction\n● adds new bases to 3' end on new strand\n4) ligase takes care of gaps between Okazaki fragments\nat the end of replic­ation there is two identical DNA molecules\n● semi-c­ons­erv­ative: each copy contain a new and original strand"
+            "value": "●starts at the origin (ident­ified by DNA sequence)\n1) helicase unwinds DNA\n- single stranded binding protein bind to DNA strands to prevent the strands from going back together\n- topois­omerase keeps DNA from superc­oiling\n2) primase makes RNA primers on both strands\n3) DNA polymerase builds new strand in 5' to 3' direction\n- this means it moves along old template strand in 3' to 5' direction\n- adds new bases to 3' end on new strand\n4) ligase takes care of gaps between Okazaki fragments\nat the end of replic­ation there is two identical DNA molecules\n- semi-c­ons­erv­ative: each copy contain a new and original strand"
           }
         ]
       },
@@ -297,7 +277,7 @@ const geneticsRegulationBio =       {
           {
             "index": 0,
             "name": "Other Things to Know:",
-            "value": "DNA polymerase only synthe­sizes DNA in the 5’ to 3’ direction only. The difference between the leading and lagging strands is that the leading strand is formed towards replic­ation fork, while the lagging strand is formed away from replic­ation fork.\nDNA replic­ation is not the same as cell division. Replic­ation occurs before cell division, during the S phase of the cell cycle. However, replic­ation only concerns the production of new DNA strands, not of new cells."
+            "value": "\n\tDNA polymerase only synthe­sizes DNA in the 5’ to 3’ direction only. The difference between the leading and lagging strands is that the leading strand is formed towards replic­ation fork, while the lagging strand is formed away from replic­ation fork.\n\tDNA replic­ation is not the same as cell division. Replic­ation occurs before cell division, during the S phase of the cell cycle. However, replic­ation only concerns the production of new DNA strands, not of new cells."
           }
         ]
       },
@@ -502,9 +482,29 @@ const geneticsRegulationBio =       {
         "data": [
           {
             "index": 0,
-            "name": null,
-            "value": "3 different RNA polyme­rase!!\nRNA polymerase I: Transc­ribes rRNA.\nRNA polymerase II: treans­cribes mRNA and some snRNA.\nRNA polymerase III: transc­ribes tRNA and some other small RNAs\nEach RNA polymerase recognizes it own promoter.\nInit­iat­ion of transc­rip­tion: Requires a series of tran­scr­ption factors (helper).\n- Tran­scr­iption factors: Necessary to get the RNA polymerase II enzyme to a prom­oter* and to initiate gene expres­sion.\nElon­gat­ion: RNA transc­ribed from the DNA template.\nTerm­ina­tion not as well defined.\nInit­iat­ion of trancr­iption\n- Transc­ription factors bind to a promoter region and recruit RNA polyme­rase.\n- Forms the initation complex."
-          }
+            "name": "3 different RNA polyme­rase:",
+            "value": "\nRNA polymerase I: Transc­ribes rRNA.\nRNA polymerase II: treans­cribes mRNA and some snRNA.\nRNA polymerase III: transc­ribes tRNA and some other small RNAs\n●Each RNA polymerase recognizes it own promoter."
+          },
+          {
+            "index": 0,
+            "name": "Init­iat­ion of transc­rip­tion:",
+            "value": "Requires a series of tran­scr­ption factors (helper).- Tran­scr­iption factors: Necessary to get the RNA polymerase II enzyme to a prom­oter* and to initiate gene expres­sion.\nElon­gat­ion: RNA transc­ribed from the DNA template.\nTerm­ina­tion not as well defined.\nInit­iat­ion of trancr­iption\n- Transc­ription factors bind to a promoter region and recruit RNA polyme­rase.\n- Forms the initation complex."
+          },
+          {
+            "index": 0,
+            "name": "Tran­scr­iption factors:",
+            "value": "Necessary to get the RNA polymerase II enzyme to a prom­oter* and to initiate gene expres­sion."
+          },
+          {
+            "index": 0,
+            "name": "Elon­gat­ion:",
+            "value": "RNA transc­ribed from the DNA template.\nTerm­ina­tion not as well defined."
+          },
+          {
+            "index": 0,
+            "name": "Init­iat­ion of trancr­iption:",
+            "value": "\n- Transc­ription factors bind to a promoter region and recruit RNA polyme­rase.\n- Forms the initation complex."
+          }                   
         ]
       },
       {
@@ -516,7 +516,7 @@ const geneticsRegulationBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "early evolution since shared among living species\ngenes can be transf­erred within species and among others as well"
+            "value": "\t●Early evolution since shared among living species\n●Genes can be transf­erred within species and among others as well"
           }
         ]
       },
@@ -529,7 +529,7 @@ const geneticsRegulationBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "- Addition or deletion of a single base\n- Much more profound conseq­uences\n- Alter reading frame downstream\n- Triplet repeat expansion mutation\nHunting disease\nRepeat unit is expanded in the disease allele relative to the normal"
+            "value": "- Addition or deletion of a single base\n- Much more profound conseq­uences\n- Alter reading frame downstream\n- Triplet repeat expansion mutation\n- Hunting disease: Repeat unit is expanded in the disease allele relative to the normal"
           }
         ]
       },
@@ -542,7 +542,7 @@ const geneticsRegulationBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "\"on switch­\"\nloosely wrapped around histones\ngenes can be transc­ribed\nacetul groups are added to amino acids of histone proteins"
+            "value": "●\"on switch­\"\n●loosely wrapped around histones\n●genes can be transc­ribed\n●acetul groups are added to amino acids of histone proteins"
           }
         ]
       },
@@ -555,7 +555,7 @@ const geneticsRegulationBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "primer is several nucleo­tides\nDNA primase goes along the lagging strand and adds RNA primer\nonce you have primer, polymerase can add on DNA at 3' end (5' to 3')\nend up with Okazaki fragments\nslower process\nDNA ligase puts all fragments together as one strand\n● RNA is replaced with DNA"
+            "value": "●Primer is several nucleo­tides\nDNA primase goes along the lagging strand and adds RNA primer. Once you have primer, polymerase can add on DNA at 3' end (5' to 3')\n●End up with Okazaki fragments\n●Slower process\nDNA ligase puts all fragments together as one strand\n● RNA is replaced with DNA"
           }
         ]
       },
@@ -568,7 +568,7 @@ const geneticsRegulationBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "need RNA primer from DNA primase\nRNA primer allows DNA polymerase to add nucleo­tides at the 3' end\ncan not add nucleo­tides at 5' end"
+            "value": "●Need RNA primer from DNA primase\n●RNA primer allows DNA polymerase to add nucleo­tides at the 3' end\n●Can not add nucleo­tides at 5' end"
           }
         ]
       },
@@ -581,7 +581,7 @@ const geneticsRegulationBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "Early ideas to explain how genes work came from studying human diseases.\nArchibald Garrod proposed that patients with the disease alkap­ton­uria lacked a particular enzyme.\nBeadle and Tatum studied Neurospora crassa.\nThey looked for fungal cells lacking specific enzymes.\nBeadle and Tatum results was that each mutated enzyme disrupted one key enzyme in the metabolic pathway."
+            "value": "\tEarly ideas to explain how genes work came from studying human diseases.\n●Archibald Garrod proposed that patients with the disease alkap­ton­uria lacked a particular enzyme.\n●Beadle and Tatum studied Neurospora crassa. They looked for fungal cells lacking specific enzymes. Beadle and Tatum results was that each mutated enzyme disrupted one key enzyme in the metabolic pathway."
           }
         ]
       },
@@ -627,7 +627,7 @@ const geneticsRegulationBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "redund­ancy: more than one codon for an amino acid\nambiguity: codon do not code for more than one amino acid"
+            "value": "●Redund­ancy: more than one codon for an amino acid\n●Ambiguity: codon do not code for more than one amino acid"
           }
         ]
       },
@@ -639,9 +639,19 @@ const geneticsRegulationBio =       {
         "data": [
           {
             "index": 0,
-            "name": null,
-            "value": "what makes cells different:\n● cells have different shapes and proteins\n● cells use the DNA in the nucleus differ­ently\n●● some gene are turned on/off\ndiffer­ent­ation:\n● when a cell changes from one form to another\n● cells become specia­lized in structure and function\ndiffer­ential gene expres­sion:\n● the expression of different genes by cells with the same genome"
-          }
+            "name": "What makes cells different:",
+            "value": "\n● cells have different shapes and proteins\n● cells use the DNA in the nucleus differ­ently\n● some gene are turned on/off"
+          },
+          {
+            "index": 0,
+            "name": "Differ­ent­ation:",
+            "value": "\n● when a cell changes from one form to another\n● cells become specia­lized in structure and function"
+          },
+          {
+            "index": 0,
+            "name": "Differ­ential gene expres­sion:",
+            "value": "\n● the expression of different genes by cells with the same genome"
+          }                    
         ]
       },
       {
@@ -745,7 +755,7 @@ const geneticsRegulationBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "phosphate group\nsugar\nnitrog­enous base"
+            "value": "●phosphate group\n●sugar\n●nitrog­enous base"
           }
         ]
       },
@@ -761,13 +771,6 @@ const geneticsRegulationBio =       {
             "value": "In eukary­otes, transl­ation may occur in the cytoplasm or the rough endopl­asmic reticulum (RER).\nSignal sequen­ces at the beginning of the polype­ptide sequence bind to the signal recogn­ition (SRP).\n- The signal sequence and SRP are recognized by RER receptor proteins\n- Docking holds ribosome to RER\n- Beginning of the protei­n-t­raf­ficking pathway"
           }
         ]
-      },
-      {
-        "index": 0,
-        "title": "Replication",
-        "type": "NORMAL",
-        "image": "REPLICATION",
-        "data": []
       },
       {
         "index": 0,
@@ -914,15 +917,25 @@ const geneticsRegulationBio =       {
       },
       {
         "index": 0,
-        "title": "Transcription",
+        "title": "Transcription(DNA → RNA)",
         "type": "NORMAL",
         "image": null,
         "data": [
           {
             "index": 0,
-            "name": null,
-            "value": "DNA → RNA\n1) Initiation\n● promoter sites: region of the DNA where the RNA polymerase binds\n●● 100 nucleo­tides long\n●● transc­ription factors: binding protein\n●● TATA box: promoter sequence\n2) Elongation\n● RNA polymerase in action\n●● separates and untwists helix\n●● links nucleo­tides in a 5' to 3' direction\n3) Termin­ation\n● termin­ation sequence: AAUAAA"
-          }
+            "name": "1) Initiation",
+            "value": "\n● promoter sites: region of the DNA where the RNA polymerase binds\n● 100 nucleo­tides long\n● transc­ription factors: binding protein, TATA box: promoter sequence"
+          },
+          {
+            "index": 0,
+            "name": "2) Elongation",
+            "value": "\n● RNA polymerase in action\n● separates and untwists helix\n● links nucleo­tides in a 5' to 3' direction\n3) Termin­ation\n● termin­ation sequence: AAUAAA"
+          },
+          {
+            "index": 0,
+            "name": "3) Termin­ation",
+            "value": "\n● termin­ation sequence: AAUAAA"
+          }          
         ]
       },
       {
@@ -1228,9 +1241,14 @@ const geneticsRegulationBio =       {
         "data": [
           {
             "index": 0,
-            "name": null,
-            "value": "point mutations:\n● caused by just one nucleotide base pair substi­tution of a gene\n● ex:\n●● missense mutation\n●●● still codes, but not properly (sickle cell anemia)\n●● nonsense mutation\n●●● altera­tions codes for a stop codon\n●● silent mutation\n●●● a change in DNA but not a change in the amino acid sequence\nframeshift mutations:\n● caused by insertions and deletions of base pairs\n● alters the three letter reading frame"
-          }
+            "name": "Point mutations:",
+            "value": "\n● caused by just one nucleotide base pair substi­tution of a gene\n●Examples:\n\tmissense mutation:\n\t\t- still codes, but not properly (sickle cell anemia)\n\t nonsense mutation:\n\t\t altera­tions codes for a stop codon\n\t silent mutation:\n\t\t a change in DNA but not a change in the amino acid sequence"
+          },
+          {
+            "index": 0,
+            "name": "Frameshift mutations:",
+            "value": "\n● caused by insertions and deletions of base pairs\n● alters the three letter reading frame"
+          }          
         ]
       },
       {
@@ -1242,21 +1260,28 @@ const geneticsRegulationBio =       {
           {
             "index": 0,
             "name": null,
-            "value": "involves a change in the structure or number of chromo­somes\ndeletion: loss of all or part of a chromosome\nduplic­ation: reverses the direction of parts of a chromosome\ninversion: reverses the direction of parts of a chromosome\ntransl­oca­tion: part of one chromosome break off and attaches to another chromosome"
-          }
-        ]
-      },
-      {
-        "index": 0,
-        "title": "Chromo­somal mutations",
-        "type": "NORMAL",
-        "image": null,
-        "data": [
+            "value": "● Changes the structure or number of chromo­somes"
+          },
           {
             "index": 0,
-            "name": null,
-            "value": "Chang the structure of a chromosome\nDelet­ions: part of chromosome is lost\nDupli­cat­ion: part of chromosome is copied\nInver­sion: part of chromosome in reverse order\nTrans­loc­ation: part of chromosome is moved to a new location"
-          }
+            "name": "Deletion:",
+            "value": "Loss of all or part of a chromosome."
+          },
+          {
+            "index": 0,
+            "name": "Duplic­ation:",
+            "value": "Part of chromosome is copied."
+          },
+          {
+            "index": 0,
+            "name": "Inversion:",
+            "value": "Reverses the direction of parts of a chromosome."
+          },
+          {
+            "index": 0,
+            "name": "Transl­oca­tion:",
+            "value": "Part of one chromosome break off and attaches to another chromosome."
+          }          
         ]
       }
     ]

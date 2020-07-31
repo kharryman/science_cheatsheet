@@ -34,15 +34,15 @@ export default class Cheatlist extends Component {
    //}
 
    static async setCheatListData(cheatList, subtopic, callback) {
-
+      console.log("setCheatListData called, subtopic=" + subtopic);
       let cheatData = biologyCheatlistData.data[0];
       let selectedTopic = cheatList;
       let selectedSubtopic = subtopic;
       //let subtopicFolder = this.props.subtopicFolder;
-      let selectedSubtopicFolder = selectedSubtopic.match(/^[a-zA-Z0-9\s]*/)[0];
+      let selectedSubtopicFolder = selectedSubtopic.match(/^[a-zA-Z0-9\s-]*/)[0];
       selectedSubtopicFolder = selectedSubtopicFolder.replace(/ /g, '_').toUpperCase();
-      selectedSubtopicFolder = selectedSubtopicFolder.replace(/-/g, '_').toUpperCase();
-      //console.log("selectedSubtopicFolder = " + selectedSubtopicFolder);
+      selectedSubtopicFolder = selectedSubtopicFolder.replace(/-/g, '_').toUpperCase();      
+      console.log("setCheatListData selectedSubtopicFolder = " + selectedSubtopicFolder);
       //let imageFilename = "";
       let filteredTopic = {};
 
@@ -74,8 +74,10 @@ export default class Cheatlist extends Component {
             break;
          default:
             filteredTopic = biologyCheatlistData;
-      }
+      }      
+      //console.log("setCheatListData selectedSubtopic = " + selectedSubtopic + ".");
       let filteredSubtopic = filteredTopic.data.filter((subtopic) => {
+         //console.log("setCheatListData subtopic.itemName = " + subtopic.itemName + ".");
          return subtopic.itemName === selectedSubtopic;
       });
       if (filteredSubtopic) {
